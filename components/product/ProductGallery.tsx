@@ -5,7 +5,6 @@ import ProductCard from "../../components/product/ProductCard.tsx";
 import { Format } from "../../components/search/SearchResult.tsx";
 import Spinner from "../../components/ui/Spinner.tsx";
 import ShowMore from "../../islands/ShowMore.tsx";
-import { usePlatform } from "../../sdk/usePlatform.tsx";
 
 export interface Columns {
   mobile?: 1 | 2;
@@ -38,7 +37,6 @@ const DESKTOP_COLUMNS = {
 function ProductGallery(
   { products, pageInfo, layout, offset, url }: Props,
 ) {
-  const platform = usePlatform();
   const mobile = MOBILE_COLUMNS[layout?.columns?.mobile ?? 2];
   const desktop = DESKTOP_COLUMNS[layout?.columns?.desktop ?? 4];
 
@@ -69,7 +67,6 @@ function ProductGallery(
           product={product}
           preload={index === 0}
           index={offset + index}
-          platform={platform}
         />
       ))}
 
