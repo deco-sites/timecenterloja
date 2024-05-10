@@ -169,7 +169,7 @@ function NewsletterModal({
       if (form?.privacyContact?.show) {
         formData.privacyContact = (
           e.currentTarget.querySelector(
-            'input[name="privacyContact"]'
+            'input[name="privacyContact"]',
           ) as HTMLInputElement
         )?.checked;
       }
@@ -197,7 +197,7 @@ function NewsletterModal({
 
   const setCookieOnCloseModal = (
     cookieValue: string,
-    expirationSeconds: number
+    expirationSeconds: number,
   ) => {
     // deno-lint-ignore no-var
     var date = new Date();
@@ -206,38 +206,42 @@ function NewsletterModal({
     // deno-lint-ignore no-var
     var expires = "expires=" + date.toUTCString();
 
-    document.cookie =
-      "DecoNewsletterModal" + "=" + cookieValue + ";" + expires + ";path=/";
+    document.cookie = "DecoNewsletterModal" + "=" + cookieValue + ";" +
+      expires + ";path=/";
   };
 
-  const emailInput = !form?.email?.show ? (
-    <InputNewsletter
-      name="email"
-      required
-      type="email"
-      placeholder={form?.email?.placeholder || "E-mail"}
-    />
-  ) : null;
+  const emailInput = !form?.email?.show
+    ? (
+      <InputNewsletter
+        name="email"
+        required
+        type="email"
+        placeholder={form?.email?.placeholder || "E-mail"}
+      />
+    )
+    : null;
 
-  const nameInput = !form?.name?.show ? (
-    <InputNewsletter
-      name="name"
-      type="text"
-      placeholder={form?.name?.placeholder || "Nome"}
-      required
-    />
-  ) : null;
+  const nameInput = !form?.name?.show
+    ? (
+      <InputNewsletter
+        name="name"
+        type="text"
+        placeholder={form?.name?.placeholder || "Nome"}
+        required
+      />
+    )
+    : null;
 
-  const privacyContactInput = !form?.privacyContact?.show ? (
-    <InputCheckboxNewsletter
-      name="privacy-contact"
-      posLabel={
-        form?.privacyContact?.posLabel ||
-        "Aceito receber ofertas e novidades por e-mail"
-      }
-      required={false}
-    />
-  ) : null;
+  const privacyContactInput = !form?.privacyContact?.show
+    ? (
+      <InputCheckboxNewsletter
+        name="privacy-contact"
+        posLabel={form?.privacyContact?.posLabel ||
+          "Aceito receber ofertas e novidades por e-mail"}
+        required={false}
+      />
+    )
+    : null;
 
   return (
     <>
@@ -251,59 +255,61 @@ function NewsletterModal({
 
             <button
               onClick={() =>
-                setCookieOnCloseModal("closed", modalCloseExpiredDate)
-              }
+                setCookieOnCloseModal("closed", modalCloseExpiredDate)}
               class="btn btn-sm btn-circle btn-ghost focus:outline-none"
               aria-label="Fechar"
             >
               <Icon id="XMark" width={20} height={20} />
             </button>
           </div>
-          {success.value ? (
-            <div class="text-base text-[#585858] text-center">
-              E-mail cadastrado com sucesso!
-            </div>
-          ) : (
-            <>
-              {/* <Icon
+          {success.value
+            ? (
+              <div class="text-base text-[#585858] text-center">
+                E-mail cadastrado com sucesso!
+              </div>
+            )
+            : (
+              <>
+                {
+                  /* <Icon
                     class="mx-auto mb-5 block"
                     id="Logo"
                     width={120}
                     height={27}
-                  /> */}
-              <Logo class="mx-auto mb-5 block" width={120} height={27} />
-              <div
-                dangerouslySetInnerHTML={{ __html: text }}
-                class="text-base lg:text-xl text-center text-base-100 lg:pr-0 "
-              />
-              <form class="w-full form-control" onSubmit={handleSubmit}>
-                <div class="text-center">
-                  {nameInput}
-                  {emailInput}
-                  {privacyContactInput}
-                  <button
-                    style={{
-                      minWidth: "150px",
-                    }}
-                    type="submit"
-                    class={`capitalize md:ml-5 mt-2.5 min-h-8 h-8 font-semibold btn rounded-full join-item btn-${
-                      BUTTON_VARIANTS[form?.button?.variant as string] ||
-                      BUTTON_VARIANTS["primary"]
-                    }`}
-                    disabled={loading}
-                  >
-                    {form?.button?.label || "Cadastrar"}
-                  </button>
-                </div>
-              </form>
-            </>
-          )}
+                  /> */
+                }
+                <Logo class="mx-auto mb-5 block" width={120} height={27} />
+                <div
+                  dangerouslySetInnerHTML={{ __html: text }}
+                  class="text-base lg:text-xl text-center text-base-100 lg:pr-0 "
+                />
+                <form class="w-full form-control" onSubmit={handleSubmit}>
+                  <div class="text-center">
+                    {nameInput}
+                    {emailInput}
+                    {privacyContactInput}
+                    <button
+                      style={{
+                        minWidth: "150px",
+                      }}
+                      type="submit"
+                      class={`capitalize md:ml-5 mt-2.5 min-h-8 h-8 font-semibold btn rounded-full join-item btn-${
+                        BUTTON_VARIANTS[form?.button?.variant as string] ||
+                        BUTTON_VARIANTS["primary"]
+                      }`}
+                      disabled={loading}
+                    >
+                      {form?.button?.label || "Cadastrar"}
+                    </button>
+                  </div>
+                </form>
+              </>
+            )}
         </form>
         <form method="dialog" className="modal-backdrop">
           <button
             onClick={() =>
-              setCookieOnCloseModal("closed", modalCloseExpiredDate)
-            }
+              setCookieOnCloseModal("closed", modalCloseExpiredDate)}
           >
             fechar
           </button>
