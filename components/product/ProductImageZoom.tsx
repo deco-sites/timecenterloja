@@ -29,7 +29,9 @@ function ProductImageZoom({ images, width, height }: Props) {
         <Modal
           loading="lazy"
           open={open.value}
-          onClose={() => open.value = false}
+          onClose={() => {
+            open.value = false;
+          }}
         >
           <div class="modal-box w-11/12 max-w-7xl grid grid-cols-[48px_1fr_48px] grid-rows-1 place-items-center">
             <Slider class="carousel col-span-full col-start-1 row-start-1 row-span-full h-full w-full">

@@ -33,7 +33,7 @@ import * as $$$$$$21 from "./sections/Content/TextWithImage.tsx";
 import * as $$$$$$22 from "./sections/Footer.tsx";
 import * as $$$$$$23 from "./sections/Footer/Footer.tsx";
 import * as $$$$$$24 from "./sections/Gallery.tsx";
-import * as $$$$$$25 from "./sections/Header/Header.tsx";
+import * as $$$$$$25 from "./sections/Header/HeaderLayout.tsx";
 import * as $$$$$$26 from "./sections/Header/TopNavBar.tsx";
 import * as $$$$$$27 from "./sections/Images/BannerGrid.tsx";
 import * as $$$$$$28 from "./sections/Images/Carousel.tsx";
@@ -92,7 +92,7 @@ const manifest = {
     "site/sections/Footer.tsx": $$$$$$22,
     "site/sections/Footer/Footer.tsx": $$$$$$23,
     "site/sections/Gallery.tsx": $$$$$$24,
-    "site/sections/Header/Header.tsx": $$$$$$25,
+    "site/sections/Header/HeaderLayout.tsx": $$$$$$25,
     "site/sections/Header/TopNavBar.tsx": $$$$$$26,
     "site/sections/Images/BannerGrid.tsx": $$$$$$27,
     "site/sections/Images/Carousel.tsx": $$$$$$28,

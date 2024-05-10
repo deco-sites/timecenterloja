@@ -82,7 +82,6 @@ function ProductShelf({
               <ProductCard
                 product={product}
                 itemListName={title}
-                index={index}
               />
             </Slider.Item>
           ))}

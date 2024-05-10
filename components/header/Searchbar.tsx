@@ -20,7 +20,7 @@ function SearchbarModal({ searchbar }: Props) {
     <Modal
       loading="lazy"
       open={displaySearchPopup.value}
-      onClose={() => displaySearchPopup.value = false}
+      onClose={() => {displaySearchPopup.value = false}}
     >
       <div
         class="absolute top-0 bg-base-100 container"

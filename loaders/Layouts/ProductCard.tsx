@@ -13,7 +13,6 @@ export const Preview = (_: Props) => (
   <div class="h-full w-full grid place-items-center">
     <div class="max-w-xs">
       <ProductCard
-        platform={usePlatform()}
         product={{
           "@type": "Product",
           "category": "Masculino>Camisetas Gola Lisa",

@@ -68,8 +68,6 @@ function ProductGallery(
           key={`product-card-${product.productID}`}
           product={product}
           preload={index === 0}
-          index={offset + index}
-          platform={platform}
         />
       ))}
 
