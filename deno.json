@@ -1,5 +1,7 @@
 {
   "imports": {
+    "deco-sites/timecenter/": "./",
+    "$store/": "./",
     "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.63.18/",
     "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.38.4/",
     "$fresh/": "https://deno.land/x/fresh@1.6.8/",
