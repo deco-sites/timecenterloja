@@ -1,35 +1,35 @@
-import { headerHeight } from "../../components/header/constants.ts";
-import Searchbar, {
-  Props as SearchbarProps,
-} from "../../components/search/Searchbar.tsx";
-import Modal from "../../components/ui/Modal.tsx";
-import { useUI } from "../../sdk/useUI.ts";
+import { lazy, Suspense } from "preact/compat";
 
-export interface Props {
-  searchbar?: SearchbarProps;
+import { useUI } from "$store/sdk/useUI.ts";
+import { headerHeight } from "$store/components/header/constants.ts";
+import type { Props as SearchbarProps } from "$store/components/search/Searchbar.tsx";
+
+const LazySearchbar = lazy(() =>
+  import("$store/components/search/Searchbar.tsx")
+);
+
+interface Props {
+  searchbar: SearchbarProps;
 }
 
-function SearchbarModal({ searchbar }: Props) {
-  const { displaySearchPopup } = useUI();
-
-  if (!searchbar) {
-    return null;
-  }
+function Searchbar({ searchbar }: Props) {
+  const { displaySearchDrawer } = useUI();
+  const open = displaySearchDrawer.value;
 
   return (
-    <Modal
-      loading="lazy"
-      open={displaySearchPopup.value}
-      onClose={() => {displaySearchPopup.value = false}}
+    <div
+      class={`${
+        open ? "block border-y border-base-200 shadow" : "hidden"
+      } absolute left-0 top-0 w-screen z-50 bg-base-100`}
+      style={{ marginTop: 91 }}
     >
-      <div
-        class="absolute top-0 bg-base-100 container"
-        style={{ marginTop: headerHeight }}
-      >
-        <Searchbar {...searchbar} />
-      </div>
-    </Modal>
+      {open && (
+        <Suspense fallback={<span class="loading loading-ring" />}>
+          <LazySearchbar {...searchbar} variant="desktop" />
+        </Suspense>
+      )}
+    </div>
   );
 }
 
-export default SearchbarModal;
+export default Searchbar;
