@@ -73,11 +73,13 @@ function ProductShelf({
           fontSize={layout?.headerfontSize || "Large"}
           alignment={layout?.headerAlignment || "center"}
         />
-        {seeMore ? (
-          <span class="text-accent font-bold text-sm uppercase">
-            <a href={seeMore.url}>{seeMore.label}</a>
-          </span>
-        ) : null}
+        {seeMore
+          ? (
+            <span class="text-accent font-bold text-sm uppercase">
+              <a href={seeMore.url}>{seeMore.label}</a>
+            </span>
+          )
+          : null}
       </div>
 
       <div id={id} class="grid grid-cols-[48px_1fr_48px] px-0">
@@ -95,23 +97,20 @@ function ProductShelf({
         </Slider>
 
         <Buttons
-          className={
-            CONDITIONAL_RESPONSIVE_PARAMS[
-              showPaginationArrows ? showPaginationArrows : "Always"
-            ]
-          }
+          className={CONDITIONAL_RESPONSIVE_PARAMS[
+            showPaginationArrows ? showPaginationArrows : "Always"
+          ]}
         />
 
         <Dots
           products={products}
-          className={
-            CONDITIONAL_RESPONSIVE_PARAMS[
-              showPaginationDots ? showPaginationDots : "Always"
-            ]
-          }
+          className={CONDITIONAL_RESPONSIVE_PARAMS[
+            showPaginationDots ? showPaginationDots : "Always"
+          ]}
         />
 
-        {/* <SendEventOnLoad
+        {
+          /* <SendEventOnLoad
           event={{
             name: "view_item_list",
             params: {
@@ -125,7 +124,8 @@ function ProductShelf({
               ),
             },
           }}
-        /> */}
+        /> */
+        }
         <Slider.JS rootId={id} />
       </div>
     </div>
