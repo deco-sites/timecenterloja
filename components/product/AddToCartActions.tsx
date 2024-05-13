@@ -22,7 +22,7 @@ export default function AddToCartActions(
   const discount = price && listPrice ? listPrice - price : 0;
 
   return (
-    <div class="flex w-full gap-[30px]">
+    <div class="flex w-full gap-[30px] ">
       <QuantitySelector
         quantity={quantity}
         onChange={(_quantity) => {
@@ -52,7 +52,7 @@ export default function AddToCartActions(
         quantity={quantity}
         label={mobile ? "comprar" : "Comprar agora"}
         showIcon
-        classes="btn-primary btn-block uppercase transition-all max-w-sm hover:text-neutral-100 font-bold text-info"
+        classes="btn btn-md btn-primary uppercase transition-all  hover:text-neutral-100 font-bold text-info"
       />
     </div>
   );
