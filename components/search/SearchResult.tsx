@@ -66,7 +66,6 @@ function Result({
   const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
   const offset = zeroIndexedOffsetPage * perPage;
 
-
   const hideFilter = hideFilters?.split(",");
   const newFilters = filters.filter(({ key }) => !hideFilter?.includes(key))
     .filter(({ values }) => (isArray(values) && values.length))
