@@ -6,6 +6,8 @@ export interface Props {
   page: LoaderReturnType<ProductListingPage | null>;
 }
 
+
+
 function BreadcrumbCategory({ page }: Props) {
   if (!page?.breadcrumb) {
     return <div />;
