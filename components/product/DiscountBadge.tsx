@@ -75,13 +75,13 @@ function DiscountBadge(props: Props) {
   return (
     <div
       class={`flex items-center z-10  
-        ${className}
-        ${rowStart ? GRID_ROW_START[rowStart] : "row-start-auto"}
-        ${columnStart ? GRID_COL_START[columnStart] : "col-start-auto"}
-        ${GRID_ROW_SPAN[rowSpan ?? 0]}
-        ${GRID_COL_SPAN[colSpan ?? 0]}  
-        ${GRID_ROW_HORIZONTAL[alignHorizontal ?? "start"]}  
-        `}
+      ${className}
+      ${rowStart ? GRID_ROW_START[rowStart] : "row-start-auto"}
+      ${columnStart ? GRID_COL_START[columnStart] : "col-start-auto"}
+      ${GRID_ROW_SPAN[rowSpan ?? 0]}
+      ${GRID_COL_SPAN[colSpan ?? 0]}  
+      ${GRID_ROW_HORIZONTAL[alignHorizontal ?? "start"]}  
+      `}
     >
       <div
         class={`text-xs max-md:text-[10px] px-[10px] py-[7px]  md:px-[5px] md:py-[5px] uppercase font-bold border-none  rounded-lg flex box-content bg-opacity-100 opacity-100 text-base-100 ${

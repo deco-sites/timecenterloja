@@ -76,16 +76,24 @@ function ProductShelf({
         {seeMore
           ? (
             <span class="text-accent font-bold text-sm uppercase">
-              <a href={seeMore.url}>{seeMore.label}</a>
+              <a href={seeMore.url}>
+                {seeMore.label}
+              </a>
             </span>
           )
           : null}
       </div>
 
-      <div id={id} class="grid grid-cols-[48px_1fr_48px] px-0">
+      <div
+        id={id}
+        class="grid grid-cols-[48px_1fr_48px] px-0"
+      >
         <Slider class="carousel carousel-start gap-6 col-span-full row-start-2 row-end-5">
           {products?.map((product, index) => (
-            <Slider.Item index={index} class="carousel-item w-[270px]">
+            <Slider.Item
+              index={index}
+              class="carousel-item w-[270px]"
+            >
               <ProductCard
                 product={product}
                 itemListName={title}
@@ -126,7 +134,9 @@ function ProductShelf({
           }}
         /> */
         }
-        <Slider.JS rootId={id} />
+        <Slider.JS
+          rootId={id}
+        />
       </div>
     </div>
   );
@@ -207,7 +217,7 @@ function Dots({ products, className, interval = 0 }: DotsProps) {
             <Slider.Dot index={index}>
               <div
                 class={`py-5 ${
-                  index === 0 || index % 4 === 0 ? "" : "lg:hidden"
+                  ((index === 0) || (index % 4 === 0)) ? "" : "lg:hidden"
                 }`}
               >
                 <div

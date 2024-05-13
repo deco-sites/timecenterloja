@@ -1,12 +1,16 @@
 import { Signal, useSignal } from "@preact/signals";
 import { useCallback } from "preact/hooks";
-import Button from "../../components/ui/Button.tsx";
-import { formatPrice } from "../../sdk/format.ts";
+import Button from "$store/components/ui/Button.tsx";
+import { formatPrice } from "$store/sdk/format.ts";
 import { useCart } from "apps/vtex/hooks/useCart.ts";
 import type { SimulationOrderForm, SKU, Sla } from "apps/vtex/utils/types.ts";
 
 export interface Props {
   items: Array<SKU>;
+  shipmentPolitics?: {
+    label: string;
+    link: string;
+  };
 }
 
 const formatShippingEstimate = (estimate: string) => {
@@ -43,32 +47,27 @@ function ShippingContent({ simulation }: {
   }
 
   return (
-    <ul class="flex flex-col gap-4 p-4 bg-base-200 rounded-[4px]">
+    <ul class="flex flex-col text-xs rounded-[10px]">
       {methods.map((method) => (
-        <li class="flex justify-between items-center border-base-200 not-first-child:border-t">
-          <span class="text-button text-center">
-            Entrega {method.name}
+        <li class="flex text-secondary-focus px-[20px] py-[10px] odd:bg-secondary-focus odd:bg-opacity-5 justify-between items-center first:rounded-t-[10px] last:rounded-b-[10px]">
+          <span class="text-xs text-center text-base-content font-bold">
+            {method.name}
           </span>
-          <span class="text-button">
-            até {formatShippingEstimate(method.shippingEstimate)}
+          <span class="text-button text-xs text-base-content">
+            Em até {formatShippingEstimate(method.shippingEstimate)}
           </span>
-          <span class="text-base font-semibold text-right">
+          <span class="text-xs text-base-content font-bold text-right">
             {method.price === 0 ? "Grátis" : (
               formatPrice(method.price / 100, currencyCode, locale)
             )}
           </span>
         </li>
       ))}
-      <span class="text-base-300">
-        Os prazos de entrega começam a contar a partir da confirmação do
-        pagamento e podem variar de acordo com a quantidade de produtos na
-        sacola.
-      </span>
     </ul>
   );
 }
 
-function ShippingSimulation({ items }: Props) {
+function ShippingSimulation({ items, shipmentPolitics }: Props) {
   const postalCode = useSignal("");
   const loading = useSignal(false);
   const simulateResult = useSignal<SimulationOrderForm | null>(null);
@@ -89,45 +88,53 @@ function ShippingSimulation({ items }: Props) {
     } finally {
       loading.value = false;
     }
-  }, [items, postalCode.value]);
+  }, []);
 
   return (
-    <div class="flex flex-col gap-2">
-      <div class="flex flex-col">
-        <span>Calcular frete</span>
-        <span>
-          Informe seu CEP para consultar os prazos de entrega
-        </span>
-      </div>
-
-      <form
-        onSubmit={(e) => {
-          e.preventDefault();
-          handleSimulation();
-        }}
-      >
-        <input
-          as="input"
-          type="text"
-          class="input input-bordered join-item w-48"
-          placeholder="Seu cep aqui"
-          value={postalCode.value}
-          maxLength={8}
-          size={8}
-          onChange={(e: { currentTarget: { value: string } }) => {
-            postalCode.value = e.currentTarget.value;
+    <div class="flex flex-col mt-[10px] gap-5 p-[30px] rounded-[10px] bg-neutral-200 text-[#585858] text-base">
+      <p>Informe seu CEP:</p>
+      <div class="flex flex-col gap-[10px]">
+        <form
+          class="flex gap-2"
+          onSubmit={(e) => {
+            e.preventDefault();
+            handleSimulation();
           }}
-        />
-        <Button type="submit" loading={loading.value} class="join-item">
-          Calcular
-        </Button>
-      </form>
-
-      <div>
-        <div>
-          <ShippingContent simulation={simulateResult} />
-        </div>
+        >
+          <input
+            as="input"
+            type="text"
+            class="input input-bordered input-sm text-xs border-2 focus:outline-none w-full max-w-xs !py-4"
+            placeholder="Seu cep aqui"
+            value={postalCode.value}
+            maxLength={8}
+            onChange={(e: { currentTarget: { value: string } }) => {
+              postalCode.value = e.currentTarget.value;
+            }}
+          />
+          <Button
+            type="submit"
+            loading={loading.value}
+            class="btn-secondary uppercase font-bold text-xs h-[2.25rem] px-5"
+          >
+            Calcular
+          </Button>
+        </form>
       </div>
+      <a
+        href="https://buscacepinter.correios.com.br/app/endereco/index.php"
+        class="uppercase text-accent text-xs font-normal"
+      >
+        Não sei meu CEP
+      </a>
+      {simulateResult.value
+        ? <ShippingContent simulation={simulateResult} />
+        : null}
+      {shipmentPolitics && (
+        <a href={shipmentPolitics.link} class="uppercase text-accent text-xs">
+          {shipmentPolitics.label}
+        </a>
+      )}
     </div>
   );
 }

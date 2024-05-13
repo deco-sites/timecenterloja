@@ -1,3 +1,4 @@
+import type { Product } from "apps/commerce/types.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";

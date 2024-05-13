@@ -1,66 +1,80 @@
 import { useMemo } from "preact/hooks";
 import { ProductListingPage } from "apps/commerce/types.ts";
-import type { JSX } from "preact";
+import Icon from "$store/components/ui/Icon.tsx";
 
 const SORT_QUERY_PARAM = "sort";
-const PAGE_QUERY_PARAM = "page";
 
 const useSort = () =>
   useMemo(() => {
-    const urlSearchParams = new URLSearchParams(
-      globalThis.window.location?.search,
-    );
+    const urlSearchParams = new URLSearchParams(window.location?.search);
     return urlSearchParams.get(SORT_QUERY_PARAM) ?? "";
   }, []);
 
 // TODO: Replace with "search utils"
-const applySort = (e: JSX.TargetedEvent<HTMLSelectElement, Event>) => {
-  const urlSearchParams = new URLSearchParams(
-    globalThis.window.location.search,
-  );
+const applySort = (searchParam: string) => {
+  const urlSearchParams = new URLSearchParams(window.location.search);
 
-  urlSearchParams.delete(PAGE_QUERY_PARAM);
-  urlSearchParams.set(SORT_QUERY_PARAM, e.currentTarget.value);
-  globalThis.window.location.search = urlSearchParams.toString();
+  urlSearchParams.set(SORT_QUERY_PARAM, searchParam);
+  window.location.search = urlSearchParams.toString();
 };
+
+const labels = {
+  "relevance:desc": "Relevância",
+  "price:asc": "Menor preço",
+  "price:desc": "Maior preço",
+  "name:asc": "A - Z",
+  "name:desc": "Z - A",
+  "release:desc": "Data de lançamento",
+  "orders:desc": "Mais vendidos",
+  "discount:desc": "Melhor desconto",
+};
+
+type LabelKey = keyof typeof labels;
 
 export type Props = Pick<ProductListingPage, "sortOptions">;
-
-// TODO: move this to the loader
-const portugueseMappings = {
-  "relevance:desc": "Relevância",
-  "price:desc": "Maior Preço",
-  "price:asc": "Menor Preço",
-  "orders:desc": "Mais vendidos",
-  "name:desc": "Nome - de Z a A",
-  "name:asc": "Nome - de A a Z",
-  // "release:desc": "Relevância - Decrescente",
-  "discount:desc": "Maior desconto",
-};
 
 function Sort({ sortOptions }: Props) {
   const sort = useSort();
 
   return (
-    <>
-      <label for="sort" class="sr-only">Ordenar por</label>
-      <select
-        id="sort"
-        name="sort"
-        onInput={applySort}
-        class="w-min h-[36px] px-1 rounded m-2 text-base-content cursor-pointer outline-none"
+    <div
+      id="sort"
+      name="sort"
+      class="dropdown dropdown-end w-full lg:auto"
+    >
+      <label
+        tabIndex={0}
+        class="btn justify-between w-full lg:w-48 btn-sm font-normal text-base-200 h-[34px] border-2 border-[#E2E3E8] bg-white hover:bg-white"
       >
-        {sortOptions.map(({ value, label }) => ({
-          value,
-          label: portugueseMappings[label as keyof typeof portugueseMappings] ??
-            label,
-        })).filter(({ label }) => label).map(({ value, label }) => (
-          <option key={value} value={value} selected={value === sort}>
-            <span class="text-sm">{label}</span>
-          </option>
+        {sort
+          ? (
+            <span class="text-[#A8A8A8] text-xs">
+              {labels[sort as LabelKey]}
+            </span>
+          )
+          : "Selecione"}
+        <Icon
+          id="ChevronDown"
+          height={22}
+          width={22}
+          strokeWidth={2}
+          class="text-base-content"
+        />
+      </label>
+      <ul
+        tabIndex={0}
+        class="dropdown-content mt-[10px] z-20 px-0 py-[10px] menu shadow bg-base-100 rounded-[10px] w-48"
+      >
+        {sortOptions.map(({ value, label }) => (
+          <li
+            class="text-sm h-9 hover:cursor-pointer px-5 hover:bg-primary hover:text-info flex justify-center"
+            onClick={() => applySort(value)}
+          >
+            {labels[label as LabelKey]}
+          </li>
         ))}
-      </select>
-    </>
+      </ul>
+    </div>
   );
 }
 
