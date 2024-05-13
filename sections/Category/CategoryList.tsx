@@ -1,8 +1,8 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Header from "../../components/ui/SectionHeader.tsx";
-import Slider from "../../components/ui/Slider.tsx";
-import { useId } from "../../sdk/useId.ts";
+import Slider from "$store/components/ui/Slider.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
+import { useId } from "preact/hooks";
+import Header from "$store/components/ui/SectionHeader.tsx";
 
 export interface Category {
   tag?: string;
@@ -49,62 +49,24 @@ function CardText(
   );
 }
 
-const DEFAULT_LIST = [
-  {
-    tag: "10% off",
-    label: "Feminino",
-    description: "Moda feminina direto de Milão",
-    href: "/feminino",
-    image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
-    buttonText: "Ver produtos",
-  },
-  {
-    tag: "10% off",
-    label: "Feminino",
-    description: "Moda feminina direto de Milão",
-    href: "/feminino",
-    image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
-    buttonText: "Ver produtos",
-  },
-  {
-    tag: "10% off",
-    label: "Feminino",
-    description: "Moda feminina direto de Milão",
-    href: "/feminino",
-    image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
-    buttonText: "Ver produtos",
-  },
-  {
-    tag: "10% off",
-    label: "Feminino",
-    description: "Moda feminina direto de Milão",
-    href: "/feminino",
-    image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
-    buttonText: "Ver produtos",
-  },
-  {
-    tag: "10% off",
-    label: "Feminino",
-    description: "Moda feminina direto de Milão",
-    href: "/feminino",
-    image:
-      "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2753/b2278d2d-2270-482b-98d4-f09d5f05ba97",
-    buttonText: "Ver produtos",
-  },
-];
-
 function CategoryList(props: Props) {
-  const id = useId();
+  const id = `category-list-${useId()}`;
   const {
     header = {
       title: "",
       description: "",
     },
-    list = DEFAULT_LIST,
+    list = [
+      {
+        tag: "10% off",
+        label: "Feminino",
+        description: "Moda feminina direto de Milão",
+        href: "/feminino",
+        image:
+          "https://ik.imagekit.io/decocx/tr:w-680,h-680/https:/ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/fdcb3c8f-d629-485e-bf70-8060bd8a9f65",
+        buttonText: "Ver produtos",
+      },
+    ],
     layout = {
       headerAlignment: "center",
       categoryCard: {
