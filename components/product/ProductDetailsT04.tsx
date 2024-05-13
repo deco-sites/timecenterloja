@@ -76,8 +76,7 @@ function ProductInfo(
     productBenefits?: ProductBenefits[];
   },
 ) {
-  
-    const {
+  const {
     breadcrumbList,
     product,
   } = page;
@@ -93,7 +92,6 @@ function ProductInfo(
     additionalProperty,
   } = product;
 
-
   const id = useId();
 
   const breadcrumb = {
@@ -101,7 +99,6 @@ function ProductInfo(
     itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
     numberOfItems: breadcrumbList.numberOfItems - 1,
   };
-
 
   const {
     price = 0,
@@ -206,10 +203,13 @@ function ProductInfo(
     }
   };
 
-  const renderItemByName = (itemName:string) => {
+  const renderItemByName = (itemName: string) => {
     const item = especifications?.find((spec) => spec.name === itemName);
     return item && (
-      <li key={itemName} className="flex ml-[10px] text-[#A8A8A8] font-semibold">
+      <li
+        key={itemName}
+        className="flex ml-[10px] text-[#A8A8A8] font-semibold"
+      >
         {renderItem(item)}
       </li>
     );
@@ -413,7 +413,8 @@ function ProductInfo(
           },
         }}
       />
-      {/* <SendEventOnLoad
+      {
+        /* <SendEventOnLoad
         event={{
           name: "view_item",
           params: {
@@ -427,7 +428,8 @@ function ProductInfo(
             ],
           },
         }}
-      /> */}
+      /> */
+      }
     </>
   );
 }
