@@ -1,6 +1,7 @@
 import Filters from "$store/components/search/Filters.tsx";
 import SearchControls from "$store/islands/SearchControls.tsx";
-// import { SendEventOnLoad } from "$store/sdk/analytics.tsx";
+import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+import { useOffer } from "$store/sdk/useOffer.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
 import { LoaderReturnType } from "deco/mod.ts";
 import type { ProductListingPage } from "apps/commerce/types.ts";
@@ -11,6 +12,8 @@ import { Section } from "deco/blocks/section.ts";
 import { Layout } from "$store/components/product/ProductCard.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import { isArray } from "https://deno.land/x/djwt@v2.8/util.ts";
+import { SendEventOnView } from "$store/components/Analytics.tsx";
+import { useId } from "$store/sdk/useId.ts";
 
 export interface DiscountBadgeProps {
   label: string;
@@ -39,6 +42,8 @@ export interface Props {
    * @description Layout products
    */
   layout: Layout;
+  /** @description 0 for ?page=0 as your first page */
+  startingPage?: 0 | 1;
   /**
    * @description Not found section, displayed when no products are found
    */
@@ -49,12 +54,18 @@ function Result({
   page,
   variant,
   layout,
+  startingPage = 0,
   hideFilter: hideFilters,
   highlights,
 }: Omit<Omit<Props, "page">, "notFoundSection"> & {
   page: ProductListingPage;
 }) {
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
+  const perPage = pageInfo?.recordPerPage || products.length;
+  const id = useId();
+  const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
+  const offset = zeroIndexedOffsetPage * perPage;
+
 
   const hideFilter = hideFilters?.split(",");
   const newFilters = filters.filter(({ key }) => !hideFilter?.includes(key))
@@ -111,25 +122,25 @@ function Result({
           </div>
         </div>
       </div>
-      {
-        /* <SendEventOnLoad
+      <SendEventOnView
+        id={id}
         event={{
           name: "view_item_list",
           params: {
             // TODO: get category name from search or cms setting
-            item_list_name: "",
-            item_list_id: "",
-            items: page.products?.map((product) =>
+            item_list_name: breadcrumb.itemListElement?.at(-1)?.name,
+            item_list_id: breadcrumb.itemListElement?.at(-1)?.item,
+            items: page.products?.map((product, index) =>
               mapProductToAnalyticsItem({
-                ...useOffer(product.offers),
+                ...(useOffer(product.offers)),
+                index: offset + index,
                 product,
                 breadcrumbList: page.breadcrumb,
               })
             ),
           },
         }}
-      /> */
-      }
+      />
     </>
   );
 }
