@@ -1,0 +1,37 @@
+{
+  "decohub": {
+    "apps": [
+      {
+        "name": "site",
+        "__resolveType": "files/loaders/app.ts"
+      }
+    ],
+    "__resolveType": "site/apps/decohub.ts"
+  },
+  "files": {
+    "root": {
+      "name": "",
+      "nodes": [
+        {
+          "name": "site",
+          "nodes": []
+        }
+      ]
+    },
+    "__resolveType": "decohub/apps/files.ts"
+  },
+  "admin-app": {
+    "resolvables": {
+      "__resolveType": "deco-sites/admin/loaders/state.ts"
+    },
+    "__resolveType": "decohub/apps/admin.ts"
+  },
+  "site": {
+    "routes": [
+      {
+        "__resolveType": "website/loaders/pages.ts"
+      }
+    ],
+    "__resolveType": "decohub/apps/site.ts"
+  }
+}
