@@ -1,6 +1,5 @@
 import Image from "apps/website/components/Image.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
-import SliderJS from "$store/components/ui/SliderJS.tsx";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
@@ -169,7 +168,7 @@ function SliderProductShowcase(
         </div>
       </div>
 
-      <SliderJS rootId={id}></SliderJS>
+      <Slider.JS rootId={id}></Slider.JS>
     </>
   );
 }
