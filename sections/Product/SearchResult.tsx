@@ -1,6 +1,8 @@
 import Filters from "$store/components/search/Filters.tsx";
 import SearchControls from "$store/islands/SearchControls.tsx";
-import ProductGallery, { Columns } from "$store/components/product/ProductGallery.tsx";
+import ProductGallery, {
+  Columns,
+} from "$store/components/product/ProductGallery.tsx";
 import { LoaderReturnType } from "deco/mod.ts";
 import type { ProductListingPage } from "apps/commerce/types.ts";
 import Sort from "$store/islands/Sort.tsx";
@@ -110,7 +112,8 @@ function Result({
           </div>
         </div>
       </div>
-      {/* <SendEventOnLoad
+      {
+        /* <SendEventOnLoad
         event={{
           name: "view_item_list",
           params: {
@@ -126,7 +129,8 @@ function Result({
             ),
           },
         }}
-      /> */}
+      /> */
+      }
     </>
   );
 }

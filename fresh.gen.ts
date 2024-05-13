@@ -3,6 +3,8 @@
 // This file is automatically updated during development when running `dev.ts`.
 
 import * as $_app from "./routes/_app.tsx";
+import * as $AddToCartActions from "./islands/AddToCartActions.tsx";
+import * as $AddToCartButton from "./islands/AddToCartButton.tsx";
 import * as $AddToCartButton_linx from "./islands/AddToCartButton/linx.tsx";
 import * as $AddToCartButton_nuvemshop from "./islands/AddToCartButton/nuvemshop.tsx";
 import * as $AddToCartButton_shopify from "./islands/AddToCartButton/shopify.tsx";
@@ -25,6 +27,9 @@ import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
 import * as $ShowMore from "./islands/ShowMore.tsx";
+import * as $SliderProductShowcase from "./islands/SliderProductShowcase.tsx";
+import * as $Sort from "./islands/Sort.tsx";
+import * as $WishlistButton from "./islands/WishlistButton.tsx";
 import * as $WishlistButton_vtex from "./islands/WishlistButton/vtex.tsx";
 import * as $WishlistButton_wake from "./islands/WishlistButton/wake.tsx";
 import { type Manifest } from "$fresh/server.ts";
@@ -34,6 +39,8 @@ const manifest = {
     "./routes/_app.tsx": $_app,
   },
   islands: {
+    "./islands/AddToCartActions.tsx": $AddToCartActions,
+    "./islands/AddToCartButton.tsx": $AddToCartButton,
     "./islands/AddToCartButton/linx.tsx": $AddToCartButton_linx,
     "./islands/AddToCartButton/nuvemshop.tsx": $AddToCartButton_nuvemshop,
     "./islands/AddToCartButton/shopify.tsx": $AddToCartButton_shopify,
@@ -56,6 +63,9 @@ const manifest = {
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
     "./islands/ShowMore.tsx": $ShowMore,
+    "./islands/SliderProductShowcase.tsx": $SliderProductShowcase,
+    "./islands/Sort.tsx": $Sort,
+    "./islands/WishlistButton.tsx": $WishlistButton,
     "./islands/WishlistButton/vtex.tsx": $WishlistButton_vtex,
     "./islands/WishlistButton/wake.tsx": $WishlistButton_wake,
   },
