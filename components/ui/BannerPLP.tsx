@@ -56,11 +56,14 @@ function Banner({ banner }: SectionProps<ReturnType<typeof loader>>) {
   const {
     text: { title, subtitle, desktopTextPosition, mobileTextPosition } = {},
     image,
-    href
+    href,
   } = banner;
 
   return (
-    <a href={href ?? "#"} class="grid container grid-cols-1 px-3 mb-5 grid-rows-1 relative">
+    <a
+      href={href ?? "#"}
+      class="grid container grid-cols-1 px-3 mb-5 grid-rows-1 relative"
+    >
       <Picture preload class="col-start-1 col-span-1 row-start-1 row-span-1">
         <Source
           src={image.mobile}
