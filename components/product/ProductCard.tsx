@@ -342,10 +342,7 @@ function ProductCard(
               ? ""
               : (
                 <div class="text-xs font-normal text-base-content mt-[5px]">
-                  ou {installments}x de {formatPrice(
-                    price,
-                    offers!.priceCurrency!,
-                  )}
+                  ou {installments}
                 </div>
               )}
           </div>

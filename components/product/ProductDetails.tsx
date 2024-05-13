@@ -240,7 +240,7 @@ function ProductInfo({
           </span>
         </div>
         <span>
-          {installments}x de {formatPrice(price, offers!.priceCurrency!)}
+          {installments}
         </span>
       </div>
       {/* Measurement chart */}
