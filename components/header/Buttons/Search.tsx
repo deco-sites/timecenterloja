@@ -6,7 +6,6 @@ export default function SearchButton() {
   const { displaySearchDrawer, displaySearchPopup } = useUI();
 
   console.log(displaySearchDrawer, displaySearchPopup);
-  
 
   return (
     <>
