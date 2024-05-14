@@ -7,15 +7,15 @@ import CardsContent from "$store/sections/Institutional/CardsContent.tsx";
 import Form from "$store/sections/Institutional/Form.tsx";
 import ContactForm from "$store/sections/Institutional/ContactForm.tsx";
 
-
 export interface Props {
   title: string;
   asideMenu: Section;
-  content: Section<ReturnType<typeof TextContent>> 
-  | Section<ReturnType<typeof AccordionsContent>>
-  | Section<ReturnType<typeof CardsContent>>
-  | Section<ReturnType<typeof Form>>
-  | Section<ReturnType<typeof ContactForm>>
+  content:
+    | Section<ReturnType<typeof TextContent>>
+    | Section<ReturnType<typeof AccordionsContent>>
+    | Section<ReturnType<typeof CardsContent>>
+    | Section<ReturnType<typeof Form>>
+    | Section<ReturnType<typeof ContactForm>>;
 }
 
 function InstitutionalPage({
