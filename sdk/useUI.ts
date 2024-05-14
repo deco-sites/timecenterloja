@@ -11,13 +11,12 @@ const displaySearchbar = signal(false);
 const displaySearchPopup = signal(false);
 const displaySearchDrawer = signal(false);
 
-
 const state = {
   displayCart,
   displayMenu,
   displaySearchbar,
   displaySearchDrawer,
-  displaySearchPopup
+  displaySearchPopup,
 };
 
 export const useUI = () => state;
