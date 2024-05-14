@@ -8,6 +8,7 @@ import { megaMenuDefaultItems } from "./constants.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { FnContext, SectionProps } from "deco/mod.ts";
+import { SearchButton } from "$store/islands/Header/Buttons.tsx";
 
 export interface Props {
   /**
@@ -67,6 +68,7 @@ function HeaderLayout(
         </div>
         <div class="flex items-center w-auto lg:justify-between xl:gap-8 lg:gap-2">
           <div class="flex items-center xl:gap-4 lg:gap-2">
+            <SearchButton />
             <Buttons variant="search" />
             <SearchBar searchbar={{ ...searchbar, variant: "mobile" }} />
             <Buttons variant="user" />
