@@ -13,8 +13,8 @@ interface Props {
 }
 
 function Searchbar({ searchbar }: Props) {
-  const { displaySearchDrawer } = useUI();
-  const open = displaySearchDrawer.value;
+  const { displaySearchbar } = useUI();
+  const open = displaySearchbar.value;
 
   return (
     <div

@@ -6,14 +6,14 @@ import { useCart } from "apps/vtex/hooks/useCart.ts";
 import { useUser } from "apps/vtex/hooks/useUser.ts";
 
 function SearchButton() {
-  const { displaySearchDrawer } = useUI();
+  const { displaySearchbar } = useUI();
 
   return (
     <Button
       class="btn-square btn-ghost flex items-center justify-center"
       aria-label="search icon button"
       onClick={() => {
-        displaySearchDrawer.value = !displaySearchDrawer.peek();
+        displaySearchbar.value = !displaySearchbar.peek();
       }}
     >
       <Icon

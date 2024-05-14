@@ -21,12 +21,12 @@ import { useAutocomplete } from "apps/vtex/hooks/useAutocomplete.ts";
 import { useEffect, useRef } from "preact/compat";
 
 function CloseButton() {
-  const { displaySearchDrawer } = useUI();
+  const { displaySearchbar } = useUI();
 
   return (
     <Button
       class="btn-ghost btn-circle btn"
-      onClick={() => (displaySearchDrawer.value = false)}
+      onClick={() => (displaySearchbar.value = false)}
     >
       <Icon id="XMark" width={20} height={20} strokeWidth={2} />
     </Button>
