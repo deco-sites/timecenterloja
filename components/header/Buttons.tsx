@@ -14,7 +14,6 @@ function SearchButton() {
       aria-label="search icon button"
       onClick={() => {
         displaySearchbar.value = !displaySearchbar.peek();
-        console.log("dkddkdkd SearchButton");
       }}
     >
       <Icon

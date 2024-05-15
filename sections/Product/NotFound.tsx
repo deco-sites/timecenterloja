@@ -6,7 +6,7 @@ function NotFound() {
     <div class="w-full flex justify-center items-center py-28">
       <div class="flex flex-col items-center justify-center gap-6">
         <span class="font-medium text-2xl">Página não encontrada</span>
-        <a href="/" class="btn no-animation">
+        <a href="/" class="btn btn-primary no-animation">
           Voltar à página inicial
         </a>
       </div>
