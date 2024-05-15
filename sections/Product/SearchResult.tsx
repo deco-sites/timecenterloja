@@ -13,7 +13,7 @@ import { Layout } from "$store/components/product/ProductCard.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import { isArray } from "https://deno.land/x/djwt@v2.8/util.ts";
 import NotFound from "$store/components/search/NotFound.tsx";
-import type { Props as notFoundPropss } from  "$store/components/search/NotFound.tsx";
+import type { Props as notFoundPropss } from "$store/components/search/NotFound.tsx";
 
 export interface DiscountBadgeProps {
   label: string;
@@ -88,14 +88,16 @@ function Result({
                 breadcrumb={breadcrumb}
                 displayFilter={variant === "drawer"}
               />
-              {sortOptions.length > 0 ? (
-                <label class="flex gap-[10px] w-1/2 lg:w-auto items-center">
-                  <span class="text-[#585858] text-sm hidden whitespace-nowrap lg:inline">
-                    Ordenar por:
-                  </span>
-                  <Sort sortOptions={sortOptions} />
-                </label>
-              ) : null}
+              {sortOptions.length > 0
+                ? (
+                  <label class="flex gap-[10px] w-1/2 lg:w-auto items-center">
+                    <span class="text-[#585858] text-sm hidden whitespace-nowrap lg:inline">
+                      Ordenar por:
+                    </span>
+                    <Sort sortOptions={sortOptions} />
+                  </label>
+                )
+                : null}
             </div>
             <div class="lg:hidden">{productsFound}</div>
             <div class="flex-grow">
@@ -117,7 +119,7 @@ function SearchResult({
   page,
   notFoundSection: { Component: NotFoundSection, props: notFoundProps } = {
     Component: NotFound,
-    props: {}
+    props: {},
   },
   ...props
 }: Props) {
