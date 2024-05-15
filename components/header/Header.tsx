@@ -30,6 +30,7 @@ function Header({}: SectionProps<typeof loader>) {
       <header class="z-50 lg:p-0 py-2">
         <SearchButton />
 
+        dd
         {platform === "vtex" && <CartButtonVTEX />}
         {platform === "vnda" && <CartButtonVDNA />}
         {platform === "wake" && <CartButtonWake />}

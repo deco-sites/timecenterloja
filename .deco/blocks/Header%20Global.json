@@ -1,0 +1,139 @@
+{
+    "__resolveType": "site/sections/Container.tsx",
+    "sections": [
+      {
+        "section": {
+          "__resolveType": "site/sections/Header/TopNavBar.tsx",
+          "alerts": [
+            {
+              "idIcon": "",
+              "textAlert": "Frete grátis acima de R$ 450",
+              "textColor": "#ffffff",
+              "alt": "Frete grátis acima de R$ 450"
+            },
+            {
+              "idIcon": "",
+              "textAlert": "Frete grátis acima de R$ 450",
+              "textColor": "#ffffff",
+              "alt": "Frete grátis acima de R$ 450"
+            },
+            {
+              "idIcon": "",
+              "textAlert": "Frete grátis acima de R$ 450",
+              "textColor": "#ffffff",
+              "alt": "Frete grátis acima de R$ 450"
+            },
+            {
+              "idIcon": "",
+              "textAlert": "Frete grátis acima de R$ 450",
+              "textColor": "#ffffff",
+              "alt": "Frete grátis acima de R$ 450"
+            }
+          ],
+          "interval": 5
+        },
+        "shadow": "none",
+        "overFlow": "overflow-none",
+        "verticalSpacing": "top",
+        "label": "Topbar",
+        "backgroundColor": "#EE3232"
+      },
+      {
+        "section": {
+          "__resolveType": "site/sections/Header/HeaderLayout.tsx",
+          "logo": {
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e5047179-73dc-4bfe-976b-d846c2659d6e"
+          },
+          "navItems": [
+            {
+              "showLabel": true,
+              "children": [],
+              "label": "Lançamentos",
+              "href": "/lancamentos"
+            },
+            {
+              "showLabel": true,
+              "children": [
+                {
+                  "showLabel": true,
+                  "children": [
+                    {
+                      "showLabel": true,
+                      "children": [],
+                      "label": "Relógio Anadigi",
+                      "href": "/relogio/feminino/anadigi?PS=48&O=OrderByReleaseDateDESC"
+                    }
+                  ],
+                  "href": "/relogio?PS=48&O=OrderByReleaseDateDESC",
+                  "label": "Mecanismo"
+                }
+              ],
+              "label": "relógios",
+              "href": "/relogio?PS=48&O=OrderByReleaseDateDESC"
+            },
+            {
+              "showLabel": true,
+              "children": [],
+              "label": "óculos",
+              "href": "/oculos?O=OrderByReleaseDateDESC"
+            },
+            {
+              "showLabel": true,
+              "children": [],
+              "label": "coleções",
+              "href": "/relogio?PS=48&O=OrderByReleaseDateDESC"
+            },
+            {
+              "showLabel": true,
+              "children": [],
+              "href": "/kit?PS=48&O=OrderByReleaseDateDESC",
+              "label": "kits"
+            },
+            {
+              "showLabel": true,
+              "children": [],
+              "label": "Promoções",
+              "href": "/promocoes"
+            }
+          ],
+          "minicart": {
+            "platform": {},
+            "desktop": {
+              "buttonMode": "secondary"
+            },
+            "goToCartLabel": "Finalizar Compra",
+            "mobile": {
+              "buttonMode": "primary"
+            }
+          },
+          "searchbar": {
+            "cardLayout": {
+              "onMouseOver": {
+                "showCta": true
+              },
+              "hide": {
+                "skuSelector": true,
+                "productDescription": true
+              },
+              "discount": {
+                "label": "off",
+                "variant": "emphasis"
+              },
+              "basics": {
+                "ctaMode": "Add to Cart",
+                "mobileCtaText": "Adicionar ao carrinho",
+                "contentAlignment": "Center"
+              }
+            },
+            "placeholder": "O que esta procurando?"
+          }
+        },
+        "shadow": "none",
+        "overFlow": "overflow-none",
+        "verticalSpacing": "top",
+        "label": "Header",
+        "withContainer": true
+      }
+    ],
+    "label": "\"Container\""
+  }

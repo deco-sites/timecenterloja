@@ -12,6 +12,8 @@ import { Section } from "deco/blocks/section.ts";
 import { Layout } from "$store/components/product/ProductCard.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import { isArray } from "https://deno.land/x/djwt@v2.8/util.ts";
+import NotFound from "$store/components/search/NotFound.tsx";
+import type { Props as notFoundPropss } from  "$store/components/search/NotFound.tsx";
 
 export interface DiscountBadgeProps {
   label: string;
@@ -58,8 +60,9 @@ function Result({
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
 
   const hideFilter = hideFilters?.split(",");
-  const newFilters = filters.filter(({ key }) => !hideFilter?.includes(key))
-    .filter(({ values }) => (isArray(values) && values.length))
+  const newFilters = filters
+    .filter(({ key }) => !hideFilter?.includes(key))
+    .filter(({ values }) => isArray(values) && values.length)
     .filter(({ label }) => !["Departments", "Brands"]?.includes(label));
 
   const productsFound = (
@@ -78,29 +81,23 @@ function Result({
           )}
           <div class="flex flex-col gap-5 w-full">
             <div class="flex justify-between items-center gap-2.5">
-              <div class="hidden lg:block">
-                {productsFound}
-              </div>
+              <div class="hidden lg:block">{productsFound}</div>
               <SearchControls
                 sortOptions={sortOptions}
                 filters={filters}
                 breadcrumb={breadcrumb}
                 displayFilter={variant === "drawer"}
               />
-              {sortOptions.length > 0
-                ? (
-                  <label class="flex gap-[10px] w-1/2 lg:w-auto items-center">
-                    <span class="text-[#585858] text-sm hidden whitespace-nowrap lg:inline">
-                      Ordenar por:
-                    </span>
-                    <Sort sortOptions={sortOptions} />
-                  </label>
-                )
-                : null}
+              {sortOptions.length > 0 ? (
+                <label class="flex gap-[10px] w-1/2 lg:w-auto items-center">
+                  <span class="text-[#585858] text-sm hidden whitespace-nowrap lg:inline">
+                    Ordenar por:
+                  </span>
+                  <Sort sortOptions={sortOptions} />
+                </label>
+              ) : null}
             </div>
-            <div class="lg:hidden">
-              {productsFound}
-            </div>
+            <div class="lg:hidden">{productsFound}</div>
             <div class="flex-grow">
               <ProductGallery
                 products={products}
@@ -112,36 +109,20 @@ function Result({
           </div>
         </div>
       </div>
-      {
-        /* <SendEventOnLoad
-        event={{
-          name: "view_item_list",
-          params: {
-            // TODO: get category name from search or cms setting
-            item_list_name: "",
-            item_list_id: "",
-            items: page.products?.map((product) =>
-              mapProductToAnalyticsItem({
-                ...useOffer(product.offers),
-                product,
-                breadcrumbList: page.breadcrumb,
-              })
-            ),
-          },
-        }}
-      /> */
-      }
     </>
   );
 }
 
-function SearchResult(
-  {
-    page,
-    notFoundSection: { Component: NotFoundSection, props: notFoundProps },
-    ...props
-  }: Props,
-) {
+function SearchResult({
+  page,
+  notFoundSection: { Component: NotFoundSection, props: notFoundProps } = {
+    Component: NotFound,
+    props: {}
+  },
+  ...props
+}: Props) {
+  console.log(props);
+
   if (!page || !page.products || page.products.length === 0) {
     return <NotFoundSection {...notFoundProps} />;
   }
