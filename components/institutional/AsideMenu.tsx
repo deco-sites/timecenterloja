@@ -42,10 +42,10 @@ function AsideMenu(
                 class={`
                   ${
                   currentUrl === item.href
-                    ? "bg-secondary-focus text-base-100 border-none"
+                    ? "bg-base-200 text-base-100 border-none"
                     : ""
                 }
-                  btn btn-ghost btn-block border-2 border-neutral-100 hover:bg-secondary-focus hover:text-base-100
+                  btn btn-ghost btn-block rounded-full border-2 border-neutral-100 hover:bg-base-200 hover:text-base-100
                 `}
                 href={item.href}
               >
@@ -75,7 +75,7 @@ function AsideMenu(
                         ? "bg-base-200 text-base-100 border-none"
                         : ""
                     }
-                      hover:bg-base-200  rounded-full	hover:text-base-100
+                      hover:bg-base-200 	hover:text-base-100
                     `}
                     href={item.href}
                   >
