@@ -1,21 +1,10 @@
 import { Head } from "$fresh/runtime.ts";
 import { Section } from "deco/blocks/section.ts";
 
-import TextContent from "$store/sections/Institutional/TextContent.tsx";
-import AccordionsContent from "$store/sections/Institutional/AccordionsContent.tsx";
-import CardsContent from "$store/sections/Institutional/CardsContent.tsx";
-import Form from "$store/sections/Institutional/Form.tsx";
-import ContactForm from "$store/sections/Institutional/ContactForm.tsx";
-
 export interface Props {
   title: string;
   asideMenu: Section;
-  content:
-    | Section<ReturnType<typeof TextContent>>
-    | Section<ReturnType<typeof AccordionsContent>>
-    | Section<ReturnType<typeof CardsContent>>
-    | Section<ReturnType<typeof Form>>
-    | Section<ReturnType<typeof ContactForm>>;
+  content: Section;
 }
 
 function InstitutionalPage({
