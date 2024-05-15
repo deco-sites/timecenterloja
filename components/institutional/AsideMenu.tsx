@@ -59,7 +59,7 @@ function AsideMenu(
         <div class="dropdown w-full text-sm font-normal">
           <label
             tabIndex={0}
-            class="btn btn-secondary btn-block bg-base-content justify-between border-none"
+            class="btn btn-secondary btn-block bg-base-content  justify-between border-none"
           >
             {currentRoute?.label ?? "Menu"}
             <Icon id="ChevronDown" width={26} height={26} />
@@ -72,10 +72,10 @@ function AsideMenu(
                     class={`
                       ${
                       currentUrl === item.href
-                        ? "bg-base-content text-base-100 border-none"
+                        ? "bg-base-200 text-base-100 border-none"
                         : ""
                     }
-                      hover:bg-base-content hover:text-base-100
+                      hover:bg-base-200  rounded-full	hover:text-base-100
                     `}
                     href={item.href}
                   >
