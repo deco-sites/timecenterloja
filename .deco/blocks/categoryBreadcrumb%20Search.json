@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 {
     "__resolveType": "site/sections/Container.tsx",
     "label": "\"Container\"",
@@ -18,3 +19,6 @@
       }
     ]
   }
+=======
+{"__resolveType":"site/sections/Container.tsx","label":"\"Container\"","sections":[{"section":{"__resolveType":"site/sections/Category/CategoryBreadcrumb.tsx","page":{"__resolveType":"vtex/loaders/legacy/productListingPage.ts","count":1,"sort":"OrderByPriceDESC"}},"shadow":"none","overFlow":"overflow-none","verticalSpacing":"top","label":"categoryBreadcrumb"}]}
+>>>>>>> 48dd2f426650e14ed4a2835386b2edcf6e7f4ef6

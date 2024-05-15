@@ -1,0 +1,91 @@
+{
+  "__resolveType": "site/sections/Header/HeaderLayout.tsx",
+  "logo": {
+    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e5047179-73dc-4bfe-976b-d846c2659d6e",
+    "width": 131,
+    "height": 51
+  },
+  "navItems": [
+    {
+      "showLabel": true,
+      "children": [],
+      "label": "Lançamentos",
+      "href": "/2049?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC"
+    },
+    {
+      "showLabel": true,
+      "children": [],
+      "href": "/relogio/masculino?PS=12&O=OrderByBestDiscountDESC",
+      "label": "relógios masculinos"
+    },
+    {
+      "showLabel": true,
+      "children": [],
+      "label": "relógios femininos",
+      "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
+    },
+    {
+      "showLabel": true,
+      "children": [],
+      "label": "Smartwatch",
+      "href": "/smartwatches"
+    },
+    {
+      "showLabel": true,
+      "children": [],
+      "href": "/kit",
+      "label": "Kits"
+    },
+    {
+      "showLabel": true,
+      "children": [],
+      "highlighted": true,
+      "label": "marcas",
+      "href": "/nossas-marcas"
+    },
+    {
+      "showLabel": true,
+      "children": [],
+      "href": "/relogio?PS=12&O=OrderByBestDiscountDESC",
+      "highlighted": true,
+      "label": "OFF"
+    }
+  ],
+  "searchbar": {
+    "cardLayout": {
+      "basics": {
+        "contentAlignment": "Center",
+        "oldPriceSize": "Small",
+        "ctaVariation": "primary",
+        "ctaMode": "Go to Product Page"
+      },
+      "hide": {
+        "cta": true
+      },
+      "discount": {
+        "variant": "emphasis",
+        "alignHorizontal": "end"
+      },
+      "elementsPositions": {
+        "skuSelector": "Top",
+        "favoriteIcon": "Top right"
+      },
+      "onMouseOver": {
+        "image": "Change image"
+      }
+    },
+    "placeholder": "aa",
+    "action": "/s",
+    "name": "q"
+  },
+  "minicart": {
+    "goToCartLabel": "dd",
+    "desktop": {
+      "buttonMode": "primary"
+    },
+    "mobile": {
+      "buttonMode": "secondary"
+    },
+    "showClearButton": false
+  }
+}
