@@ -8,7 +8,7 @@ import {
 import Icon from "$store/components/ui/Icon.tsx";
 import Header from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
-// import { SendEventOnLoad } from "$store/sdk/analytics.tsx";
+import { SendEventOnView } from "$store/components/Analytics.tsx";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
@@ -116,26 +116,24 @@ function ProductShelf({
             showPaginationDots ? showPaginationDots : "Always"
           ]}
         />
-
-        {
-          /* <SendEventOnLoad
+        <Slider.JS
+          rootId={id}
+        />
+        <SendEventOnView
+          id={id}
           event={{
             name: "view_item_list",
             params: {
               item_list_name: title,
               items: products.map((product, index) =>
                 mapProductToAnalyticsItem({
+                  index,
                   product,
-                  ...({ index: index }),
                   ...(useOffer(product.offers)),
                 })
               ),
             },
           }}
-        /> */
-        }
-        <Slider.JS
-          rootId={id}
         />
       </div>
     </div>
