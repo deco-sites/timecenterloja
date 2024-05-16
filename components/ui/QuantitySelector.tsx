@@ -40,7 +40,7 @@ function QuantitySelector({ onChange, quantity, disabled, loading }: Props) {
           loading={loading}
         >
           <Icon
-            class="btn btn-primary btn-sm min-w-8 w-8 text-info hover:text-neutral-100 transition-all rounded-full"
+            class="btn btn-primary btn-sm min-h-6 h-6 min-w-6 w-6 !px-0 text-info hover:text-neutral-100 transition-all rounded-full"
             id="Minus"
             width={16}
             height={16}
@@ -64,7 +64,7 @@ function QuantitySelector({ onChange, quantity, disabled, loading }: Props) {
           loading={loading}
         >
           <Icon
-            class="btn btn-primary btn-sm min-w-8 w-8 text-info hover:text-neutral-100 transition-all rounded-full"
+            class="btn btn-primary btn-sm min-h-6 h-6 min-w-6 w-6 !px-0 text-info hover:text-neutral-100 transition-all rounded-full"
             id="Plus"
             width={16}
             height={16}

@@ -18,6 +18,7 @@ import { Section } from "deco/blocks/section.ts";
 import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
 import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
 
 export type Variant = "front-back" | "slider" | "auto";
 
@@ -68,18 +69,18 @@ const WIDTH = 500;
 const HEIGHT = 500;
 const ASPECT_RATIO = `${WIDTH} / ${HEIGHT}`;
 
-function ProductInfo(
-  { page, shipmentPolitics, shareableNetworks, productBenefits }: {
-    page: ProductDetailsPage;
-    shipmentPolitics?: Props["shipmentPolitics"];
-    shareableNetworks?: Props["shareableNetworks"];
-    productBenefits?: ProductBenefits[];
-  },
-) {
-  const {
-    breadcrumbList,
-    product,
-  } = page;
+function ProductInfo({
+  page,
+  shipmentPolitics,
+  shareableNetworks,
+  productBenefits,
+}: {
+  page: ProductDetailsPage;
+  shipmentPolitics?: Props["shipmentPolitics"];
+  shareableNetworks?: Props["shareableNetworks"];
+  productBenefits?: ProductBenefits[];
+}) {
+  const { breadcrumbList, product } = page;
 
   const {
     description,
@@ -116,8 +117,8 @@ function ProductInfo(
   });
 
   const referenceID =
-    additionalProperty?.find(({ valueReference }) =>
-      valueReference == "ReferenceID"
+    additionalProperty?.find(
+      ({ valueReference }) => valueReference == "ReferenceID"
     )?.value ?? gtin;
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
@@ -127,76 +128,101 @@ function ProductInfo(
   const renderItem = (item: any) => {
     switch (item.name) {
       case "Gênero":
-        return item.value && (
-          <>
-            Gênero<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Gênero<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Banho":
-        return item.value && (
-          <>
-            Banho<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Banho<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Cor da Caixa":
-        return item.value && (
-          <>
-            Cor (caixa)<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Cor (caixa)<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Cor da pulseira":
-        return item.value && (
-          <>
-            Cor (pulseira)<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Cor (pulseira)<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Tipo":
-        return item.value && (
-          <>
-            Tipo<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Tipo<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Formato":
-        return item.value && (
-          <>
-            Formato<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Formato<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Fecho (tipo)":
-        return item.value && (
-          <>
-            Fecho (tipo)<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Fecho (tipo)<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Maquinismo":
-        return item.value && (
-          <>
-            Maquinismo <p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Maquinismo <p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Material da Pulseira":
-        return item.value && (
-          <>
-            Material (pulseira)<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Material (pulseira)
+              <p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Resistente a Água":
-        return item.value && (
-          <>
-            Resistencia a agua<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Resistencia a agua<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Largura da Caixa (cm)":
-        return item.value && (
-          <>
-            Largura da Caixa<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Largura da Caixa<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       case "Garantia":
-        return item.value && (
-          <>
-            Garantia<p className="font-light">&nbsp;{item.value}</p>
-          </>
+        return (
+          item.value && (
+            <>
+              Garantia<p className="font-light">&nbsp;{item.value}</p>
+            </>
+          )
         );
       default:
         return null;
@@ -205,13 +231,15 @@ function ProductInfo(
 
   const renderItemByName = (itemName: string) => {
     const item = especifications?.find((spec) => spec.name === itemName);
-    return item && (
-      <li
-        key={itemName}
-        className="flex ml-[10px] text-[#A8A8A8] font-semibold"
-      >
-        {renderItem(item)}
-      </li>
+    return (
+      item && (
+        <li
+          key={itemName}
+          className="flex ml-[10px] text-[#A8A8A8] font-semibold"
+        >
+          {renderItem(item)}
+        </li>
+      )
     );
   };
 
@@ -242,9 +270,7 @@ function ProductInfo(
             {formatPrice(price, offers!.priceCurrency!)}
           </span>
         </div>
-        <span>
-          {installments}
-        </span>
+        <span>{installments}</span>
       </div>
       {/* Measurement chart */}
       <div class="mt-4 sm:mt-5">
@@ -265,35 +291,36 @@ function ProductInfo(
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 mb-7 lg:mt-10 flex gap-[30px]">
-        {availability === "https://schema.org/InStock"
-          ? (
-            <>
-              {seller && (
-                <AddToCartActions
-                  productID={productID}
-                  seller={seller}
-                  price={price}
-                  listPrice={listPrice}
-                  productName={name ?? ""}
-                  productGroupID={product.isVariantOf?.productGroupID ?? ""}
-                />
-              )}
-            </>
-          )
-          : <OutOfStock productID={productID} />}
+        {availability === "https://schema.org/InStock" ? (
+          <>
+            {/* <AddToCartButtonVTEX
+              eventParams={{ items: [eventItem] }}
+              productID={productID}
+              seller={seller}
+            /> */}
+            {seller && (
+              <AddToCartActions
+                productID={productID}
+                seller={seller}
+                price={price}
+                listPrice={listPrice}
+                productName={name ?? ""}
+                productGroupID={product.isVariantOf?.productGroupID ?? ""}
+              />
+            )}
+          </>
+        ) : (
+          <OutOfStock productID={productID} />
+        )}
       </div>
       {/* Description card */}
       <details className="collapse collapse-plus border-b border-[#E2E3E8] rounded-none">
-        <summary className="collapse-title px-0">
-          Detalhes do produto
-        </summary>
+        <summary className="collapse-title px-0">Detalhes do produto</summary>
         <div className=" text-xs px-0 leading-tight collapse-content text-base-300">
-          {
-            /* <input type="checkbox" id="readmore" className="readmore-toggle" />
+          {/* <input type="checkbox" id="readmore" className="readmore-toggle" />
           <label htmlFor="readmore" className="readmore-label my-2 block">
             + Ler mais
-          </label> */
-          }
+          </label> */}
           <p className="readmore-content">{description}</p>
         </div>
 
@@ -302,16 +329,17 @@ function ProductInfo(
             {especifications && (
               <>
                 {renderItemByName("Gênero")}
-                {especifications.map((item, index) => (
-                  item.name !== "Gênero" && (
-                    <li
-                      key={index}
-                      className="flex ml-[10px] text-[#A8A8A8] font-semibold"
-                    >
-                      {renderItem(item)}
-                    </li>
-                  )
-                ))}
+                {especifications.map(
+                  (item, index) =>
+                    item.name !== "Gênero" && (
+                      <li
+                        key={index}
+                        className="flex ml-[10px] text-[#A8A8A8] font-semibold"
+                      >
+                        {renderItem(item)}
+                      </li>
+                    )
+                )}
               </>
             )}
           </ul>
@@ -320,16 +348,16 @@ function ProductInfo(
       {/* Shipping Simulation */}
       <div className="collapse collapse-plus">
         <input type="checkbox" />
-        <div className="collapse-title px-0">
-          Calcular frete e entrega
-        </div>
+        <div className="collapse-title px-0">Calcular frete e entrega</div>
         <div className="collapse-content px-0">
           <ShippingSimulation
-            items={[{
-              id: Number(product.sku),
-              quantity: 1,
-              seller: seller ?? "1",
-            }]}
+            items={[
+              {
+                id: Number(product.sku),
+                quantity: 1,
+                seller: seller ?? "1",
+              },
+            ]}
             shipmentPolitics={shipmentPolitics}
           />
         </div>
@@ -337,7 +365,8 @@ function ProductInfo(
       <div class="flex flex-wrap justify-between gap-2">
         {productBenefits?.map((item) => {
           return (
-            <div className="
+            <div
+              className="
                   xl:max-w-[49%]
                   lg:w-full
                   lg:max-w-full
@@ -357,14 +386,10 @@ function ProductInfo(
                   bg-neutral-200
                   justify-center
                   items-center
-                  rounded-lg">
+                  rounded-lg"
+            >
               <div>
-                <Image
-                  src={item.icon}
-                  alt={item.name}
-                  width={50}
-                  height={50}
-                />
+                <Image src={item.icon} alt={item.name} width={50} height={50} />
               </div>
               <div>
                 <div
@@ -413,23 +438,6 @@ function ProductInfo(
           },
         }}
       />
-      {
-        /* <SendEventOnLoad
-        event={{
-          name: "view_item",
-          params: {
-            items: [
-              mapProductToAnalyticsItem({
-                product,
-                breadcrumbList,
-                price,
-                listPrice,
-              }),
-            ],
-          },
-        }}
-      /> */
-      }
     </>
   );
 }
@@ -441,13 +449,15 @@ const useStableImages = (product: ProductDetailsPage["product"]) => {
   };
 
   const images = product.image ?? [];
-  const allImages = product.isVariantOf?.hasVariant.flatMap((p) => p.image)
-    .reduce((acc, img) => {
-      if (img?.url) {
-        acc[imageNameFromURL(img.url)] = img.url;
-      }
-      return acc;
-    }, {} as Record<string, string>) ?? {};
+  const allImages =
+    product.isVariantOf?.hasVariant
+      .flatMap((p) => p.image)
+      .reduce((acc, img) => {
+        if (img?.url) {
+          acc[imageNameFromURL(img.url)] = img.url;
+        }
+        return acc;
+      }, {} as Record<string, string>) ?? {};
 
   return images.map((img) => {
     const name = imageNameFromURL(img.url);
@@ -487,10 +497,7 @@ function Details({
         <Breadcrumb
           itemListElement={breadcrumbList?.itemListElement.slice(0, -1)}
         />
-        <div
-          id={id}
-          class="flex flex-col lg:flex-row gap-4 lg:justify-center"
-        >
+        <div id={id} class="flex flex-col lg:flex-row gap-4 lg:justify-center">
           {/* Product Images */}
           <SliderProductShowcase
             page={page!}
@@ -548,39 +555,38 @@ function Details({
   );
 }
 
-function ProductDetails(
-  {
-    page,
-    variant: maybeVar = "auto",
-    shipmentPolitics,
-    shareableNetworks,
-    productBenefits,
-    notFoundSection: { Component: ProductNotFound, props: notFoundProps },
-    highlights,
-    discount,
-  }: Props,
-) {
-  const variant = maybeVar === "auto"
-    ? page?.product.image?.length && page?.product.image?.length < 2
-      ? "front-back"
-      : "slider"
-    : maybeVar;
+function ProductDetails({
+  page,
+  variant: maybeVar = "auto",
+  shipmentPolitics,
+  shareableNetworks,
+  productBenefits,
+  notFoundSection: { Component: ProductNotFound, props: notFoundProps },
+  highlights,
+  discount,
+}: Props) {
+  const variant =
+    maybeVar === "auto"
+      ? page?.product.image?.length && page?.product.image?.length < 2
+        ? "front-back"
+        : "slider"
+      : maybeVar;
 
   return (
     <div class="py-0 lg:pb-10">
-      {page
-        ? (
-          <Details
-            page={page}
-            variant={variant}
-            shipmentPolitics={shipmentPolitics}
-            shareableNetworks={shareableNetworks}
-            productBenefits={productBenefits}
-            highlights={highlights}
-            discount={discount}
-          />
-        )
-        : <ProductNotFound {...notFoundProps} />}
+      {page ? (
+        <Details
+          page={page}
+          variant={variant}
+          shipmentPolitics={shipmentPolitics}
+          shareableNetworks={shareableNetworks}
+          productBenefits={productBenefits}
+          highlights={highlights}
+          discount={discount}
+        />
+      ) : (
+        <ProductNotFound {...notFoundProps} />
+      )}
     </div>
   );
 }

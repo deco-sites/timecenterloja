@@ -123,7 +123,6 @@ function SearchResult({
   },
   ...props
 }: Props) {
-  console.log(props);
 
   if (!page || !page.products || page.products.length === 0) {
     return <NotFoundSection {...notFoundProps} />;

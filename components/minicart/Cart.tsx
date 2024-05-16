@@ -75,7 +75,7 @@ function Cart(props: ICartProps) {
     mobile: {
       buttonMode: buttonModeMobile,
     },
-    showClearButton = true,
+    showClearButton = false,
     goToCartLabel = "Finalizar compra",
   } = props;
   const { loading, mapItemsToAnalyticsItems, removeAllItems, cart } = useCart();
@@ -91,9 +91,7 @@ function Cart(props: ICartProps) {
   if (cart.value === null) {
     return null;
   }
-
-  console.log(cart.value);
-
+  
   // Empty State
   if (isCartEmpty) {
     return (
@@ -110,6 +108,7 @@ function Cart(props: ICartProps) {
     (acc, current) => current.price + acc,
     0,
   );
+  
 
   return (
     <>
@@ -198,7 +197,7 @@ function Cart(props: ICartProps) {
           <a class="w-full flex justify-center" href="/checkout">
             <Button
               data-deco="buy-button"
-              class={`h-9 btn-${
+              class={`h-9 btn btn-${
                 BUTTON_VARIANTS[buttonMode as string]
               } font-medium text-xs w-full uppercase text-base-100 lg:w-full lg:text-sm lg:h-10`}
               disabled={loading.value || cart.value.items.length === 0}
