@@ -55,7 +55,7 @@ export default function SearchPagination({ pageInfo }: Props) {
   };
 
   return (
-    <div class="flex justify-center my-5 gap-[10px] ">
+    <div class="flex justify-center items-center my-5 gap-[10px] ">
       {pageDots(pages)}
 
       {

@@ -85,7 +85,7 @@ function Result({
               <Filters filters={newFilters} />
             </aside>
           )}
-          <div class="flex flex-col gap-5 w-full">
+          <div class="flex flex-col gap-5 w-full max-w-auto lg:max-w-[calc(100%-270px)]">
             <div class="flex justify-between items-center gap-2.5">
               <div class="hidden lg:block">
                 {productsFound}
@@ -110,7 +110,7 @@ function Result({
             <div class="lg:hidden">
               {productsFound}
             </div>
-            <div class="flex-grow">
+            <div class="flex-grow ">
               <ProductGallery
                 products={products}
                 layout={layout}

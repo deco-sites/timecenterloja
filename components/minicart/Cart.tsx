@@ -91,7 +91,7 @@ function Cart(props: ICartProps) {
   if (cart.value === null) {
     return null;
   }
-  
+
   // Empty State
   if (isCartEmpty) {
     return (
@@ -108,7 +108,6 @@ function Cart(props: ICartProps) {
     (acc, current) => current.price + acc,
     0,
   );
-  
 
   return (
     <>
