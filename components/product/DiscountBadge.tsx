@@ -71,6 +71,7 @@ function DiscountBadge(props: Props) {
     alignHorizontal,
   } = props;
   const discount = ((listPrice - price) / listPrice) * 100;
+  
 
   return (
     <div
