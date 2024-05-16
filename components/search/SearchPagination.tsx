@@ -22,9 +22,9 @@ export default function SearchPagination({ pageInfo }: Props) {
 
       if (page == currentPage) {
         dots.push(
-          <span class="w-10 h-10 bg-primary rounded-full text-base-100 flex items-center justify-center text-sm font-bold">
+          <span class="min-w-10 w-10 h-10 max-h-max bg-primary rounded-full text-base-100 flex items-center justify-center text-sm font-bold">
             {page}
-          </span>,
+          </span>
         );
       } else if (page < currentPage) {
         dots.push(
@@ -32,10 +32,10 @@ export default function SearchPagination({ pageInfo }: Props) {
             aria-label="previous page link"
             rel="prev"
             href={`?${queryParams?.toString()}` ?? "#"}
-            class="w-10 h-10 border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
+            class="min-w-10 w-10 h-10 max-h-max border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
           >
             {page}
-          </a>,
+          </a>
         );
       } else {
         dots.push(
@@ -43,10 +43,10 @@ export default function SearchPagination({ pageInfo }: Props) {
             aria-label="next page link"
             rel="next"
             href={`?${queryParams?.toString()}` ?? "#"}
-            class="w-10 h-10 border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
+            class="min-w-10 w-10 h-10 border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
           >
             {page}
-          </a>,
+          </a>
         );
       }
     }
@@ -55,34 +55,13 @@ export default function SearchPagination({ pageInfo }: Props) {
   };
 
   return (
-    <div class="flex justify-center items-center my-5 gap-[10px] ">
-      {pageDots(pages)}
-
-      {
-        /* {pageInfo.previousPage && (
-          <a
-            aria-label="previous page link"
-            rel="prev"
-            href={pageInfo.previousPage ?? "#"}
-            class="w-10 h-10 border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
-          >
-            {pageInfo.currentPage - 1}
-          </a>
-        )}
-        <span class="w-10 h-10 bg-primary rounded-full text-base-100 flex items-center justify-center text-sm font-bold">
-          {pageInfo.currentPage}
-        </span>
-        {pageInfo.nextPage && (
-          <a
-            aria-label="next page link"
-            rel="next"
-            href={pageInfo.nextPage ?? "#"}
-            class="w-10 h-10 border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
-          >
-            {pageInfo.currentPage + 1}
-          </a>
-        )} */
+    <div
+      class={`
+        ${pages > 19 ? "justify-left overflow-x-scroll" : "justify-center"}
+        flex items-center my-5 gap-[10px] `
       }
+    >
+      {pageDots(pages)}
     </div>
   );
 }
