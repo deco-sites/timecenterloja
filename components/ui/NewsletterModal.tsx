@@ -13,7 +13,6 @@ import {
   INewsletterInputCheckboxProps,
   InputCheckboxNewsletterProps,
 } from "$store/components/newsletter/Newsletter.tsx";
-
 export interface INewsletterInputProps {
   /**
    * @title Hide input?
@@ -80,12 +79,9 @@ export const loader = (props: Props, req: Request) => {
   return { ...props, isOpen };
 };
 
-function InputNewsletter({
-  name,
-  placeholder,
-  required,
-  type,
-}: InputNewletterProps) {
+function InputNewsletter(
+  { name, placeholder, required, type }: InputNewletterProps,
+) {
   return (
     <input
       name={name}
@@ -97,12 +93,9 @@ function InputNewsletter({
   );
 }
 
-function InputCheckboxNewsletter({
-  name,
-  required,
-  posLabel,
-  preLabel,
-}: InputCheckboxNewsletterProps) {
+function InputCheckboxNewsletter(
+  { name, required, posLabel, preLabel }: InputCheckboxNewsletterProps,
+) {
   return (
     <label
       class="w-full flex items-center justify-center gap-4"
@@ -125,13 +118,17 @@ function InputCheckboxNewsletter({
   );
 }
 
-function NewsletterModal({
-  isOpen,
-  form,
-  text,
-  modalSignExpiredDate,
-  modalCloseExpiredDate,
-}: SectionProps<ReturnType<typeof loader>>) {
+function NewsletterModal(
+  {
+    isOpen,
+    form,
+    text,
+    modalSignExpiredDate,
+    modalCloseExpiredDate,
+  }: SectionProps<
+    ReturnType<typeof loader>
+  >,
+) {
   const modalRef = useRef<HTMLDialogElement>(null);
   const loading = useSignal(false);
   const success = useSignal(false);
@@ -155,23 +152,20 @@ function NewsletterModal({
       loading.value = true;
 
       if (form?.email?.show) {
-        formData.email = (
-          e.currentTarget.elements.namedItem("email") as RadioNodeList
-        )?.value;
+        formData.email =
+          (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
       }
 
       if (form?.name?.show) {
-        formData.name = (
-          e.currentTarget.elements.namedItem("name") as RadioNodeList
-        )?.value;
+        formData.name =
+          (e.currentTarget.elements.namedItem("name") as RadioNodeList)
+            ?.value;
       }
 
       if (form?.privacyContact?.show) {
-        formData.privacyContact = (
-          e.currentTarget.querySelector(
-            'input[name="privacyContact"]',
-          ) as HTMLInputElement
-        )?.checked;
+        formData.privacyContact = (e.currentTarget.querySelector(
+          'input[name="privacyContact"]',
+        ) as HTMLInputElement)?.checked;
       }
 
       await fetch("/api/optin", {
@@ -179,7 +173,7 @@ function NewsletterModal({
         body: JSON.stringify(formData),
         headers: {
           "content-type": "application/json",
-          accept: "application/json",
+          "accept": "application/json",
         },
       });
     } finally {
@@ -202,12 +196,13 @@ function NewsletterModal({
     // deno-lint-ignore no-var
     var date = new Date();
 
-    date.setTime(date.getTime() + expirationSeconds * 24 * 60 * 60 * 1000);
+    date.setTime(date.getTime() + (expirationSeconds * 24 * 60 * 60 * 1000));
     // deno-lint-ignore no-var
     var expires = "expires=" + date.toUTCString();
 
     document.cookie = "DecoNewsletterModal" + "=" + cookieValue + ";" +
-      expires + ";path=/";
+      expires +
+      ";path=/";
   };
 
   const emailInput = !form?.email?.show
@@ -259,7 +254,11 @@ function NewsletterModal({
               class="btn btn-sm btn-circle btn-ghost focus:outline-none"
               aria-label="Fechar"
             >
-              <Icon id="XMark" width={20} height={20} />
+              <Icon
+                id="XMark"
+                width={20}
+                height={20}
+              />
             </button>
           </div>
           {success.value
@@ -272,18 +271,25 @@ function NewsletterModal({
               <>
                 {
                   /* <Icon
-                    class="mx-auto mb-5 block"
-                    id="Logo"
-                    width={120}
-                    height={27}
-                  /> */
+                  class="mx-auto mb-5 block"
+                  id="Logo"
+                  width={120}
+                  height={27}
+                /> */
                 }
-                <Logo class="mx-auto mb-5 block" width={120} height={27} />
+                <Logo
+                  class="mx-auto mb-5 block"
+                  width={120}
+                  height={27}
+                />
                 <div
                   dangerouslySetInnerHTML={{ __html: text }}
                   class="text-base lg:text-xl text-center text-base-100 lg:pr-0 "
                 />
-                <form class="w-full form-control" onSubmit={handleSubmit}>
+                <form
+                  class="w-full form-control"
+                  onSubmit={handleSubmit}
+                >
                   <div class="text-center">
                     {nameInput}
                     {emailInput}
