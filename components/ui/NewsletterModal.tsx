@@ -269,18 +269,10 @@ function NewsletterModal(
             )
             : (
               <>
-                {
-                  /* <Icon
-                  class="mx-auto mb-5 block"
-                  id="Logo"
-                  width={120}
-                  height={27}
-                /> */
-                }
                 <Logo
                   class="mx-auto mb-5 block"
-                  width={120}
-                  height={27}
+                  width={131}
+                  height={56}
                 />
                 <div
                   dangerouslySetInnerHTML={{ __html: text }}

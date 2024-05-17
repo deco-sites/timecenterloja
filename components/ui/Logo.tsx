@@ -6,9 +6,9 @@ interface Props extends JSX.SVGAttributes<SVGSVGElement> {
 
 function Logo({
   strokeWidth = 16,
-  size = 92,
-  width = 92,
-  height = 18,
+  size = 131,
+  width = 131,
+  height = 56,
   ...otherProps
 }: Props) {
   return (
@@ -17,34 +17,226 @@ function Logo({
       xmlnsXlink="http://www.w3.org/1999/xlink"
       width={width ?? size}
       height={height ?? size}
-      viewBox="0 0 92 18"
-      fill="none"
+      viewBox={`0 0 131 56`}
+      version="1.1"
       {...otherProps}
     >
-      <rect
-        x="0.4198"
-        y="0.167557"
-        width="91.1604"
-        height="17.234"
-        fill="url(#pattern0)"
-      />
+      <title>Group Copy</title>
+      <desc>Created using Figma</desc>
+      <g id="Canvas" transform="translate(751 -214)">
+        <g id="Group Copy">
+          <g id="Page 1">
+            <g id="Fill 1">
+              <use
+                xlink:href="#path0_fill"
+                transform="translate(-731.992 235.855)"
+                fill="#231F20"
+              />
+            </g>
+            <g id="Fill 2">
+              <use
+                xlink:href="#path1_fill"
+                transform="translate(-721.264 235.855)"
+                fill="#231F20"
+              />
+            </g>
+            <g id="Fill 3">
+              <use
+                xlink:href="#path2_fill"
+                transform="translate(-716.792 235.855)"
+                fill="#231F20"
+              />
+            </g>
+            <g id="Fill 4">
+              <use
+                xlink:href="#path3_fill"
+                transform="translate(-703.212 235.855)"
+                fill="#231F20"
+              />
+            </g>
+            <g id="Group 24">
+              <g id="Fill 5">
+                <use
+                  xlink:href="#path4_fill"
+                  transform="translate(-689.632 235.872)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 7">
+                <use
+                  xlink:href="#path5_fill"
+                  transform="translate(-676.735 236.107)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 9">
+                <use
+                  xlink:href="#path6_fill"
+                  transform="translate(-666.715 236.107)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 11">
+                <use
+                  xlink:href="#path7_fill"
+                  transform="translate(-655.377 236.106)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 13">
+                <use
+                  xlink:href="#path8_fill"
+                  transform="translate(-645.527 236.107)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 15">
+                <use
+                  xlink:href="#path9_fill"
+                  transform="translate(-636.021 236.108)"
+                  fill="#231F20"
+                />
+              </g>
+              <mask id="mask0_outline" mask-type="alpha">
+                <g id="Clip 18">
+                  <use
+                    xlink:href="#path10_fill"
+                    transform="translate(-751 214.717)"
+                    fill="#FFFFFF"
+                  />
+                </g>
+              </mask>
+              <g id="Fill 17" mask="url(#mask0_outline)">
+                <use
+                  xlink:href="#path11_fill"
+                  transform="translate(-692.217 234.26)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 19" mask="url(#mask0_outline)">
+                <use
+                  xlink:href="#path12_fill"
+                  transform="translate(-634.212 214.717)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 20" mask="url(#mask0_outline)">
+                <use
+                  xlink:href="#path13_fill"
+                  transform="translate(-634.025 255.659)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 21" mask="url(#mask0_outline)">
+                <use
+                  xlink:href="#path14_fill"
+                  transform="translate(-745.137 255.659)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 22" mask="url(#mask0_outline)">
+                <use
+                  xlink:href="#path15_fill"
+                  transform="translate(-745.388 214.717)"
+                  fill="#231F20"
+                />
+              </g>
+              <g id="Fill 23" mask="url(#mask0_outline)">
+                <use
+                  xlink:href="#path16_fill"
+                  transform="translate(-751 235.461)"
+                  fill="#ED3531"
+                />
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
       <defs>
-        <pattern
-          id="pattern0"
-          patternContentUnits="objectBoundingBox"
-          width="1"
-          height="1"
-        >
-          <use
-            xlinkHref="#image0_9537_2591"
-            transform="matrix(0.00657895 0 0 0.0347997 0 -0.0219953)"
-          />
-        </pattern>
-        <image
-          id="image0_9537_2591"
-          width="152"
-          height="30"
-          xlinkHref="data:image/png;base64,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"
+        <path
+          id="path0_fill"
+          fill-rule="evenodd"
+          d="M 3.38363 1.93442L 0 1.93442L 0 0L 8.72539 0L 8.73189 1.93442L 5.33672 1.93298L 5.33672 11.628L 3.39012 11.628L 3.38363 1.93442Z"
+        />
+        <path
+          id="path1_fill"
+          fill-rule="evenodd"
+          d="M 0 11.628L 1.9502 11.628L 1.9502 0L 0 0L 0 11.628Z"
+        />
+        <path
+          id="path2_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 2.92819 0L 5.84989 8.71992L 8.77447 0L 11.7019 0L 11.7019 11.628L 9.75391 11.628L 9.75391 3.28091L 6.9347 11.628L 4.7658 11.628L 1.94587 3.28091L 1.95093 11.628L 0 11.628L 0 0Z"
+        />
+        <path
+          id="path3_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 8.72756 0L 8.72756 1.93442L 1.95309 1.93442L 1.95309 4.84177L 6.82788 4.84177L 6.82788 6.78121L 1.95309 6.78121L 1.95309 9.69358L 8.72756 9.69358L 8.72756 11.628L 0 11.628L 0 0Z"
+        />
+        <path
+          id="path4_fill"
+          fill-rule="evenodd"
+          d="M 11.2732 7.75343C 11.0466 8.5034 10.6922 9.17091 10.2231 9.75381C 10.0217 10.0062 9.78206 10.25 9.51067 10.4923C 9.24434 10.7275 8.92965 10.9447 8.5796 11.1304C 8.22593 11.3197 7.83113 11.4645 7.38291 11.5778C 6.94408 11.6961 6.45689 11.7499 5.91124 11.7499C 5.09926 11.7499 4.32986 11.5986 3.61026 11.2853C 2.89427 10.9798 2.26778 10.559 1.72646 10.0263C 1.20029 9.49713 0.776617 8.87336 0.463372 8.1614C 0.158066 7.44585 0 6.68728 0 5.87566C 0 5.06906 0.158066 4.30332 0.463372 3.58992C 0.77373 2.87796 1.19596 2.25419 1.72646 1.72291C 2.26778 1.19234 2.89427 0.771472 3.61026 0.465321C 4.32986 0.154868 5.09926 0 5.91124 0C 6.45689 0 6.94408 0.0573585 7.38291 0.165623C 7.83113 0.283925 8.22593 0.43234 8.5796 0.63166C 8.92965 0.820943 9.23785 1.03317 9.51067 1.27264C 9.78206 1.51211 10.0217 1.75374 10.2231 1.99536C 10.6922 2.59475 11.0466 3.25438 11.2732 4.00004L 9.22124 4.00004C 9.03864 3.60068 8.79613 3.25294 8.50165 2.93962C 8.2447 2.67649 7.90475 2.43702 7.47386 2.2126C 7.05018 1.99536 6.52113 1.88279 5.91124 1.88279C 5.35837 1.88279 4.83653 1.9846 4.34934 2.19253C 3.85421 2.40404 3.42837 2.68438 3.06605 3.05075C 2.69795 3.41498 2.41285 3.8337 2.20499 4.32125C 1.99712 4.80951 1.88958 5.32287 1.88958 5.87566C 1.88958 6.42415 1.99712 6.94396 2.20499 7.43008C 2.41285 7.91404 2.69795 8.34351 3.06605 8.70272C 3.42837 9.05906 3.86143 9.35015 4.34934 9.55377C 4.83653 9.76672 5.35837 9.87068 5.91124 9.87068C 6.5334 9.87068 7.05379 9.76242 7.48035 9.54302C 7.90475 9.32506 8.25119 9.082 8.50165 8.81528C 8.79613 8.50913 9.03864 8.15494 9.22124 7.75343L 11.2732 7.75343Z"
+        />
+        <path
+          id="path5_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 8.46195 0.00143396L 8.45979 1.88064L 1.88813 1.88064L 1.88813 4.70053L 6.61929 4.70053L 6.61929 6.5783L 1.88813 6.5783L 1.88813 9.3946L 8.45979 9.3946L 8.45979 11.2831L 0 11.2781L 0 0Z"
+        />
+        <path
+          id="path6_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 1.70264 0L 8.03683 7.96208L 8.03683 0L 9.93146 0L 9.93146 11.2781L 8.22377 11.2781L 1.89174 3.31891L 1.89174 11.2831L 0 11.2781L 0 0Z"
+        />
+        <path
+          id="path7_fill"
+          fill-rule="evenodd"
+          d="M 3.28402 1.88064L 0 1.88064L 0 0L 8.46195 0.00215094L 8.45979 1.88064L 5.17576 1.88064L 5.17576 11.2788L 3.28402 11.2838L 3.28402 1.88064Z"
+        />
+        <path
+          id="path8_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 8.46484 0.00143396L 8.46484 1.88064L 1.89246 1.88064L 1.89246 4.70053L 6.62218 4.70053L 6.62218 6.5783L 1.89246 6.5783L 1.89246 9.3946L 8.46484 9.3946L 8.46484 11.2831L 0 11.2781L 0 0Z"
+        />
+        <path
+          id="path9_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 3.77915 0C 4.48648 0.0344151 5.11586 0.187132 5.67667 0.472491C 5.91052 0.590075 6.14076 0.738491 6.36884 0.916302C 6.59619 1.0977 6.79901 1.31996 6.97079 1.58309C 7.14762 1.84981 7.29269 2.15955 7.40385 2.52162C 7.50345 2.87438 7.56336 3.28592 7.56336 3.76343C 7.58501 4.218 7.51788 4.6654 7.38219 5.08626C 7.31723 5.27483 7.23784 5.45766 7.14185 5.65196C 7.04008 5.84698 6.90366 6.0334 6.74848 6.21408C 6.59475 6.39691 6.40204 6.57042 6.17901 6.73389C 5.95671 6.90094 5.69688 7.04864 5.39807 7.18272L 8.51175 11.2767L 6.14726 11.2817L 3.30423 7.52185L 1.89102 7.52185L 1.89102 11.2817L 0 11.2767L 0 0ZM 1.89099 5.63906L 3.77912 5.63906C 4.13062 5.62544 4.44387 5.54155 4.73041 5.40389C 4.96209 5.29061 5.18367 5.10491 5.37711 4.8468C 5.57198 4.59012 5.67664 4.22876 5.67664 3.76344C 5.67664 3.52397 5.64055 3.31748 5.59219 3.14038C 5.54311 2.96114 5.46805 2.8034 5.37711 2.67649C 5.28616 2.54529 5.18367 2.43344 5.06964 2.34238C 4.95488 2.25061 4.83651 2.17102 4.73041 2.1151C 4.44387 1.976 4.13062 1.89642 3.77912 1.87849L 1.89099 1.87849L 1.89099 5.63906Z"
+        />
+        <path
+          id="path10_fill"
+          fill-rule="evenodd"
+          d="M 0 54.6017L 130.726 54.6017L 130.726 0L 0 0L 0 54.6017Z"
+        />
+        <path
+          id="path11_fill"
+          fill-rule="evenodd"
+          d="M 0 14.516L 0.662579 14.516L 0.662579 0L 0 0L 0 14.516Z"
+        />
+        <path
+          id="path12_fill"
+          fill-rule="evenodd"
+          d="M 0 0L 0 3.09951L 10.6287 3.09951L 10.6287 13.6556L 13.7554 13.6556L 13.7554 0L 0 0Z"
+        />
+        <path
+          id="path13_fill"
+          fill-rule="evenodd"
+          d="M 0 13.6599L 0 10.5583L 10.6236 10.5583L 10.6236 0L 13.7518 0L 13.7518 13.6599L 0 13.6599Z"
+        />
+        <path
+          id="path14_fill"
+          fill-rule="evenodd"
+          d="M 13.7518 13.6599L 13.7518 10.5583L 3.12307 10.5583L 3.12307 0L 0 0L 0 13.6599L 13.7518 13.6599Z"
+        />
+        <path
+          id="path15_fill"
+          fill-rule="evenodd"
+          d="M 13.7496 0L 13.7496 3.09951L 3.12523 3.09951L 3.12523 13.6556L 0 13.6556L 0 0L 13.7496 0Z"
+        />
+        <path
+          id="path16_fill"
+          fill-rule="evenodd"
+          d="M 9.11803 5.49925L 9.11803 0L 5.53592 0L 5.53592 5.49925L 0 5.49925L 0 9.06049L 5.53592 9.06049L 5.53592 14.5547L 9.11803 14.5547L 9.11803 9.06049L 14.6489 9.06049L 14.6489 5.49925L 9.11803 5.49925Z"
         />
       </defs>
     </svg>
