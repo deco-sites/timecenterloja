@@ -23,6 +23,7 @@ import * as $Header_Cart_shopify from "./islands/Header/Cart/shopify.tsx";
 import * as $Header_Cart_vnda from "./islands/Header/Cart/vnda.tsx";
 import * as $Header_Cart_vtex from "./islands/Header/Cart/vtex.tsx";
 import * as $Header_Cart_wake from "./islands/Header/Cart/wake.tsx";
+import * as $LgdpModal from "./islands/LgdpModal.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
 import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
@@ -61,6 +62,7 @@ const manifest = {
     "./islands/Header/Cart/vnda.tsx": $Header_Cart_vnda,
     "./islands/Header/Cart/vtex.tsx": $Header_Cart_vtex,
     "./islands/Header/Cart/wake.tsx": $Header_Cart_wake,
+    "./islands/LgdpModal.tsx": $LgdpModal,
     "./islands/Newsletter.tsx": $Newsletter,
     "./islands/OutOfStock.tsx": $OutOfStock,
     "./islands/ProductImageZoom.tsx": $ProductImageZoom,
