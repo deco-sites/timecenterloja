@@ -24,7 +24,7 @@ export default function SearchPagination({ pageInfo }: Props) {
         dots.push(
           <span class="min-w-10 w-10 h-10 max-h-max bg-primary rounded-full text-base-100 flex items-center justify-center text-sm font-bold">
             {page}
-          </span>
+          </span>,
         );
       } else if (page < currentPage) {
         dots.push(
@@ -35,7 +35,7 @@ export default function SearchPagination({ pageInfo }: Props) {
             class="min-w-10 w-10 h-10 max-h-max border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
           >
             {page}
-          </a>
+          </a>,
         );
       } else {
         dots.push(
@@ -46,7 +46,7 @@ export default function SearchPagination({ pageInfo }: Props) {
             class="min-w-10 w-10 h-10 border-2 border-base-200 text-base-300 rounded-full flex items-center justify-center text-sm font-bold"
           >
             {page}
-          </a>
+          </a>,
         );
       }
     }
@@ -58,8 +58,7 @@ export default function SearchPagination({ pageInfo }: Props) {
     <div
       class={`
         ${pages > 19 ? "justify-left overflow-x-scroll" : "justify-center"}
-        flex items-center my-5 gap-[10px] `
-      }
+        flex items-center my-5 gap-[10px] `}
     >
       {pageDots(pages)}
     </div>
