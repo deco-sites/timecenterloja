@@ -26,6 +26,7 @@ export interface Props {
   layout?: {
     headerAlignment?: "center" | "left";
     headerfontSize?: "Normal" | "Large";
+    headerTailwind?: string;
     itemsPerPage?: {
       screenWidth?: number;
       itemsQuantity?: number;
@@ -71,6 +72,7 @@ function ProductShelf({
           description=""
           fontSize={layout?.headerfontSize || "Large"}
           alignment={layout?.headerAlignment || "center"}
+          tailwind={layout?.headerTailwind || ""}
         />
         {seeMore
           ? (
