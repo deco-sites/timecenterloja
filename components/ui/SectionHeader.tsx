@@ -2,6 +2,7 @@ import { clx } from "../../sdk/clx.ts";
 
 export interface Props {
   title?: string;
+  titleTailwind?: string;
   fontSize?: "Small" | "Normal" | "Large";
   description?: string;
   alignment?: "center" | "left";
@@ -33,6 +34,7 @@ function Header(props: Props) {
                       ? "text-primary-content"
                       : "text-base-content",
                     fontSizeClasses[props.fontSize || "Normal"],
+                    props?.titleTailwind,
                   )}
                 >
                   {props.title}
