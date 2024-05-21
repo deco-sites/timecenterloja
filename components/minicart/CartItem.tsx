@@ -60,7 +60,7 @@ function CartItem({ index, currency }: Props) {
                 {formatPrice(listPrice / 100, currencyCode!, locale)}
               </span>
             )}
-          <span class="text-xs text-accent font-bold lg:text-sm">
+          <span class="text-xs text-primary font-bold lg:text-sm">
             {isGift
               ? "Grátis"
               : formatPrice(sellingPrice / 100, currency, locale)}

@@ -265,7 +265,7 @@ function ProductInfo({
               {formatPrice(listPrice, offers!.priceCurrency!)}
             </span>
           )}
-          <span class="font-medium text-xl lg:text-2xl uppercase text-accent">
+          <span class="font-medium text-xl lg:text-2xl uppercase text-primary">
             {formatPrice(price, offers!.priceCurrency!)}
           </span>
         </div>
