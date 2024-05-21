@@ -46,7 +46,7 @@ const Modal = ({
   const ref = useRef<HTMLDialogElement>(null);
 
   // deno-lint-ignore no-explicit-any
-  function closeDialog(event:any) {    
+  function closeDialog(event: any) {
     if (!event.target.contains(ref.current)) return;
     onClose && onClose();
   }
@@ -66,8 +66,8 @@ const Modal = ({
   }, [open]);
 
   useEffect(() => {
-    document.addEventListener('click', closeDialog);
-  }, [ref])
+    document.addEventListener("click", closeDialog);
+  }, [ref]);
 
   return (
     <dialog
