@@ -45,6 +45,12 @@ const Modal = ({
   const lazy = useSignal(false);
   const ref = useRef<HTMLDialogElement>(null);
 
+  // deno-lint-ignore no-explicit-any
+  function closeDialog(event:any) {    
+    if (!event.target.contains(ref.current)) return;
+    onClose && onClose();
+  }
+
   useEffect(() => {
     if (open === false) {
       document
@@ -58,6 +64,10 @@ const Modal = ({
       lazy.value = true;
     }
   }, [open]);
+
+  useEffect(() => {
+    document.addEventListener('click', closeDialog);
+  }, [ref])
 
   return (
     <dialog
