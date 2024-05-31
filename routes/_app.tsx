@@ -4,9 +4,13 @@ import { Context } from "deco/deco.ts";
 import Theme from "../sections/Theme/Theme.tsx";
 
 const sw = () =>
-  addEventListener("load", () =>
-    navigator && navigator.serviceWorker &&
-    navigator.serviceWorker.register("/sw.js"));
+  addEventListener(
+    "load",
+    () =>
+      navigator &&
+      navigator.serviceWorker &&
+      navigator.serviceWorker.register("/sw.js")
+  );
 
 export default defineApp(async (_req, ctx) => {
   const revision = await Context.active().release?.revision();
@@ -20,6 +24,28 @@ export default defineApp(async (_req, ctx) => {
       <Head>
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
+
+        <style
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html: `@font-face {
+              font-family: "Gotham";
+              src: url("${asset("/fonts/GothamLight.ttf")}") format('truetype');
+              font-weight: 300;
+            }
+            @font-face {
+              font-family: "Gotham";
+              src: url("${asset("/fonts/GothamBold.ttf")}") format('truetype');
+              font-weight: 700;
+            }
+            @font-face {
+              font-family: "Gotham Book";
+              src: url("${asset("/fonts/GothamBook.ttf")}") format('truetype');
+              font-weight: 400;
+            }
+            `,
+          }}
+        />
 
         {/* Tailwind v3 CSS file */}
         <link

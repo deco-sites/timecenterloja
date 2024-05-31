@@ -72,7 +72,7 @@ function NavItem({ item }: { item: INavItem }) {
     <li class="group flex items-center">
       <a href={href} class="px-4 py-7">
         <span
-          class={`after:absolute after:transition-all after:duration-100 after:-bottom-1  uppercase relative after:left-0 group-hover:after:w-full after:w-0 after:h-[1px] after:bg-emphasis text-base group-hover:text-emphasis transition-all duration-300 ${
+          class={`after:absolute after:transition-all after:duration-100 after:-bottom-1  uppercase relative after:left-0 group-hover:after:w-full after:w-0 after:h-[1px] after:bg-emphasis text-xs group-hover:text-emphasis transition-all duration-300 ${
             highlighted ? "text-primary" : "text-base-content"
           }`}
         >
