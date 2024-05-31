@@ -1,1 +1,62 @@
-{"name":"Home","sections":[{"__resolveType":"Header Global"},{"__resolveType":"Home - Carousel"},{"__resolveType":"Banner Secundário - Categorias"},{"__resolveType":"Home - Prateleira Coleção"},{"__resolveType":"Banners Terciário - Grid"},{"__resolveType":"Instagram - Imagens"},{"__resolveType":"Sobre a loja - InfoCard"},{"__resolveType":"Footer Global"},{"__resolveType":"site/sections/Newsletter/NewsletterModal.tsx","form":{"email":{"placeholder":"Digite seu e-mail"},"name":{"placeholder":"Digite seu nome"},"button":{},"privacyContact":{"posLabel":" ","preLabel":" "}},"modalSignExpiredDate":360,"modalCloseExpiredDate":10,"text":"<p class=\"text-base text-[#585858]\">Inscreva-se em nossa newsletter e&nbsp;</p><p class=\"text-base text-[#191919]\"><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">Ganhe 10% Off em sua primeira </span></strong><br><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">compra!</span></strong></p>"},{"__resolveType":"site/sections/LgpdModal/LgpdModal.tsx","modalCloseExpiredDate":30,"button":{"label":"Entendi","variant":"primary"},"text":"<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\">Política de Privacidade.</a></p>"}],"__resolveType":"website/pages/Page.tsx","path":"/","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"}}
+{
+  "name": "Home",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "Home - Carousel"
+    },
+    {
+      "__resolveType": "Banner Secundário - Categorias"
+    },
+    {
+      "__resolveType": "Home - Prateleira Coleção"
+    },
+    {
+      "__resolveType": "Banners Terciário - Grid"
+    },
+    {
+      "__resolveType": "Instagram - Imagens"
+    },
+    {
+      "__resolveType": "Sobre a loja - InfoCard"
+    },
+    {
+      "__resolveType": "Footer Global"
+    },
+    {
+      "__resolveType": "site/sections/Newsletter/NewsletterModal.tsx",
+      "form": {
+        "email": {
+          "placeholder": "Digite seu e-mail"
+        },
+        "name": {
+          "placeholder": "Digite seu nome"
+        },
+        "button": {},
+        "privacyContact": {
+          "posLabel": " ",
+          "preLabel": " "
+        }
+      },
+      "modalSignExpiredDate": 360,
+      "modalCloseExpiredDate": 10,
+      "text": "<p class=\"text-base text-[#585858]\">Inscreva-se em nossa newsletter e&nbsp;</p><p class=\"text-base text-[#191919]\"><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">Ganhe 10% Off em sua primeira </span></strong><br><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">compra!</span></strong></p>"
+    },
+    {
+      "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",
+      "modalCloseExpiredDate": 30,
+      "button": {
+        "label": "Entendi",
+        "variant": "primary"
+      },
+      "text": "<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\">Política de Privacidade.</a></p>"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}
