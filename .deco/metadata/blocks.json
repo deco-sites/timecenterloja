@@ -343,7 +343,7 @@
   },
   "/.deco/blocks/pages-Formas%2520de%2520Pagamento-278084.json": {
     "name": "Formas de Pagamento",
-    "path": "/formas-de-pagamento",
+    "path": "/institucional/formas-de-pagamento",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
