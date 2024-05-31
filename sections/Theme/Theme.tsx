@@ -258,7 +258,7 @@ function Section({
     [
       "--font-family",
       font?.family ||
-        "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+      "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
     ],
   ].map(([name, value]) => ({ name, value }));
 
@@ -275,10 +275,12 @@ export function Preview(props: Props) {
   const adminColorMode = props.mode === "dark" ? "dark" : "light";
   return (
     <>
-      {/* This stylesheet is used to simulate the colors from the admin's color schema (admin's light or dark mode), which are not accessible in the site's color schema.
+      {
+        /* This stylesheet is used to simulate the colors from the admin's color schema (admin's light or dark mode), which are not accessible in the site's color schema.
        * This is a temporary solution until the admin's color schema is accessible.
        * TODO(@carol): Change this temporary solution.
-       */}
+       */
+      }
 
       {/* default fonts */}
 
@@ -522,10 +524,12 @@ const PreviewContainer = ({
   children: ComponentChildren;
   codeString: string;
 }) => {
-  const borderClass =
-    mode === "dark" ? "border-color-dark" : "border-color-light";
-  const btnOutlineClass =
-    mode === "dark" ? "btn-outline-dark" : "btn-outline-light";
+  const borderClass = mode === "dark"
+    ? "border-color-dark"
+    : "border-color-light";
+  const btnOutlineClass = mode === "dark"
+    ? "btn-outline-dark"
+    : "btn-outline-light";
   const checkboxId = `show-code-${title.replace(/\s+/g, "-").toLowerCase()}`;
   const codeBlockId = `code-block-${title.replace(/\s+/g, "-").toLowerCase()}`;
 
@@ -545,15 +549,15 @@ const PreviewContainer = ({
     }
     #${checkboxId}:checked ~ .hide-label {
       background-color: ${
-        mode === "dark"
-          ? "var(--admin-hover-bg-color)"
-          : "var(--admin-text-color-light)"
-      };
+    mode === "dark"
+      ? "var(--admin-hover-bg-color)"
+      : "var(--admin-text-color-light)"
+  };
       color: ${
-        mode === "dark"
-          ? "var(--admin-text-color-light)"
-          : "var(--admin-hover-bg-color)"
-      };
+    mode === "dark"
+      ? "var(--admin-text-color-light)"
+      : "var(--admin-hover-bg-color)"
+  };
     }
   `;
 
@@ -564,7 +568,7 @@ const PreviewContainer = ({
         class={clx(
           `border p-4 flex flex-col gap-2 grow relative`,
           borderClass,
-          `rounded-lg`
+          `rounded-lg`,
         )}
       >
         <div>
@@ -577,7 +581,7 @@ const PreviewContainer = ({
               class={clx(
                 `btn-sm absolute right-4 top-4`,
                 btnOutlineClass,
-                `show-label`
+                `show-label`,
               )}
             >
               Show code
@@ -588,7 +592,7 @@ const PreviewContainer = ({
               class={clx(
                 `btn-sm absolute right-4 top-4`,
                 btnOutlineClass,
-                `hide-label`
+                `hide-label`,
               )}
             >
               Hide code
@@ -597,7 +601,7 @@ const PreviewContainer = ({
               id={codeBlockId}
               class={clx(
                 "mt-4 mb-2 text-xs md:text-sm",
-                mode === "dark" ? "bg-slate-800" : "bg-slate-100"
+                mode === "dark" ? "bg-slate-800" : "bg-slate-100",
               )}
             >
               <pre class="p-4 overflow-x-auto">{codeString}</pre>
