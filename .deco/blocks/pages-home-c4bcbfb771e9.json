@@ -20,7 +20,26 @@
       "__resolveType": "Instagram - Imagens"
     },
     {
-      "__resolveType": "Sobre a loja - InfoCard"
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Content/InfoCard.tsx",
+            "title": "Sobre a Marca",
+            "titleColor": "secondary",
+            "captionColor": "secondary",
+            "html": "<p>A Timecenter faz parte do&nbsp;<strong>Grupo Technos</strong>, o maior grupo relojoeiro da América Latina. Aqui você encontra produtos originais reconhecidos pelo design e qualidade. As melhores marcas nacionais e internacionais com as melhores condições, podendo parcelar em até 10 vezes.</p>",
+            "textAlign": "Center",
+            "links": []
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "top",
+          "label": "InfoCard",
+          "withContainer": true
+        }
+      ],
+      "label": "\"Container\""
     },
     {
       "__resolveType": "Footer Global"
