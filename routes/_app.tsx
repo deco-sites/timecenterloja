@@ -28,21 +28,27 @@ export default defineApp(async (_req, ctx) => {
         <style
           type="text/css"
           dangerouslySetInnerHTML={{
-            __html: `@font-face {
-              font-family: "Gotham";
-              src: url("${asset("/fonts/GothamLight.ttf")}") format('truetype');
-              font-weight: 300;
-            }
-            @font-face {
-              font-family: "Gotham";
-              src: url("${asset("/fonts/GothamBold.ttf")}") format('truetype');
-              font-weight: 700;
-            }
-            @font-face {
-              font-family: "Gotham Book";
-              src: url("${asset("/fonts/GothamBook.ttf")}") format('truetype');
-              font-weight: 400;
-            }
+            __html: `
+              @font-face {
+                font-family: "Gotham";
+                src: url("${asset("/fonts/GothamLight.ttf")}") format('truetype');
+                font-weight: 300;
+              }
+              @font-face {
+                font-family: "Gotham";
+                src: url("${asset("/fonts/GothamMedium.ttf")}") format('truetype');
+                font-weight: 500;
+              }
+              @font-face {
+                font-family: "Gotham";
+                src: url("${asset("/fonts/GothamBold.ttf")}") format('truetype');
+                font-weight: 700;
+              }
+              @font-face {
+                font-family: "Gotham Book";
+                src: url("${asset("/fonts/GothamBook.ttf")}") format('truetype');
+                font-weight: 400;
+              }
             `,
           }}
         />
