@@ -349,25 +349,25 @@
   },
   "/.deco/blocks/pages-Pol%25C3%25ADtica%2520de%2520seguran%25C3%25A7a-211451.json": {
     "name": "Política de segurança",
-    "path": "/politica-de-seguranca",
+    "path": "/institucional/politica-de-seguranca",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Termos%2520e%2520condi%25C3%25A7%25C3%25B5es-737186.json": {
     "name": "Termos e condições",
-    "path": "/termos-e-condicoes",
+    "path": "/institucional/termos-e-condicoes",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Trocas%2520e%2520devolu%25C3%25A7%25C3%25B5es-202173.json": {
     "name": "Trocas e devoluções",
-    "path": "/trocas-e-devolucoes",
+    "path": "/institucional/trocas-e-devolucoes",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Cupons%2520e%2520Promo%25C3%25A7%25C3%25B5es-767472.json": {
     "name": "Cupons e Promoções",
-    "path": "/cupons-e-promocoes",
+    "path": "/institucional/cupons-e-promocoes",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -403,25 +403,19 @@
   },
   "/.deco/blocks/pages-Pol%25C3%25ADtica%2520de%2520Devolu%25C3%25A7%25C3%25A3o-176027.json": {
     "name": "Política de Devolução",
-    "path": "/politica-de-devolucao",
+    "path": "/institucional/politica-de-devolucao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Fale%2520Conosco-32503.json": {
     "name": "Fale Conosco",
-    "path": "/fale-conosco",
+    "path": "/institucional/contato",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Rastreie%2520seu%2520Pedido-940009.json": {
     "name": "Rastreie seu Pedido",
     "path": "/institucional/rastreie-seu-pedido",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Formas%2520de%2520entrega-526174.json": {
-    "name": "Formas de entrega",
-    "path": "/formas-de-entrega",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
