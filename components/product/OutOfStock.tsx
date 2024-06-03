@@ -72,7 +72,7 @@ function Notify({ productID }: Props) {
 
       <Button
         type="submit"
-        class="btn-secondary font-medium h-[2.25rem] disabled:loading"
+        class="btn btn-primary font-medium h-[2.25rem] disabled:loading"
         disabled={loading}
       >
         Avise-me
