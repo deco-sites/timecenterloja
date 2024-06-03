@@ -1,1 +1,22 @@
-{"name":"Search","path":"/s","sections":[{"__resolveType":"Header Global"},{"__resolveType":"categoryBreadcrumb Search"},{"__resolveType":"SearchResults Global"},{"__resolveType":"Footer Global"}],"__resolveType":"website/pages/Page.tsx","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"}}
+{
+  "name": "Search",
+  "path": "/s",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "categoryBreadcrumb"
+    },
+    {
+      "__resolveType": "SearchResults Global"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  }
+}
