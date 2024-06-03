@@ -8,6 +8,7 @@ import { useEffect } from "preact/compat";
 import AlertModal from "$store/components/ui/AlertModal.tsx";
 import { useSignal } from "@preact/signals";
 import { Suspense } from "preact/compat";
+import { ItemAvailability } from "apps/commerce/types.ts";
 
 interface Props extends UseAddToCartProps {
   /**
@@ -27,22 +28,20 @@ const fallback = (
   </div>
 );
 
-function AddToCartButton(
-  {
-    skuId,
-    sellerId,
-    discount,
-    price,
-    productGroupId,
-    name,
-    label,
-    classes,
-    quantity,
-    showIcon,
-    availability,
-    url,
-  }: Props,
-) {
+function AddToCartButton({
+  skuId,
+  sellerId,
+  discount,
+  price,
+  productGroupId,
+  name,
+  label,
+  classes,
+  quantity,
+  showIcon,
+  availability,
+  url,
+}: Props) {
   const props = useAddToCart({
     skuId,
     sellerId,
@@ -53,10 +52,6 @@ function AddToCartButton(
     quantity,
   });
 
-  let disabled;
-  (availability === "https://schema.org/InStock" || availability == undefined)
-    ? disabled = false
-    : disabled = true;
   const open = useSignal(false);
 
   useEffect(() => {
@@ -67,8 +62,17 @@ function AddToCartButton(
 
   return (
     <>
-      {!disabled
+      {availability === "https://schema.org/OutOfStock"
         ? (
+          <a href={url} target="_blank" class={classes}>
+            <p class="flex gap-2 items-center justify-center">
+              {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
+              <span class="lg:hidden">{label ?? "Comprar"}</span>
+              <span class="hidden lg:inline text-xs uppercase">Avise-me</span>
+            </p>
+          </a>
+        )
+        : (
           <Button data-deco="add-to-cart" {...props} class={classes}>
             <p class="flex gap-2 items-center justify-center">
               {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
@@ -78,17 +82,6 @@ function AddToCartButton(
               </span>
             </p>
           </Button>
-        )
-        : (
-          <a href={url} target="_blank" class={classes}>
-            <p class="flex gap-2 items-center justify-center">
-              {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
-              <span class="lg:hidden">{label ?? "Comprar"}</span>
-              <span class="hidden lg:inline text-xs uppercase">
-                Avise-me
-              </span>
-            </p>
-          </a>
         )}
 
       <AlertModal
@@ -115,7 +108,9 @@ function AddToCartButton(
               Adicionado
             </h2>
             <p class={`text-center text-[#585858] text-sm`}>
-              Seu produto foi adicionado<br /> com sucesso em seu<br /> carrinho
+              Seu produto foi adicionado
+              <br /> com sucesso em seu
+              <br /> carrinho
             </p>
           </>
         </Suspense>

@@ -92,6 +92,7 @@ function ProductCard({
   const { listPrice, price, installments, seller, availability } = useOffer(
     offers,
   );
+
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
 
@@ -163,13 +164,14 @@ function ProductCard({
       <AddToCartButton
         quantity={1}
         name={product.name as string}
+        availability={availability as string}
         discount={price && listPrice ? listPrice - price : 0}
         productGroupId={product.isVariantOf?.productGroupID ?? ""}
         price={price as number}
         sellerId={seller as string}
         skuId={product.sku}
         label={l?.basics?.ctaText}
-        classes={`hidden lg:block ${
+        classes={`hidden lg:flex lg:justify-center ${
           addToCartButtonClassNames(
             layout?.basics?.ctaVariation,
           )
