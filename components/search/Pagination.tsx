@@ -34,7 +34,7 @@ export default function Pagination(
           aria-label="first page link"
           rel="first"
           onClick={() => goToPage(1 - offset)}
-          class="btn max-lg:px-2 btn-ghost join-item"
+          class="btn max-lg:px-2 btn-ghost join-item disabled:bg-transparent"
           disabled={!previousPage}
         >
           <span class="hidden lg:block">Primeira página</span>
@@ -46,7 +46,7 @@ export default function Pagination(
           aria-label="previous page link"
           rel="prev"
           href={previousPage ?? "#"}
-          class="btn max-lg:px-2 btn-ghost join-item"
+          class="btn max-lg:px-2 btn-ghost join-item disabled:bg-transparent"
           disabled={!previousPage}
         >
           <Icon id="ChevronLeft" size={24} strokeWidth={2} />
@@ -85,7 +85,7 @@ export default function Pagination(
           aria-label="last page link"
           rel="last"
           onClick={() => goToPage(lastPage - offset)}
-          class="btn max-lg:px-2 btn-ghost join-item"
+          class="btn max-lg:px-2 btn-ghost join-item disabled:bg-transparent"
           disabled={!nextPage}
         >
           <span class="hidden lg:block">Última página</span>
