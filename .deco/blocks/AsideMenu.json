@@ -1,1 +1,40 @@
-{"__resolveType":"site/sections/Institutional/AsideMenu.tsx","menuItems":[{"target":"_self","href":"/a-marca","label":"A Marca"},{"target":"_self","label":"Nossas Lojas","href":"/nossas-lojas"},{"target":"_self","label":"Política de Privacidade","href":"/institucional/privacidade-e-seguranca"},{"target":"_self","label":"Garantia","href":"/institucional/garantia"},{"target":"_self","label":"Assistência Técnica","href":"/institucional/assistencia-tecnica"},{"target":"_self","label":"Trocas e devoluções","href":"/trocas-e-devolucoes"},{"target":"_self","label":"Política de Devolução","href":"/politica-de-devolucao"},{"target":"_self","label":"Fale Conosco","href":"/fale-conosco"},{"target":"_self","label":"Perguntas Frequentes","href":"/institucional/perguntas-frequentes"},{"target":"_self","label":"Formas de Entrega","href":"/institucional/formas-de-entrega"},{"target":"_self","label":"Rastreie seu Pedido","href":"/institucional/rastreie-seu-pedido"},{"target":"_self","label":"Cupons e promoções","href":"/cupons-e-promocoes"},{"target":"_self","label":"Termos e condições","href":"/termos-e-condicoes"},{"target":"_self","label":"Política de segurança","href":"/politica-de-seguranca"},{"target":"_self","label":"Formas de entrega","href":"/formas-de-entrega"},{"target":"_self","label":"Formas de Pagamento","href":"/formas-de-pagamento"}]}
+{
+  "__resolveType": "site/sections/Institutional/AsideMenu.tsx",
+  "menuItems": [
+    {
+      "target": "_self",
+      "href": "/institucional/sobre",
+      "label": "Sobre"
+    },
+    {
+      "target": "_self",
+      "label": "Política de Devolução",
+      "href": "/institucional/politica-de-devolucao"
+    },
+    {
+      "target": "_self",
+      "label": "Tipos de Frete",
+      "href": "/institucional/tipos-de-frete"
+    },
+    {
+      "target": "_self",
+      "label": "Como Comprar",
+      "href": "/institucional/como-comprar"
+    },
+    {
+      "target": "_self",
+      "label": "Política de Privacidade",
+      "href": "/institucional/politica-de-privacidade"
+    },
+    {
+      "target": "_self",
+      "label": "Nossas Lojas",
+      "href": "/institucional/nossas-lojas"
+    },
+    {
+      "target": "_self",
+      "label": "Fale Conosco",
+      "href": "/institucional/contato"
+    }
+  ]
+}
