@@ -16,7 +16,7 @@
             },
             "content": {
               "__resolveType": "site/sections/Institutional/TextContent.tsx",
-              "content": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(236, 240, 241);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(236, 240, 241);\">Nós juntamos os melhores relógios nacionais e importados em um site só. Aqui você compra produtos originais com o melhor preço e a possibilidade de dividir em até 12 vezes. Valorizamos seu tempo.</span></p>"
+              "content": "<p><br data-mce-bogus=\"1\"></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Nós juntamos os melhores relógios nacionais e importados em um site só. Aqui você compra produtos originais com o melhor preço e a possibilidade de dividir em até 12 vezes. Valorizamos seu tempo.</span></p>"
             },
             "title": "Sobre"
           },
