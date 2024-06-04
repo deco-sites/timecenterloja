@@ -330,14 +330,14 @@
     "__resolveType": "site/sections/Institutional/AsideMenu.tsx"
   },
   "/.deco/blocks/pages-Termos%2520e%2520condi%25C3%25A7%25C3%25B5es-737186.json": {
-    "name": "Termos e condições",
-    "path": "/institucional/termos-e-condicoes",
+    "name": "Tipos de Frete",
+    "path": "/institucional/tipos-de-frete",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Trocas%2520e%2520devolu%25C3%25A7%25C3%25B5es-202173.json": {
-    "name": "Trocas e devoluções",
-    "path": "/institucional/trocas-e-devolucoes",
+    "name": "Como Comprar",
+    "path": "/institucional/como-comprar",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
