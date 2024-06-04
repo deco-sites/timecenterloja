@@ -50,11 +50,7 @@
           "section": {
             "__resolveType": "site/sections/Product/SearchResult.tsx",
             "page": {
-              "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "price:desc",
-              "count": 48,
-              "fuzzy": "automatic",
-              "selectedFacets": []
+              "__resolveType": "Search Loader"
             },
             "variant": "aside",
             "highlights": [
