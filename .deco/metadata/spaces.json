@@ -998,31 +998,23 @@
         },
         "content": [
           {
-            "type": "row",
+            "type": "stack",
+            "width": 100,
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
+            "activeItemIndex": 0,
             "content": [
               {
-                "type": "stack",
-                "width": 100,
+                "id": "Publish::Environment::rocket::Environment::%7B%7D",
+                "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
+                "type": "component",
+                "componentName": "component",
+                "componentState": {
+                  "id": "Publish::Environment::rocket::Environment::%7B%7D"
+                },
                 "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "Publish::Environment::rocket::Environment::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-Publish::Environment::rocket::Environment::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "Publish::Environment::rocket::Environment::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
+                "reorderEnabled": true
               }
             ]
           }
