@@ -342,8 +342,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Cupons%2520e%2520Promo%25C3%25A7%25C3%25B5es-767472.json": {
-    "name": "Cupons e Promoções",
-    "path": "/institucional/cupons-e-promocoes",
+    "name": "Nossas Lojas",
+    "path": "/institucional/nossas-lojas",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -360,8 +360,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Privacidade%2520e%2520Seguran%25C3%25A7a-443443.json": {
-    "name": "Privacidade e Segurança",
-    "path": "/institucional/privacidade-e-seguranca",
+    "name": "Politica de Privacidade",
+    "path": "/institucional/politica-de-privacidade",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
