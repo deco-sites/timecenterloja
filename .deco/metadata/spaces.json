@@ -58,24 +58,24 @@
         "content": [
           {
             "type": "stack",
-            "width": 100,
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
-            "activeItemIndex": 0,
             "content": [
               {
-                "id": "pages::List::list::List::%7B%7D",
-                "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
                 "type": "component",
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                "id": "pages::List::list::List::%7B%7D",
                 "componentName": "component",
                 "componentState": {
                   "id": "pages::List::list::List::%7B%7D"
-                },
-                "isClosable": true,
-                "reorderEnabled": true
+                }
               }
-            ]
+            ],
+            "width": 100,
+            "activeItemIndex": 0
           }
         ],
         "isClosable": true,

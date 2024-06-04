@@ -347,51 +347,15 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Perguntas%2520frequentes-456672.json": {
-    "name": "Perguntas frequentes",
-    "path": "/institucional/perguntas-frequentes",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-A%2520Marca-142345.json": {
-    "name": "A Marca",
-    "path": "/a-marca",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Privacidade%2520e%2520Seguran%25C3%25A7a-443443.json": {
     "name": "Politica de Privacidade",
     "path": "/institucional/politica-de-privacidade",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Garantia-166503.json": {
-    "name": "Garantia",
-    "path": "/institucional/garantia",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Assist%25C3%25AAncia%2520T%25C3%25A9cnica-521696.json": {
-    "name": "Assistência Técnica",
-    "path": "/institucional/assistencia-tecnica",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Pol%25C3%25ADtica%2520de%2520Devolu%25C3%25A7%25C3%25A3o-176027.json": {
-    "name": "Política de Devolução",
-    "path": "/institucional/politica-de-devolucao",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Fale%2520Conosco-32503.json": {
     "name": "Fale Conosco",
     "path": "/institucional/contato",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Rastreie%2520seu%2520Pedido-940009.json": {
-    "name": "Rastreie seu Pedido",
-    "path": "/institucional/rastreie-seu-pedido",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -438,5 +402,11 @@
   "/.deco/blocks/Instagram%20-%20Imagens.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Container.tsx"
+  },
+  "/.deco/blocks/pages-Pol%25C3%25ADtica%2520de%2520Devolu%25C3%25A7%25C3%25A3o-176027.json": {
+    "name": "Política de Devolução",
+    "path": "/institucional/politica-de-devolucao",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
