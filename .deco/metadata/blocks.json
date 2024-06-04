@@ -265,12 +265,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-offline-b9c52de8c7b3.json": {
-    "name": "Offline",
-    "path": "/offline",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-productpage-ce4850591828.json": {
     "name": "Product Page",
     "path": "/:slug/p",
@@ -317,12 +311,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-My%2520New%2520Page-77334.json": {
-    "name": "Nossas Lojas",
-    "path": "/nossas-lojas",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/Header%20Global.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Container.tsx"
@@ -332,26 +320,14 @@
     "__resolveType": "site/sections/Container.tsx"
   },
   "/.deco/blocks/pages-Formas%2520de%2520Entrega-736081.json": {
-    "name": "Formas de Entrega",
-    "path": "/institucional/formas-de-entrega",
+    "name": "Sobre",
+    "path": "/institucional/sobre",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/AsideMenu.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Institutional/AsideMenu.tsx"
-  },
-  "/.deco/blocks/pages-Formas%2520de%2520Pagamento-278084.json": {
-    "name": "Formas de Pagamento",
-    "path": "/institucional/formas-de-pagamento",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Pol%25C3%25ADtica%2520de%2520seguran%25C3%25A7a-211451.json": {
-    "name": "Política de segurança",
-    "path": "/institucional/politica-de-seguranca",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Termos%2520e%2520condi%25C3%25A7%25C3%25B5es-737186.json": {
     "name": "Termos e condições",
