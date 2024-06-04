@@ -31,6 +31,7 @@ export type AvailableIcons =
   | "ChevronUp"
   | "share"
   | "ChevronDown"
+  | "DoubleChevronLeft"
   | "Ruler"
   | "Message"
   | "QuestionMarkCircle"

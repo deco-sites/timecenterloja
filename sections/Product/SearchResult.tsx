@@ -6,14 +6,13 @@ import ProductGallery, {
 import { LoaderReturnType } from "deco/mod.ts";
 import type { ProductListingPage } from "apps/commerce/types.ts";
 import Sort from "$store/islands/Sort.tsx";
-import SearchPagination from "$store/components/search/SearchPagination.tsx";
 import { DiscountBadgeColors } from "$store/components/product/DiscountBadge.tsx";
 import { Section } from "deco/blocks/section.ts";
 import { Layout } from "$store/components/product/ProductCard.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import { isArray } from "https://deno.land/x/djwt@v2.8/util.ts";
 import NotFound from "$store/components/search/NotFound.tsx";
-import type { Props as notFoundPropss } from "$store/components/search/NotFound.tsx";
+import Pagination from "deco-sites/timecenter/components/search/Pagination.tsx";
 
 export interface DiscountBadgeProps {
   label: string;
@@ -22,6 +21,8 @@ export interface DiscountBadgeProps {
 
 export interface Props {
   page: LoaderReturnType<ProductListingPage | null>;
+  /** @description 0 for ?page=0 as your first page */
+  startingPage?: 0 | 1;
   /**
    * @description Use drawer for mobile like behavior on desktop. Aside for rendering the filters alongside the products
    */
@@ -54,10 +55,12 @@ function Result({
   layout,
   hideFilter: hideFilters,
   highlights,
+  startingPage = 0,
 }: Omit<Omit<Props, "page">, "notFoundSection"> & {
   page: ProductListingPage;
 }) {
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
+  const { recordPerPage, nextPage, previousPage, currentPage } = pageInfo;
 
   const hideFilter = hideFilters?.split(",");
   const newFilters = filters
@@ -88,16 +91,14 @@ function Result({
                 breadcrumb={breadcrumb}
                 displayFilter={variant === "drawer"}
               />
-              {sortOptions.length > 0
-                ? (
-                  <label class="flex gap-[10px] w-1/2 lg:w-auto items-center">
-                    <span class="text-[#585858] text-sm hidden whitespace-nowrap lg:inline">
-                      Ordenar por:
-                    </span>
-                    <Sort sortOptions={sortOptions} />
-                  </label>
-                )
-                : null}
+              {sortOptions.length > 0 ? (
+                <label class="flex gap-[10px] w-1/2 lg:w-auto items-center">
+                  <span class="text-[#585858] text-sm hidden whitespace-nowrap lg:inline">
+                    Ordenar por:
+                  </span>
+                  <Sort sortOptions={sortOptions} />
+                </label>
+              ) : null}
             </div>
             <div class="lg:hidden">{productsFound}</div>
             <div class="flex-grow">
@@ -106,7 +107,14 @@ function Result({
                 layout={layout}
                 highlights={highlights}
               />
-              <SearchPagination pageInfo={pageInfo} />
+              {/* <SearchPagination pageInfo={pageInfo} /> */}
+              {(nextPage || previousPage) && (
+                <Pagination
+                  pageInfo={pageInfo}
+                  productsLength={products.length}
+                  startingPage={startingPage}
+                />
+              )}
             </div>
           </div>
         </div>
