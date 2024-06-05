@@ -28,6 +28,7 @@ import * as $LgdpModal from "./islands/LgdpModal.tsx";
 import * as $Newsletter from "./islands/Newsletter.tsx";
 import * as $NewsletterModal from "./islands/NewsletterModal.tsx";
 import * as $OutOfStock from "./islands/OutOfStock.tsx";
+import * as $Pagination from "./islands/Pagination.tsx";
 import * as $ProductImageZoom from "./islands/ProductImageZoom.tsx";
 import * as $SearchControls from "./islands/SearchControls.tsx";
 import * as $ShippingSimulation from "./islands/ShippingSimulation.tsx";
@@ -69,6 +70,7 @@ const manifest = {
     "./islands/Newsletter.tsx": $Newsletter,
     "./islands/NewsletterModal.tsx": $NewsletterModal,
     "./islands/OutOfStock.tsx": $OutOfStock,
+    "./islands/Pagination.tsx": $Pagination,
     "./islands/ProductImageZoom.tsx": $ProductImageZoom,
     "./islands/SearchControls.tsx": $SearchControls,
     "./islands/ShippingSimulation.tsx": $ShippingSimulation,
