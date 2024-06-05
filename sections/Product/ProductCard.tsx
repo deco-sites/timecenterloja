@@ -10,7 +10,7 @@ import { formatPrice } from "$store/sdk/format.ts";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
-import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+// import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import Image from "apps/website/components/Image.tsx";
 import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
 import ProductHighlights from "$store/components/product/ProductHighlights.tsx";
@@ -71,7 +71,6 @@ const HEIGHT = 270;
 function ProductCard({
   product,
   preload,
-  itemListName,
   layout,
   highlights,
 }: Props) {
@@ -90,19 +89,19 @@ function ProductCard({
   );
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
-  const clickEvent = {
-    name: "select_item" as const,
-    params: {
-      item_list_name: itemListName,
-      items: [
-        mapProductToAnalyticsItem({
-          product,
-          price,
-          listPrice,
-        }),
-      ],
-    },
-  };
+  // const clickEvent = {
+  //   name: "select_item" as const,
+  //   params: {
+  //     item_list_name: itemListName,
+  //     items: [
+  //       mapProductToAnalyticsItem({
+  //         product,
+  //         price,
+  //         listPrice,
+  //       }),
+  //     ],
+  //   },
+  // };
   const l = layout;
   const align =
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"

@@ -154,7 +154,7 @@ const animationByType = {
 };
 
 export function Preview() {
-  const animationClass = animationClasses["slide-left"];
+  // const animationClass = animationClasses["slide-left"];
   const id = useId();
 
   return (

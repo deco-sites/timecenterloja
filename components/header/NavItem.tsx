@@ -10,16 +10,16 @@ export interface INavItem {
   image?: { src?: string; alt?: string };
 }
 
-function splitNatItems(children: INavItem[], number = 6) {
-  const slices = [];
-  const totalSlices = Math.ceil(children.length / number);
+// function splitNatItems(children: INavItem[], number = 6) {
+//   const slices = [];
+//   const totalSlices = Math.ceil(children.length / number);
 
-  for (let i = 0; i < totalSlices; i++) {
-    slices.push(children.slice(i * number, (i + 1) * number));
-  }
+//   for (let i = 0; i < totalSlices; i++) {
+//     slices.push(children.slice(i * number, (i + 1) * number));
+//   }
 
-  return slices;
-}
+//   return slices;
+// }
 
 function NavItemDropDown({ elements }: { elements?: INavItem[] }) {
   if (!elements || !elements?.length) {

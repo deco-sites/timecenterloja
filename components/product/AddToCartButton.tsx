@@ -8,7 +8,6 @@ import { useEffect } from "preact/compat";
 import AlertModal from "$store/components/ui/AlertModal.tsx";
 import { useSignal } from "@preact/signals";
 import { Suspense } from "preact/compat";
-import { ItemAvailability } from "apps/commerce/types.ts";
 
 interface Props extends UseAddToCartProps {
   /**

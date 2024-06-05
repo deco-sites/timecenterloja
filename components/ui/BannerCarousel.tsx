@@ -130,7 +130,7 @@ function BannerSubTitle(props: BannerTitleProps) {
 }
 
 function BannerItem(
-  { image, lcp, position }: { image: Banner; lcp?: boolean; position: number },
+  { image, lcp }: { image: Banner; lcp?: boolean; position: number },
 ) {
   const {
     alt,
@@ -139,15 +139,15 @@ function BannerItem(
     action,
   } = image;
 
-  const clickEvent = {
-    name: "select_promotion",
-    params: {
-      item_name: alt,
-      item_id: desktop, //image url
-      creative_name: window.location.hostname + action?.href, //page url
-      creative_slot: position + 1,
-    },
-  };
+  // const clickEvent = {
+  //   name: "select_promotion",
+  //   params: {
+  //     item_name: alt,
+  //     item_id: desktop, //image url
+  //     creative_name: window.location.hostname + action?.href, //page url
+  //     creative_slot: position + 1,
+  //   },
+  // };
 
   return (
     <a
@@ -310,8 +310,7 @@ function Buttons({ className }: ButtonsProps) {
 }
 
 function BannerCarousel(
-  { images, preload, interval, showPaginationArrows, showPaginationDots }:
-    Props,
+  { images, preload, interval, showPaginationDots }: Props,
 ) {
   const id = useId();
 

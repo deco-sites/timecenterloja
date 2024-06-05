@@ -19,7 +19,7 @@ export default function AddToCartActions(
 ) {
   const [quantity, setQuantity] = useState(1);
   const mobile = useIsMobile();
-  const discount = price && listPrice ? listPrice - price : 0;
+  // const discount = price && listPrice ? listPrice - price : 0;
 
   return (
     <div class="flex w-full gap-[30px] ">

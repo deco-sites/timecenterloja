@@ -60,7 +60,7 @@ function Result({
   page: ProductListingPage;
 }) {
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
-  const { recordPerPage, nextPage, previousPage, currentPage } = pageInfo;
+  const { nextPage, previousPage } = pageInfo;
 
   const hideFilter = hideFilters?.split(",");
   const newFilters = filters

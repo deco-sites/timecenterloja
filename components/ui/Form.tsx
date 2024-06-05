@@ -24,7 +24,7 @@ export interface FormProps {
   mensagem: string;
 }
 
-function Form(props: Props) {
+function Form(_props: Props) {
   const loading = useSignal(false);
   const success = useSignal(false);
 
@@ -62,8 +62,8 @@ function Form(props: Props) {
       const mensagem = (
         e.currentTarget.elements.namedItem("mensagem") as RadioNodeList
       )?.value;
-      const loja = (e.currentTarget.elements.namedItem("loja") as RadioNodeList)
-        ?.value;
+      // const loja = (e.currentTarget.elements.namedItem("loja") as RadioNodeList)
+      //   ?.value;
 
       const form: FormProps = {
         // assunto,

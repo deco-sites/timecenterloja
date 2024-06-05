@@ -6,7 +6,7 @@ import OutOfStock from "$store/islands/OutOfStock.tsx";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import { formatPrice } from "$store/sdk/format.ts";
 // import { SendEventOnLoad } from "$store/sdk/analytics.tsx";
-import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+// import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import { LoaderReturnType } from "deco/mod.ts";
 import AddToCartActions from "$store/islands/AddToCartActions.tsx";
@@ -71,7 +71,7 @@ function ProductInfo({
   shipmentPolitics?: Props["shipmentPolitics"];
   shareableNetworks?: Props["shareableNetworks"];
 }) {
-  const { breadcrumbList, product } = page;
+  const { product } = page;
   const {
     description,
     productID,

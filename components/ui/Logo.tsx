@@ -5,7 +5,7 @@ interface Props extends JSX.SVGAttributes<SVGSVGElement> {
 }
 
 function Logo({
-  strokeWidth = 16,
+  // strokeWidth = 16,
   size = 131,
   width = 131,
   height = 56,

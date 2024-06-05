@@ -38,7 +38,7 @@ const Modal = ({
   onClose,
   children,
   loading,
-  menuIcon,
+  // menuIcon,
   showHeader,
   ...props
 }: Props) => {

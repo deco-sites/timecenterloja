@@ -1,5 +1,5 @@
 import ProductCard from "../../components/product/ProductCard.tsx";
-import { usePlatform } from "../../sdk/usePlatform.tsx";
+// import { usePlatform } from "../../sdk/usePlatform.tsx";
 
 interface Props {
   /** @title Product Card layout props */

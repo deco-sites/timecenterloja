@@ -19,7 +19,7 @@ function MenuItem({ item }: { item: INavItem }) {
           {item.label}
         </div>
         <div class="collapse-content px-0 block z-10 pointer-events-auto">
-          {item.children?.map((node, idx) => (
+          {item.children?.map((node, _idx) => (
             <ul
               class={`pt-0 px-0 pl-5 
             `}

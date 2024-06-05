@@ -18,7 +18,7 @@ import { Section } from "deco/blocks/section.ts";
 import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
 import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
-import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
+// import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
 
 export type Variant = "front-back" | "slider" | "auto";
 

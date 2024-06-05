@@ -2,7 +2,7 @@ import { AppContext } from "$store/apps/site.ts";
 import type { SectionProps } from "deco/types.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import { SearchButton } from "../../islands/Header/Buttons.tsx";
-import { useUI } from "../../sdk/useUI.ts";
+// import { useUI } from "../../sdk/useUI.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import CartButtonLinx from "../../islands/Header/Cart/linx.tsx";
 import CartButtonShopify from "../../islands/Header/Cart/shopify.tsx";
