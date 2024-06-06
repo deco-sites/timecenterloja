@@ -29,38 +29,38 @@
             "children": [
               {
                 "target": "_self",
-                "label": "Central de atendimento",
-                "href": "/institucional/contato"
+                "label": "Sobre",
+                "href": "/institucional/sobre"
               },
               {
                 "target": "_self",
-                "label": "Política de entrega",
-                "href": "/institucional"
+                "label": "Política de Devolução",
+                "href": "/institucional/politica-de-devolucao"
               },
               {
                 "target": "_self",
+                "label": "Tipos de Frete",
+                "href": "/institucional/tipos-de-frete"
+              },
+              {
+                "href": "/como-comprar",
+                "label": "Como Comprar",
+                "target": "_self"
+              },
+              {
+                "href": "/institucional/politica-de-privacidade",
                 "label": "Política de Privacidade",
-                "href": "/institucional/privacidade-e-seguranca"
-              },
-              {
-                "href": "/termos-e-condicoes",
-                "label": "Termos e condições",
-                "target": "_self"
-              },
-              {
-                "href": "/formas-de-entrega",
-                "label": "Formas de entrega",
-                "target": "_self"
-              },
-              {
-                "href": "/formas-de-pagamento",
-                "label": "Formas de Pagamento",
                 "target": "_blank"
               },
               {
-                "href": "/nossas-lojas",
+                "href": "/institucional/nossas-lojas",
                 "label": "Nossas Lojas",
                 "target": "_blank"
+              },
+              {
+                "target": "_blank",
+                "label": "Fale Conosco",
+                "href": "/institucional/contato"
               }
             ],
             "label": "Central de Ajuda"
@@ -69,51 +69,36 @@
             "children": [
               {
                 "target": "_self",
-                "label": "Fale Conosco",
-                "href": "/fale-conosco"
+                "label": "Meus Pedidos",
+                "href": "/account#/orders"
               },
               {
-                "href": "/cupons-e-promocoes",
-                "label": "Cupons e promoções",
+                "href": "/account/#",
+                "label": "Acompanhe seu Pedido",
                 "target": "_self"
               },
               {
-                "href": "/trocas-e-devolucoes",
-                "label": "Trocas e devoluções",
+                "href": "/checkout/#/cart",
+                "label": "Meu Carrinho",
                 "target": "_self"
               },
               {
-                "href": "/institucional/garantia",
-                "label": "Política de garantia ",
-                "target": "_self"
-              },
-              {
-                "href": "/institucional/assistencia-tecnica",
-                "label": "Assistência Técnica",
-                "target": "_self"
-              },
-              {
-                "href": "/institucional/perguntas-frequentes",
-                "label": "Perguntas frequentes",
-                "target": "_self"
-              },
-              {
-                "href": "/institucional/rastreie-seu-pedido",
-                "label": "Rastreie seu pedido",
-                "target": "_self"
+                "href": "https://technos.minhatroca.com.br/",
+                "label": "Trocas e Devoluções",
+                "target": "_blank"
               }
             ],
-            "label": "Atendimento"
+            "label": "Minhas Compras"
           },
           {
             "children": [
               {
                 "target": "_blank",
-                "label": "Meu perfil",
-                "href": "/my-account/login"
+                "label": "Contato",
+                "href": "/institucional/contato"
               }
             ],
-            "label": "MINHA CONTA"
+            "label": "Fale Conosco"
           }
         ],
         "logo": {
@@ -121,24 +106,14 @@
         },
         "socialNetWorks": [
           {
-            "icon": "Facebook",
-            "label": "Facebook",
-            "href": "https://www.facebook.com/euroacessorios"
-          },
-          {
             "icon": "Instagram",
             "label": "Instagram",
-            "href": "https://www.instagram.com/estiloeuro/"
+            "href": "https://www.instagram.com/timecenter.oficial"
           },
           {
-            "icon": "YouTube",
-            "label": "Youtube",
-            "href": "https://www.youtube.com/@eurorelogios"
-          },
-          {
-            "icon": "Tiktok",
-            "label": "Tiktok",
-            "href": "https://www.tiktok.com/@estiloeuro"
+            "icon": "Facebook",
+            "label": "Facebook",
+            "href": "https://www.facebook.com/lojatimecenter/"
           }
         ],
         "openingHours": "Seg. à Sex. das 09:00h às 18:00h <br /> Sábado das 10:00h às 14:00h",
@@ -186,7 +161,7 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/685dcc4c-2b15-42ae-9d26-dc6915e1049c"
           }
         ],
-        "email": "atendimento@eurorelogios.com.br"
+        "email": "atendimento@timecenter.com.br"
       },
       "shadow": "none",
       "overFlow": "overflow-none",
