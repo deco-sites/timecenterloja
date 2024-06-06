@@ -59,20 +59,20 @@
                   {
                     "children": [],
                     "label": "Relógio Anadigi",
-                    "href": "/relogio/feminino/anadigi?PS=48&O=OrderByReleaseDateDESC"
+                    "href": "/relogio/masculino/anadigi?PS=48&O=OrderByReleaseDateDESC"
                   },
                   {
-                    "href": "/relogio/feminino/analogico?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/analogico?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Relógio Analógico",
                     "children": []
                   },
                   {
-                    "href": "/relogio/feminino/digital?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/digital?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Relógio Digital",
                     "children": []
                   },
                   {
-                    "href": "/relogio/feminino/multifuncao?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/multifuncao?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Relógio Multifunção",
                     "children": []
                   }
@@ -86,17 +86,17 @@
                 "label": "Caixa",
                 "children": [
                   {
-                    "href": "/relogio/feminino/quadrada?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/quadrada?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Quadrada",
                     "children": []
                   },
                   {
-                    "href": "/relogio/feminino/redonda?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/redonda?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Redonda",
                     "children": []
                   },
                   {
-                    "href": "/relogio/feminino/retangular?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/retangular?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Retangular",
                     "children": []
                   }
@@ -385,7 +385,7 @@
             "showLabel": true,
             "children": [],
             "label": "Smartwatch",
-            "href": "/smartwatches"
+            "href": "/smartwatch"
           },
           {
             "showLabel": true,
