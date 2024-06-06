@@ -327,10 +327,10 @@
                   }
                 ],
                 "showLabel": true,
-                "href": "/"
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
               },
               {
-                "href": "/",
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC",
                 "label": "Caixa",
                 "children": [
                   {
@@ -407,7 +407,7 @@
                   }
                 ],
                 "label": "Pulseira",
-                "href": "/"
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
               },
               {
                 "showLabel": true,
@@ -462,7 +462,7 @@
                   }
                 ],
                 "label": "Cor",
-                "href": "/"
+                "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
               },
               {
                 "showLabel": true,
@@ -484,7 +484,7 @@
             "showLabel": true,
             "children": [],
             "label": "Smartwatch",
-            "href": "/smartwatch"
+            "href": "/s?q=smartwatch"
           },
           {
             "showLabel": true,
@@ -613,7 +613,7 @@
               }
             ],
             "label": "Marcas",
-            "href": "/nossas-marcas"
+            "href": "/"
           },
           {
             "showLabel": true,
