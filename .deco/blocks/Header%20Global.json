@@ -126,21 +126,63 @@
                 "label": "Pulseira",
                 "children": [
                   {
-                    "href": "/relogio/feminino/aco?PS=48&O=OrderByReleaseDateDESC",
-                    "label": "Aço / Metal",
+                    "href": "/relogio/masculino/aco?O=OrderByReleaseDateDESC",
+                    "label": "Aço ",
                     "children": []
                   },
                   {
-                    "href": "/relogio/feminino/silicone?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/silicone?O=OrderByReleaseDateDESC",
                     "label": "Silicone",
                     "children": [],
                     "showLabel": true
                   },
                   {
-                    "href": "/relogio/feminino/couro?PS=48&O=OrderByReleaseDateDESC",
-                    "label": "Couro",
+                    "href": "/relogio/masculino/ceramica?O=OrderByReleaseDateDESC",
+                    "label": "Cerâmica",
                     "children": [],
                     "showLabel": true
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Couro",
+                    "href": "/relogio/masculino/couro?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Resina",
+                    "href": "/relogio/masculino/resina?O=OrderByReleaseDateDESC",
+                    "image": {
+                      "alt": "Resina"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/tecido?O=OrderByReleaseDateDESC",
+                    "label": "Tecido",
+                    "image": {
+                      "alt": "Tecido"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/titanio?O=OrderByReleaseDateDESC",
+                    "label": "Titânio",
+                    "image": {
+                      "alt": "Titânio"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/polimero?O=OrderByReleaseDateDESC",
+                    "label": "Polímero",
+                    "image": {
+                      "alt": "Polímero"
+                    }
                   }
                 ],
                 "showLabel": true
@@ -150,38 +192,74 @@
                 "label": "Cor",
                 "children": [
                   {
-                    "href": "/relogio/feminino/bicolor?PS=48&O=OrderByReleaseDateDESC",
-                    "label": "Bicolor",
-                    "children": []
-                  },
-                  {
-                    "href": "/relogio/feminino/color?PS=48&O=OrderByReleaseDateDESC",
-                    "label": "Color",
-                    "children": []
-                  },
-                  {
-                    "href": "/relogio/feminino/dourado?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/dourado?O=OrderByReleaseDateDESC",
                     "label": "Dourado",
                     "children": [],
-                    "showLabel": true
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Dourado"
+                    }
                   },
                   {
-                    "href": "/relogio/feminino/prata?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/prata?O=OrderByReleaseDateDESC",
                     "label": "Prata",
                     "children": [],
-                    "showLabel": true
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Prata"
+                    }
                   },
                   {
-                    "href": "/relogio/feminino/preto?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/preto?O=OrderByReleaseDateDESC",
                     "label": "Preto",
                     "children": [],
-                    "showLabel": true
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Preto"
+                    }
                   },
                   {
-                    "href": "/relogio/feminino/rose?PS=48&O=OrderByReleaseDateDESC",
+                    "href": "/relogio/masculino/rose?O=OrderByReleaseDateDESC",
                     "label": "Rosé",
                     "children": [],
-                    "showLabel": true
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Rosé"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/marrom?O=OrderByReleaseDateDESC",
+                    "label": "Marrom",
+                    "children": [],
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Marrom"
+                    }
+                  },
+                  {
+                    "href": "/relogio/masculino/color?O=OrderByReleaseDateDESC",
+                    "label": "Color",
+                    "children": [],
+                    "image": {
+                      "alt": "Color"
+                    }
+                  },
+                  {
+                    "children": [],
+                    "href": "/relogio/masculino/bicolor?O=OrderByReleaseDateDESC",
+                    "label": "Bicolor",
+                    "image": {
+                      "alt": "Bicolor"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "href": "/relogio/masculino/especiais?O=OrderByReleaseDateDESC",
+                    "label": "Especiais",
+                    "image": {
+                      "alt": "Especiais"
+                    }
                   }
                 ],
                 "showLabel": true
@@ -190,7 +268,10 @@
                 "showLabel": true,
                 "children": [],
                 "href": "/relogio/masculino/smartwatch?O=OrderByReleaseDateDESC",
-                "label": "Smartwatch"
+                "label": "Smartwatch",
+                "image": {
+                  "alt": "Smartwatch"
+                }
               },
               {
                 "showLabel": true,

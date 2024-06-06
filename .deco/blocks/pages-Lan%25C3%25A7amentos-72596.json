@@ -119,7 +119,7 @@
                 "products": {
                   "__resolveType": "vtex/loaders/legacy/productList.ts",
                   "props": {
-                    "sort": "OrderByReleaseDateDESC"
+                    "sort": ""
                   }
                 },
                 "highlights": [],
