@@ -50,7 +50,12 @@
               "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
               "sort": "price:desc",
               "fuzzy": "automatic",
-              "selectedFacets": [],
+              "selectedFacets": [
+                {
+                  "key": "productClusterIds",
+                  "value": "2049"
+                }
+              ],
               "count": 48
             },
             "variant": "aside",
