@@ -1,6 +1,5 @@
 {
   "name": "Lançamentos",
-  "path": "/2049?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC",
   "sections": [
     {
       "__resolveType": "Header Global"
@@ -15,7 +14,8 @@
             "page": {
               "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
               "count": 1,
-              "sort": "OrderByPriceDESC"
+              "sort": "OrderByReleaseDateDESC",
+              "term": "/busca/fq=H:2049"
             }
           },
           "shadow": "none",
@@ -193,5 +193,6 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
-  "__resolveType": "website/pages/Page.tsx"
+  "__resolveType": "website/pages/Page.tsx",
+  "path": "/lancamentos"
 }

@@ -75,9 +75,27 @@
                     "href": "/relogio/masculino/multifuncao?PS=48&O=OrderByReleaseDateDESC",
                     "label": "Relógio Multifunção",
                     "children": []
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Cronógrafo",
+                    "href": "/relogio/masculino/cronografo?O=OrderByReleaseDateDESC",
+                    "image": {
+                      "alt": "Cronógrafo"
+                    }
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Automático",
+                    "href": "/relogio/masculino/automatico?O=OrderByReleaseDateDESC",
+                    "image": {
+                      "alt": "Automático"
+                    }
                   }
                 ],
-                "href": "/relogio?PS=48&O=OrderByReleaseDateDESC",
+                "href": "/relogio/masculino?PS=12&O=OrderByBestDiscountDESC",
                 "label": "Mecanismo",
                 "highlighted": false
               },

@@ -411,8 +411,8 @@
   },
   "/.deco/blocks/pages-Lan%25C3%25A7amentos-72596.json": {
     "name": "Lançamentos",
-    "path": "/2049?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC",
     "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
+    "__resolveType": "website/pages/Page.tsx",
+    "path": "/lancamentos"
   }
 }
