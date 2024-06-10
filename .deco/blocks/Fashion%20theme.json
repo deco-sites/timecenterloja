@@ -27,7 +27,6 @@
     "info-content": "#000000"
   },
   "font": {
-    "family": "Gotham",
-    "styleSheet": " "
+    "__resolveType": "website/loaders/fonts/local.ts"
   }
 }
