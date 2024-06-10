@@ -27,6 +27,7 @@
     "info-content": "#000000"
   },
   "font": {
-    "__resolveType": "website/loaders/fonts/local.ts"
+    "family": " ",
+    "styleSheet": " "
   }
 }
