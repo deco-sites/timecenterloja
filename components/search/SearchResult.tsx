@@ -64,7 +64,7 @@ function Result({
   const perPage = pageInfo?.recordPerPage || products.length;
   const id = useId();
   const zeroIndexedOffsetPage = pageInfo.currentPage - startingPage;
-  const offset = zeroIndexedOffsetPage * perPage;
+  const offset = zeroIndexedOffsetPage * perPage;  
 
   const hideFilter = hideFilters?.split(",");
   const newFilters = filters.filter(({ key }) => !hideFilter?.includes(key))
