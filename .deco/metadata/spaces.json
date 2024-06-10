@@ -1396,7 +1396,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 40.100671140939596,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1418,7 +1418,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 59.8993288590604,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1457,7 +1457,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-category-7493d4326022.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-category-7493d4326022.json::Preview::world::Preview::%7B%7D": {
@@ -2702,7 +2703,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2716,6 +2717,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2723,7 +2725,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2737,6 +2739,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2758,6 +2761,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
@@ -2769,6 +2773,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-search-2f446eadce44.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -5650,7 +5655,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 33.333333333333336,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5664,6 +5669,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -5671,7 +5677,7 @@
               },
               {
                 "type": "stack",
-                "width": 33.333333333333336,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5685,27 +5691,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Preview::world::Preview::%7B%7D"
                     },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 33.33333333333333,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
-                    },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -5727,6 +5713,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
@@ -5738,18 +5725,8 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
-          "name": "Page SEO",
-          "icon": "world-search",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Page SEO",
-          "id": "%2F.deco%2Fblocks%2Fpages-Promo%2525C3%2525A7%2525C3%2525B5es-935643.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -5938,7 +5915,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5952,6 +5929,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FSearchResults%2520Global.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -5959,7 +5937,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5973,6 +5951,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FSearchResults%2520Global.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -5994,6 +5973,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2FSearchResults%2520Global.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
@@ -6005,6 +5985,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2FSearchResults%2520Global.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -6736,7 +6717,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6750,6 +6731,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -6757,7 +6739,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -6771,6 +6753,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -6792,6 +6775,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
@@ -6803,6 +6787,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null

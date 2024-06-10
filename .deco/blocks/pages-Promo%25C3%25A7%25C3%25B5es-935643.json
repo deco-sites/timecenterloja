@@ -155,7 +155,7 @@
               "title": "   ",
               "termDescription": " "
             },
-            "hideFilter": "categories,brand,off,genero---xml,genero-xml,lancamento,tamanho---xml,best-seller,premium,oculos-de-sol,resistencia-a-agua,relogios,semijoias,sale,resistente-a-agua,priceranges",
+            "hideFilter": "colecao,automatico,linha,idade-xml,cor-do-mostrador,cor-da-pulseira,material-da-pulseira,largura-da-caixa--cm-,tipo,bazar,categories,brand,off,genero---xml,genero-xml,lancamento,tamanho---xml,best-seller,premium,oculos-de-sol,resistencia-a-agua,relogios,semijoias,sale,resistente-a-agua,priceranges",
             "startingPage": 1
           },
           "shadow": "none",
