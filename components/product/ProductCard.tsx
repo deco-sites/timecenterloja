@@ -80,9 +80,6 @@ function ProductCard({
 }: Props) {
   const { url, productID, name, image: images, offers, isVariantOf } = product;
 
-  console.log(offers);
-  
-
   const productGroupID = isVariantOf?.productGroupID;
   const id = `product-card-${productID}`;
 
