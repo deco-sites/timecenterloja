@@ -7,7 +7,7 @@ export interface Props {
   startingPage: number;
 }
 
-const goToPage = (page: number) => {  
+const goToPage = (page: number) => {
   const searchParams = new URLSearchParams(globalThis.window.location.search);
   searchParams.set("page", `${page}`);
   globalThis.window.location.search = searchParams.toString();
