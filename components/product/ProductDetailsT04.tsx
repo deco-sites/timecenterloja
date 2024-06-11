@@ -108,6 +108,7 @@ function ProductInfo({
     installments,
     availability,
   } = useOffer(offers);
+  
 
   const eventItem = mapProductToAnalyticsItem({
     product,
@@ -293,13 +294,6 @@ function ProductInfo({
         {availability === "https://schema.org/InStock"
           ? (
             <>
-              {
-                /* <AddToCartButtonVTEX
-              eventParams={{ items: [eventItem] }}
-              productID={productID}
-              seller={seller}
-            /> */
-              }
               {seller && (
                 <AddToCartActions
                   productID={productID}
@@ -318,12 +312,6 @@ function ProductInfo({
       <details className="collapse collapse-plus border-b border-[#E2E3E8] rounded-none">
         <summary className="collapse-title px-0">Detalhes do produto</summary>
         <div className=" text-xs px-0 leading-tight collapse-content text-base-300">
-          {
-            /* <input type="checkbox" id="readmore" className="readmore-toggle" />
-          <label htmlFor="readmore" className="readmore-label my-2 block">
-            + Ler mais
-          </label> */
-          }
           <p className="readmore-content">{description}</p>
         </div>
 
