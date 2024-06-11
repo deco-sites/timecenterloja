@@ -341,12 +341,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/pages-Cupons%2520e%2520Promo%25C3%25A7%25C3%25B5es-767472.json": {
-    "name": "Nossas Lojas",
-    "path": "/institucional/nossas-lojas",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
   "/.deco/blocks/pages-Privacidade%2520e%2520Seguran%25C3%25A7a-443443.json": {
     "name": "Politica de Privacidade",
     "path": "/institucional/politica-de-privacidade",
@@ -414,5 +408,11 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx",
     "path": "/lancamentos"
+  },
+  "/.deco/blocks/pages-Nossas%2520Lojas-51086.json": {
+    "name": "Nossas Lojas",
+    "path": "/institucional/nossas-lojas",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
