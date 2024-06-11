@@ -95,7 +95,7 @@ function Filters({ filters }: Props) {
     !filter.key.includes("category-")
   );
   console.log(filters);
-  
+
   const selectedFilters = _filters.reduce<FilterToggleValue[]>(
     (initial, filter) => {
       const selected = filter.values.find((value) => value.selected);
