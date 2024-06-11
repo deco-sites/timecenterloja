@@ -414,5 +414,11 @@
     "path": "/institucional/nossas-lojas",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Teste-69758.json": {
+    "name": "Teste",
+    "path": "/test",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
