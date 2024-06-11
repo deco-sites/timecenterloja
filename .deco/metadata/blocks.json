@@ -409,15 +409,9 @@
     "__resolveType": "website/pages/Page.tsx",
     "path": "/lancamentos"
   },
-  "/.deco/blocks/pages-Nossas%2520Lojas-51086.json": {
+  "/.deco/blocks/pages-Teste-69758.json": {
     "name": "Nossas Lojas",
     "path": "/institucional/nossas-lojas",
-    "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
-  },
-  "/.deco/blocks/pages-Teste-69758.json": {
-    "name": "Teste",
-    "path": "/test",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }

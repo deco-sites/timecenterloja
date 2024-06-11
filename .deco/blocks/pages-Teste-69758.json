@@ -1,6 +1,6 @@
 {
-  "name": "Teste",
-  "path": "/test",
+  "name": "Nossas Lojas",
+  "path": "/institucional/nossas-lojas",
   "sections": [
     {
       "__resolveType": "Header Global"
