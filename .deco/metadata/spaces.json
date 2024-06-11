@@ -6884,6 +6884,14 @@
       "icon": "file",
       "layout": [],
       "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Nossas%2520Lojas-334003.json",
+      "name": "Nossas Lojas",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
     }
   ]
 }
