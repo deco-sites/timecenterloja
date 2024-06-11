@@ -273,7 +273,7 @@
   ],
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
-    "__resolveType": "commerce/sections/Seo/SeoPDPV2.tsx",
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
     "jsonLD": {
       "data": {
         "slug": {
