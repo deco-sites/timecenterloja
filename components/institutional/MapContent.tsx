@@ -17,7 +17,6 @@ function MapContent(
       <h1 class="font-bold text-xl mb-7">Nossas Lojas</h1>
       <p class="font-normal text-base mb-10">
         Descubra onde tem um vendedor mais perto de você.
-
       </p>
       {url
         ? (
