@@ -27,7 +27,7 @@
     "info-content": "#000000"
   },
   "font": {
-    "family": " Gotham",
-    "styleSheet": " "
+    "styleSheet": " ",
+    "family": "Gotham"
   }
 }
