@@ -108,7 +108,6 @@ function ProductInfo({
     installments,
     availability,
   } = useOffer(offers);
-  
 
   const eventItem = mapProductToAnalyticsItem({
     product,

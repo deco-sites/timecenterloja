@@ -1,22 +1,23 @@
-import { Section } from "deco/blocks/section.ts";
+// import { Section } from "deco/blocks/section.ts";
 
 export interface Props {
   /**
    * @description Content will be rendered as iframe .
    */
   url?: string;
-  asideMenu: Section;
+  // asideMenu: Section;
 }
 
 function MapContent(
-  { url, asideMenu: { Component: AsideComponent, props: asideProps } }: Props,
+  { url }: Props,
 ) {
   return (
     <div class="mb-16">
-      <AsideComponent {...asideProps} />
+      {/* <AsideComponent {...asideProps} /> */}
       <h1 class="font-bold text-xl mb-7">Nossas Lojas</h1>
       <p class="font-normal text-base mb-10">
-        Descubra onde tem uma Euro mais perto de você.
+        Descubra onde tem um vendedor mais perto de você.
+
       </p>
       {url
         ? (
