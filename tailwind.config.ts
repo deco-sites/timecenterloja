@@ -17,7 +17,7 @@ export default {
         },
       },
       fontFamily: {
-        opensans: ["Gotham"]
+        gotham: ["Gotham"],
       },
     },
   },
