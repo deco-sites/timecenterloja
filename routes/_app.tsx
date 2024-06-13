@@ -9,7 +9,7 @@ const sw = () =>
     () =>
       navigator &&
       navigator.serviceWorker &&
-      navigator.serviceWorker.register("/sw.js"),
+      navigator.serviceWorker.register("/sw.js")
   );
 
 export default defineApp(async (_req, ctx) => {
@@ -25,42 +25,43 @@ export default defineApp(async (_req, ctx) => {
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
 
-        <style
-          type="text/css"
-          dangerouslySetInnerHTML={{
-            __html: `
-              @font-face {
-                font-family: "Gotham";
-                src: url("${
-              asset("/fonts/GothamLight.ttf")
-            }") format('truetype');
-                font-weight: 300;
-              }
-              @font-face {
-                font-family: "Gotham";
-                src: url("${
-              asset("/fonts/GothamMedium.ttf")
-            }") format('truetype');
-                font-weight: 500;
-              }
-              @font-face {
-                font-family: "Gotham";
-                src: url("${
-              asset("/fonts/GothamBold.ttf")
-            }") format('truetype');
-                font-weight: 700;
-              }
-              @font-face {
-                font-family: "Gotham Book";
-                src: url("${
-              asset("/fonts/GothamBook.ttf")
-            }") format('truetype');
-                font-weight: 400;
-              }
-            `,
-          }}
-        />
+        <style>
+          {`
+            @font-face {
+              font-family: 'Gotham';
+              font-style: normal;
+              font-weight: 300;
+              font-display: swap;
+              src: url(/live/invoke/website/loaders/asset.ts?src=https://timecenterloja.deco.site/fonts/GothamLight.ttf) format('truetype');
+            }
 
+            @font-face {
+              font-family: 'Gotham';
+              font-style: normal;
+              font-weight: 500;
+              font-display: swap;
+              src: url(/live/invoke/website/loaders/asset.ts?src=https://timecenterloja.deco.site/fonts/GothamMedium.ttf) format('truetype');
+            }
+
+            @font-face {
+              font-family: 'Gotham';
+              font-style: normal;
+              font-weight: 700;
+              font-display: swap;
+              src: url(/live/invoke/website/loaders/asset.ts?src=https://timecenterloja.deco.site/fonts/GothamBold.ttf) format('truetype');
+            }
+
+            @font-face {
+              font-family: 'Gotham Book';
+              font-style: normal;
+              font-weight: 400;
+              font-display: swap;
+              src: url(/live/invoke/website/loaders/asset.ts?src=https://timecenterloja.deco.site/fonts/GothamBook.ttf) format('truetype');
+            }
+          `}
+        </style>
+
+       
         {/* Tailwind v3 CSS file */}
         <link
           href={asset(`/styles.css?revision=${revision}`)}

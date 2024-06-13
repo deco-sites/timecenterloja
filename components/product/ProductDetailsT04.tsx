@@ -109,6 +109,9 @@ function ProductInfo({
     availability,
   } = useOffer(offers);
 
+  console.log(offers);
+  
+
   const eventItem = mapProductToAnalyticsItem({
     product,
     breadcrumbList: breadcrumb,
