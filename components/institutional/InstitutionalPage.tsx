@@ -37,7 +37,7 @@ function InstitutionalPage({
               margin-bottom: 20px;
             }
             .markdown-body p {
-              color: #8E8E9F;
+              color: black;
               font-size: 14px;
               font-weight: 300;
               line-height: 20px;

@@ -118,10 +118,9 @@ function ProductInfo({
     listPrice,
   });
 
-  const referenceID =
-    additionalProperty?.find(
-      ({ valueReference }) => valueReference == "ReferenceID"
-    )?.value ?? gtin;
+  const referenceID = additionalProperty?.find(
+    ({ valueReference }) => valueReference == "ReferenceID",
+  )?.value ?? gtin;
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
@@ -297,22 +296,22 @@ function ProductInfo({
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 mb-7 lg:mt-10 flex gap-[30px]">
-        {availability === "https://schema.org/InStock" ? (
-          <>
-            {seller && (
-              <AddToCartActions
-                productID={productID}
-                seller={seller}
-                price={price}
-                listPrice={listPrice}
-                productName={name ?? ""}
-                productGroupID={product.isVariantOf?.productGroupID ?? ""}
-              />
-            )}
-          </>
-        ) : (
-          <OutOfStock productID={productID} />
-        )}
+        {availability === "https://schema.org/InStock"
+          ? (
+            <>
+              {seller && (
+                <AddToCartActions
+                  productID={productID}
+                  seller={seller}
+                  price={price}
+                  listPrice={listPrice}
+                  productName={name ?? ""}
+                  productGroupID={product.isVariantOf?.productGroupID ?? ""}
+                />
+              )}
+            </>
+          )
+          : <OutOfStock productID={productID} />}
       </div>
       {/* Description card */}
       <details className="collapse collapse-plus border-b border-[#E2E3E8] rounded-none">
@@ -335,7 +334,7 @@ function ProductInfo({
                       >
                         {renderItem(item)}
                       </li>
-                    )
+                    ),
                 )}
               </>
             )}
@@ -362,8 +361,7 @@ function ProductInfo({
       <div class="flex flex-wrap justify-between gap-2">
         {productBenefits?.map((item) => {
           return (
-            <div
-              className="
+            <div className="
                   xl:max-w-[49%]
                   lg:w-full
                   lg:max-w-full
@@ -383,8 +381,7 @@ function ProductInfo({
                   bg-neutral-200
                   justify-center
                   items-center
-                  rounded-lg"
-            >
+                  rounded-lg">
               <div>
                 <Image src={item.icon} alt={item.name} width={50} height={50} />
               </div>
@@ -446,15 +443,14 @@ const useStableImages = (product: ProductDetailsPage["product"]) => {
   };
 
   const images = product.image ?? [];
-  const allImages =
-    product.isVariantOf?.hasVariant
-      .flatMap((p) => p.image)
-      .reduce((acc, img) => {
-        if (img?.url) {
-          acc[imageNameFromURL(img.url)] = img.url;
-        }
-        return acc;
-      }, {} as Record<string, string>) ?? {};
+  const allImages = product.isVariantOf?.hasVariant
+    .flatMap((p) => p.image)
+    .reduce((acc, img) => {
+      if (img?.url) {
+        acc[imageNameFromURL(img.url)] = img.url;
+      }
+      return acc;
+    }, {} as Record<string, string>) ?? {};
 
   return images.map((img) => {
     const name = imageNameFromURL(img.url);
@@ -562,28 +558,27 @@ function ProductDetails({
   highlights,
   discount,
 }: Props) {
-  const variant =
-    maybeVar === "auto"
-      ? page?.product.image?.length && page?.product.image?.length < 2
-        ? "front-back"
-        : "slider"
-      : maybeVar;
+  const variant = maybeVar === "auto"
+    ? page?.product.image?.length && page?.product.image?.length < 2
+      ? "front-back"
+      : "slider"
+    : maybeVar;
 
   return (
     <div class="py-0 lg:pb-10">
-      {page ? (
-        <Details
-          page={page}
-          variant={variant}
-          shipmentPolitics={shipmentPolitics}
-          shareableNetworks={shareableNetworks}
-          productBenefits={productBenefits}
-          highlights={highlights}
-          discount={discount}
-        />
-      ) : (
-        <ProductNotFound {...notFoundProps} />
-      )}
+      {page
+        ? (
+          <Details
+            page={page}
+            variant={variant}
+            shipmentPolitics={shipmentPolitics}
+            shareableNetworks={shareableNetworks}
+            productBenefits={productBenefits}
+            highlights={highlights}
+            discount={discount}
+          />
+        )
+        : <ProductNotFound {...notFoundProps} />}
     </div>
   );
 }
