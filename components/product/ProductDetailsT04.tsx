@@ -118,9 +118,10 @@ function ProductInfo({
     listPrice,
   });
 
-  const referenceID = additionalProperty?.find(
-    ({ valueReference }) => valueReference == "ReferenceID",
-  )?.value ?? gtin;
+  const referenceID =
+    additionalProperty?.find(
+      ({ valueReference }) => valueReference == "ReferenceID"
+    )?.value ?? gtin;
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
@@ -260,54 +261,58 @@ function ProductInfo({
         </div>
       </div>
       {/* Prices */}
-      <div class="mt-5">
-        <div class="flex flex-row gap-2 items-center">
-          {listPrice !== price && (
-            <span class="line-through text-base-300 text-xs">
-              {formatPrice(listPrice, offers!.priceCurrency!)}
+      {availability === "https://schema.org/InStock" && (
+        <div class="mt-5">
+          <div class="flex flex-row gap-2 items-center">
+            {listPrice !== price && (
+              <span class="line-through text-base-300 text-xs">
+                {formatPrice(listPrice, offers!.priceCurrency!)}
+              </span>
+            )}
+            <span class="font-medium text-xl lg:text-2xl uppercase text-primary">
+              {formatPrice(price, offers!.priceCurrency!)}
             </span>
-          )}
-          <span class="font-medium text-xl lg:text-2xl uppercase text-primary">
-            {formatPrice(price, offers!.priceCurrency!)}
-          </span>
+          </div>
+          <span>{installments}</span>
         </div>
-        <span>{installments}</span>
-      </div>
+      )}
       {/* Measurement chart */}
-      <div class="mt-4 sm:mt-5">
-        <a
-          class="text-sm underline"
-          href="https://technos.vtexcommercestable.com.br/api/dataentities/MI/documents/405a6e7f-cce7-11ed-83ab-02f9c48fe6b5/file/attachments/GuiaDeMedidasTechnos.pdf"
-          target="_blank"
-          data-gtm-vis-first-on-screen387253_693="1145"
-          data-gtm-vis-total-visible-time387253_693="100"
-          data-gtm-vis-has-fired387253_693="1"
-        >
-          Tabela de Medidas
-        </a>
-      </div>
+      {availability === "https://schema.org/InStock" && (
+        <div class="mt-4 sm:mt-5">
+          <a
+            class="text-sm underline"
+            href="https://technos.vtexcommercestable.com.br/api/dataentities/MI/documents/405a6e7f-cce7-11ed-83ab-02f9c48fe6b5/file/attachments/GuiaDeMedidasTechnos.pdf"
+            target="_blank"
+            data-gtm-vis-first-on-screen387253_693="1145"
+            data-gtm-vis-total-visible-time387253_693="100"
+            data-gtm-vis-has-fired387253_693="1"
+          >
+            Tabela de Medidas
+          </a>
+        </div>
+      )}
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-5">
         <ProductSelector product={product} />
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 mb-7 lg:mt-10 flex gap-[30px]">
-        {availability === "https://schema.org/InStock"
-          ? (
-            <>
-              {seller && (
-                <AddToCartActions
-                  productID={productID}
-                  seller={seller}
-                  price={price}
-                  listPrice={listPrice}
-                  productName={name ?? ""}
-                  productGroupID={product.isVariantOf?.productGroupID ?? ""}
-                />
-              )}
-            </>
-          )
-          : <OutOfStock productID={productID} />}
+        {availability === "https://schema.org/InStock" ? (
+          <>
+            {seller && (
+              <AddToCartActions
+                productID={productID}
+                seller={seller}
+                price={price}
+                listPrice={listPrice}
+                productName={name ?? ""}
+                productGroupID={product.isVariantOf?.productGroupID ?? ""}
+              />
+            )}
+          </>
+        ) : (
+          <OutOfStock productID={productID} />
+        )}
       </div>
       {/* Description card */}
       <details className="collapse collapse-plus border-b border-[#E2E3E8] rounded-none">
@@ -330,7 +335,7 @@ function ProductInfo({
                       >
                         {renderItem(item)}
                       </li>
-                    ),
+                    )
                 )}
               </>
             )}
@@ -357,7 +362,8 @@ function ProductInfo({
       <div class="flex flex-wrap justify-between gap-2">
         {productBenefits?.map((item) => {
           return (
-            <div className="
+            <div
+              className="
                   xl:max-w-[49%]
                   lg:w-full
                   lg:max-w-full
@@ -377,7 +383,8 @@ function ProductInfo({
                   bg-neutral-200
                   justify-center
                   items-center
-                  rounded-lg">
+                  rounded-lg"
+            >
               <div>
                 <Image src={item.icon} alt={item.name} width={50} height={50} />
               </div>
@@ -439,14 +446,15 @@ const useStableImages = (product: ProductDetailsPage["product"]) => {
   };
 
   const images = product.image ?? [];
-  const allImages = product.isVariantOf?.hasVariant
-    .flatMap((p) => p.image)
-    .reduce((acc, img) => {
-      if (img?.url) {
-        acc[imageNameFromURL(img.url)] = img.url;
-      }
-      return acc;
-    }, {} as Record<string, string>) ?? {};
+  const allImages =
+    product.isVariantOf?.hasVariant
+      .flatMap((p) => p.image)
+      .reduce((acc, img) => {
+        if (img?.url) {
+          acc[imageNameFromURL(img.url)] = img.url;
+        }
+        return acc;
+      }, {} as Record<string, string>) ?? {};
 
   return images.map((img) => {
     const name = imageNameFromURL(img.url);
@@ -554,27 +562,28 @@ function ProductDetails({
   highlights,
   discount,
 }: Props) {
-  const variant = maybeVar === "auto"
-    ? page?.product.image?.length && page?.product.image?.length < 2
-      ? "front-back"
-      : "slider"
-    : maybeVar;
+  const variant =
+    maybeVar === "auto"
+      ? page?.product.image?.length && page?.product.image?.length < 2
+        ? "front-back"
+        : "slider"
+      : maybeVar;
 
   return (
     <div class="py-0 lg:pb-10">
-      {page
-        ? (
-          <Details
-            page={page}
-            variant={variant}
-            shipmentPolitics={shipmentPolitics}
-            shareableNetworks={shareableNetworks}
-            productBenefits={productBenefits}
-            highlights={highlights}
-            discount={discount}
-          />
-        )
-        : <ProductNotFound {...notFoundProps} />}
+      {page ? (
+        <Details
+          page={page}
+          variant={variant}
+          shipmentPolitics={shipmentPolitics}
+          shareableNetworks={shareableNetworks}
+          productBenefits={productBenefits}
+          highlights={highlights}
+          discount={discount}
+        />
+      ) : (
+        <ProductNotFound {...notFoundProps} />
+      )}
     </div>
   );
 }
