@@ -110,7 +110,6 @@ function ProductInfo({
   } = useOffer(offers);
 
   console.log(offers);
-  
 
   const eventItem = mapProductToAnalyticsItem({
     product,

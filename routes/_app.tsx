@@ -9,7 +9,7 @@ const sw = () =>
     () =>
       navigator &&
       navigator.serviceWorker &&
-      navigator.serviceWorker.register("/sw.js")
+      navigator.serviceWorker.register("/sw.js"),
   );
 
 export default defineApp(async (_req, ctx) => {
@@ -61,7 +61,6 @@ export default defineApp(async (_req, ctx) => {
           `}
         </style>
 
-       
         {/* Tailwind v3 CSS file */}
         <link
           href={asset(`/styles.css?revision=${revision}`)}

@@ -109,7 +109,7 @@ function Filters({ filters }: Props) {
   return (
     <ul class="flex flex-col gap-2">
       <li>
-        <p class="font-medium text-base uppercase mb-4 text-[#06005B]">
+        <p class="font-medium text-base uppercase mb-4 text-base-content">
           Filtrar por:
         </p>
         {selectedFilters.length > 0 && (

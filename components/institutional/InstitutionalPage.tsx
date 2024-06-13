@@ -39,7 +39,7 @@ function InstitutionalPage({
             .markdown-body p {
               color: #8E8E9F;
               font-size: 14px;
-              font-weight: 400;
+              font-weight: 300;
               line-height: 20px;
             }
           `,
