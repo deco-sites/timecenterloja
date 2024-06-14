@@ -19,12 +19,12 @@ export default defineApp(async (_req, ctx) => {
     <>
       {/* Include default fonts and css vars */}
       <Theme />
+      
 
       {/* Include Icons and manifest */}
       <Head>
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
-
 
         <style
           type="text/css"
