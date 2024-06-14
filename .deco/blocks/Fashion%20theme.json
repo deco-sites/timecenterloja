@@ -26,7 +26,5 @@
     "base-300": "#000000",
     "info-content": "#000000"
   },
-  "font": {
-    "__resolveType": "website/loaders/fonts/local.ts"
-  }
+  "font": {}
 }
