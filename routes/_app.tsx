@@ -25,8 +25,11 @@ export default defineApp(async (_req, ctx) => {
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin" />
 
-        <style>
-          {`
+
+        <style
+          type="text/css"
+          dangerouslySetInnerHTML={{
+            __html: `
             @font-face {
               font-family: 'Gotham';
               font-style: normal;
@@ -58,8 +61,9 @@ export default defineApp(async (_req, ctx) => {
               font-display: swap;
               src: url(/live/invoke/website/loaders/asset.ts?src=https://timecenterloja.deco.site/fonts/GothamBook.ttf) format('truetype');
             }
-          `}
-        </style>
+          `,
+          }}
+        />
 
         {/* Tailwind v3 CSS file */}
         <link
