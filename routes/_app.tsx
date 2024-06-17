@@ -14,7 +14,6 @@ const sw = () =>
 
 export default defineApp(async (_req, ctx) => {
   const revision = await Context.active().release?.revision();
-  
 
   return (
     <>
