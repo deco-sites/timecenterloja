@@ -3,6 +3,9 @@
   "path": "/s",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

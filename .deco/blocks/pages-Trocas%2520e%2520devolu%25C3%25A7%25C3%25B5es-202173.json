@@ -3,6 +3,9 @@
   "path": "/institucional/como-comprar",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

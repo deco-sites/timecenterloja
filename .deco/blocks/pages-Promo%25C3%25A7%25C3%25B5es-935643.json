@@ -3,6 +3,9 @@
   "path": "/promocoes",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

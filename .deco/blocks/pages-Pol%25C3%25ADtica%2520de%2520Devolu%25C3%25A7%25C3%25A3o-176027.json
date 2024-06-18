@@ -3,6 +3,9 @@
   "path": "/institucional/politica-de-devolucao",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

@@ -3,6 +3,9 @@
   "path": "/institucional/politica-de-privacidade",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

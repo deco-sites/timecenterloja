@@ -3,6 +3,9 @@
   "path": "/institucional/tipos-de-frete",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

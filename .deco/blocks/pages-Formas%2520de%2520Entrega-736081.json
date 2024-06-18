@@ -3,6 +3,9 @@
   "path": "/institucional/sobre",
   "sections": [
     {
+      "__resolveType": "Analytics"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {
