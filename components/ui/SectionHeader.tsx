@@ -27,7 +27,7 @@ function Header(props: Props) {
           >
             {props.title &&
               (
-                <h1
+                <h2
                   class={clx(
                     "text-2xl font-light leading-8 lg:leading-10",
                     props.colorReverse
@@ -38,7 +38,7 @@ function Header(props: Props) {
                   )}
                 >
                   {props.title}
-                </h1>
+                </h2>
               )}
             {props.description &&
               (

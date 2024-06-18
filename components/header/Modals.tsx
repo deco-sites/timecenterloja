@@ -55,7 +55,6 @@ function Modals({ menu, minicart, device }: Props) {
         open={displayCart.value}
         onClose={() => {
           displayCart.value = false;
-          console.log(displayCart.value);
         }}
       >
         <Suspense fallback={<Loading />}>
