@@ -1,1 +1,65 @@
-{"__resolveType":"site/sections/Container.tsx","sections":[{"section":{"__resolveType":"site/sections/Images/ImageGallery.tsx","images":[{"backgroundColorHover":"primary","borderRadius":{"mobile":"xl","desktop":"xl"},"borderSize":{"mobile":"none","desktop":"none"},"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3dba5285-e335-4d2f-8fc1-ae2b7c5dee65","alt":"relogioanel","imageMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ed6559bd-515b-4aa2-84b7-27e77864a2ef","href":"/relogioanel"},{"backgroundColorHover":"primary","borderRadius":{"mobile":"xl","desktop":"xl"},"borderSize":{"mobile":"none","desktop":"none"},"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3dba5285-e335-4d2f-8fc1-ae2b7c5dee65","alt":"relogioanel","imageMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ed6559bd-515b-4aa2-84b7-27e77864a2ef","href":"/relogioanel"},{"backgroundColorHover":"primary","borderRadius":{"mobile":"xl","desktop":"xl"},"borderSize":{"mobile":"none","desktop":"none"},"image":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3dba5285-e335-4d2f-8fc1-ae2b7c5dee65","alt":"relogioanel","imageMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ed6559bd-515b-4aa2-84b7-27e77864a2ef","href":"/relogioanel"}],"itemPerPageDesktop":3,"itemPerPageMobile":1},"shadow":"none","overFlow":"overflow-none","verticalSpacing":"top","label":"ImageGallery","withContainer":true}],"label":"\"Container\""}
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Images/ImageGallery.tsx",
+        "images": [
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6d0eed88-a1ab-44c5-89b0-a74110bc0c61",
+            "alt": "relogioanel",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1be99572-c865-4acf-94d8-2778256ad5bb",
+            "href": "/relogio%20anel?&utmi_p=_mormaiishop_relogios&utmi_pc=BuscaFullText&utmi_cp=relogio%20anel"
+          },
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1633afdb-f9cf-469c-a961-6cd54279dbfb",
+            "alt": "Mormaii",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/435eadd6-bfff-4ffa-b271-2ed582695f33",
+            "href": "/mormaiishop/relogios"
+          },
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/cd42917c-c0b2-4e21-8b31-3b4400b2e7ce",
+            "alt": "Kids",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bf06df06-eda6-491d-a3b3-2007574f5d13",
+            "href": "/kids?&utmi_p=_mormaiishop_relogios&utmi_pc=BuscaFullText&utmi_cp=kids"
+          }
+        ],
+        "itemPerPageDesktop": 3,
+        "itemPerPageMobile": 1
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "ImageGallery",
+      "withContainer": true
+    }
+  ],
+  "label": "\"Container\""
+}

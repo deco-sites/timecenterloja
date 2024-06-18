@@ -414,5 +414,9 @@
     "path": "/institucional/nossas-lojas",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Analytics.json": {
+    "blockType": "sections",
+    "__resolveType": "website/sections/Analytics/Analytics.tsx"
   }
 }

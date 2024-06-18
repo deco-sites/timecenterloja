@@ -8,38 +8,38 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/relogio/condor?O=OrderByReleaseDateDESC&utmi_p=_&utmi_pc=Banner%3aBanner+Principal+-+Desktop+1&utmi_cp=Condor"
+              "href": "/condor%20kit%20elegante?&utmi_p=_fossil-store&utmi_pc=BuscaFullText&utmi_cp=condor%20kit%20elegante"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d8d614f8-f5f1-4227-b718-bc1bf6478819",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/821a61ea-9768-439c-b7b7-164bbb5bd77a",
             "alt": "Condor",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/5f40b489-d7d6-4315-a3e7-975280d10ba3"
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/348b0194-8403-480e-9a29-61469e2de905"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/fossil%20masculino?PS=12&O=OrderByReleaseDateDESC&utmi_p=_&utmi_pc=Banner%3aBanner+Principal+-+Desktop+2&utmi_cp=Fossil"
+              "href": "/mormaiishop/relogios?&utmi_p=_&utmi_pc=Banner%3aBanner+Principal+-+Desktop+2&utmi_cp=Mormaii"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/a0dd5aca-2f4f-4243-81ab-d4470d53cf44",
-            "alt": "Fossil",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/fd2df73f-ace9-4659-a48d-a04eaf5d61eb"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/60b42b8e-360f-4907-8669-79aa67dda773",
+            "alt": "Mormaii",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/a16be836-b2fb-46dc-8342-77cff3d2b563"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/relogio?PS=48&O=OrderByReleaseDateDESC"
+              "href": "/euro/relogio?O=OrderByReleaseDateDESC"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/09639e33-9b7e-4f0f-bb12-30cba8ba2133",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/09639e33-9b7e-4f0f-bb12-30cba8ba2133",
-            "alt": "Frete Grátis "
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b135264c-9f63-4f38-96dd-8e0e2dcd50e0",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c1efae30-93e9-40d0-a426-01d2013bf3de",
+            "alt": "Euro"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/relogio?PS=48&O=OrderByReleaseDateDESC"
+              "href": "/kids?&utmi_p=_euro_relogio&utmi_pc=BuscaFullText&utmi_cp=kids"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/09639e33-9b7e-4f0f-bb12-30cba8ba2133",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/09639e33-9b7e-4f0f-bb12-30cba8ba2133",
-            "alt": "Frete Grátis "
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2406fba1-9619-4b03-baf0-791bb7d83325",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6e821236-2c03-4c8c-a656-253f5d3f94dc",
+            "alt": "Interativos"
           }
         ],
         "showPaginationArrows": "Desktop Only",
