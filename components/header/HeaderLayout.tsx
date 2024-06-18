@@ -56,6 +56,8 @@ function HeaderLayout(
                 src={logo?.image}
                 width={logo?.width ?? 91}
                 height={logo?.height ?? 17}
+                alt="Logo"
+                title="Logo"
               />
             )}
           </a>

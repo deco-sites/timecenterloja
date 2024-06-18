@@ -128,6 +128,8 @@ function Footer(
                 src={logo?.image}
                 width={logo?.width ?? 119}
                 height={logo?.height ?? 23}
+                alt="Logo"
+                title="Logo"
               />
             )}
             {socialNetWorks?.length && (
