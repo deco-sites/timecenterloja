@@ -46,7 +46,11 @@
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b9e0a032-5abe-4e09-afba-0a82951f7ab5",
             "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b9e0a032-5abe-4e09-afba-0a82951f7ab5"
           },
-          "matcher": "/relogio/feminino"
+          "matcher": "/relogio/feminino",
+          "text": {
+            "title": "Relógios Femininos",
+            "desktopTextPosition": "right"
+          }
         },
         {
           "image": {
@@ -54,7 +58,11 @@
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b9e0a032-5abe-4e09-afba-0a82951f7ab5",
             "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b9e0a032-5abe-4e09-afba-0a82951f7ab5"
           },
-          "matcher": "/relogio/masculino"
+          "matcher": "/relogio/masculino",
+          "text": {
+            "title": "Relógios Masculinos",
+            "desktopTextPosition": "right"
+          }
         }
       ]
     },
