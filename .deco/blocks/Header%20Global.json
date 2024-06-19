@@ -7,7 +7,7 @@
         "alerts": [
           {
             "idIcon": "",
-            "textAlert": "atendimento@timecenter.com.br",
+            "textAlert": "FRETE GRÁTIS acima de R$450",
             "textColor": "#ffffff",
             "alt": "Frete grátis acima de R$ 450"
           },
@@ -25,9 +25,9 @@
           },
           {
             "idIcon": "",
-            "textAlert": "5% de cashback com AME",
+            "textAlert": "atendimento@timecenter.com.br",
             "textColor": "#ffffff",
-            "alt": "5% de cashback com AME"
+            "alt": "atendimento@timecenter.com.br"
           }
         ],
         "interval": 5
