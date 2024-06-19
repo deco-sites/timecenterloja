@@ -1,1 +1,10 @@
-{"account":"timecenter","platform":"vtex","publicUrl":"www.timecenter.com.br","salesChannel":"1","__resolveType":"decohub/apps/vtex.ts","defaultSegment":{"channelPrivacy":"public"}}
+{
+  "account": "timecenter",
+  "platform": "vtex",
+  "publicUrl": "secure.timecenter.com.br",
+  "salesChannel": "1",
+  "__resolveType": "decohub/apps/vtex.ts",
+  "defaultSegment": {
+    "channelPrivacy": "public"
+  }
+}

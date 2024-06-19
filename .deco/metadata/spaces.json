@@ -395,7 +395,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 26.218487394957986,
+                "width": 27.48603351955307,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -417,7 +417,7 @@
               },
               {
                 "type": "stack",
-                "width": 61.1764705882353,
+                "width": 64.1340782122905,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -439,7 +439,7 @@
               },
               {
                 "type": "stack",
-                "width": 12.605042016806722,
+                "width": 8.379888268156426,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2362,7 +2362,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 24.642857142857142,
+                "width": 21.186440677966107,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2384,7 +2384,7 @@
               },
               {
                 "type": "stack",
-                "width": 57.49999999999999,
+                "width": 53.38983050847458,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2406,7 +2406,7 @@
               },
               {
                 "type": "stack",
-                "width": 17.857142857142858,
+                "width": 25.423728813559315,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2444,8 +2444,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Preview::world::Preview::%7B%7D": {
@@ -6678,56 +6677,26 @@
         },
         "content": [
           {
-            "type": "row",
+            "type": "stack",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "stack",
-                "width": 41.66666666666667,
+                "type": "component",
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
+                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D\" />",
+                "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D",
+                "componentName": "component",
+                "componentState": {
+                  "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D"
+                }
               }
-            ]
+            ],
+            "width": 100,
+            "activeItemIndex": 0
           }
         ],
         "isClosable": true,
@@ -6737,18 +6706,6 @@
         "maximisedItemId": null
       },
       "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
         "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
           "icon": "world",
