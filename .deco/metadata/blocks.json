@@ -261,9 +261,9 @@
   },
   "/.deco/blocks/pages-home-c4bcbfb771e9.json": {
     "name": "Home",
-    "path": "/",
     "blockType": "pages",
-    "__resolveType": "website/pages/Page.tsx"
+    "__resolveType": "website/pages/Page.tsx",
+    "path": "/"
   },
   "/.deco/blocks/pages-productpage-ce4850591828.json": {
     "name": "Product Page",
