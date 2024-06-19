@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/87079be1-99f3-4b04-871b-9a2bbbd23970",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/87079be1-99f3-4b04-871b-9a2bbbd23970",
-            "alt": "Stones",
-            "href": "/stones",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0d813dff-5f4f-4f30-a196-4adc5771671b",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/71794df8-eade-48cb-8dd2-d9b031decd43",
+            "alt": "Technos",
+            "href": "/relogio/technos?O=OrderByReleaseDateDESC",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0fcad9e6-8d94-40c8-a274-9a2e5fb63937",
-            "alt": "Mini",
-            "href": "/mini",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0fcad9e6-8d94-40c8-a274-9a2e5fb63937"
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/55777c23-3a8f-404e-8fc8-c781ec6cc044",
+            "href": "/fossil-store",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9f4c8942-a43b-4730-b430-ca00b411bd9f",
+            "alt": "Fossil"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/f4ff5ec1-8bd3-4d66-84ce-fc9f7d71e080",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/f4ff5ec1-8bd3-4d66-84ce-fc9f7d71e080",
-            "alt": "Glitz",
-            "href": "/glitz"
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1c795c3c-8889-4df5-845b-18de5545c069",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bfc5e1c6-1cfe-4e9e-a768-6f43c90840b1",
+            "href": "/relogio/condor?O=OrderByReleaseDateDESC",
+            "alt": "Condor"
           }
         ]
       },
