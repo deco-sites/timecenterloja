@@ -25,73 +25,7 @@
       "name": "Pages",
       "pinned": true,
       "icon": "files",
-      "layout": {
-        "settings": {
-          "hasHeaders": true,
-          "constrainDragToContainer": true,
-          "reorderEnabled": true,
-          "selectionEnabled": false,
-          "popoutWholeStack": false,
-          "blockedPopoutsThrowError": true,
-          "closePopoutsOnUnload": true,
-          "showPopoutIcon": false,
-          "showMaximiseIcon": false,
-          "showCloseIcon": false,
-          "responsiveMode": "onload"
-        },
-        "dimensions": {
-          "borderWidth": 8,
-          "minItemHeight": 10,
-          "minItemWidth": 10,
-          "headerHeight": 40,
-          "dragProxyWidth": 300,
-          "dragProxyHeight": 200
-        },
-        "labels": {
-          "close": "close",
-          "maximise": "maximise",
-          "minimise": "minimise",
-          "popout": "open in new window",
-          "popin": "pop in",
-          "tabDropdown": "additional tabs"
-        },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 100,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "pages::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "pages::List::list::List::%7B%7D"
-                    },
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
-        "isClosable": true,
-        "reorderEnabled": true,
-        "title": "",
-        "openPopouts": [],
-        "maximisedItemId": null
-      },
+      "layout": [],
       "tabs": {
         "pages::List::list::List::%7B%7D": {
           "name": "List",
@@ -461,7 +395,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 26.218487394957986,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -483,7 +417,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 61.1764705882353,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -498,6 +432,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 12.605042016806722,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -522,7 +477,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D": {
@@ -535,6 +491,18 @@
           "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
           }
         }
       }
@@ -2394,7 +2362,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 30,
+                "width": 24.642857142857142,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2416,7 +2384,7 @@
               },
               {
                 "type": "stack",
-                "width": 70,
+                "width": 57.49999999999999,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2431,6 +2399,27 @@
                       "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Preview::world::Preview::%7B%7D"
                     },
                     "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 17.857142857142858,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Page%20SEO::world-search::Page%20SEO::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -2467,6 +2456,17 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Page%20SEO::world-search::Page%20SEO::%7B%7D": {
+          "name": "Page SEO",
+          "icon": "world-search",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Page SEO",
+          "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Page%20SEO::world-search::Page%20SEO::%7B%7D",
           "state": {
             "__signal": null
           }
@@ -7114,6 +7114,209 @@
           "viewId": "Preview",
           "width": 70,
           "id": "%2F.deco%2Fblocks%2FBanner%2520Terci%25C3%25A1rio%2520-%2520Grid.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "{\"oid\":\"02513f5cb25e368b76c14b19e63f2e1968c6ad23\",\"short\":\"02513f5\",\"commit\":{\"message\":\"Release staging environment with 1 changes made by Viviane Metzker\\n\",\"parent\":[\"9f1c058a453f4f13c3ea9a77efd7043e89652f3c\"],\"tree\":\"a3badf6215ebebc359f2ff4493b9f11ec0260216\",\"author\":{\"name\":\"Viviane Metzker\",\"email\":\"viviane@agencian1.com.br\",\"timestamp\":1718805388,\"timezoneOffset\":0},\"committer\":{\"name\":\"Viviane Metzker\",\"email\":\"viviane@agencian1.com.br\",\"timestamp\":1718805388,\"timezoneOffset\":0}}}",
+      "name": "Release 02513f5",
+      "pinned": false,
+      "icon": "rocket",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%7B%22oid%22%3A%2202513f5cb25e368b76c14b19e63f2e1968c6ad23%22%2C%22short%22%3A%2202513f5%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Viviane%20Metzker%5Cn%22%2C%22parent%22%3A%5B%229f1c058a453f4f13c3ea9a77efd7043e89652f3c%22%5D%2C%22tree%22%3A%22a3badf6215ebebc359f2ff4493b9f11ec0260216%22%2C%22author%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%7B%22oid%22%3A%2202513f5cb25e368b76c14b19e63f2e1968c6ad23%22%2C%22short%22%3A%2202513f5%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Viviane%20Metzker%5Cn%22%2C%22parent%22%3A%5B%229f1c058a453f4f13c3ea9a77efd7043e89652f3c%22%5D%2C%22tree%22%3A%22a3badf6215ebebc359f2ff4493b9f11ec0260216%22%2C%22author%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%7B%22oid%22%3A%2202513f5cb25e368b76c14b19e63f2e1968c6ad23%22%2C%22short%22%3A%2202513f5%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Viviane%20Metzker%5Cn%22%2C%22parent%22%3A%5B%229f1c058a453f4f13c3ea9a77efd7043e89652f3c%22%5D%2C%22tree%22%3A%22a3badf6215ebebc359f2ff4493b9f11ec0260216%22%2C%22author%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%7B%22oid%22%3A%2202513f5cb25e368b76c14b19e63f2e1968c6ad23%22%2C%22short%22%3A%2202513f5%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Viviane%20Metzker%5Cn%22%2C%22parent%22%3A%5B%229f1c058a453f4f13c3ea9a77efd7043e89652f3c%22%5D%2C%22tree%22%3A%22a3badf6215ebebc359f2ff4493b9f11ec0260216%22%2C%22author%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D": {
+          "name": "Release",
+          "icon": "rocket",
+          "render": "function",
+          "viewId": "Release",
+          "id": "%7B%22oid%22%3A%2202513f5cb25e368b76c14b19e63f2e1968c6ad23%22%2C%22short%22%3A%2202513f5%22%2C%22commit%22%3A%7B%22message%22%3A%22Release%20staging%20environment%20with%201%20changes%20made%20by%20Viviane%20Metzker%5Cn%22%2C%22parent%22%3A%5B%229f1c058a453f4f13c3ea9a77efd7043e89652f3c%22%5D%2C%22tree%22%3A%22a3badf6215ebebc359f2ff4493b9f11ec0260216%22%2C%22author%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%2C%22committer%22%3A%7B%22name%22%3A%22Viviane%20Metzker%22%2C%22email%22%3A%22viviane%40agencian1.com.br%22%2C%22timestamp%22%3A1718805388%2C%22timezoneOffset%22%3A0%7D%7D%7D::Release::rocket::Release::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      }
+    },
+    {
+      "id": "/.deco/blocks/Preview%20website%2Fsections%2FSeo%2FSeoV2.tsx.json",
+      "name": "SeoV2.tsx",
+      "pinned": false,
+      "icon": "code",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 50,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Code::code::Code::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Code::code::Code::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Code::code::Code::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Preview::world::Preview::%7B%7D": {
+          "name": "Preview",
+          "icon": "world",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Preview",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Preview::world::Preview::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Code::code::Code::%7B%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "id": "%2F.deco%2Fblocks%2FPreview%2520website%252Fsections%252FSeo%252FSeoV2.tsx.json::Code::code::Code::%7B%7D",
           "state": {
             "__signal": null
           }

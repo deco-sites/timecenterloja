@@ -1,6 +1,5 @@
 {
   "seo": {
-    "type": "website",
     "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e5047179-73dc-4bfe-976b-d846c2659d6e",
     "title": "Time Center | Relógios Originais Nacionais e Importados ",
     "jsonLDs": [],
@@ -8,7 +7,8 @@
     "description": "A Timecenter oferece a maior variedade em relógios nacionais e importados. Produtos originais Technos, Diesel, Euro, Michael Kors e muito mais em até 10x. Compra segura.",
     "titleTemplate": "%s | Time Center",
     "descriptionTemplate": "%s | Time Center ",
-    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ee34ee9c-6394-4cbe-86e9-ef51d5170eaa"
+    "favicon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ee34ee9c-6394-4cbe-86e9-ef51d5170eaa",
+    "type": "website"
   },
   "theme": {
     "__resolveType": "Fashion theme"
