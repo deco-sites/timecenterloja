@@ -45,7 +45,73 @@
       "name": "Sections",
       "pinned": true,
       "icon": "block",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "sections::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "sections::List::list::List::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
@@ -85,7 +151,73 @@
       "name": "Releases",
       "pinned": true,
       "icon": "rocket",
-      "layout": [],
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "releases::releases::rocket::releases::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-releases::releases::rocket::releases::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "releases::releases::rocket::releases::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
       "tabs": {
         "releases::releases::rocket::releases::%7B%7D": {
           "name": "releases",
@@ -395,7 +527,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 27.48603351955307,
+                "width": 24.59893048128342,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -417,7 +549,7 @@
               },
               {
                 "type": "stack",
-                "width": 64.1340782122905,
+                "width": 57.39750445632799,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -439,7 +571,7 @@
               },
               {
                 "type": "stack",
-                "width": 8.379888268156426,
+                "width": 2.0053475935828877,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -452,6 +584,27 @@
                     "componentName": "component",
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Page%20SEO::world-search::Page%20SEO::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 15.998217468805704,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fapps%2Fsite.ts%22%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fapps%2Fsite.ts%22%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fapps%2Fsite.ts%22%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -503,6 +656,21 @@
           "state": {
             "__signal": null,
             "value": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fapps%2Fsite.ts%22%7D": {
+          "name": "Code",
+          "icon": "code",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Code",
+          "viewProps": {
+            "spaceId": "/apps/site.ts"
+          },
+          "id": "%2F.deco%2Fblocks%2Fpages-home-c4bcbfb771e9.json::Code::code::Code::%7B%22spaceId%22%3A%22%2Fapps%2Fsite.ts%22%7D",
+          "state": {
+            "__signal": null,
+            "value": "error"
           }
         }
       }
@@ -654,7 +822,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -668,6 +836,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fsite.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -675,7 +844,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -689,6 +858,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -710,10 +880,10 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2Fsite.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D": {
@@ -722,6 +892,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2Fsite.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -1486,7 +1657,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 30.708104444847034,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1500,6 +1671,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FHeader%2520Global.json::Properties::list::Properties::%7B%7D"
                     },
+                    "width": 30,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1507,7 +1679,7 @@
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 69.29189555515296,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1521,6 +1693,7 @@
                     "componentState": {
                       "id": "%2F.deco%2Fblocks%2FHeader%2520Global.json::Preview::world::Preview::%7B%7D"
                     },
+                    "width": 70,
                     "isClosable": true,
                     "reorderEnabled": true
                   }
@@ -1542,6 +1715,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Properties",
+          "width": 30,
           "id": "%2F.deco%2Fblocks%2FHeader%2520Global.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null,
@@ -1554,6 +1728,7 @@
           "accepts": "function",
           "render": "function",
           "viewId": "Preview",
+          "width": 70,
           "id": "%2F.deco%2Fblocks%2FHeader%2520Global.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
@@ -1727,7 +1902,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 31.481507133079887,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1749,7 +1924,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 68.51849286692011,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -1788,7 +1963,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2FHome%2520-%2520Carousel.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2FHome%2520-%2520Carousel.json::Preview::world::Preview::%7B%7D": {
@@ -2874,7 +3050,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2889,13 +3065,14 @@
                       "id": "%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D"
                     },
                     "isClosable": true,
-                    "reorderEnabled": true
+                    "reorderEnabled": true,
+                    "width": 30
                   }
                 ]
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2910,7 +3087,8 @@
                       "id": "%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D"
                     },
                     "isClosable": true,
-                    "reorderEnabled": true
+                    "reorderEnabled": true,
+                    "width": 70
                   }
                 ]
               }
@@ -2933,7 +3111,8 @@
           "id": "%2F.deco%2Fblocks%2Fvtex.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
-          }
+          },
+          "width": 30
         },
         "%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
@@ -2944,7 +3123,8 @@
           "id": "%2F.deco%2Fblocks%2Fvtex.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
-          }
+          },
+          "width": 70
         }
       }
     },
@@ -6677,26 +6857,56 @@
         },
         "content": [
           {
-            "type": "stack",
+            "type": "row",
             "isClosable": true,
             "reorderEnabled": true,
             "title": "",
             "content": [
               {
-                "type": "component",
+                "type": "stack",
                 "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
-                "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D\" />",
-                "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D",
-                "componentName": "component",
-                "componentState": {
-                  "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D"
-                }
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D"
+                    },
+                    "width": 70,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              },
+              {
+                "type": "stack",
+                "width": 30,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D"
+                    },
+                    "width": 30,
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
               }
-            ],
-            "width": 100,
-            "activeItemIndex": 0
+            ]
           }
         ],
         "isClosable": true,
@@ -6716,6 +6926,19 @@
           "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
+          }
+        },
+        "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D": {
+          "name": "Properties",
+          "icon": "list",
+          "accepts": "function",
+          "render": "function",
+          "viewId": "Properties",
+          "width": 30,
+          "id": "%2F.deco%2Fblocks%2Fpages-Lan%2525C3%2525A7amentos-72596.json::Properties::list::Properties::%7B%7D",
+          "state": {
+            "__signal": null,
+            "value": null
           }
         }
       }

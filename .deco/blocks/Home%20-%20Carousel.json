@@ -8,7 +8,7 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/condor%20kit%20elegante?&utmi_p=_fossil-store&utmi_pc=BuscaFullText&utmi_cp=condor%20kit%20elegante"
+              "href": "/s?q=kit+elegante"
             },
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/821a61ea-9768-439c-b7b7-164bbb5bd77a",
             "alt": "Condor",
@@ -17,7 +17,7 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/mormaiishop/relogios?&utmi_p=_&utmi_pc=Banner%3aBanner+Principal+-+Desktop+2&utmi_cp=Mormaii"
+              "href": "/mormaiishop/relogios"
             },
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/60b42b8e-360f-4907-8669-79aa67dda773",
             "alt": "Mormaii",
@@ -26,7 +26,7 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/euro/relogio?O=OrderByReleaseDateDESC"
+              "href": "/relogio?O=OrderByReleaseDateDESC"
             },
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b135264c-9f63-4f38-96dd-8e0e2dcd50e0",
             "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c1efae30-93e9-40d0-a426-01d2013bf3de",
@@ -35,7 +35,7 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/kids?&utmi_p=_euro_relogio&utmi_pc=BuscaFullText&utmi_cp=kids"
+              "href": "/s?q=kids"
             },
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2406fba1-9619-4b03-baf0-791bb7d83325",
             "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6e821236-2c03-4c8c-a656-253f5d3f94dc",

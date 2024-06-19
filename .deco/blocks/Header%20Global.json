@@ -13,21 +13,21 @@
           },
           {
             "idIcon": "",
-            "textAlert": "Frete grátis acima de R$ 450",
+            "textAlert": "10% OFF na sua PRIMEIRA COMPRA",
             "textColor": "#ffffff",
-            "alt": "Frete grátis acima de R$ 450"
+            "alt": "10% OFF na sua PRIMEIRA COMPRA"
           },
           {
             "idIcon": "",
-            "textAlert": "Frete grátis acima de R$ 450",
+            "textAlert": "5% de desconto pagando com PIX",
             "textColor": "#ffffff",
-            "alt": "Frete grátis acima de R$ 450"
+            "alt": "5% de desconto pagando com PIX"
           },
           {
             "idIcon": "",
-            "textAlert": "Frete grátis acima de R$ 450",
+            "textAlert": "5% de cashback com AME",
             "textColor": "#ffffff",
-            "alt": "Frete grátis acima de R$ 450"
+            "alt": "5% de cashback com AME"
           }
         ],
         "interval": 5
