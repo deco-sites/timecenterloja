@@ -2394,7 +2394,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2416,7 +2416,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -2455,7 +2455,8 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null
+            "__signal": null,
+            "value": null
           }
         },
         "%2F.deco%2Fblocks%2Fpages-productpage-ce4850591828.json::Preview::world::Preview::%7B%7D": {
@@ -2992,7 +2993,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 50,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3007,13 +3008,14 @@
                       "id": "%2F.deco%2Fblocks%2FBanners%2520Terci%25C3%25A1rio%2520-%2520Grid.json::Properties::list::Properties::%7B%7D"
                     },
                     "isClosable": true,
-                    "reorderEnabled": true
+                    "reorderEnabled": true,
+                    "width": 30
                   }
                 ]
               },
               {
                 "type": "stack",
-                "width": 50,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3028,7 +3030,8 @@
                       "id": "%2F.deco%2Fblocks%2FBanners%2520Terci%25C3%25A1rio%2520-%2520Grid.json::Preview::world::Preview::%7B%7D"
                     },
                     "isClosable": true,
-                    "reorderEnabled": true
+                    "reorderEnabled": true,
+                    "width": 70
                   }
                 ]
               }
@@ -3051,7 +3054,8 @@
           "id": "%2F.deco%2Fblocks%2FBanners%2520Terci%25C3%25A1rio%2520-%2520Grid.json::Properties::list::Properties::%7B%7D",
           "state": {
             "__signal": null
-          }
+          },
+          "width": 30
         },
         "%2F.deco%2Fblocks%2FBanners%2520Terci%25C3%25A1rio%2520-%2520Grid.json::Preview::world::Preview::%7B%7D": {
           "name": "Preview",
@@ -3062,7 +3066,8 @@
           "id": "%2F.deco%2Fblocks%2FBanners%2520Terci%25C3%25A1rio%2520-%2520Grid.json::Preview::world::Preview::%7B%7D",
           "state": {
             "__signal": null
-          }
+          },
+          "width": 70
         }
       }
     },
@@ -3582,7 +3587,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 32.62642740619902,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3604,7 +3609,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 67.37357259380097,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
