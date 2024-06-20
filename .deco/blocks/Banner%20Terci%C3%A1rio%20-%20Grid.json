@@ -47,7 +47,7 @@
               "reverse": true
             },
             "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/55777c23-3a8f-404e-8fc8-c781ec6cc044",
-            "href": "/fossil-store",
+            "href": "/fossil-store?sort=release%3Adesc",
             "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9f4c8942-a43b-4730-b430-ca00b411bd9f",
             "alt": "Fossil"
           },
@@ -61,7 +61,7 @@
             },
             "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1c795c3c-8889-4df5-845b-18de5545c069",
             "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bfc5e1c6-1cfe-4e9e-a768-6f43c90840b1",
-            "href": "/relogio/condor?O=OrderByReleaseDateDESC",
+            "href": "/s?q=kit+elegante",
             "alt": "Condor"
           }
         ]

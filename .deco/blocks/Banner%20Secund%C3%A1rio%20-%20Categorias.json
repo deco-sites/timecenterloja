@@ -18,7 +18,7 @@
             "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6d0eed88-a1ab-44c5-89b0-a74110bc0c61",
             "alt": "relogioanel",
             "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1be99572-c865-4acf-94d8-2778256ad5bb",
-            "href": "/relogio%20anel?&utmi_p=_mormaiishop_relogios&utmi_pc=BuscaFullText&utmi_cp=relogio%20anel"
+            "href": "/s?q=anel+relogio"
           },
           {
             "backgroundColorHover": "primary",
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/cd42917c-c0b2-4e21-8b31-3b4400b2e7ce",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ff56b513-42f1-40bf-ac5d-b1fa4628c90e",
             "alt": "Kids",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bf06df06-eda6-491d-a3b3-2007574f5d13",
-            "href": "/kids?&utmi_p=_mormaiishop_relogios&utmi_pc=BuscaFullText&utmi_cp=kids"
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/50f6ed32-0be6-45c8-b829-497a4f95f45a",
+            "href": "/s?q=kid"
           }
         ],
         "itemPerPageDesktop": 3,

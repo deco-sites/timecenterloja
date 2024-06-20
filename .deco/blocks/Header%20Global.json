@@ -500,11 +500,6 @@
                 "label": "Collum 1",
                 "children": [
                   {
-                    "href": "/relogio/allora?O=OrderByReleaseDateDESC",
-                    "label": "Allora",
-                    "children": []
-                  },
-                  {
                     "href": "/relogio/armani-exchange?O=OrderByReleaseDateDESC",
                     "label": "Armani Exchange",
                     "children": [],
@@ -518,9 +513,21 @@
                   },
                   {
                     "href": "/relogio/dumont?O=OrderByReleaseDateDESC",
+                    "label": "Dumont",
                     "children": [],
+                    "showLabel": true
+                  },
+                  {
                     "showLabel": true,
-                    "label": "Dumont"
+                    "children": [],
+                    "label": "Emporio Armani",
+                    "href": "/relogio/emporio-armani?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Euro",
+                    "href": "/euro/relogio?O=OrderByReleaseDateDESC"
                   }
                 ],
                 "showLabel": false
@@ -529,18 +536,6 @@
                 "href": "/",
                 "label": "Collum 2",
                 "children": [
-                  {
-                    "href": "/relogio/emporio-armani?O=OrderByReleaseDateDESC",
-                    "label": "Emporio Armani",
-                    "children": [],
-                    "showLabel": true
-                  },
-                  {
-                    "href": "/euro/relogio?O=OrderByReleaseDateDESC",
-                    "label": "Euro",
-                    "children": [],
-                    "showLabel": true
-                  },
                   {
                     "href": "/fossil-store",
                     "label": "Fossil",
@@ -568,14 +563,8 @@
                   {
                     "showLabel": true,
                     "children": [],
-                    "href": "/relogio/michael-kors?O=OrderByReleaseDateDESC",
-                    "label": "Michael Kors"
-                  },
-                  {
-                    "showLabel": true,
-                    "children": [],
-                    "label": "Mormaii",
-                    "href": "/mormaiishop/relogios"
+                    "label": "Michael Kors",
+                    "href": "/relogio/michael-kors?O=OrderByReleaseDateDESC"
                   }
                 ],
                 "showLabel": false
@@ -584,6 +573,12 @@
                 "href": "/",
                 "label": "Collum 3",
                 "children": [
+                  {
+                    "children": [],
+                    "showLabel": true,
+                    "label": "Mormaii",
+                    "href": "/mormaiishop?sort=release%3Adesc"
+                  },
                   {
                     "href": "/relogio/skagen?O=OrderByReleaseDateDESC",
                     "label": "Skagen",
@@ -603,10 +598,10 @@
                     "showLabel": true
                   },
                   {
-                    "href": "/relogio/touch",
-                    "label": "Touch",
+                    "showLabel": true,
                     "children": [],
-                    "showLabel": true
+                    "href": "/relogio/touch",
+                    "label": "Touch"
                   }
                 ],
                 "showLabel": false
