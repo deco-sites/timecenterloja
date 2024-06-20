@@ -67,32 +67,32 @@
                     "children": []
                   },
                   {
-                    "href": "/relogio/masculino/digital?PS=48&O=OrderByReleaseDateDESC",
-                    "label": "Relógio Digital",
-                    "children": []
-                  },
-                  {
-                    "href": "/relogio/masculino/multifuncao?PS=48&O=OrderByReleaseDateDESC",
-                    "label": "Relógio Multifunção",
-                    "children": []
-                  },
-                  {
-                    "showLabel": true,
+                    "href": "/relogio/masculino/automatico?O=OrderByReleaseDateDESC",
+                    "label": "Relógio Automático",
                     "children": [],
-                    "label": "Cronógrafo",
+                    "showLabel": true,
+                    "image": {
+                      "alt": "Automático"
+                    }
+                  },
+                  {
                     "href": "/relogio/masculino/cronografo?O=OrderByReleaseDateDESC",
+                    "label": "Relógio Cronógrafo",
+                    "children": [],
+                    "showLabel": true,
                     "image": {
                       "alt": "Cronógrafo"
                     }
                   },
                   {
-                    "showLabel": true,
                     "children": [],
-                    "label": "Automático",
-                    "href": "/relogio/masculino/automatico?O=OrderByReleaseDateDESC",
-                    "image": {
-                      "alt": "Automático"
-                    }
+                    "label": "Relógio Digital",
+                    "href": "/relogio/masculino/digital?PS=48&O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "children": [],
+                    "label": "Relógio Multifunção",
+                    "href": "/relogio/masculino/multifuncao?PS=48&O=OrderByReleaseDateDESC"
                   }
                 ],
                 "href": "/relogio/masculino?PS=12&O=OrderByBestDiscountDESC",
