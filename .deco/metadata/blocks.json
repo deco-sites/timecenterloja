@@ -422,5 +422,17 @@
   "/.deco/blocks/Preview%20website%2Fsections%2FSeo%2FSeoV2.tsx.json": {
     "blockType": "sections",
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "/.deco/blocks/pages-Account-393745.json": {
+    "name": "Account",
+    "path": "/my-account",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Orders-592062.json": {
+    "name": "Orders",
+    "path": "/my-account/orders",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
