@@ -7,7 +7,7 @@
     },
     {
       "__resolveType": "site/sections/Miscellaneous/ProxyIframe.tsx",
-      "src": "/my-account/orders"
+      "src": "/account#/orders"
     },
     {
       "__resolveType": "Footer Global"
