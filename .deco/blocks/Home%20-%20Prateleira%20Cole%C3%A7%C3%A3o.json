@@ -1,1 +1,80 @@
-{"__resolveType":"site/sections/Container.tsx","sections":[{"section":{"__resolveType":"site/sections/Product/ProductShelf.tsx","products":{"__resolveType":"vtex/loaders/legacy/productList.ts","props":{"sort":"","count":12,"collection":"2408"}},"highlights":[],"seeMore":{"url":"/lancamentos","label":"+ ver mais"},"layout":{"headerAlignment":"center","headerfontSize":"Normal","itemsPerPage":[{"screenWidth":425,"itemsQuantity":1},{"screenWidth":786,"itemsQuantity":3},{"screenWidth":1170,"itemsQuantity":4},{"screenWidth":1440,"itemsQuantity":4}],"headerTailwind":"uppercase font-medium"},"showPaginationArrows":"Always","showPaginationDots":"Always","cardLayout":{"basics":{"contentAlignment":"Center","oldPriceSize":"Small","ctaVariation":"primary","ctaMode":"Add to Cart"},"discount":{"variant":"emphasis","alignHorizontal":"end","label":" "},"elementsPositions":{"skuSelector":"Top","favoriteIcon":"Top right"},"hide":{"productDescription":true,"skuSelector":true},"onMouseOver":{"image":"Change image","showCta":true}},"title":"Lançamentos"},"shadow":"none","overFlow":"overflow-none","verticalSpacing":"top","label":"Prateleira","withContainer":true}],"label":"\"Container\""}
+{
+  "__resolveType": "site/sections/Container.tsx",
+  "sections": [
+    {
+      "section": {
+        "__resolveType": "site/sections/Product/ProductShelf.tsx",
+        "products": {
+          "__resolveType": "vtex/loaders/legacy/productList.ts",
+          "props": {
+            "sort": "OrderByPriceASC",
+            "count": 16,
+            "collection": "2049"
+          }
+        },
+        "highlights": [],
+        "seeMore": {
+          "url": "/lancamentos",
+          "label": "+ ver mais"
+        },
+        "layout": {
+          "headerAlignment": "center",
+          "headerfontSize": "Normal",
+          "itemsPerPage": [
+            {
+              "screenWidth": 425,
+              "itemsQuantity": 1
+            },
+            {
+              "screenWidth": 786,
+              "itemsQuantity": 3
+            },
+            {
+              "screenWidth": 1170,
+              "itemsQuantity": 4
+            },
+            {
+              "screenWidth": 1440,
+              "itemsQuantity": 4
+            }
+          ],
+          "headerTailwind": "uppercase font-medium"
+        },
+        "showPaginationArrows": "Always",
+        "showPaginationDots": "Always",
+        "cardLayout": {
+          "basics": {
+            "contentAlignment": "Center",
+            "oldPriceSize": "Small",
+            "ctaVariation": "primary",
+            "ctaMode": "Add to Cart"
+          },
+          "discount": {
+            "variant": "emphasis",
+            "alignHorizontal": "end",
+            "label": " "
+          },
+          "elementsPositions": {
+            "skuSelector": "Top",
+            "favoriteIcon": "Top right"
+          },
+          "hide": {
+            "productDescription": true,
+            "skuSelector": true
+          },
+          "onMouseOver": {
+            "image": "Change image",
+            "showCta": true
+          }
+        },
+        "title": "Lançamentos"
+      },
+      "shadow": "none",
+      "overFlow": "overflow-none",
+      "verticalSpacing": "top",
+      "label": "Prateleira",
+      "withContainer": true
+    }
+  ],
+  "label": "\"Container\""
+}
