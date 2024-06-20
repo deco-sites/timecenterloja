@@ -292,38 +292,38 @@
                   {
                     "showLabel": true,
                     "children": [],
-                    "label": "Anadigi",
+                    "label": "Relógio Anadigi",
                     "href": "/relogio/feminino/anadigi?O=OrderByReleaseDateDESC"
                   },
                   {
                     "showLabel": true,
                     "children": [],
-                    "label": "Analógico",
+                    "label": "Relógio Analógico",
                     "href": "/relogio/feminino/analogico?O=OrderByReleaseDateDESC"
                   },
                   {
                     "showLabel": true,
                     "children": [],
-                    "label": "Digital",
-                    "href": "/relogio/feminino/digital?O=OrderByReleaseDateDESC"
-                  },
-                  {
-                    "showLabel": true,
-                    "children": [],
-                    "label": "Multifunção",
-                    "href": "/relogio/feminino/multifuncao?O=OrderByReleaseDateDESC"
-                  },
-                  {
-                    "showLabel": true,
-                    "children": [],
-                    "label": "Automático",
+                    "label": "Relógio Automático",
                     "href": "/relogio/feminino/automatico?O=OrderByReleaseDateDESC"
                   },
                   {
                     "showLabel": true,
                     "children": [],
-                    "label": "Cronógrafo",
+                    "label": "Relógio Cronógrafo",
                     "href": "/relogio/feminino/cronografo?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Relógio Digital",
+                    "href": "/relogio/feminino/digital?O=OrderByReleaseDateDESC"
+                  },
+                  {
+                    "showLabel": true,
+                    "children": [],
+                    "label": "Relógio Multifunção",
+                    "href": "/relogio/feminino/multifuncao?O=OrderByReleaseDateDESC"
                   }
                 ],
                 "showLabel": true,

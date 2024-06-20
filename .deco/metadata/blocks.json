@@ -311,10 +311,6 @@
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
-  "/.deco/blocks/Header%20Global.json": {
-    "blockType": "sections",
-    "__resolveType": "site/sections/Container.tsx"
-  },
   "/.deco/blocks/Footer%20Global.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Container.tsx"
