@@ -332,8 +332,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Trocas%2520e%2520devolu%25C3%25A7%25C3%25B5es-202173.json": {
-    "name": "Como Comprar",
-    "path": "/institucional/como-comprar",
+    "name": "Formas de Pagamento",
+    "path": "/institucional/formas0",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
