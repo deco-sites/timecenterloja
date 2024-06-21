@@ -109,8 +109,6 @@ function ProductInfo({
     availability,
   } = useOffer(offers);
 
-  console.log(offers);
-
   const eventItem = mapProductToAnalyticsItem({
     product,
     breadcrumbList: breadcrumb,
@@ -124,7 +122,6 @@ function ProductInfo({
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
-  // console.log("especifications T04", especifications);
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {

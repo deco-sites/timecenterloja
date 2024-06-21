@@ -3,6 +3,19 @@ import { ProductListingPage } from "apps/commerce/types.ts";
 import Icon from "$store/components/ui/Icon.tsx";
 
 const SORT_QUERY_PARAM = "sort";
+const SORT_QUERY_PARAM_LEGACY = "O";
+
+
+const SORT_TO_LEGACY_SORT  = [
+  "OrderByPriceDESC",
+  "OrderByPriceASC",
+  "OrderByTopSaleDESC",
+  "OrderByNameDESC",
+  "OrderByNameASC",
+  "OrderByReleaseDateDESC",
+  "OrderByBestDiscountDESC",
+  "OrderByScoreDESC",
+];
 
 const useSort = () =>
   useMemo(() => {
@@ -12,9 +25,12 @@ const useSort = () =>
 
 // TODO: Replace with "search utils"
 const applySort = (searchParam: string) => {
-  const urlSearchParams = new URLSearchParams(window.location.search);
 
-  urlSearchParams.set(SORT_QUERY_PARAM, searchParam);
+  const urlSearchParams = new URLSearchParams(window.location.search);
+  const isLegacy  = SORT_TO_LEGACY_SORT.includes(searchParam)
+  
+
+  urlSearchParams.set(isLegacy ? SORT_QUERY_PARAM_LEGACY : SORT_QUERY_PARAM , searchParam);
   window.location.search = urlSearchParams.toString();
 };
 
@@ -35,6 +51,7 @@ export type Props = Pick<ProductListingPage, "sortOptions">;
 
 function Sort({ sortOptions }: Props) {
   const sort = useSort();
+  
 
   return (
     <div
@@ -70,7 +87,7 @@ function Sort({ sortOptions }: Props) {
             class="text-sm h-9 hover:cursor-pointer px-5 hover:bg-primary hover:text-info flex justify-center"
             onClick={() => applySort(value)}
           >
-            {labels[label as LabelKey]}
+            {labels[label as LabelKey]} 
           </li>
         ))}
       </ul>
