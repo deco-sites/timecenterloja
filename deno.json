@@ -15,7 +15,7 @@
     "daisyui": "npm:daisyui@4.6.0"
   },
   "tasks": {
-    "local": "DECO_ENV_NAME=local DECO_VALIDATE_TOKEN=a509a7bf-c933-47c9-85d4-25462256d5a0 deno task start",
+    "local": "DECO_ENV_NAME=localhost deno task start",    
     "start": "deno task bundle && deno run -A --env --config=deno.json $(deno eval 'console.log(import.meta.resolve(\"deco/hypervisor/main.ts\"))') --build-cmd 'deno task build' -- deno task dev",
     "gen": "deno run -A dev.ts --gen-only",
     "play": "USE_LOCAL_STORAGE_ONLY=true deno task start",
