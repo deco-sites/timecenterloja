@@ -25,6 +25,26 @@
       "name": "Pages",
       "pinned": true,
       "icon": "files",
+      "layout": [],
+      "tabs": {
+        "pages::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "pages::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content"
+    },
+    {
+      "id": "sections",
+      "name": "Sections",
+      "pinned": true,
+      "icon": "block",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -71,12 +91,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "pages::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                    "id": "sections::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "pages::List::list::List::%7B%7D"
+                      "id": "sections::List::list::List::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -92,26 +112,6 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {
-        "pages::List::list::List::%7B%7D": {
-          "name": "List",
-          "icon": "list",
-          "render": "function",
-          "viewId": "List",
-          "id": "pages::List::list::List::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Content"
-    },
-    {
-      "id": "sections",
-      "name": "Sections",
-      "pinned": true,
-      "icon": "block",
-      "layout": [],
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
@@ -2189,8 +2189,7 @@
           "width": 30,
           "id": "%2F.deco%2Fblocks%2FFooter%2520Global.json::Properties::list::Properties::%7B%7D",
           "state": {
-            "__signal": null,
-            "value": null
+            "__signal": null
           }
         },
         "%2F.deco%2Fblocks%2FFooter%2520Global.json::Preview::world::Preview::%7B%7D": {
@@ -3566,7 +3565,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 32.62642740619902,
+                "width": 41.66666666666667,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3588,7 +3587,7 @@
               },
               {
                 "type": "stack",
-                "width": 67.37357259380097,
+                "width": 58.333333333333336,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3688,7 +3687,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 17.389036212667914,
+                "width": 20.428474395514588,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3710,7 +3709,7 @@
               },
               {
                 "type": "stack",
-                "width": 55.96226579141851,
+                "width": 49.30576227559386,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -3732,7 +3731,7 @@
               },
               {
                 "type": "stack",
-                "width": 26.648697995913572,
+                "width": 30.26576332889155,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5902,7 +5901,7 @@
             "content": [
               {
                 "type": "stack",
-                "width": 41.66666666666667,
+                "width": 30,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",
@@ -5924,7 +5923,7 @@
               },
               {
                 "type": "stack",
-                "width": 58.333333333333336,
+                "width": 70,
                 "isClosable": true,
                 "reorderEnabled": true,
                 "title": "",

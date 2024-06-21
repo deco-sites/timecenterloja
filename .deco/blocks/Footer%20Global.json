@@ -29,18 +29,23 @@
             "children": [
               {
                 "target": "_self",
-                "label": "Sobre",
+                "label": "Sobre a Time Center",
                 "href": "/institucional/sobre"
               },
               {
-                "target": "_self",
-                "label": "Política de Devolução",
-                "href": "/institucional/politica-de-devolucao"
+                "target": "_blank",
+                "label": "Política de Privacidade",
+                "href": "/institucional/politica-de-privacidade"
               },
               {
                 "target": "_self",
-                "label": "Tipos de Frete",
-                "href": "/institucional/tipos-de-frete"
+                "label": "Trocas e Devoluções",
+                "href": "/institucional/politica-de-devolucao"
+              },
+              {
+                "href": "/institucional/tipos-de-frete",
+                "label": "Formas de Entrega",
+                "target": "_self"
               },
               {
                 "href": "/como-comprar",
@@ -48,13 +53,8 @@
                 "target": "_self"
               },
               {
-                "href": "/institucional/politica-de-privacidade",
-                "label": "Política de Privacidade",
-                "target": "_blank"
-              },
-              {
                 "href": "/institucional/nossas-lojas",
-                "label": "Nossas Lojas",
+                "label": "Onde Encontrar",
                 "target": "_blank"
               },
               {
