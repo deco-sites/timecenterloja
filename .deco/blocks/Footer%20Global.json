@@ -38,9 +38,14 @@
                 "href": "/institucional/politica-de-privacidade"
               },
               {
-                "target": "_self",
+                "target": "_blank",
+                "label": "Política de Segurança",
+                "href": "/institucional/politica-de-seguranca"
+              },
+              {
+                "href": "/institucional/politica-de-devolucao",
                 "label": "Trocas e Devoluções",
-                "href": "/institucional/politica-de-devolucao"
+                "target": "_self"
               },
               {
                 "href": "/institucional/tipos-de-frete",
@@ -53,9 +58,9 @@
                 "target": "_self"
               },
               {
-                "href": "/institucional/nossas-lojas",
+                "target": "_blank",
                 "label": "Onde Encontrar",
-                "target": "_blank"
+                "href": "/institucional/nossas-lojas"
               },
               {
                 "target": "_blank",
