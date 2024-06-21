@@ -53,9 +53,9 @@
                 "target": "_self"
               },
               {
-                "href": "/como-comprar",
                 "label": "Formas de Pagamento",
-                "target": "_self"
+                "target": "_self",
+                "href": "/formas-de-pagamento"
               },
               {
                 "target": "_blank",

@@ -25,6 +25,26 @@
       "name": "Pages",
       "pinned": true,
       "icon": "files",
+      "layout": [],
+      "tabs": {
+        "pages::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "pages::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content"
+    },
+    {
+      "id": "sections",
+      "name": "Sections",
+      "pinned": true,
+      "icon": "block",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -71,12 +91,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "pages::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                    "id": "sections::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "pages::List::list::List::%7B%7D"
+                      "id": "sections::List::list::List::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -92,26 +112,6 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {
-        "pages::List::list::List::%7B%7D": {
-          "name": "List",
-          "icon": "list",
-          "render": "function",
-          "viewId": "List",
-          "id": "pages::List::list::List::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Content"
-    },
-    {
-      "id": "sections",
-      "name": "Sections",
-      "pinned": true,
-      "icon": "block",
-      "layout": [],
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
