@@ -5,46 +5,6 @@
       "name": "Site Home",
       "pinned": true,
       "icon": "home",
-      "layout": [],
-      "tabs": {
-        "dashboard::Home::home::Home::%7B%7D": {
-          "name": "Home",
-          "icon": "home",
-          "render": "function",
-          "viewId": "Home",
-          "id": "dashboard::Home::home::Home::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Highlights"
-    },
-    {
-      "id": "pages",
-      "name": "Pages",
-      "pinned": true,
-      "icon": "files",
-      "layout": [],
-      "tabs": {
-        "pages::List::list::List::%7B%7D": {
-          "name": "List",
-          "icon": "list",
-          "render": "function",
-          "viewId": "List",
-          "id": "pages::List::list::List::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      },
-      "category": "Content"
-    },
-    {
-      "id": "sections",
-      "name": "Sections",
-      "pinned": true,
-      "icon": "block",
       "layout": {
         "settings": {
           "hasHeaders": true,
@@ -91,12 +51,12 @@
                 "activeItemIndex": 0,
                 "content": [
                   {
-                    "id": "sections::List::list::List::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-sections::List::list::List::%7B%7D\" />",
+                    "id": "dashboard::Home::home::Home::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-dashboard::Home::home::Home::%7B%7D\" />",
                     "type": "component",
                     "componentName": "component",
                     "componentState": {
-                      "id": "sections::List::list::List::%7B%7D"
+                      "id": "dashboard::Home::home::Home::%7B%7D"
                     },
                     "isClosable": true,
                     "reorderEnabled": true
@@ -112,6 +72,112 @@
         "openPopouts": [],
         "maximisedItemId": null
       },
+      "tabs": {
+        "dashboard::Home::home::Home::%7B%7D": {
+          "name": "Home",
+          "icon": "home",
+          "render": "function",
+          "viewId": "Home",
+          "id": "dashboard::Home::home::Home::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Highlights"
+    },
+    {
+      "id": "pages",
+      "name": "Pages",
+      "pinned": true,
+      "icon": "files",
+      "layout": {
+        "settings": {
+          "hasHeaders": true,
+          "constrainDragToContainer": true,
+          "reorderEnabled": true,
+          "selectionEnabled": false,
+          "popoutWholeStack": false,
+          "blockedPopoutsThrowError": true,
+          "closePopoutsOnUnload": true,
+          "showPopoutIcon": false,
+          "showMaximiseIcon": false,
+          "showCloseIcon": false,
+          "responsiveMode": "onload"
+        },
+        "dimensions": {
+          "borderWidth": 8,
+          "minItemHeight": 10,
+          "minItemWidth": 10,
+          "headerHeight": 40,
+          "dragProxyWidth": 300,
+          "dragProxyHeight": 200
+        },
+        "labels": {
+          "close": "close",
+          "maximise": "maximise",
+          "minimise": "minimise",
+          "popout": "open in new window",
+          "popin": "pop in",
+          "tabDropdown": "additional tabs"
+        },
+        "content": [
+          {
+            "type": "row",
+            "isClosable": true,
+            "reorderEnabled": true,
+            "title": "",
+            "content": [
+              {
+                "type": "stack",
+                "width": 100,
+                "isClosable": true,
+                "reorderEnabled": true,
+                "title": "",
+                "activeItemIndex": 0,
+                "content": [
+                  {
+                    "id": "pages::List::list::List::%7B%7D",
+                    "title": "<div class=\"contents text-base-700\" id=\"header-pages::List::list::List::%7B%7D\" />",
+                    "type": "component",
+                    "componentName": "component",
+                    "componentState": {
+                      "id": "pages::List::list::List::%7B%7D"
+                    },
+                    "isClosable": true,
+                    "reorderEnabled": true
+                  }
+                ]
+              }
+            ]
+          }
+        ],
+        "isClosable": true,
+        "reorderEnabled": true,
+        "title": "",
+        "openPopouts": [],
+        "maximisedItemId": null
+      },
+      "tabs": {
+        "pages::List::list::List::%7B%7D": {
+          "name": "List",
+          "icon": "list",
+          "render": "function",
+          "viewId": "List",
+          "id": "pages::List::list::List::%7B%7D",
+          "state": {
+            "__signal": null
+          }
+        }
+      },
+      "category": "Content"
+    },
+    {
+      "id": "sections",
+      "name": "Sections",
+      "pinned": true,
+      "icon": "block",
+      "layout": [],
       "tabs": {
         "sections::List::list::List::%7B%7D": {
           "name": "List",
@@ -3800,92 +3866,14 @@
           "popin": "pop in",
           "tabDropdown": "additional tabs"
         },
-        "content": [
-          {
-            "type": "row",
-            "isClosable": true,
-            "reorderEnabled": true,
-            "title": "",
-            "content": [
-              {
-                "type": "stack",
-                "width": 41.66666666666667,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Properties::list::Properties::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Properties::list::Properties::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Properties::list::Properties::%7B%7D"
-                    },
-                    "width": 30,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              },
-              {
-                "type": "stack",
-                "width": 58.333333333333336,
-                "isClosable": true,
-                "reorderEnabled": true,
-                "title": "",
-                "activeItemIndex": 0,
-                "content": [
-                  {
-                    "id": "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Preview::world::Preview::%7B%7D",
-                    "title": "<div class=\"contents text-base-700\" id=\"header-%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Preview::world::Preview::%7B%7D\" />",
-                    "type": "component",
-                    "componentName": "component",
-                    "componentState": {
-                      "id": "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Preview::world::Preview::%7B%7D"
-                    },
-                    "width": 70,
-                    "isClosable": true,
-                    "reorderEnabled": true
-                  }
-                ]
-              }
-            ]
-          }
-        ],
+        "content": [],
         "isClosable": true,
         "reorderEnabled": true,
         "title": "",
         "openPopouts": [],
         "maximisedItemId": null
       },
-      "tabs": {
-        "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Properties::list::Properties::%7B%7D": {
-          "name": "Properties",
-          "icon": "list",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Properties",
-          "width": 30,
-          "id": "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Properties::list::Properties::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        },
-        "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Preview::world::Preview::%7B%7D": {
-          "name": "Preview",
-          "icon": "world",
-          "accepts": "function",
-          "render": "function",
-          "viewId": "Preview",
-          "width": 70,
-          "id": "%2F.deco%2Fblocks%2Fpages-Formas%252520de%252520Pagamento-278084.json::Preview::world::Preview::%7B%7D",
-          "state": {
-            "__signal": null
-          }
-        }
-      }
+      "tabs": {}
     },
     {
       "id": "{\"oid\":\"d449571428962b59648f47504a21dede66544fff\",\"short\":\"d449571\",\"commit\":{\"message\":\"Release staging environment with 1 changes made by thiago.pereira@agencian1.com.br\\n\",\"parent\":[\"2c4a6c0b78efb6a1ae65670571ce12a9c1f1dd41\"],\"tree\":\"e8c2f20a15d3ae41d558e6bd3c3a3e66b48691ee\",\"author\":{\"name\":\"decobot\",\"email\":\"thiago.pereira@agencian1.com.br\",\"timestamp\":1715786702,\"timezoneOffset\":0},\"committer\":{\"name\":\"decobot\",\"email\":\"thiago.pereira@agencian1.com.br\",\"timestamp\":1715786702,\"timezoneOffset\":0}}}",
@@ -7971,6 +7959,14 @@
     {
       "id": "/.deco/blocks/pages-Politica%2520de%2520Seguran%25C3%25A7a-646390.json",
       "name": "Politica de Segurança",
+      "pinned": false,
+      "icon": "file",
+      "layout": [],
+      "tabs": {}
+    },
+    {
+      "id": "/.deco/blocks/pages-Formas%2520de%2520Pagamento-862794.json",
+      "name": "Formas de Pagamento",
       "pinned": false,
       "icon": "file",
       "layout": [],

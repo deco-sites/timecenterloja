@@ -440,5 +440,11 @@
     "path": "/institucional/politica-de-seguranca",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Formas%2520de%2520Pagamento-862794.json": {
+    "name": "Formas de Pagamento",
+    "path": "/institucional/formas-de-pagamento",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -1,0 +1,43 @@
+{
+  "name": "Formas de Pagamento",
+  "path": "/institucional/formas-de-pagamento",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<p>A Loja Virtual da Time Center disponibiliza as seguintes opções de pagamento:</p><p><br data-mce-bogus=\"1\"></p><p><strong>CARTÕES DE CRÉDITO</strong><br>os cartões de crédito das bandeiras Visa, MasterCard, American Express, Diners e Elo. Todas as compras podem ser efetuadas em até 10 vezes* sem juros (parcela mínima de R$ 100,00) em todos os cartões de crédito aceitos em nossa loja online.</p><p><br data-mce-bogus=\"1\"></p><p><br><strong>TRANSFERÊNCIA BANCÁRIA - PAYMEE</strong><br>A PayMee é uma empresa financeira de tecnologia que oferece um meio de pagamento seguro pelo qual você pode realizar suas compras online através de transferência bancária ou dinheiro. Ao finalizar o pedido, você será redirecionado(a) ao seu banco para a realização do pagamento via transferência bancária ou depósito identificado. Feito isso, seu pedido será confirmado em minutos.</p><p><br data-mce-bogus=\"1\"></p><p><strong>TRANSFERÊNCIA BANCÁRIA – PIX</strong><br>O Pix é um novo meio de pagamento instantâneo criado pelo Banco Central, que oferece uma nova opção para transferências de valores. Simples, instantâneo e com funcionamento todos os dias e horários, pelo qual você pode realizar suas compras online.</p><p>Ao finalizar o pedido, você será redirecionado (a) ao seu banco para a realização do pagamento via transferência PIX. Feito isso, seu pedido será confirmado em minutos.</p><p><br data-mce-bogus=\"1\"></p><p><br><strong>AME DIGITAL</strong><br>Aplicativo seguro e gratuito para realizar pagamentos digitais. Após a compra pelo aplicativo você recebe de volta uma parte do valor na sua conta Ame. Para pagar com AME você deverá clicar na opção de pagamento Ame Digital e depois clicar em FINALIZAR COMPRA. Após clicar em finalizar compra aparecerá o QR Code da Ame Digital. *Compras com AME parcelamento em até 5X sem juros.</p><p>As compras realizadas com cartão de crédito passarão por uma análise de empresa terceirizada e especializada. Após a análise destes dados e dentro de um período de até 2 dias úteis, o pedido é aprovado ou reprovado. Se houver alguma divergência nos dados, o pedido é automaticamente cancelado. Ressaltamos que o sistema foi desenvolvido de forma a priorizar a segurança do cliente. Esclarecemos que nesses casos o valor foi autorizado, mas não capturado pelo cartão de crédito. Isso significa que ele não chegou a ser cobrado.</p><p>Em alguns casos, no entanto, pode acontecer do valor aparecer na fatura. Nessas situações, a própria operadora retirará automaticamente esse valor em até 7 dias úteis. Se por acaso a cobrança permanecer após esse prazo, pedimos que você entre em contato com nosso SAC através do formulário de contato.</p><p>**Obs: O valor máximo de Cashback pode ser limitado em algumas ações.</p>"
+            },
+            "title": "Formas de Pagamento"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ],
+      "label": "Como Comprar"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
