@@ -12,8 +12,13 @@
       "href": "/institucional/politica-de-devolucao"
     },
     {
+      "target": "_blank",
+      "label": "Politica de Segurança",
+      "href": "/institucional/politica-de-seguranca"
+    },
+    {
       "target": "_self",
-      "label": "Tipos de Frete",
+      "label": "Formas de Entrega",
       "href": "/institucional/tipos-de-frete"
     },
     {
@@ -28,7 +33,7 @@
     },
     {
       "target": "_self",
-      "label": "Nossas Lojas",
+      "label": "Onde Encontrar",
       "href": "/institucional/nossas-lojas"
     },
     {
