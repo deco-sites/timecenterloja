@@ -440,5 +440,11 @@
     "path": "/institucional/formas-de-pagamento",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Termos%2520de%2520Uso-813931.json": {
+    "name": "Termos de Uso",
+    "path": "/institucional/termos-de-uso",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

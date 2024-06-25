@@ -1,0 +1,42 @@
+{
+  "name": "Termos de Uso",
+  "path": "/institucional/termos-de-uso",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Quando começa a vigorar o prazo de entrega do meu pedido?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Ao finalizar seu pedido, você será informado do prazo de entrega, que começa a vigorar a partir do recebimento do e-mail de pedido aprovado. Você também poderá acompanhar seu pedido através do site no link \"Meus Pedidos\".</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Qual o prazo de entrega?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Para calcular o prazo de entrega basta entrar na página do produto e informar seu CEP. O site irá lhe informar o prazo em dias úteis junto com o valor do frete, o qual começa a vigorar a partir do recebimento do e-mail de confirmação da compra.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Posso agendar minha entrega?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Ainda não é possível fazer o agendamento de entrega, uma vez que não podemos antecipar o roteiro programado para cada região.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Em que estados/localidades as entregas são realizadas?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Nossas entregas são realizadas em todo o território nacional, exceto nas regiões de Fernando de Noronha - PE, Porto Trombetas e Vila dos Cabanos - PA.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>O que ocorre se não houver ninguém para receber minha entrega?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Serão feitas três tentativas de entrega. Após a terceira tentativa o produto retorna para nosso Centro de Distribuição. Caso isso ocorra, nossa equipe do Timecenter.com.br entrará em contato.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>A que horário são realizadas as entregas?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Nossas entregas são realizadas de segunda a sexta-feira das 8h às 18h, exceto feriados.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>O endereço de entrega pode ser diferente do endereço de cadastro?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Sim, basta você selecionar a opção \"Cadastrar novo Endereço\" e preencher os dados. Procure informar a referência para que possamos entregar com mais agilidade.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Como posso acompanhar o status da minha compra?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Assim que seu pedido for enviado, você receberá um e-mail comunicando o envio do seu produto do nosso Centro de Distribuição. Se preferir, a qualquer momento, você pode acessar a Timecenter.com.br para verificar o status da sua compra. Basta digitar seu login (e-mail) e senha e clicar em \"Meus Pedidos\". Nesta tela você poderá acompanhar o andamento de todos os pedidos.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>O site da Timecenter.com.br faz entregas para fora do Brasil?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Ainda não. Atualmente não entregamos pedidos no exterior.</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Como devo proceder no caso do não recebimento do e-mail de confirmação da compra?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Você deverá receber um e-mail confirmando sua compra até o primeiro dia útil seguinte à efetivação da compra. Caso você não o receba, entre em contato com a Timecenter.com.br, através do e-mail relacionamento@timecenter.com.br</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\"><strong>Como devo proceder em caso de avaria?</strong></span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">Recuse o recebimento do produto e entre em contato com o Fale Conosco, caso constate alguma das situações abaixo:</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">• Produto avariado no transporte;</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">• Embalagem violada;</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">• Acessórios ou itens faltantes;</span></p><p><span style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\" data-mce-style=\"color: rgb(0, 0, 0); background-color: rgb(255, 255, 255);\">• Produto em desacordo com o pedido.</span></p>"
+            },
+            "title": "Termos e condições"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
