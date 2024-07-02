@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0d813dff-5f4f-4f30-a196-4adc5771671b",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/71794df8-eade-48cb-8dd2-d9b031decd43",
-            "alt": "Technos",
-            "href": "/relogio/technos?O=OrderByReleaseDateDESC",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/8315e44b-b8db-4885-991f-c32c30622c72",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/fde51b36-58d4-4a7b-a05a-8183574081c2",
+            "alt": "Touch",
+            "href": "/s?q=touch&O=OrderByBestDiscountDESC",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/55777c23-3a8f-404e-8fc8-c781ec6cc044",
-            "href": "/fossil-store?sort=release%3Adesc",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9f4c8942-a43b-4730-b430-ca00b411bd9f",
-            "alt": "Fossil"
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/4a664901-94b0-47f1-a480-2504bdb85d7f",
+            "href": "/s?q=internacional&O=OrderByBestDiscountDESC",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/928b935e-9dfb-4925-b998-c1cb401fa02b",
+            "alt": "Internacional"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1c795c3c-8889-4df5-845b-18de5545c069",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bfc5e1c6-1cfe-4e9e-a768-6f43c90840b1",
-            "href": "/s?q=kit+elegante",
-            "alt": "Condor"
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/57c2e541-f42d-49c0-867e-b0a7708ac2ac",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/565ef849-2256-471b-87ba-3f98e63cafc9",
+            "href": "/s?q=nacional&O=OrderByBestDiscountDESC",
+            "alt": "Nacional"
           }
         ]
       },

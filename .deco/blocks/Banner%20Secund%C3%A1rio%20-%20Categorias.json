@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6d0eed88-a1ab-44c5-89b0-a74110bc0c61",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/625c54f1-395d-4a04-8b10-11e1fa77c7e3",
             "alt": "relogioanel",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1be99572-c865-4acf-94d8-2778256ad5bb",
-            "href": "/s?q=anel+relogio"
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/211bdc47-1c51-4354-8b0c-9afce2a057b7",
+            "href": "/s?q=esmaltado"
           },
           {
             "backgroundColorHover": "primary",
@@ -30,10 +30,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1633afdb-f9cf-469c-a961-6cd54279dbfb",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b51fd0aa-1aa1-4d64-a6a0-faaf640bddf5",
             "alt": "Mormaii",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/435eadd6-bfff-4ffa-b271-2ed582695f33",
-            "href": "/mormaiishop/relogios"
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/dc48553c-37a4-47f6-9d0e-6796bddd9d79",
+            "href": "/fossil-store"
           },
           {
             "backgroundColorHover": "primary",
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ff56b513-42f1-40bf-ac5d-b1fa4628c90e",
-            "alt": "Kids",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/50f6ed32-0be6-45c8-b829-497a4f95f45a",
-            "href": "/s?q=kid"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d24ef4af-f00c-41fa-907e-ab9c680a8782",
+            "alt": "Smarts",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d5fa7a0a-ab90-4786-80b8-55fba988b726",
+            "href": "/s?q=smartwatch+technos"
           }
         ],
         "itemPerPageDesktop": 3,
