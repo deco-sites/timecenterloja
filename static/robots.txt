@@ -1,6 +1,6 @@
 User-agent: *
-Allow: *
+Disallow: /
 
+User-agent: Googlebot
+Allow: /
 Disallow: /checkout
-
-Sitemap: /sitemap.xml
