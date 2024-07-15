@@ -17,29 +17,20 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/s?q=euro+soul"
+              "href": "/mormaiishop?sort=price%3Adesc"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/03839805-c8bc-430b-b8fe-6200e9f005ae",
-            "alt": "Euro Soul",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c83d81f0-ab6d-4c4d-a712-e35e8173e759"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d265bc4b-c016-4d56-a41c-9b789e33d1f9",
+            "alt": "Mormaii",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ecad59c6-a075-4200-b566-576a43426232"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/condor?O=OrderByReleaseDateDESC&sort=release%3Adesc"
+              "href": "/s?q=fossil+masculino&O=OrderByReleaseDateDESC"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0ee34b63-8bba-4c9b-8d95-9fbdea884852",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/63279b56-a291-48c9-a02f-46c443cdb4c3",
-            "alt": "Condor"
-          },
-          {
-            "action": {
-              "variant": "primary",
-              "href": "https://www.timecenter.com.br/s?q=kid"
-            },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c7ce1462-4a90-45ee-b24f-44881a7460fc",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/7e960d6c-0fc3-482e-b019-3eac9bfbbe1c",
-            "alt": "Interativos"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/73cea061-6cbc-4046-86dc-2f2cf64b39a2",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/af466a18-35c1-4624-a3f5-1ce4f66176a8",
+            "alt": "Fossil"
           }
         ],
         "showPaginationArrows": "Desktop Only",

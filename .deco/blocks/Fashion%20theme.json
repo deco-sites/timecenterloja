@@ -26,5 +26,14 @@
     "base-300": "#000000",
     "info-content": "#000000"
   },
-  "font": {}
+  "font": {},
+  "colorScheme": "light",
+  "otherStyles": {
+    "--rounded-box": "1rem",
+    "--rounded-badge": "1.9rem",
+    "--animation-input": "0.2s",
+    "--tab-border": "1px",
+    "--tab-radius": "0.5rem"
+  },
+  "mode": "dark"
 }
