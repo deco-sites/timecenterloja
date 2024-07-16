@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/625c54f1-395d-4a04-8b10-11e1fa77c7e3",
-            "alt": "relogioanel",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/211bdc47-1c51-4354-8b0c-9afce2a057b7",
-            "href": "/s?q=esmaltado"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/85cd2c9c-a1b4-4b52-9876-eeccbf99fd55",
+            "alt": "Technos",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2138086b-221b-40e4-8b90-83b0fd246c68",
+            "href": "/technos?O=OrderByReleaseDateDESC"
           },
           {
             "backgroundColorHover": "primary",
@@ -30,10 +30,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/b51fd0aa-1aa1-4d64-a6a0-faaf640bddf5",
-            "alt": "Mormaii",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/dc48553c-37a4-47f6-9d0e-6796bddd9d79",
-            "href": "/fossil-store"
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d3936934-f91e-47bf-a9df-8c91ce3f283b",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/4dfc2008-cee2-4b27-a581-2b4eafc4d7f7",
+            "href": "/fossil-store",
+            "alt": "Fossil"
           },
           {
             "backgroundColorHover": "primary",

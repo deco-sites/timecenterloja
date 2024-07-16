@@ -187,7 +187,7 @@
       "__resolveType": "Footer Global"
     },
     {
-      "__resolveType": "site/sections/Seo/SeoPLPV6.tsx",
+      "__resolveType": "site/sections/Seo/SeoPLPV5.tsx",
       "page": {
         "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
         "sort": "price:desc",
@@ -195,13 +195,7 @@
         "selectedFacets": [],
         "count": 11
       },
-      "seoByUrl": [
-        {
-          "description": "ddd",
-          "url": "/relogio/masculino",
-          "title": "Masculino | Time Center"
-        }
-      ]
+      "titleTemplate": "%s | Time Center"
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
