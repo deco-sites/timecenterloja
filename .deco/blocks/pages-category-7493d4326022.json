@@ -187,15 +187,14 @@
       "__resolveType": "Footer Global"
     },
     {
-      "__resolveType": "site/sections/Seo/SeoPLPV5.tsx",
+      "__resolveType": "site/sections/Seo/SeoPLPV6.tsx",
       "page": {
         "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
         "sort": "price:desc",
         "fuzzy": "automatic",
         "selectedFacets": [],
-        "count": 11
-      },
-      "titleTemplate": "%s | Time Center"
+        "count": 12
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
