@@ -1,26 +1,26 @@
-import { useId } from 'preact/hooks';
-import ShippingSimulation from '$store/islands/ShippingSimulation.tsx';
-import Breadcrumb from '$store/components/ui/Breadcrumb.tsx';
-import Image from 'apps/website/components/Image.tsx';
-import OutOfStock from '$store/islands/OutOfStock.tsx';
-import { useOffer } from '$store/sdk/useOffer.ts';
-import { formatPrice } from '$store/sdk/format.ts';
-import { mapProductToAnalyticsItem } from 'apps/commerce/utils/productToAnalyticsItem.ts';
-import type { ProductDetailsPage } from 'apps/commerce/types.ts';
-import { LoaderReturnType } from 'deco/mod.ts';
-import AddToCartActions from '$store/islands/AddToCartActions.tsx';
-import Icon from '$store/components/ui/Icon.tsx';
-import { getShareLink } from '$store/sdk/shareLinks.tsx';
-import SliderProductShowcase from '$store/islands/SliderProductShowcase.tsx';
-import { HighLight } from '$store/components/product/ProductHighlights.tsx';
-import { SendEventOnView } from 'deco-sites/timecenter/components/Analytics.tsx';
-import ProductSelector from './ProductVariantSelector.tsx';
-import { Section } from 'deco/blocks/section.ts';
-import { DiscountBadgeProps } from '$store/components/product/DiscountBadge.tsx';
+import { useId } from "preact/hooks";
+import ShippingSimulation from "$store/islands/ShippingSimulation.tsx";
+import Breadcrumb from "$store/components/ui/Breadcrumb.tsx";
+import Image from "apps/website/components/Image.tsx";
+import OutOfStock from "$store/islands/OutOfStock.tsx";
+import { useOffer } from "$store/sdk/useOffer.ts";
+import { formatPrice } from "$store/sdk/format.ts";
+import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+import type { ProductDetailsPage } from "apps/commerce/types.ts";
+import { LoaderReturnType } from "deco/mod.ts";
+import AddToCartActions from "$store/islands/AddToCartActions.tsx";
+import Icon from "$store/components/ui/Icon.tsx";
+import { getShareLink } from "$store/sdk/shareLinks.tsx";
+import SliderProductShowcase from "$store/islands/SliderProductShowcase.tsx";
+import { HighLight } from "$store/components/product/ProductHighlights.tsx";
+import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx";
+import ProductSelector from "./ProductVariantSelector.tsx";
+import { Section } from "deco/blocks/section.ts";
+import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
 
-export type Variant = 'front-back' | 'slider' | 'auto';
+export type Variant = "front-back" | "slider" | "auto";
 
-export type ShareableNetwork = 'Facebook' | 'Twitter' | 'Email' | 'WhatsApp';
+export type ShareableNetwork = "Facebook" | "Twitter" | "Email" | "WhatsApp";
 
 export interface LabelBuyButton {
   mobile: {
@@ -67,8 +67,8 @@ function ProductInfo({
   shareableNetworks,
 }: {
   page: ProductDetailsPage;
-  shipmentPolitics?: Props['shipmentPolitics'];
-  shareableNetworks?: Props['shareableNetworks'];
+  shipmentPolitics?: Props["shipmentPolitics"];
+  shareableNetworks?: Props["shareableNetworks"];
 }) {
   const { product } = page;
   const {
@@ -81,13 +81,13 @@ function ProductInfo({
     url,
     additionalProperty,
   } = product;
-  const { price, listPrice, seller, installments, availability } =
-    useOffer(offers);
+  const { price, listPrice, seller, installments, availability } = useOffer(
+    offers,
+  );
 
-  const referenceID =
-    additionalProperty?.find(
-      ({ valueReference }) => valueReference == 'ReferenceID',
-    )?.value ?? gtin;
+  const referenceID = additionalProperty?.find(
+    ({ valueReference }) => valueReference == "ReferenceID",
+  )?.value ?? gtin;
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
@@ -95,7 +95,7 @@ function ProductInfo({
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {
-      case 'Gênero':
+      case "Gênero":
         return (
           item.value && (
             <>
@@ -103,7 +103,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Banho':
+      case "Banho":
         return (
           item.value && (
             <>
@@ -111,7 +111,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Cor da Caixa':
+      case "Cor da Caixa":
         return (
           item.value && (
             <>
@@ -119,7 +119,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Cor da pulseira':
+      case "Cor da pulseira":
         return (
           item.value && (
             <>
@@ -127,7 +127,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Tipo':
+      case "Tipo":
         return (
           item.value && (
             <>
@@ -135,7 +135,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Formato':
+      case "Formato":
         return (
           item.value && (
             <>
@@ -143,7 +143,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Fecho (tipo)':
+      case "Fecho (tipo)":
         return (
           item.value && (
             <>
@@ -151,7 +151,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Maquinismo':
+      case "Maquinismo":
         return (
           item.value && (
             <>
@@ -159,7 +159,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Material da Pulseira':
+      case "Material da Pulseira":
         return (
           item.value && (
             <>
@@ -168,7 +168,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Resistente a Água':
+      case "Resistente a Água":
         return (
           item.value && (
             <>
@@ -176,7 +176,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Largura da Caixa (cm)':
+      case "Largura da Caixa (cm)":
         return (
           item.value && (
             <>
@@ -184,7 +184,7 @@ function ProductInfo({
             </>
           )
         );
-      case 'Garantia':
+      case "Garantia":
         return (
           item.value && (
             <>
@@ -227,7 +227,7 @@ function ProductInfo({
         </div>
       </div>
       {/* Prices */}
-      {availability === 'https://schema.org/InStock' && (
+      {availability === "https://schema.org/InStock" && (
         <div class="mt-5">
           <div class="flex flex-row gap-2 items-center">
             {listPrice !== price && (
@@ -243,7 +243,7 @@ function ProductInfo({
         </div>
       )}
       {/* Measurement chart */}
-      {availability === 'https://schema.org/InStock' && (
+      {availability === "https://schema.org/InStock" && (
         <div class="mt-4 sm:mt-5">
           <a
             class="text-sm underline"
@@ -263,41 +263,43 @@ function ProductInfo({
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 mb-7 lg:mt-10 flex gap-[30px]">
-        {availability === 'https://schema.org/InStock' ? (
-          <>
-            {seller && (
-              <AddToCartActions
-                productID={productID}
-                seller={seller}
-                price={price}
-                listPrice={listPrice}
-                productName={name ?? ''}
-                productGroupID={product.isVariantOf?.productGroupID ?? ''}
-              />
-            )}
-          </>
-        ) : (
-          <OutOfStock productID={productID} />
-        )}
+        {availability === "https://schema.org/InStock"
+          ? (
+            <>
+              {seller && (
+                <AddToCartActions
+                  productID={productID}
+                  seller={seller}
+                  price={price}
+                  listPrice={listPrice}
+                  productName={name ?? ""}
+                  productGroupID={product.isVariantOf?.productGroupID ?? ""}
+                />
+              )}
+            </>
+          )
+          : <OutOfStock productID={productID} />}
       </div>
       {/* Description card */}
       <details className="collapse collapse-plus border-b border-[#E2E3E8] rounded-none">
         <summary className="collapse-title px-0">Detalhes do produto</summary>
         <div className=" text-xs px-0 leading-tight collapse-content text-base-300">
-          {/* <input type="checkbox" id="readmore" className="readmore-toggle" />
+          {
+            /* <input type="checkbox" id="readmore" className="readmore-toggle" />
           <label htmlFor="readmore" className="readmore-label my-2 block">
             + Ler mais
-          </label> */}
+          </label> */
+          }
           <p className="readmore-content">{description}</p>
         </div>
         <div className="text-xs px-0">
-          <ul className="ml-3 pb-[10px]" style={'list-style:initial;'}>
+          <ul className="ml-3 pb-[10px]" style={"list-style:initial;"}>
             {especifications && (
               <>
-                {renderItemByName('Gênero')}
+                {renderItemByName("Gênero")}
                 {especifications.map(
                   (item, index) =>
-                    item.name !== 'Gênero' && (
+                    item.name !== "Gênero" && (
                       <li
                         key={index}
                         className="flex ml-[10px] text-[#A8A8A8] font-semibold"
@@ -321,7 +323,7 @@ function ProductInfo({
               {
                 id: Number(product.sku),
                 quantity: 1,
-                seller: seller ?? '1',
+                seller: seller ?? "1",
               },
             ]}
             shipmentPolitics={shipmentPolitics}
@@ -338,8 +340,8 @@ function ProductInfo({
                 <a
                   href={getShareLink({
                     network,
-                    productName: isVariantOf?.name ?? name ?? '',
-                    url: url ?? '',
+                    productName: isVariantOf?.name ?? name ?? "",
+                    url: url ?? "",
                   })}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -356,22 +358,21 @@ function ProductInfo({
   );
 }
 
-const useStableImages = (product: ProductDetailsPage['product']) => {
-  const imageNameFromURL = (url = '') => {
-    const segments = new URL(url).pathname.split('/');
+const useStableImages = (product: ProductDetailsPage["product"]) => {
+  const imageNameFromURL = (url = "") => {
+    const segments = new URL(url).pathname.split("/");
     return segments[segments.length - 1];
   };
 
   const images = product.image ?? [];
-  const allImages =
-    product.isVariantOf?.hasVariant
-      .flatMap((p) => p.image)
-      .reduce((acc, img) => {
-        if (img?.url) {
-          acc[imageNameFromURL(img.url)] = img.url;
-        }
-        return acc;
-      }, {} as Record<string, string>) ?? {};
+  const allImages = product.isVariantOf?.hasVariant
+    .flatMap((p) => p.image)
+    .reduce((acc, img) => {
+      if (img?.url) {
+        acc[imageNameFromURL(img.url)] = img.url;
+      }
+      return acc;
+    }, {} as Record<string, string>) ?? {};
 
   return images.map((img) => {
     const name = imageNameFromURL(img.url);
@@ -390,8 +391,8 @@ function Details({
 }: {
   page: ProductDetailsPage;
   variant: Variant;
-  shipmentPolitics?: Props['shipmentPolitics'];
-  shareableNetworks?: Props['shareableNetworks'];
+  shipmentPolitics?: Props["shipmentPolitics"];
+  shareableNetworks?: Props["shareableNetworks"];
   highlights?: HighLight[];
   discount?: DiscountBadgeProps;
 }) {
@@ -402,7 +403,7 @@ function Details({
   /**
    * Product slider variant
    */
-  if (variant === 'slider') {
+  if (variant === "slider") {
     return (
       <>
         {/* Breadcrumb */}
@@ -452,7 +453,7 @@ function Details({
               height={HEIGHT}
               // Preload LCP image for better web vitals
               preload={index === 0}
-              loading={index === 0 ? 'eager' : 'lazy'}
+              loading={index === 0 ? "eager" : "lazy"}
             />
           </li>
         ))}
@@ -468,7 +469,7 @@ function Details({
 
 function ProductDetails({
   page,
-  variant: maybeVar = 'auto',
+  variant: maybeVar = "auto",
   shipmentPolitics,
   shareableNetworks,
   notFoundSection: { Component: ProductNotFound, props: notFoundProps },
@@ -481,12 +482,11 @@ function ProductDetails({
 
   const id = useId();
 
-  const variant =
-    maybeVar === 'auto'
-      ? page?.product.image?.length && page?.product.image?.length < 2
-        ? 'front-back'
-        : 'slider'
-      : maybeVar;
+  const variant = maybeVar === "auto"
+    ? page?.product.image?.length && page?.product.image?.length < 2
+      ? "front-back"
+      : "slider"
+    : maybeVar;
 
   const { price = 0, listPrice } = useOffer(page.product.offers);
 
@@ -513,7 +513,7 @@ function ProductDetails({
         <SendEventOnView
           id={id}
           event={{
-            name: 'view_item',
+            name: "view_item",
             params: {
               price: price,
               items: [eventItem],
