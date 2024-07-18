@@ -509,7 +509,7 @@ function ProductDetails({
           discount={discount}
         />
 
-        {/* Analytics Event */}
+        {/* Start Analytics Event */}
         <SendEventOnView
           id={id}
           event={{
@@ -520,6 +520,7 @@ function ProductDetails({
             },
           }}
         />
+        {/* End of Analytics Event */}
       </>
     </div>
   );
