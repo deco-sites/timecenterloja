@@ -575,6 +575,7 @@ function ProductDetails({
           shipmentPolitics={shipmentPolitics}
           shareableNetworks={shareableNetworks}
           highlights={highlights}
+          productBenefits={productBenefits}
           discount={discount}
         />
 
