@@ -34,5 +34,5 @@
     "--tab-border": "1px",
     "--tab-radius": "0.5rem"
   },
-  "colorScheme": "light"
+  "mode": "dark"
 }
