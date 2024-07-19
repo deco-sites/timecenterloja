@@ -476,9 +476,7 @@ function ProductDetails({
   highlights,
   discount,
 }: Props) {
-  if (!page) {
-    return <ProductNotFound {...notFoundProps} />;
-  }
+  if (!page) return <ProductNotFound {...notFoundProps} />;
 
   const id = useId();
 
