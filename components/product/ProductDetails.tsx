@@ -5,8 +5,7 @@ import Image from "apps/website/components/Image.tsx";
 import OutOfStock from "$store/islands/OutOfStock.tsx";
 import { useOffer } from "$store/sdk/useOffer.ts";
 import { formatPrice } from "$store/sdk/format.ts";
-// import { SendEventOnLoad } from "$store/sdk/analytics.tsx";
-// import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import { LoaderReturnType } from "deco/mod.ts";
 import AddToCartActions from "$store/islands/AddToCartActions.tsx";
@@ -14,7 +13,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 import { getShareLink } from "$store/sdk/shareLinks.tsx";
 import SliderProductShowcase from "$store/islands/SliderProductShowcase.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
-
+import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx";
 import ProductSelector from "./ProductVariantSelector.tsx";
 import { Section } from "deco/blocks/section.ts";
 import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
@@ -355,25 +354,6 @@ function ProductInfo({
           </ul>
         </div>
       )}
-
-      {/* Analytics Event */}
-      {
-        /* <SendEventOnLoad
-        event={{
-          name: "view_item",
-          params: {
-            items: [
-              mapProductToAnalyticsItem({
-                product,
-                breadcrumbList,
-                price,
-                listPrice,
-              }),
-            ],
-          },
-        }}
-      /> */
-      }
     </>
   );
 }
@@ -496,26 +476,50 @@ function ProductDetails({
   highlights,
   discount,
 }: Props) {
+  if (!page) return <ProductNotFound {...notFoundProps} />;
+
+  const id = useId();
+
   const variant = maybeVar === "auto"
     ? page?.product.image?.length && page?.product.image?.length < 2
       ? "front-back"
       : "slider"
     : maybeVar;
 
+  const { price = 0, listPrice } = useOffer(page.product.offers);
+
+  const eventItem = mapProductToAnalyticsItem({
+    product: page.product,
+    breadcrumbList: page.breadcrumbList,
+    price,
+    listPrice,
+  });
+
   return (
-    <div class="py-0 lg:pb-10">
-      {page
-        ? (
-          <Details
-            page={page}
-            variant={variant}
-            shipmentPolitics={shipmentPolitics}
-            shareableNetworks={shareableNetworks}
-            highlights={highlights}
-            discount={discount}
-          />
-        )
-        : <ProductNotFound {...notFoundProps} />}
+    <div id={id} class="py-0 lg:pb-10">
+      <>
+        <Details
+          page={page}
+          variant={variant}
+          shipmentPolitics={shipmentPolitics}
+          shareableNetworks={shareableNetworks}
+          highlights={highlights}
+          discount={discount}
+        />
+
+        {/* Start Analytics Event */}
+        <SendEventOnView
+          id={id}
+          event={{
+            name: "view_item",
+            params: {
+              price: price,
+              items: [eventItem],
+            },
+          }}
+        />
+        {/* End of Analytics Event */}
+      </>
     </div>
   );
 }
