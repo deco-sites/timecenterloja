@@ -27,7 +27,6 @@
     "info-content": "#000000"
   },
   "font": {},
-  "colorScheme": "light",
   "otherStyles": {
     "--rounded-box": "1rem",
     "--rounded-badge": "1.9rem",
