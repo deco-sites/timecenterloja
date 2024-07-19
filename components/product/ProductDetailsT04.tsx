@@ -419,19 +419,6 @@ function ProductInfo({
           </ul>
         </div>
       )}
-
-      {/* Analytics Event */}
-      <SendEventOnView
-        id={id}
-        event={{
-          name: "view_item",
-          params: {
-            item_list_id: "product",
-            item_list_name: "Product",
-            items: [eventItem],
-          },
-        }}
-      />
     </>
   );
 }
@@ -558,27 +545,51 @@ function ProductDetails({
   highlights,
   discount,
 }: Props) {
+  if (!page) return <ProductNotFound {...notFoundProps} />;
+
+  const id = useId();
+
   const variant = maybeVar === "auto"
     ? page?.product.image?.length && page?.product.image?.length < 2
       ? "front-back"
       : "slider"
     : maybeVar;
 
+  const { price = 0, listPrice } = useOffer(page.product.offers);
+
+  const eventItem = mapProductToAnalyticsItem({
+    product: page.product,
+    breadcrumbList: page.breadcrumbList,
+    price,
+    listPrice,
+  });
+
   return (
-    <div class="py-0 lg:pb-10">
-      {page
-        ? (
-          <Details
-            page={page}
-            variant={variant}
-            shipmentPolitics={shipmentPolitics}
-            shareableNetworks={shareableNetworks}
-            productBenefits={productBenefits}
-            highlights={highlights}
-            discount={discount}
-          />
-        )
-        : <ProductNotFound {...notFoundProps} />}
+    <div id={id} class="py-0 lg:pb-10">
+      <>
+        <Details
+          page={page}
+          variant={variant}
+          shipmentPolitics={shipmentPolitics}
+          shareableNetworks={shareableNetworks}
+          highlights={highlights}
+          productBenefits={productBenefits}
+          discount={discount}
+        />
+
+        {/* Start Analytics Event */}
+        <SendEventOnView
+          id={id}
+          event={{
+            name: "view_item",
+            params: {
+              price: price,
+              items: [eventItem],
+            },
+          }}
+        />
+        {/* End of Analytics Event */}
+      </>
     </div>
   );
 }
