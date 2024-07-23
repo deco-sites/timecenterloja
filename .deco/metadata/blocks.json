@@ -388,7 +388,7 @@
     "__resolveType": "site/sections/Container.tsx"
   },
   "/.deco/blocks/pages-Pol%25C3%25ADtica%2520de%2520Devolu%25C3%25A7%25C3%25A3o-176027.json": {
-    "name": "Política de Devolução",
+    "name": "Politicia de Devolução",
     "path": "/institucional/politica-de-devolucao",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
