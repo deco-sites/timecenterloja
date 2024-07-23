@@ -18,6 +18,7 @@ export interface Props {
     image?: ImageWidget;
     width?: number;
     height?: number;
+    alt?: string;
   };
   /**
    * @title Items do menu
@@ -56,8 +57,8 @@ function HeaderLayout(
                 src={logo?.image}
                 width={logo?.width ?? 91}
                 height={logo?.height ?? 17}
-                alt="Logo"
-                title="Logo"
+                alt={logo?.alt ?? "Logo"}
+                title={logo?.alt ?? "Logo"}
               />
             )}
           </a>
