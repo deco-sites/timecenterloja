@@ -446,5 +446,9 @@
     "path": "/institucional/termos-de-uso",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/Header%20Global.json": {
+    "blockType": "sections",
+    "__resolveType": "site/sections/Container.tsx"
   }
 }
