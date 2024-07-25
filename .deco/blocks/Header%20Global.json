@@ -282,7 +282,7 @@
               }
             ],
             "label": "relógios masculinos",
-            "href": "/relogio/masculino?PS=12&O=OrderByBestDiscountDESC"
+            "href": "/relogio/masculino?PS=12&O=OrderByReleaseDateDESC"
           },
           {
             "showLabel": true,
@@ -479,7 +479,7 @@
               }
             ],
             "label": "relógios femininos",
-            "href": "/relogio/feminino?PS=12&O=OrderByBestDiscountDESC"
+            "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC"
           },
           {
             "showLabel": true,
