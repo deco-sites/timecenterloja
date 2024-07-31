@@ -15,9 +15,9 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/85cd2c9c-a1b4-4b52-9876-eeccbf99fd55",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d49d634e-9225-4e2d-afda-592107f85135",
             "alt": "Technos",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2138086b-221b-40e4-8b90-83b0fd246c68",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/07344a34-7bc0-4c58-a11a-d0a07c0f87da",
             "href": "/technos?O=OrderByReleaseDateDESC"
           },
           {
@@ -30,9 +30,9 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d3936934-f91e-47bf-a9df-8c91ce3f283b",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/4dfc2008-cee2-4b27-a581-2b4eafc4d7f7",
-            "href": "/fossil-store",
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0af22c6a-8641-4f4a-aa9e-db3fa23a4444",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/8a8ff812-0b58-456d-ac6a-6de7d9eea867",
+            "href": "/s?q=carteira+fossil",
             "alt": "Fossil"
           },
           {
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/dbcab07f-cf0a-4f88-9d11-463d18dc1ff3",
-            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3ed0caee-66e0-4096-95bf-d0420b0326e2",
-            "href": "/s?q=civic",
-            "alt": "Condor "
+            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0b4ac014-89f7-48b1-8b7b-5f2ee5c81a64",
+            "imageMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ad9e92f3-1c29-41fc-a59d-a51f74fd014b",
+            "href": "/relogio?O=OrderByReleaseDateDESC",
+            "alt": "Euro"
           }
         ],
         "itemPerPageDesktop": 3,
