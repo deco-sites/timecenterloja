@@ -10,36 +10,27 @@
               "variant": "primary",
               "href": "/s?q=torben+grael"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c75f4288-9a00-46b0-8e65-d18e0137f9cb",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/badf293b-8486-4082-ad50-cca02b4000cd",
             "alt": "Torben",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/774ac31c-ad5c-4c6e-9647-b44a94858d3c"
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/450ec65e-d3a6-44a1-ab74-0757d793cfce"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/mormaiishop?sort=price%3Adesc"
+              "href": "/technos?O=OrderByReleaseDateDESC"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d265bc4b-c016-4d56-a41c-9b789e33d1f9",
-            "alt": "Mormaii",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ecad59c6-a075-4200-b566-576a43426232"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/271e7c1a-2fb9-4b31-a6db-7ce630e77a6a",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9d458f91-dfac-484d-b4eb-218511c20f2e",
+            "alt": "Technos "
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/s?q=fossil+masculino&O=OrderByReleaseDateDESC"
+              "href": "/s?q=mochila+fossil"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/73cea061-6cbc-4046-86dc-2f2cf64b39a2",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/af466a18-35c1-4624-a3f5-1ce4f66176a8",
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/49534241-12d1-4cac-b8b1-4b7e64f5436d",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/32a467b4-4f42-428c-8446-cbd81f264bfb",
             "alt": "Fossil"
-          },
-          {
-            "action": {
-              "variant": "primary",
-              "href": "/s?q=civic"
-            },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ceeb8a6e-3634-4d39-a64c-86cd84d77aba",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/471b34bf-6ec4-40e6-88cf-2ce603f6d06b",
-            "alt": "Civic"
           }
         ],
         "showPaginationArrows": "Desktop Only",
