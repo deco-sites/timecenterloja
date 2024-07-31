@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/8315e44b-b8db-4885-991f-c32c30622c72",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/fde51b36-58d4-4a7b-a05a-8183574081c2",
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2e49622c-2033-40dc-8179-eb8afe074ae7",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e9b1921b-b1ef-405e-b853-6913fe4b8d63",
             "alt": "Touch",
-            "href": "/s?q=touch&O=OrderByBestDiscountDESC",
+            "href": "/touch?sort=discount%3Adesc",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/4a664901-94b0-47f1-a480-2504bdb85d7f",
-            "href": "/s?q=internacional&O=OrderByBestDiscountDESC",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/928b935e-9dfb-4925-b998-c1cb401fa02b",
-            "alt": "Internacional"
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c10a2d55-5be6-4e38-aeaf-4ee76cba32db",
+            "href": "/michael-kors?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1e7f6c74-5e50-4fd3-881f-28f8e9e4a987",
+            "alt": "MK"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/57c2e541-f42d-49c0-867e-b0a7708ac2ac",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/565ef849-2256-471b-87ba-3f98e63cafc9",
-            "href": "/s?q=nacional&O=OrderByBestDiscountDESC",
-            "alt": "Nacional"
+            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/85c78d29-a11c-4be1-b644-2ed79f3751d3",
+            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9d722283-4297-4dbe-b6f4-37c7ada0a916",
+            "href": "/skagen?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
+            "alt": "Skagen"
           }
         ]
       },
