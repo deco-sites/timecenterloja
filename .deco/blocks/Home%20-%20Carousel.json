@@ -31,6 +31,15 @@
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/7dda00d3-b218-4581-800e-cbd4cc7e465d",
             "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6d947bb5-5d26-4132-881e-044c87b2dc93",
             "alt": "Fossil"
+          },
+          {
+            "action": {
+              "variant": "primary",
+              "href": "/s?q=civic"
+            },
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/cc7741de-ba60-4c7f-956f-03589c4f5bda",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c572c27e-b800-4364-8cca-bfa63aa93672",
+            "alt": "Civic"
           }
         ],
         "showPaginationArrows": "Desktop Only",
