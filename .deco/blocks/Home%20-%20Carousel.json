@@ -8,38 +8,29 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/s?q=torben+grael"
+              "href": "/s?q=legacy"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/badf293b-8486-4082-ad50-cca02b4000cd",
-            "alt": "Torben",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/450ec65e-d3a6-44a1-ab74-0757d793cfce"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0ba2e716-11a4-48e8-95ef-f2212726f0d8",
+            "alt": "Legacy",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/8a194618-7107-45bd-a757-74ec828fb2ff"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/technos?O=OrderByReleaseDateDESC"
+              "href": "/s?q=bolsa+fossil"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/271e7c1a-2fb9-4b31-a6db-7ce630e77a6a",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9d458f91-dfac-484d-b4eb-218511c20f2e",
-            "alt": "Technos "
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9e24444e-5a21-4c80-9dfd-47671c13b476",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/70cf9582-0ca2-48c6-910a-c1368c464e9a",
+            "alt": "Bolsa"
           },
           {
             "action": {
               "variant": "primary",
-              "href": "/s?q=mochila+fossil"
+              "href": "/s?q=euro+soul"
             },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/7dda00d3-b218-4581-800e-cbd4cc7e465d",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6d947bb5-5d26-4132-881e-044c87b2dc93",
-            "alt": "Fossil"
-          },
-          {
-            "action": {
-              "variant": "primary",
-              "href": "/s?q=civic"
-            },
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/cc7741de-ba60-4c7f-956f-03589c4f5bda",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c572c27e-b800-4364-8cca-bfa63aa93672",
-            "alt": "Civic"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3d5a47cc-7246-4fdb-a809-b23bf5e01f73",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c3b99581-a024-49e8-a81a-87442856fa31",
+            "alt": "Euro Soul"
           }
         ],
         "showPaginationArrows": "Desktop Only",
