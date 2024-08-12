@@ -1,14 +1,14 @@
 import type {
   AggregateOffer,
   UnitPriceSpecification,
-} from 'apps/commerce/types.ts';
-import { formatPrice } from '$store/sdk/format.ts';
+} from "apps/commerce/types.ts";
+import { formatPrice } from "$store/sdk/format.ts";
 
 const bestInstallment = (
   accumulator: UnitPriceSpecification | null,
   current: UnitPriceSpecification,
 ) => {
-  if (current.priceComponentType !== 'https://schema.org/Installment') {
+  if (current.priceComponentType !== "https://schema.org/Installment") {
     return accumulator;
   }
 
@@ -30,13 +30,13 @@ const installmentToString = (
   const { billingDuration, billingIncrement, price } = installment;
 
   if (!billingDuration || !billingIncrement) {
-    return '';
+    return "";
   }
 
   const withTaxes = sellingPrice < price;
 
-  return `${billingDuration}x de ${formatPrice(billingIncrement, 'BRL')} ${
-    withTaxes ? 'com juros' : 'sem juros'
+  return `${billingDuration}x de ${formatPrice(billingIncrement, "BRL")} ${
+    withTaxes ? "com juros" : "sem juros"
   }`;
 };
 
@@ -44,15 +44,15 @@ export const useOffer = (aggregateOffer?: AggregateOffer) => {
   const offer = aggregateOffer?.offers[0];
 
   const sellerPrice = offer?.priceSpecification.find(
-    ({ priceType }) => priceType === 'https://schema.org/SalePrice',
+    ({ priceType }) => priceType === "https://schema.org/SalePrice",
   );
 
   const listPrice = offer?.priceSpecification.find(
-    ({ priceType }) => priceType === 'https://schema.org/ListPrice',
+    ({ priceType }) => priceType === "https://schema.org/ListPrice",
   );
 
   const priceWithPixPayment = offer?.priceSpecification.find(
-    ({ name }) => name?.toLowerCase() === 'pix',
+    ({ name }) => name?.toLowerCase() === "pix",
   );
 
   const installment = offer?.priceSpecification.reduce(bestInstallment, null);
@@ -60,10 +60,9 @@ export const useOffer = (aggregateOffer?: AggregateOffer) => {
   const price = sellerPrice?.price || 0;
   const availability = (offer?.inventoryLevel.value || 0) > 0;
 
-  const priceWithPixDiscount =
-    (priceWithPixPayment?.price || price) < price
-      ? priceWithPixPayment?.price
-      : price * 0.95;
+  const priceWithPixDiscount = (priceWithPixPayment?.price || price) < price
+    ? priceWithPixPayment?.price
+    : price * 0.95;
 
   return {
     price,
