@@ -32,7 +32,7 @@
             "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2e49622c-2033-40dc-8179-eb8afe074ae7",
             "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e9b1921b-b1ef-405e-b853-6913fe4b8d63",
             "alt": "Touch",
-            "href": "/touch?sort=discount%3Adesc",
+            "href": "/relogio/touch?sort=discount%3Adesc",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -47,7 +47,7 @@
               "reverse": true
             },
             "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c10a2d55-5be6-4e38-aeaf-4ee76cba32db",
-            "href": "/michael-kors?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
+            "href": "/relogio/michael-kors?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
             "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1e7f6c74-5e50-4fd3-881f-28f8e9e4a987",
             "alt": "MK"
           },
@@ -61,7 +61,7 @@
             },
             "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/85c78d29-a11c-4be1-b644-2ed79f3751d3",
             "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9d722283-4297-4dbe-b6f4-37c7ada0a916",
-            "href": "/skagen?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
+            "href": "/relogio/skagen?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
             "alt": "Skagen"
           }
         ]
