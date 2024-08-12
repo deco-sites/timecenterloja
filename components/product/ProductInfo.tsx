@@ -12,7 +12,7 @@ import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 import WishlistButtonWake from "../../islands/WishlistButton/wake.tsx";
 import { formatPrice } from "../../sdk/format.ts";
 import { useId } from "../../sdk/useId.ts";
-import { useOffer } from "../../sdk/useOffer.ts";
+import { useOffer } from "../../utils/useOffer.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
@@ -49,10 +49,12 @@ function ProductInfo({ page, layout }: Props) {
   } = product;
   const description = product.description || isVariantOf?.description;
   const {
-    price = 0,
+    price,
     listPrice,
     seller = "1",
-    installments,
+    installment_text,
+    has_discount,
+    priceWithPixDiscount,
     availability,
   } = useOffer(offers);
   const productGroupID = isVariantOf?.productGroupID ?? "";
@@ -90,24 +92,37 @@ function ProductInfo({ page, layout }: Props) {
       {/* Prices */}
       <div class="mt-4">
         <div class="flex flex-row gap-2 items-center">
-          {(listPrice ?? 0) > price && (
+          {has_discount && (
             <span class="line-through text-base-300 text-xs">
-              {formatPrice(listPrice, offers?.priceCurrency)}
+              De: {formatPrice(listPrice, offers?.priceCurrency)}
             </span>
           )}
+
           <span class="font-medium text-xl text-secondary">
-            {formatPrice(price, offers?.priceCurrency)}
+            Por: {formatPrice(price, offers?.priceCurrency)}
           </span>
         </div>
-        <span class="text-sm text-base-300">{installments}</span>
+
+        {installment_text && (
+          <span class="text-sm text-base-300">ou {installment_text}</span>
+        )}
       </div>
+
+      <p class="font-medium text-xl lg:text-2xl text-primary uppercase">
+        {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
+
+        <span class="font-bold text-xs leading-none block w-full">
+          à vista com Pix
+        </span>
+      </p>
+
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-6">
         <ProductSelector product={product} />
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 sm:mt-10 flex flex-col gap-2">
-        {availability === "https://schema.org/InStock"
+        {availability
           ? (
             <>
               {platform === "vtex" && (
