@@ -3,7 +3,7 @@ import ShippingSimulation from "$store/islands/ShippingSimulation.tsx";
 import Breadcrumb from "$store/components/ui/Breadcrumb.tsx";
 import Image from "apps/website/components/Image.tsx";
 import OutOfStock from "$store/islands/OutOfStock.tsx";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import { formatPrice } from "$store/sdk/format.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
@@ -81,7 +81,15 @@ function ProductInfo({
     url,
     additionalProperty,
   } = product;
-  const { price, listPrice, seller, installments, availability } = useOffer(
+  const {
+    price,
+    listPrice,
+    seller,
+    installment_text,
+    has_discount,
+    priceWithPixDiscount,
+    availability,
+  } = useOffer(
     offers,
   );
 
@@ -227,23 +235,36 @@ function ProductInfo({
         </div>
       </div>
       {/* Prices */}
-      {availability === "https://schema.org/InStock" && (
-        <div class="mt-5">
-          <div class="flex flex-row gap-2 items-center">
-            {listPrice !== price && (
-              <span class="line-through text-base-300 text-xs">
-                {formatPrice(listPrice, offers!.priceCurrency!)}
+      {availability && (
+        <>
+          <div class="my-5">
+            <div class="flex flex-row gap-2 items-center">
+              {has_discount && (
+                <span class="line-through text-base-300 text-xs">
+                  De: {formatPrice(listPrice, offers?.priceCurrency)}
+                </span>
+              )}
+
+              <span class="font-medium text-xl lg:text-2xl text-primary">
+                Por: {formatPrice(price, offers?.priceCurrency)}
               </span>
-            )}
-            <span class="font-medium text-xl lg:text-2xl uppercase text-primary">
-              {formatPrice(price, offers!.priceCurrency!)}
-            </span>
+            </div>
+
+            {installment_text && <span>ou {installment_text}</span>}
           </div>
-          <span>{installments}</span>
-        </div>
+
+          <p class="font-medium text-xl lg:text-2xl text-primary uppercase">
+            {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
+
+            <span class="font-bold text-xs leading-none block w-full">
+              à vista com Pix
+            </span>
+          </p>
+        </>
       )}
+
       {/* Measurement chart */}
-      {availability === "https://schema.org/InStock" && (
+      {availability && (
         <div class="mt-4 sm:mt-5">
           <a
             class="text-sm underline"
@@ -263,7 +284,7 @@ function ProductInfo({
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 mb-7 lg:mt-10 flex gap-[30px]">
-        {availability === "https://schema.org/InStock"
+        {availability
           ? (
             <>
               {seller && (
@@ -486,7 +507,7 @@ function ProductDetails({
       : "slider"
     : maybeVar;
 
-  const { price = 0, listPrice } = useOffer(page.product.offers);
+  const { price, listPrice } = useOffer(page.product.offers);
 
   const eventItem = mapProductToAnalyticsItem({
     product: page.product,
