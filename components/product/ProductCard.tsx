@@ -7,7 +7,7 @@ import AddToCartButton from "$store/islands/AddToCartButton.tsx";
 import WishlistIcon from "$store/islands/WishlistButton.tsx";
 import { SendEventOnClick } from "../../components/Analytics.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
@@ -89,7 +89,15 @@ function ProductCard({
     images.find((obj) => {
       return obj.name === "over";
     });
-  const { listPrice, price, installments, seller, availability } = useOffer(
+  const {
+    listPrice,
+    price,
+    installment_text,
+    priceWithPixDiscount,
+    has_discount,
+    seller,
+    availability,
+  } = useOffer(
     offers,
   );
 
@@ -143,12 +151,12 @@ function ProductCard({
       <>
         <AddToCartButton
           url={url as string}
-          availability={availability as string}
+          availability={availability}
           quantity={1}
           name={product.name as string}
-          discount={price && listPrice ? listPrice - price : 0}
+          discount={listPrice - price || 0}
           productGroupId={product.isVariantOf?.productGroupID ?? ""}
-          price={price as number}
+          price={price}
           sellerId={seller as string}
           skuId={product.sku}
           label={l?.basics?.mobileCtaText}
@@ -164,10 +172,10 @@ function ProductCard({
       <AddToCartButton
         quantity={1}
         name={product.name as string}
-        availability={availability as string}
-        discount={price && listPrice ? listPrice - price : 0}
+        availability={availability}
+        discount={listPrice - price || 0}
         productGroupId={product.isVariantOf?.productGroupID ?? ""}
-        price={price as number}
+        price={price}
         sellerId={seller as string}
         skuId={product.sku}
         label={l?.basics?.ctaText}
@@ -178,9 +186,6 @@ function ProductCard({
         }`}
       />
     );
-
-  const price2: number = price as number;
-  const listPrice2: number = listPrice as number;
 
   return (
     <div
@@ -238,10 +243,10 @@ function ProductCard({
             class={`absolute w-full left-0 top-0 p-[10px] flex items-center z-10`}
           >
             <div class={`grid grid-cols-2 gap-y-1 w-full`}>
-              {listPrice2 !== price2 && (
+              {has_discount && (
                 <DiscountBadge
-                  price={price2}
-                  listPrice={listPrice2}
+                  price={price}
+                  listPrice={listPrice}
                   label={l?.discount?.label}
                   variant={l?.discount?.variant}
                 />
@@ -251,7 +256,7 @@ function ProductCard({
                 <ProductHighlights
                   product={product}
                   highlights={highlights}
-                  listPrice={listPrice2}
+                  listPrice={listPrice}
                 />
               )}
             </div>
@@ -350,33 +355,39 @@ function ProductCard({
           )
           : (
             <div class="flex flex-col mt-2">
+              <p class="text-primary text-sm font-bold mb-2">
+                {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
+
+                <span class="font-bold text-[0.7em] leading-none block w-full">
+                  à vista com Pix
+                </span>
+              </p>
+
               <div
                 class={`flex items-center gap-2.5 ${
                   l?.basics?.oldPriceSize === "Normal" ? "lg:flex-row" : ""
                 } ${align === "center" ? "justify-center" : "justify-start"}`}
               >
-                {listPrice !== price && (
+                {has_discount && (
                   <p
                     class={`line-through text-base-300 text-xs ${
                       l?.basics?.oldPriceSize === "Normal" ? "lg:text-xl" : ""
                     }`}
                   >
-                    {formatPrice(listPrice, offers!.priceCurrency!)}
+                    De: {formatPrice(listPrice, offers?.priceCurrency)}
                   </p>
                 )}
+
                 <p class="text-primary text-sm font-bold">
-                  {formatPrice(price, offers!.priceCurrency!)}
+                  Por: {formatPrice(price, offers?.priceCurrency)}
                 </p>
               </div>
-              {l?.hide.installments
-                ? (
-                  ""
-                )
-                : (
-                  <div class="text-xs font-normal text-base-content mt-[5px]">
-                    ou {installments}
-                  </div>
-                )}
+
+              {!l?.hide.installments && installment_text && (
+                <div class="text-xs font-normal text-base-content">
+                  ou {installment_text}
+                </div>
+              )}
             </div>
           )}
 
