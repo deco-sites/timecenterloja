@@ -5,12 +5,12 @@ import {
 import Avatar from "$store/components/ui/Avatar.tsx";
 import AddToCartButton from "$store/islands/AddToCartButton.tsx";
 import WishlistIcon from "$store/islands/WishlistButton.tsx";
-//   import { sendEventOnClick } from "$store/sdk/analytics.tsx";
+import { SendEventOnClick } from "../../components/Analytics.tsx";
 import { formatPrice } from "$store/sdk/format.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
-// import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import Image from "apps/website/components/Image.tsx";
 import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
 import ProductHighlights from "$store/components/product/ProductHighlights.tsx";
@@ -57,6 +57,8 @@ interface Props {
   highlights?: HighLight[];
   /** @description used for analytics event */
   itemListName?: string;
+  /** @description index of the product card in the list */
+  index?: number;
   layout?: Layout;
 }
 
@@ -71,37 +73,37 @@ const HEIGHT = 270;
 function ProductCard({
   product,
   preload,
+  itemListName,
   layout,
   highlights,
+  index,
 }: Props) {
   const { url, productID, name, image: images, offers, isVariantOf } = product;
 
   const productGroupID = isVariantOf?.productGroupID;
-  const hasVariant = isVariantOf?.hasVariant ?? [];
+  const id = `product-card-${productID}`;
 
+  const hasVariant = isVariantOf?.hasVariant ?? [];
   const front = images && images[0];
   const back = images &&
     images.find((obj) => {
       return obj.name === "over";
     });
-  const { listPrice, price, installments, seller, availability } = useOffer(
+  const {
+    listPrice,
+    price,
+    installment_text,
+    priceWithPixDiscount,
+    has_discount,
+    seller,
+    availability,
+  } = useOffer(
     offers,
   );
+
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
-  // const clickEvent = {
-  //   name: "select_item" as const,
-  //   params: {
-  //     item_list_name: itemListName,
-  //     items: [
-  //       mapProductToAnalyticsItem({
-  //         product,
-  //         price,
-  //         listPrice,
-  //       }),
-  //     ],
-  //   },
-  // };
+
   const l = layout;
   const align =
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"
@@ -149,12 +151,12 @@ function ProductCard({
       <>
         <AddToCartButton
           url={url as string}
-          availability={availability as string}
+          availability={availability}
           quantity={1}
           name={product.name as string}
-          discount={price && listPrice ? listPrice - price : 0}
+          discount={listPrice - price || 0}
           productGroupId={product.isVariantOf?.productGroupID ?? ""}
-          price={price as number}
+          price={price}
           sellerId={seller as string}
           skuId={product.sku}
           label={l?.basics?.mobileCtaText}
@@ -170,22 +172,20 @@ function ProductCard({
       <AddToCartButton
         quantity={1}
         name={product.name as string}
-        discount={price && listPrice ? listPrice - price : 0}
+        availability={availability}
+        discount={listPrice - price || 0}
         productGroupId={product.isVariantOf?.productGroupID ?? ""}
-        price={price as number}
+        price={price}
         sellerId={seller as string}
         skuId={product.sku}
         label={l?.basics?.ctaText}
-        classes={`hidden lg:block ${
+        classes={`hidden lg:flex lg:justify-center ${
           addToCartButtonClassNames(
             layout?.basics?.ctaVariation,
           )
         }`}
       />
     );
-
-  const price2: number = price as number;
-  const listPrice2: number = listPrice as number;
 
   return (
     <div
@@ -194,8 +194,25 @@ function ProductCard({
       } ${l?.onMouseOver?.showCardShadow ? "lg:hover:card-bordered" : ""}`}
       data-deco="view-product"
       id={`product-card-${productID}`}
-      // {...sendEventOnClick(clickEvent)}
     >
+      {/* Add click event to dataLayer */}
+      <SendEventOnClick
+        id={id}
+        event={{
+          name: "select_item" as const,
+          params: {
+            item_list_name: itemListName,
+            items: [
+              mapProductToAnalyticsItem({
+                product,
+                price,
+                listPrice,
+                index,
+              }),
+            ],
+          },
+        }}
+      />
       <figure
         class="relative rounded-none"
         style={{ aspectRatio: `${WIDTH} / ${HEIGHT}` }}
@@ -203,17 +220,17 @@ function ProductCard({
         {/* Wishlist button */}
         <div
           class={`absolute top-2 z-10
-            ${
+          ${
             l?.elementsPositions?.favoriteIcon === "Top left"
               ? "left-2"
               : "right-2"
           }
-            ${
+          ${
             l?.onMouseOver?.showFavoriteIcon
               ? "lg:hidden lg:group-hover:block"
               : "lg:hidden"
           }
-          `}
+        `}
         >
           <WishlistIcon productGroupID={productGroupID} productID={productID} />
         </div>
@@ -226,10 +243,10 @@ function ProductCard({
             class={`absolute w-full left-0 top-0 p-[10px] flex items-center z-10`}
           >
             <div class={`grid grid-cols-2 gap-y-1 w-full`}>
-              {listPrice2 !== price2 && (
+              {has_discount && (
                 <DiscountBadge
-                  price={price2}
-                  listPrice={listPrice2}
+                  price={price}
+                  listPrice={listPrice}
                   label={l?.discount?.label}
                   variant={l?.discount?.variant}
                 />
@@ -239,7 +256,7 @@ function ProductCard({
                 <ProductHighlights
                   product={product}
                   highlights={highlights}
-                  listPrice={listPrice2}
+                  listPrice={listPrice}
                 />
               )}
             </div>
@@ -251,19 +268,19 @@ function ProductCard({
             width={WIDTH}
             height={HEIGHT}
             class={`
-                absolute rounded-none w-full
-                ${
+              absolute rounded-none w-full
+              ${
               !l?.onMouseOver?.image ||
                 l?.onMouseOver?.image == "Change image"
                 ? "duration-100 transition-opacity opacity-100 lg:group-hover:opacity-0"
                 : ""
             }
-                ${
+              ${
               l?.onMouseOver?.image == "Zoom image"
                 ? "duration-100 transition-scale scale-100 lg:group-hover:scale-105"
                 : ""
             }
-              `}
+            `}
             sizes="(max-width: 640px) 50vw, 20vw"
             preload={preload}
             loading={preload ? "eager" : "lazy"}
@@ -338,33 +355,39 @@ function ProductCard({
           )
           : (
             <div class="flex flex-col mt-2">
+              <p class="text-primary text-sm font-bold mb-2">
+                {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
+
+                <span class="font-bold text-[0.7em] leading-none block w-full">
+                  à vista com Pix
+                </span>
+              </p>
+
               <div
                 class={`flex items-center gap-2.5 ${
                   l?.basics?.oldPriceSize === "Normal" ? "lg:flex-row" : ""
                 } ${align === "center" ? "justify-center" : "justify-start"}`}
               >
-                {listPrice !== price && (
+                {has_discount && (
                   <p
                     class={`line-through text-base-300 text-xs ${
                       l?.basics?.oldPriceSize === "Normal" ? "lg:text-xl" : ""
                     }`}
                   >
-                    {formatPrice(listPrice, offers!.priceCurrency!)}
+                    De: {formatPrice(listPrice, offers?.priceCurrency)}
                   </p>
                 )}
-                <p class="text-accent text-sm font-bold">
-                  {formatPrice(price, offers!.priceCurrency!)}
+
+                <p class="text-primary text-sm font-bold">
+                  Por: {formatPrice(price, offers?.priceCurrency)}
                 </p>
               </div>
-              {l?.hide.installments
-                ? (
-                  ""
-                )
-                : (
-                  <div class="text-xs font-normal text-base-content mt-[5px]">
-                    ou {installments}
-                  </div>
-                )}
+
+              {!l?.hide.installments && installment_text && (
+                <div class="text-xs font-normal text-base-content">
+                  ou {installment_text}
+                </div>
+              )}
             </div>
           )}
 
@@ -389,13 +412,13 @@ function ProductCard({
 
         <div
           class={`w-full flex flex-col mt-[10px]
-            ${
+          ${
             l?.onMouseOver?.showSkuSelector || l?.onMouseOver?.showCta
               // ? "transition-opacity lg:opacity-0 lg:group-hover:opacity-100"
               ? "transition-opacity opacity-100"
               : "lg:hidden"
           }
-          `}
+        `}
         >
           {l?.onMouseOver?.showCta && cta}
         </div>
