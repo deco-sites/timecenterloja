@@ -8,7 +8,7 @@
           {
             "action": {
               "variant": "primary",
-              "href": "/2424?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC"
+              "href": "/2424?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC&sort=discount%3Adesc"
             },
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bf7025ad-09d1-4fba-9067-17f6ebcdeddc",
             "alt": "Bazar Internacional",
