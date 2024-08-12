@@ -17,7 +17,7 @@ interface Props extends UseAddToCartProps {
   label?: string;
   classes?: string;
   showIcon?: boolean;
-  availability?: string;
+  availability?: boolean;
   url?: string;
 }
 
@@ -61,7 +61,7 @@ function AddToCartButton({
 
   return (
     <>
-      {availability === "https://schema.org/OutOfStock"
+      {!availability
         ? (
           <a href={url} target="_blank" class={classes}>
             <p class="flex gap-2 items-center justify-center">
