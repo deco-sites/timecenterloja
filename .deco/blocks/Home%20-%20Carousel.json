@@ -31,6 +31,15 @@
             "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3d5a47cc-7246-4fdb-a809-b23bf5e01f73",
             "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c3b99581-a024-49e8-a81a-87442856fa31",
             "alt": "Euro Soul"
+          },
+          {
+            "action": {
+              "variant": "primary",
+              "href": "/2424?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC"
+            },
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bf7025ad-09d1-4fba-9067-17f6ebcdeddc",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/46b6b121-4003-4c25-9681-5fe7d56e6809",
+            "alt": "Bazar Internacional"
           }
         ],
         "showPaginationArrows": "Desktop Only",
