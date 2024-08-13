@@ -4,13 +4,11 @@ import { LoaderReturnType } from "deco/mod.ts";
 import BaseSeo from "./SeoBase.tsx";
 import { SectionProps } from "deco/types.ts";
 
-
-
 /** @title {{{title}}}  */
 interface SeoPage {
-    title?: string;
-    description?: string;
-    url?: string;
+  title?: string;
+  description?: string;
+  url?: string;
 }
 
 export interface Props {
@@ -20,7 +18,7 @@ export interface Props {
   url?: string;
   imageUrl?: string;
   themeColor?: string;
-   /**
+  /**
    * @title SEO URL Page
    * @description Add SEO by URL Page
    */
@@ -35,13 +33,13 @@ function SeoPLP({ page, ...baseSeo }: SectionProps<ReturnType<typeof loader>>) {
   const seoUrl = baseSeo?.seoUrl;
 
   console.log(seoUrl);
-  
+
   if (page?.seo) {
     title = page?.seo?.title ?? baseSeo?.description;
     description = page?.seo?.description ?? baseSeo?.description;
   }
 
-  if(seoUrl) {
+  if (seoUrl) {
     title = seoUrl?.title ?? baseSeo?.description;
     description = seoUrl?.description ?? baseSeo?.description;
   }
@@ -60,12 +58,12 @@ function SeoPLP({ page, ...baseSeo }: SectionProps<ReturnType<typeof loader>>) {
   );
 }
 
-export const loader = ({ seoByUrl = [], ...baseSeo  }: Props, req: Request) => {
-    const seoUrl = seoByUrl.find(({ url }) =>
-      new URLPattern({ pathname: url }).test(req.url)
-    );
-  
-    return { seoUrl, ...baseSeo };
-  };
+export const loader = ({ seoByUrl = [], ...baseSeo }: Props, req: Request) => {
+  const seoUrl = seoByUrl.find(({ url }) =>
+    new URLPattern({ pathname: url }).test(req.url)
+  );
+
+  return { seoUrl, ...baseSeo };
+};
 
 export default SeoPLP;

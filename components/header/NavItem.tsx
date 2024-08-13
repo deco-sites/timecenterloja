@@ -51,7 +51,7 @@ function NavItemDropDown({ elements }: { elements?: INavItem[] }) {
             {children?.map((subItem) => (
               <li class="mb-3">
                 <a
-                  class="text-sm text-base-content hover:text-emphasis transition-all duration-300"
+                  class="text-sm text-base-content hover:text-emphasis transition-all duration-300 underline decoration-white block w-full h-full"
                   href={subItem?.href}
                 >
                   <span>{subItem?.label}</span>
@@ -70,7 +70,7 @@ function NavItem({ item }: { item: INavItem }) {
 
   return (
     <li class="group flex items-center">
-      <a href={href} class="px-4 py-7">
+      <a href={href} class="px-4 py-7 underline decoration-white">
         <span
           class={`after:absolute after:transition-all after:duration-100 after:-bottom-1  uppercase relative after:left-0 group-hover:after:w-full after:w-0 after:h-[1px] after:bg-emphasis text-xs group-hover:text-emphasis transition-all duration-300 ${
             highlighted ? "text-primary" : "text-base-content"
