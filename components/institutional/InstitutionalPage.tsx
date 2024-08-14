@@ -109,6 +109,7 @@ function InstitutionalPage({
               top: -2%;
               margin-bottom: 3%;
             }
+
             .conteiner-paragraph-intitucional.overflow .bloco-text-technos {
               width: 100%;
               font-size: 14px;
