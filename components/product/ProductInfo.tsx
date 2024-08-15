@@ -17,6 +17,7 @@ import { usePlatform } from "../../sdk/usePlatform.tsx";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import ProductSelector from "./ProductVariantSelector.tsx";
+import ProductInfoPriceModel from "deco-sites/timecenter/components/product/ProductInfoPriceModel.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -48,15 +49,18 @@ function ProductInfo({ page, layout }: Props) {
     additionalProperty = [],
   } = product;
   const description = product.description || isVariantOf?.description;
+
   const {
     price,
     listPrice,
     seller = "1",
-    installment_text,
+    installment,
+    pixPercentDiscountByDiferenceSellerPrice,
     has_discount,
     priceWithPixDiscount,
     availability,
   } = useOffer(offers);
+
   const productGroupID = isVariantOf?.productGroupID ?? "";
   const breadcrumb = {
     ...breadcrumbList,
@@ -89,32 +93,18 @@ function ProductInfo({ page, layout }: Props) {
           </span>
         </h1>
       </div>
+
       {/* Prices */}
-      <div class="mt-4">
-        <div class="flex flex-row gap-2 items-center">
-          {has_discount && (
-            <span class="line-through text-base-300 text-xs">
-              De: {formatPrice(listPrice, offers?.priceCurrency)}
-            </span>
-          )}
-
-          <span class="font-medium text-xl text-secondary">
-            Por: {formatPrice(price, offers?.priceCurrency)}
-          </span>
-        </div>
-
-        {installment_text && (
-          <span class="text-sm text-base-300">ou {installment_text}</span>
-        )}
-      </div>
-
-      <p class="font-medium text-xl lg:text-2xl text-primary uppercase">
-        {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
-
-        <span class="font-bold text-xs leading-none block w-full">
-          à vista com Pix
-        </span>
-      </p>
+      <ProductInfoPriceModel
+        installmentBillingDuration={installment?.billingDuration}
+        installmentBillingIncrement={installment?.billingIncrement}
+        priceCurrency={offers?.priceCurrency}
+        priceWithPixDiscount={priceWithPixDiscount}
+        sellerPrice={price}
+        hasDiscount={has_discount}
+        listPrice={listPrice}
+        pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+      />
 
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-6">
