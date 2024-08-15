@@ -37,6 +37,7 @@ export default function ProductCardPriceModel(props: Props) {
               {formatPrice(props.sellerPrice, props.priceCurrency || "BRL")}
             </span>
             <span class="">{" "}em até{" "}</span>
+            <br />
             <span class="">{props.installmentBillingDuration}x</span>
             <span class="">{" "}de{" "}</span>
             <span class="">
