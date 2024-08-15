@@ -15,6 +15,7 @@ import Image from "apps/website/components/Image.tsx";
 import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
 import ProductHighlights from "$store/components/product/ProductHighlights.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
+import ProductCardPriceModel from "deco-sites/timecenter/components/product/ProductCardPriceModel.tsx";
 
 export interface Layout {
   basics?: {
@@ -89,17 +90,17 @@ function ProductCard({
     images.find((obj) => {
       return obj.name === "over";
     });
+
   const {
     listPrice,
     price,
-    installment_text,
-    priceWithPixDiscount,
+    installment,
+    seller = "1",
     has_discount,
-    seller,
     availability,
-  } = useOffer(
-    offers,
-  );
+    pixPercentDiscountByDiferenceSellerPrice,
+    priceWithPixDiscount,
+  } = useOffer(offers);
 
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
@@ -308,26 +309,37 @@ function ProductCard({
           l?.elementsPositions?.skuSelector === "Top") && (
           <>
             {!l?.hide.skuSelector && (
-                <ul
-                  class={`flex items-center gap-2 w-full ${
-                    align === "center" ? "justify-center" : "justify-start"
-                  } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
-                >
-                  {skuSelector}
-                </ul>
-              )}
+              <ul
+                class={`flex items-center gap-2 w-full ${
+                  align === "center" ? "justify-center" : "justify-start"
+                } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
+              >
+                {skuSelector}
+              </ul>
+            )}
           </>
         )}
 
-        {!l?.hide.productName && !l?.hide.productDescription &&(
+        {l?.hide.productName && l?.hide.productDescription
+          ? (
+            ""
+          )
+          : (
             <div class="flex flex-col gap-0 mt-[15px]">
-              {!l?.hide.productName && (
+              {l?.hide.productName
+                ? (
+                  ""
+                )
+                : (
                   <h2 class="line-clamp-2 uppercase text-xs font-bold text-base-content">
                     {isVariantOf?.name || name}
                   </h2>
                 )}
-
-              {!l?.hide.productDescription && (
+              {l?.hide.productDescription
+                ? (
+                  ""
+                )
+                : (
                   <p class="truncate text-sm lg:text-sm text-neutral">
                     {product.description}
                   </p>
@@ -336,55 +348,30 @@ function ProductCard({
           )}
 
         {!l?.hide.allPrices && (
-            <div class="flex flex-col mt-2">
-              <p class="text-primary text-sm font-bold mb-2">
-                {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
-
-                <span class="font-bold text-[0.7em] leading-none block w-full">
-                  à vista com Pix
-                </span>
-              </p>
-
-              <div
-                class={`flex items-center gap-2.5 ${
-                  l?.basics?.oldPriceSize === "Normal" ? "lg:flex-row" : ""
-                } ${align === "center" ? "justify-center" : "justify-start"}`}
-              >
-                {has_discount && (
-                  <p
-                    class={`line-through text-base-300 text-xs ${
-                      l?.basics?.oldPriceSize === "Normal" ? "lg:text-xl" : ""
-                    }`}
-                  >
-                    De: {formatPrice(listPrice, offers?.priceCurrency)}
-                  </p>
-                )}
-
-                <p class="text-primary text-sm font-bold">
-                  Por: {formatPrice(price, offers?.priceCurrency)}
-                </p>
-              </div>
-
-              {!l?.hide.installments && installment_text && (
-                <div class="text-xs font-normal text-base-content">
-                  ou {installment_text}
-                </div>
-              )}
-            </div>
-          )}
+          <ProductCardPriceModel
+            installmentBillingDuration={installment?.billingDuration}
+            installmentBillingIncrement={installment?.billingIncrement}
+            priceCurrency={offers?.priceCurrency}
+            priceWithPixDiscount={priceWithPixDiscount}
+            sellerPrice={price}
+            hasDiscount={has_discount}
+            listPrice={listPrice}
+            pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+          />
+        )}
 
         {/* SKU Selector */}
         {l?.elementsPositions?.skuSelector === "Bottom" && (
           <>
             {!l?.hide.skuSelector && (
-                <ul
-                  class={`flex items-center gap-2 w-full ${
-                    align === "center" ? "justify-center" : "justify-start"
-                  } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
-                >
-                  {skuSelector}
-                </ul>
-              )}
+              <ul
+                class={`flex items-center gap-2 w-full ${
+                  align === "center" ? "justify-center" : "justify-start"
+                } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
+              >
+                {skuSelector}
+              </ul>
+            )}
           </>
         )}
 
