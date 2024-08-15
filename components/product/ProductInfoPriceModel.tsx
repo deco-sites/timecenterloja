@@ -15,12 +15,12 @@ export default function ProductInfoPriceModel(props: Props) {
   return (
     <div class="py-7">
       {props.hasDiscount && (
-        <p class="w-full text-left text-[#4a4a4a] text-[13px] font-[Montserrat] font-normal line-through">
+        <p class="w-full text-left text-[#4a4a4a] text-[13px] font-normal line-through">
           De {formatPrice(props.listPrice, props.priceCurrency)}
         </p>
       )}
 
-      <p class="w-full block text-left font-[Montserrat] text-[#4A4A4A]  leading-none">
+      <p class="w-full block text-left text-[#4A4A4A]  leading-none">
         <span class="text-2xl font-bold">
           {formatPrice(
             props.priceWithPixDiscount,
