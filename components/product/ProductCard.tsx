@@ -6,7 +6,6 @@ import Avatar from "$store/components/ui/Avatar.tsx";
 import AddToCartButton from "$store/islands/AddToCartButton.tsx";
 import WishlistIcon from "$store/islands/WishlistButton.tsx";
 import { SendEventOnClick } from "../../components/Analytics.tsx";
-import { formatPrice } from "$store/sdk/format.ts";
 import { useOffer } from "$store/utils/useOffer.ts";
 import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
@@ -105,6 +104,10 @@ function ProductCard({
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
 
+  const referenceID = product.additionalProperty?.find(
+    ({ valueReference }) => valueReference == "ReferenceID",
+  )?.value ?? product.gtin;
+
   const l = layout;
   const align =
     !l?.basics?.contentAlignment || l?.basics?.contentAlignment == "Left"
@@ -124,7 +127,7 @@ function ProductCard({
     ));
 
   const addToCartButtonClassNames = (variant: string | undefined) =>
-    `lg:text-sm font-medium text-xs whitespace-nowrap m-auto btn h-8 min-h-6 max-md:min-h-[2.25rem] max-md:h-[2.25rem] btn-${
+    `lg:text-sm font-medium text-xs whitespace-nowrap btn h-8 mr-auto min-h-6 max-md:min-h-[2.25rem] max-md:h-[2.25rem] btn-${
       BUTTON_VARIANTS[variant ?? "primary"]
     }`;
 
@@ -142,6 +145,7 @@ function ProductCard({
         <span class="max-lg:hidden flex font-medium ">
           {l?.basics?.ctaText || "Ver produto"}
         </span>
+
         <span class="lg:hidden flex font-medium">
           {l?.basics?.mobileCtaText || "Add ao carrinho"}
         </span>
@@ -331,10 +335,17 @@ function ProductCard({
                   ""
                 )
                 : (
-                  <h2 class="line-clamp-2 uppercase text-xs font-bold text-base-content">
-                    {isVariantOf?.name || name}
-                  </h2>
+                  <div class="min-h-12">
+                    <h2 class="w-full line-clamp-2 uppercase text-left text-xs font-bold text-base-content">
+                      {(isVariantOf?.name|| name || "").split('-')[0].trim()}
+                    </h2>
+
+                    <p class="w-full text-left text-[10px] font-normal text-[#C4C4C4]">
+                      Ref: {referenceID}
+                    </p>
+                  </div>
                 )}
+
               {l?.hide.productDescription
                 ? (
                   ""
@@ -375,18 +386,7 @@ function ProductCard({
           </>
         )}
 
-        <div
-          class={`w-full flex flex-col mt-[10px]
-          ${
-            l?.onMouseOver?.showSkuSelector || l?.onMouseOver?.showCta
-              // ? "transition-opacity lg:opacity-0 lg:group-hover:opacity-100"
-              ? "transition-opacity opacity-100"
-              : "lg:hidden"
-          }
-        `}
-        >
-          {l?.onMouseOver?.showCta && cta}
-        </div>
+        {cta}
       </div>
     </div>
   );
