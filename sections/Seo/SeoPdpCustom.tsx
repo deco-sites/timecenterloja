@@ -82,8 +82,6 @@ export function loader(props: Props, _req: Request, ctx: AppContext) {
     }
   }
 
-  console.log(jsonLD?.product.offers);
-
   return {
     ...seoSiteProps,
     title,
