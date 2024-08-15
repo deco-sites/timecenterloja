@@ -13,7 +13,7 @@ export interface Props {
 
 export default function ProductCardPriceModel(props: Props) {
   return (
-    <div class="w-full min-h-[75px] flex flex-col py-2">
+    <div class="w-full min-h-[90px] flex flex-col py-2">
       {props.hasDiscount && (
         <p class="w-full text-left text-[#4a4a4a] text-[10px] lg:text-xs font-normal line-through">
           {formatPrice(props.listPrice, props.priceCurrency)}
