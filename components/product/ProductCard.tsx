@@ -307,11 +307,7 @@ function ProductCard({
         {(!l?.elementsPositions?.skuSelector ||
           l?.elementsPositions?.skuSelector === "Top") && (
           <>
-            {l?.hide.skuSelector
-              ? (
-                ""
-              )
-              : (
+            {!l?.hide.skuSelector && (
                 <ul
                   class={`flex items-center gap-2 w-full ${
                     align === "center" ? "justify-center" : "justify-start"
@@ -323,37 +319,23 @@ function ProductCard({
           </>
         )}
 
-        {l?.hide.productName && l?.hide.productDescription
-          ? (
-            ""
-          )
-          : (
+        {!l?.hide.productName && !l?.hide.productDescription &&(
             <div class="flex flex-col gap-0 mt-[15px]">
-              {l?.hide.productName
-                ? (
-                  ""
-                )
-                : (
+              {!l?.hide.productName && (
                   <h2 class="line-clamp-2 uppercase text-xs font-bold text-base-content">
                     {isVariantOf?.name || name}
                   </h2>
                 )}
-              {l?.hide.productDescription
-                ? (
-                  ""
-                )
-                : (
+
+              {!l?.hide.productDescription && (
                   <p class="truncate text-sm lg:text-sm text-neutral">
                     {product.description}
                   </p>
                 )}
             </div>
           )}
-        {l?.hide.allPrices
-          ? (
-            ""
-          )
-          : (
+
+        {!l?.hide.allPrices && (
             <div class="flex flex-col mt-2">
               <p class="text-primary text-sm font-bold mb-2">
                 {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
@@ -394,11 +376,7 @@ function ProductCard({
         {/* SKU Selector */}
         {l?.elementsPositions?.skuSelector === "Bottom" && (
           <>
-            {l?.hide.skuSelector
-              ? (
-                ""
-              )
-              : (
+            {!l?.hide.skuSelector && (
                 <ul
                   class={`flex items-center gap-2 w-full ${
                     align === "center" ? "justify-center" : "justify-start"
