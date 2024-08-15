@@ -337,7 +337,7 @@ function ProductCard({
                 : (
                   <div class="min-h-12">
                     <h2 class="w-full line-clamp-2 uppercase text-left text-xs font-bold text-base-content">
-                      {(isVariantOf?.name|| name || "").split('-')[0].trim()}
+                      {(isVariantOf?.name || name || "").split("-")[0].trim()}
                     </h2>
 
                     <p class="w-full text-left text-[10px] font-normal text-[#C4C4C4]">
