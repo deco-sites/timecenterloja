@@ -93,6 +93,8 @@ function ProductCard({
     offers,
   );
 
+  const hasStock = offers?.offers[0].inventoryLevel.value === 0;
+
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
 
@@ -368,7 +370,7 @@ function ProductCard({
                   {formatPrice(price, offers!.priceCurrency!)}
                 </p>
               </div>
-              {l?.hide.installments
+              {hasStock
                 ? (
                   ""
                 )
