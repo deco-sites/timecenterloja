@@ -4,7 +4,6 @@ import Breadcrumb from "$store/components/ui/Breadcrumb.tsx";
 import Image from "apps/website/components/Image.tsx";
 import OutOfStock from "$store/islands/OutOfStock.tsx";
 import { useOffer } from "$store/utils/useOffer.ts";
-import { formatPrice } from "$store/sdk/format.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import { LoaderReturnType } from "deco/mod.ts";
@@ -17,6 +16,7 @@ import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx"
 import ProductSelector from "./ProductVariantSelector.tsx";
 import { Section } from "deco/blocks/section.ts";
 import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
+import ProductInfoPriceModel from "deco-sites/timecenter/components/product/ProductInfoPriceModel.tsx";
 
 export type Variant = "front-back" | "slider" | "auto";
 
@@ -85,7 +85,8 @@ function ProductInfo({
     price,
     listPrice,
     seller,
-    installment_text,
+    installment,
+    pixPercentDiscountByDiferenceSellerPrice,
     has_discount,
     priceWithPixDiscount,
     availability,
@@ -99,7 +100,6 @@ function ProductInfo({
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
-  // console.log("especifications normal", especifications);
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {
@@ -234,38 +234,26 @@ function ProductInfo({
           </span>
         </div>
       </div>
+
       {/* Prices */}
       {availability && (
         <>
-          <div class="my-5">
-            <div class="flex flex-row gap-2 items-center">
-              {has_discount && (
-                <span class="line-through text-base-300 text-xs">
-                  De: {formatPrice(listPrice, offers?.priceCurrency)}
-                </span>
-              )}
-
-              <span class="font-medium text-xl lg:text-2xl text-primary">
-                Por: {formatPrice(price, offers?.priceCurrency)}
-              </span>
-            </div>
-
-            {installment_text && <span>ou {installment_text}</span>}
-          </div>
-
-          <p class="font-medium text-xl lg:text-2xl text-primary uppercase">
-            {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
-
-            <span class="font-bold text-xs leading-none block w-full">
-              à vista com Pix
-            </span>
-          </p>
+          <ProductInfoPriceModel
+            installmentBillingDuration={installment?.billingDuration}
+            installmentBillingIncrement={installment?.billingIncrement}
+            priceCurrency={offers?.priceCurrency}
+            priceWithPixDiscount={priceWithPixDiscount}
+            sellerPrice={price}
+            hasDiscount={has_discount}
+            listPrice={listPrice}
+            pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+          />
         </>
       )}
 
       {/* Measurement chart */}
       {availability && (
-        <div class="mt-4 sm:mt-5">
+        <div class="">
           <a
             class="text-sm underline"
             href="https://technos.vtexcommercestable.com.br/api/dataentities/MI/documents/405a6e7f-cce7-11ed-83ab-02f9c48fe6b5/file/attachments/GuiaDeMedidasTechnos.pdf"
@@ -289,6 +277,7 @@ function ProductInfo({
             <>
               {seller && (
                 <AddToCartActions
+                  availability={availability}
                   productID={productID}
                   seller={seller}
                   price={price}
