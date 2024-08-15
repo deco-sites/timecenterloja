@@ -23,32 +23,25 @@ const bestInstallment = (
   return accumulator;
 };
 
-const installmentToString = (
-  installment: UnitPriceSpecification,
-  sellingPrice: number,
-) => {
-  const { billingDuration, billingIncrement, price } = installment;
+const installmentToString = (installment: UnitPriceSpecification) => {
+  const { billingDuration, billingIncrement } = installment;
 
   if (!billingDuration || !billingIncrement) {
     return '';
   }
 
-  const withTaxes = sellingPrice < price;
-
-  return `${billingDuration}x de ${formatPrice(billingIncrement, 'BRL')} ${
-    withTaxes ? 'com juros' : 'sem juros'
-  }`;
+  return `${billingDuration}x de ${formatPrice(billingIncrement, 'BRL')}`;
 };
 
 export const useOffer = (aggregateOffer?: AggregateOffer) => {
   const offer = aggregateOffer?.offers[0];
 
-  const sellerPrice = offer?.priceSpecification.find(
-    ({ priceType }) => priceType === 'https://schema.org/SalePrice',
-  );
-
   const listPrice = offer?.priceSpecification.find(
     ({ priceType }) => priceType === 'https://schema.org/ListPrice',
+  );
+
+  const sellerPrice = offer?.priceSpecification.find(
+    ({ priceType }) => priceType === 'https://schema.org/SalePrice',
   );
 
   const priceWithPixPayment = offer?.priceSpecification.find(
@@ -59,22 +52,25 @@ export const useOffer = (aggregateOffer?: AggregateOffer) => {
   const seller = offer?.seller;
   const price = sellerPrice?.price || 0;
   const availability = (offer?.inventoryLevel.value || 0) > 0;
+  const manualPixPercentDiscount = 5;
 
   const priceWithPixDiscount =
     (priceWithPixPayment?.price || price) < price
       ? priceWithPixPayment?.price || price
-      : price * 0.95;
+      : price * ((100 - manualPixPercentDiscount) / 100);
+
+  const pixPercentDiscountByDiferenceSellerPrice =
+    100 - (priceWithPixDiscount * 100) / price;
 
   return {
     price,
     priceWithPixDiscount,
+    pixPercentDiscountByDiferenceSellerPrice,
     listPrice: listPrice?.price || price,
     has_discount: (listPrice?.price || price) > price,
     availability,
     seller,
-    installment_text: installment
-      ? installmentToString(installment, price)
-      : null,
+    installment_text: installment ? installmentToString(installment) : null,
     installment: installment || null,
   };
 };
