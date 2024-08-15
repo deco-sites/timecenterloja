@@ -4,7 +4,6 @@ import Breadcrumb from "$store/components/ui/Breadcrumb.tsx";
 import Image from "apps/website/components/Image.tsx";
 import OutOfStock from "$store/islands/OutOfStock.tsx";
 import { useOffer } from "$store/utils/useOffer.ts";
-import { formatPrice } from "$store/sdk/format.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import { LoaderReturnType } from "deco/mod.ts";
 import AddToCartActions from "$store/islands/AddToCartActions.tsx";
@@ -18,6 +17,7 @@ import { Section } from "deco/blocks/section.ts";
 import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
 import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
+import ProductInfoPriceModel from "deco-sites/timecenter/components/product/ProductInfoPriceModel.tsx";
 // import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
 
 export type Variant = "front-back" | "slider" | "auto";
@@ -105,7 +105,8 @@ function ProductInfo({
     price,
     listPrice,
     seller = "1",
-    installment_text,
+    installment,
+    pixPercentDiscountByDiferenceSellerPrice,
     has_discount,
     priceWithPixDiscount,
     availability,
@@ -124,7 +125,6 @@ function ProductInfo({
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
-  // console.log("especifications T04", especifications);
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {
@@ -263,29 +263,16 @@ function ProductInfo({
       {/* Prices */}
       {availability && (
         <>
-          <div class="my-5">
-            <div class="flex flex-row gap-2 items-center">
-              {has_discount && (
-                <span class="line-through text-base-300 text-xs">
-                  De: {formatPrice(listPrice, offers?.priceCurrency)}
-                </span>
-              )}
-
-              <span class="font-medium text-xl lg:text-2xl text-primary">
-                Por: {formatPrice(price, offers?.priceCurrency)}
-              </span>
-            </div>
-
-            {installment_text && <span>ou {installment_text}</span>}
-          </div>
-
-          <p class="font-medium text-xl lg:text-2xl text-primary uppercase">
-            {formatPrice(priceWithPixDiscount, offers?.priceCurrency)}
-
-            <span class="font-bold text-xs leading-none block w-full">
-              à vista com Pix
-            </span>
-          </p>
+          <ProductInfoPriceModel
+            installmentBillingDuration={installment?.billingDuration}
+            installmentBillingIncrement={installment?.billingIncrement}
+            priceCurrency={offers?.priceCurrency}
+            priceWithPixDiscount={priceWithPixDiscount}
+            sellerPrice={price}
+            hasDiscount={has_discount}
+            listPrice={listPrice}
+            pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+          />
         </>
       )}
 
@@ -315,6 +302,7 @@ function ProductInfo({
             <>
               {seller && (
                 <AddToCartActions
+                  availability={availability}
                   productID={productID}
                   seller={seller}
                   price={price}
