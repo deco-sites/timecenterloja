@@ -5,6 +5,7 @@ import AddToCartButton from "$store/components/product/AddToCartButton.tsx";
 
 type Props = {
   productID: string;
+  availability?: boolean;
   seller: string;
   price?: number;
   listPrice?: number;
@@ -15,7 +16,15 @@ type Props = {
 };
 
 export default function AddToCartActions(
-  { productID, seller, price, listPrice, productName, productGroupID }: Props,
+  {
+    productID,
+    seller,
+    price,
+    listPrice,
+    productName,
+    productGroupID,
+    availability,
+  }: Props,
 ) {
   const [quantity, setQuantity] = useState(1);
   const mobile = useIsMobile();
@@ -52,6 +61,7 @@ export default function AddToCartActions(
         quantity={quantity}
         label={mobile ? "comprar" : "Comprar agora"}
         showIcon
+        availability={availability || false}
         classes="btn btn-md btn-primary uppercase transition-all  hover:text-neutral-100 font-bold text-info"
       />
     </div>
