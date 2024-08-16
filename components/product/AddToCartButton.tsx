@@ -1,13 +1,13 @@
-import Button from '$store/components/ui/Button.tsx';
+import Button from "$store/components/ui/Button.tsx";
 import {
   Options as UseAddToCartProps,
   useAddToCart,
-} from '$store/sdk/useAddToCart.ts';
-import Icon from '$store/components/ui/Icon.tsx';
-import { useEffect } from 'preact/compat';
-import AlertModal from '$store/components/ui/AlertModal.tsx';
-import { useSignal } from '@preact/signals';
-import { Suspense } from 'preact/compat';
+} from "$store/sdk/useAddToCart.ts";
+import Icon from "$store/components/ui/Icon.tsx";
+import { useEffect } from "preact/compat";
+import AlertModal from "$store/components/ui/AlertModal.tsx";
+import { useSignal } from "@preact/signals";
+import { Suspense } from "preact/compat";
 
 interface Props extends UseAddToCartProps {
   /**
@@ -39,7 +39,7 @@ function AddToCartButton({
   quantity,
   showIcon,
   availability,
-  url
+  url,
 }: Props) {
   const props = useAddToCart({
     skuId,
@@ -52,7 +52,11 @@ function AddToCartButton({
   });
 
   const open = useSignal(false);
-  const browser = useSignal({ isSafari: false, isChrome: false, isFirefox: false });
+  const browser = useSignal({
+    isSafari: false,
+    isChrome: false,
+    isFirefox: false,
+  });
 
   useEffect(() => {
     if (props?.loading) {
@@ -72,37 +76,39 @@ function AddToCartButton({
 
   return (
     <>
-      {!availability ? (
-        <a href={url} target="_blank" class={classes}>
-          <p class="flex gap-2 items-center justify-center">
-            {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
-            <span class="lg:hidden">{label ?? 'Comprar'}</span>
-            <span class="hidden lg:inline text-xs uppercase">Avise-me</span>
-          </p>
-        </a>
-      ) : (
-        <Button
-          data-deco="add-to-cart"
-          {...props}
-          class={classes + (browser.value.isSafari ? ' items-end' : '')}
-        >
-          <p class="flex gap-2 items-center justify-center">
-            {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
-            <span
-              class={`lg:hidden ${browser.value.isSafari ? 'leading-5' : ''}`}
-            >
-              {label ?? 'Comprar'}
-            </span>
-            <span
-              class={`hidden lg:inline text-xs uppercase ${
-                browser.value.isSafari ? 'leading-5' : ''
-              }`}
-            >
-              {label ?? 'Adicionar ao carrinho'}
-            </span>
-          </p>
-        </Button>
-      )}
+      {!availability
+        ? (
+          <a href={url} target="_blank" class={classes}>
+            <p class="flex gap-2 items-center justify-center">
+              {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
+              <span class="lg:hidden">{label ?? "Comprar"}</span>
+              <span class="hidden lg:inline text-xs uppercase">Avise-me</span>
+            </p>
+          </a>
+        )
+        : (
+          <Button
+            data-deco="add-to-cart"
+            {...props}
+            class={classes + (browser.value.isSafari ? " items-end" : "")}
+          >
+            <p class="flex gap-2 items-center justify-center">
+              {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
+              <span
+                class={`lg:hidden ${browser.value.isSafari ? "leading-5" : ""}`}
+              >
+                {label ?? "Comprar"}
+              </span>
+              <span
+                class={`hidden lg:inline text-xs uppercase ${
+                  browser.value.isSafari ? "leading-5" : ""
+                }`}
+              >
+                {label ?? "Adicionar ao carrinho"}
+              </span>
+            </p>
+          </Button>
+        )}
 
       <AlertModal
         loading="lazy"
