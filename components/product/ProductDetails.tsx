@@ -3,8 +3,7 @@ import ShippingSimulation from "$store/islands/ShippingSimulation.tsx";
 import Breadcrumb from "$store/components/ui/Breadcrumb.tsx";
 import Image from "apps/website/components/Image.tsx";
 import OutOfStock from "$store/islands/OutOfStock.tsx";
-import { useOffer } from "$store/sdk/useOffer.ts";
-import { formatPrice } from "$store/sdk/format.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
 import { LoaderReturnType } from "deco/mod.ts";
@@ -17,6 +16,7 @@ import { SendEventOnView } from "deco-sites/timecenter/components/Analytics.tsx"
 import ProductSelector from "./ProductVariantSelector.tsx";
 import { Section } from "deco/blocks/section.ts";
 import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
+import ProductInfoPriceModel from "deco-sites/timecenter/components/product/ProductInfoPriceModel.tsx";
 
 export type Variant = "front-back" | "slider" | "auto";
 
@@ -81,7 +81,16 @@ function ProductInfo({
     url,
     additionalProperty,
   } = product;
-  const { price, listPrice, seller, installments, availability } = useOffer(
+  const {
+    price,
+    listPrice,
+    seller,
+    installment,
+    pixPercentDiscountByDiferenceSellerPrice,
+    has_discount,
+    priceWithPixDiscount,
+    availability,
+  } = useOffer(
     offers,
   );
 
@@ -91,7 +100,6 @@ function ProductInfo({
 
   const especifications = page?.product?.isVariantOf?.additionalProperty;
 
-  // console.log("especifications normal", especifications);
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {
@@ -226,25 +234,26 @@ function ProductInfo({
           </span>
         </div>
       </div>
+
       {/* Prices */}
-      {availability === "https://schema.org/InStock" && (
-        <div class="mt-5">
-          <div class="flex flex-row gap-2 items-center">
-            {listPrice !== price && (
-              <span class="line-through text-base-300 text-xs">
-                {formatPrice(listPrice, offers!.priceCurrency!)}
-              </span>
-            )}
-            <span class="font-medium text-xl lg:text-2xl uppercase text-primary">
-              {formatPrice(price, offers!.priceCurrency!)}
-            </span>
-          </div>
-          <span>{installments}</span>
-        </div>
+      {availability && (
+        <>
+          <ProductInfoPriceModel
+            installmentBillingDuration={installment?.billingDuration}
+            installmentBillingIncrement={installment?.billingIncrement}
+            priceCurrency={offers?.priceCurrency}
+            priceWithPixDiscount={priceWithPixDiscount}
+            sellerPrice={price}
+            hasDiscount={has_discount}
+            listPrice={listPrice}
+            pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+          />
+        </>
       )}
+
       {/* Measurement chart */}
-      {availability === "https://schema.org/InStock" && (
-        <div class="mt-4 sm:mt-5">
+      {availability && (
+        <div class="">
           <a
             class="text-sm underline"
             href="https://technos.vtexcommercestable.com.br/api/dataentities/MI/documents/405a6e7f-cce7-11ed-83ab-02f9c48fe6b5/file/attachments/GuiaDeMedidasTechnos.pdf"
@@ -263,11 +272,12 @@ function ProductInfo({
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 mb-7 lg:mt-10 flex gap-[30px]">
-        {availability === "https://schema.org/InStock"
+        {availability
           ? (
             <>
               {seller && (
                 <AddToCartActions
+                  availability={availability}
                   productID={productID}
                   seller={seller}
                   price={price}
@@ -486,7 +496,7 @@ function ProductDetails({
       : "slider"
     : maybeVar;
 
-  const { price = 0, listPrice } = useOffer(page.product.offers);
+  const { price, listPrice } = useOffer(page.product.offers);
 
   const eventItem = mapProductToAnalyticsItem({
     product: page.product,

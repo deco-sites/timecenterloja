@@ -1,7 +1,7 @@
 import Image from "apps/website/components/Image.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import type { ProductDetailsPage } from "apps/commerce/types.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import ProductHighlights from "$store/components/product/ProductHighlights.tsx";
@@ -50,10 +50,7 @@ function SliderProductShowcase(
   const images = useStableImages(product);
 
   const { offers } = product;
-  const {
-    price,
-    listPrice,
-  } = useOffer(offers);
+  const { price, listPrice, has_discount } = useOffer(offers);
 
   const handleMouseLeave = (e: MouseEvent) => {
     const parent = (e.target as HTMLImageElement).parentElement;
@@ -91,18 +88,16 @@ function SliderProductShowcase(
         <div class="relative xl:ml-36">
           <div class="absolute w-full left-0 top-0 p-[10px] flex items-center z-10">
             <div class={`grid grid-cols-2 gap-y-2 w-full`}>
-              {price && listPrice && price !== listPrice
-                ? (
-                  <DiscountBadge
-                    price={price}
-                    listPrice={listPrice}
-                    variant={"emphasis"}
-                    label=" "
-                    className="lg:left-auto lg:right-0 left-4"
-                    {...discount}
-                  />
-                )
-                : null}
+              {has_discount && (
+                <DiscountBadge
+                  price={price}
+                  listPrice={listPrice}
+                  variant={"emphasis"}
+                  label=" "
+                  className="lg:left-auto lg:right-0 left-4"
+                  {...discount}
+                />
+              )}
 
               {product && (
                 <ProductHighlights

@@ -12,11 +12,12 @@ import WishlistButtonVtex from "../../islands/WishlistButton/vtex.tsx";
 import WishlistButtonWake from "../../islands/WishlistButton/wake.tsx";
 import { formatPrice } from "../../sdk/format.ts";
 import { useId } from "../../sdk/useId.ts";
-import { useOffer } from "../../sdk/useOffer.ts";
+import { useOffer } from "../../utils/useOffer.ts";
 import { usePlatform } from "../../sdk/usePlatform.tsx";
 import { ProductDetailsPage } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import ProductSelector from "./ProductVariantSelector.tsx";
+import ProductInfoPriceModel from "deco-sites/timecenter/components/product/ProductInfoPriceModel.tsx";
 
 interface Props {
   page: ProductDetailsPage | null;
@@ -48,13 +49,18 @@ function ProductInfo({ page, layout }: Props) {
     additionalProperty = [],
   } = product;
   const description = product.description || isVariantOf?.description;
+
   const {
-    price = 0,
+    price,
     listPrice,
     seller = "1",
-    installments,
+    installment,
+    pixPercentDiscountByDiferenceSellerPrice,
+    has_discount,
+    priceWithPixDiscount,
     availability,
   } = useOffer(offers);
+
   const productGroupID = isVariantOf?.productGroupID ?? "";
   const breadcrumb = {
     ...breadcrumbList,
@@ -87,27 +93,26 @@ function ProductInfo({ page, layout }: Props) {
           </span>
         </h1>
       </div>
+
       {/* Prices */}
-      <div class="mt-4">
-        <div class="flex flex-row gap-2 items-center">
-          {(listPrice ?? 0) > price && (
-            <span class="line-through text-base-300 text-xs">
-              {formatPrice(listPrice, offers?.priceCurrency)}
-            </span>
-          )}
-          <span class="font-medium text-xl text-secondary">
-            {formatPrice(price, offers?.priceCurrency)}
-          </span>
-        </div>
-        <span class="text-sm text-base-300">{installments}</span>
-      </div>
+      <ProductInfoPriceModel
+        installmentBillingDuration={installment?.billingDuration}
+        installmentBillingIncrement={installment?.billingIncrement}
+        priceCurrency={offers?.priceCurrency}
+        priceWithPixDiscount={priceWithPixDiscount}
+        sellerPrice={price}
+        hasDiscount={has_discount}
+        listPrice={listPrice}
+        pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+      />
+
       {/* Sku Selector */}
       <div class="mt-4 sm:mt-6">
         <ProductSelector product={product} />
       </div>
       {/* Add to Cart and Favorites button */}
       <div class="mt-4 sm:mt-10 flex flex-col gap-2">
-        {availability === "https://schema.org/InStock"
+        {availability
           ? (
             <>
               {platform === "vtex" && (

@@ -98,8 +98,6 @@ function Form(_props: Props) {
           accept: "application/json",
         },
       });
-
-      console.log(response);
     } finally {
       loading.value = false;
       success.value = true;

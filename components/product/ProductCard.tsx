@@ -6,8 +6,7 @@ import Avatar from "$store/components/ui/Avatar.tsx";
 import AddToCartButton from "$store/islands/AddToCartButton.tsx";
 import WishlistIcon from "$store/islands/WishlistButton.tsx";
 import { SendEventOnClick } from "../../components/Analytics.tsx";
-import { formatPrice } from "$store/sdk/format.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import { useVariantPossibilities } from "$store/sdk/useVariantPossiblities.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
@@ -15,6 +14,7 @@ import Image from "apps/website/components/Image.tsx";
 import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
 import ProductHighlights from "$store/components/product/ProductHighlights.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
+import ProductCardPriceModel from "deco-sites/timecenter/components/product/ProductCardPriceModel.tsx";
 
 export interface Layout {
   basics?: {
@@ -89,14 +89,24 @@ function ProductCard({
     images.find((obj) => {
       return obj.name === "over";
     });
-  const { listPrice, price, installments, seller, availability } = useOffer(
-    offers,
-  );
 
-  const hasStock = offers?.offers[0].inventoryLevel.value === 0;
+  const {
+    listPrice,
+    price,
+    installment,
+    seller = "1",
+    has_discount,
+    availability,
+    pixPercentDiscountByDiferenceSellerPrice,
+    priceWithPixDiscount,
+  } = useOffer(offers);
 
   const possibilities = useVariantPossibilities(hasVariant, product);
   const variants = Object.entries(Object.values(possibilities)[0] ?? {});
+
+  const referenceID = product.additionalProperty?.find(
+    ({ valueReference }) => valueReference == "ReferenceID",
+  )?.value ?? product.gtin;
 
   const l = layout;
   const align =
@@ -117,7 +127,7 @@ function ProductCard({
     ));
 
   const addToCartButtonClassNames = (variant: string | undefined) =>
-    `lg:text-sm font-medium text-xs whitespace-nowrap m-auto btn h-8 min-h-6 max-md:min-h-[2.25rem] max-md:h-[2.25rem] btn-${
+    `lg:text-sm font-medium text-xs whitespace-nowrap btn h-8 mr-auto min-h-6 max-md:min-h-[2.25rem] max-md:h-[2.25rem] btn-${
       BUTTON_VARIANTS[variant ?? "primary"]
     }`;
 
@@ -135,6 +145,7 @@ function ProductCard({
         <span class="max-lg:hidden flex font-medium ">
           {l?.basics?.ctaText || "Ver produto"}
         </span>
+
         <span class="lg:hidden flex font-medium">
           {l?.basics?.mobileCtaText || "Add ao carrinho"}
         </span>
@@ -145,12 +156,12 @@ function ProductCard({
       <>
         <AddToCartButton
           url={url as string}
-          availability={availability as string}
+          availability={availability}
           quantity={1}
           name={product.name as string}
-          discount={price && listPrice ? listPrice - price : 0}
+          discount={listPrice - price || 0}
           productGroupId={product.isVariantOf?.productGroupID ?? ""}
-          price={price as number}
+          price={price}
           sellerId={seller as string}
           skuId={product.sku}
           label={l?.basics?.mobileCtaText}
@@ -166,10 +177,10 @@ function ProductCard({
       <AddToCartButton
         quantity={1}
         name={product.name as string}
-        availability={availability as string}
-        discount={price && listPrice ? listPrice - price : 0}
+        availability={availability}
+        discount={listPrice - price || 0}
         productGroupId={product.isVariantOf?.productGroupID ?? ""}
-        price={price as number}
+        price={price}
         sellerId={seller as string}
         skuId={product.sku}
         label={l?.basics?.ctaText}
@@ -180,9 +191,6 @@ function ProductCard({
         }`}
       />
     );
-
-  const price2: number = price as number;
-  const listPrice2: number = listPrice as number;
 
   return (
     <div
@@ -240,10 +248,10 @@ function ProductCard({
             class={`absolute w-full left-0 top-0 p-[10px] flex items-center z-10`}
           >
             <div class={`grid grid-cols-2 gap-y-1 w-full`}>
-              {listPrice2 !== price2 && (
+              {has_discount && (
                 <DiscountBadge
-                  price={price2}
-                  listPrice={listPrice2}
+                  price={price}
+                  listPrice={listPrice}
                   label={l?.discount?.label}
                   variant={l?.discount?.variant}
                 />
@@ -253,7 +261,7 @@ function ProductCard({
                 <ProductHighlights
                   product={product}
                   highlights={highlights}
-                  listPrice={listPrice2}
+                  listPrice={listPrice}
                 />
               )}
             </div>
@@ -304,19 +312,15 @@ function ProductCard({
         {(!l?.elementsPositions?.skuSelector ||
           l?.elementsPositions?.skuSelector === "Top") && (
           <>
-            {l?.hide.skuSelector
-              ? (
-                ""
-              )
-              : (
-                <ul
-                  class={`flex items-center gap-2 w-full ${
-                    align === "center" ? "justify-center" : "justify-start"
-                  } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
-                >
-                  {skuSelector}
-                </ul>
-              )}
+            {!l?.hide.skuSelector && (
+              <ul
+                class={`flex items-center gap-2 w-full ${
+                  align === "center" ? "justify-center" : "justify-start"
+                } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
+              >
+                {skuSelector}
+              </ul>
+            )}
           </>
         )}
 
@@ -331,10 +335,17 @@ function ProductCard({
                   ""
                 )
                 : (
-                  <h2 class="line-clamp-2 uppercase text-xs font-bold text-base-content leading-normal">
-                    {isVariantOf?.name || name}
-                  </h2>
+                  <div class="min-h-12">
+                    <h2 class="w-full line-clamp-2 uppercase text-left text-xs font-bold text-base-content">
+                      {(isVariantOf?.name || name || "").split("-")[0].trim()}
+                    </h2>
+
+                    <p class="w-full text-left text-[10px] font-normal text-[#C4C4C4]">
+                      Ref: {referenceID}
+                    </p>
+                  </div>
                 )}
+
               {l?.hide.productDescription
                 ? (
                   ""
@@ -346,73 +357,36 @@ function ProductCard({
                 )}
             </div>
           )}
-        {l?.hide.allPrices
-          ? (
-            ""
-          )
-          : (
-            <div class="flex flex-col mt-2">
-              <div
-                class={`flex items-center gap-2.5 ${
-                  l?.basics?.oldPriceSize === "Normal" ? "lg:flex-row" : ""
-                } ${align === "center" ? "justify-center" : "justify-start"}`}
-              >
-                {listPrice !== price && (
-                  <p
-                    class={`line-through text-base-300 text-xs ${
-                      l?.basics?.oldPriceSize === "Normal" ? "lg:text-xl" : ""
-                    }`}
-                  >
-                    {formatPrice(listPrice, offers!.priceCurrency!)}
-                  </p>
-                )}
-                <p class="text-primary text-sm font-bold">
-                  {formatPrice(price, offers!.priceCurrency!)}
-                </p>
-              </div>
-              {hasStock
-                ? (
-                  ""
-                )
-                : (
-                  <div class="text-xs font-normal text-base-content mt-[5px]">
-                    ou {installments}
-                  </div>
-                )}
-            </div>
-          )}
+
+        {!l?.hide.allPrices && (
+          <ProductCardPriceModel
+            installmentBillingDuration={installment?.billingDuration}
+            installmentBillingIncrement={installment?.billingIncrement}
+            priceCurrency={offers?.priceCurrency}
+            priceWithPixDiscount={priceWithPixDiscount}
+            sellerPrice={price}
+            hasDiscount={has_discount}
+            listPrice={listPrice}
+            pixPercentDiscountByDiferenceSellerPrice={pixPercentDiscountByDiferenceSellerPrice}
+          />
+        )}
 
         {/* SKU Selector */}
         {l?.elementsPositions?.skuSelector === "Bottom" && (
           <>
-            {l?.hide.skuSelector
-              ? (
-                ""
-              )
-              : (
-                <ul
-                  class={`flex items-center gap-2 w-full ${
-                    align === "center" ? "justify-center" : "justify-start"
-                  } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
-                >
-                  {skuSelector}
-                </ul>
-              )}
+            {!l?.hide.skuSelector && (
+              <ul
+                class={`flex items-center gap-2 w-full ${
+                  align === "center" ? "justify-center" : "justify-start"
+                } ${l?.onMouseOver?.showSkuSelector ? "lg:hidden" : ""}`}
+              >
+                {skuSelector}
+              </ul>
+            )}
           </>
         )}
 
-        <div
-          class={`w-full flex flex-col mt-[10px]
-          ${
-            l?.onMouseOver?.showSkuSelector || l?.onMouseOver?.showCta
-              // ? "transition-opacity lg:opacity-0 lg:group-hover:opacity-100"
-              ? "transition-opacity opacity-100"
-              : "lg:hidden"
-          }
-        `}
-        >
-          {l?.onMouseOver?.showCta && cta}
-        </div>
+        {cta}
       </div>
     </div>
   );

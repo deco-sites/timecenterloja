@@ -32,8 +32,6 @@ function SeoPLP({ page, ...baseSeo }: SectionProps<ReturnType<typeof loader>>) {
   let description = baseSeo?.description;
   const seoUrl = baseSeo?.seoUrl;
 
-  console.log(seoUrl);
-
   if (page?.seo) {
     title = page?.seo?.title ?? baseSeo?.description;
     description = page?.seo?.description ?? baseSeo?.description;
