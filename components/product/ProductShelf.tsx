@@ -9,7 +9,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 import Header from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
 import { SendEventOnView } from "$store/components/Analytics.tsx";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { useId } from "preact/hooks";

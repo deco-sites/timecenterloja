@@ -7,7 +7,7 @@ import Icon from "../../components/ui/Icon.tsx";
 import Header from "../../components/ui/SectionHeader.tsx";
 import Slider from "../../components/ui/Slider.tsx";
 import { useId } from "../../sdk/useId.ts";
-import { useOffer } from "../../sdk/useOffer.ts";
+import { useOffer } from "../../utils/useOffer.ts";
 
 /** @titleBy title */
 interface Tab {

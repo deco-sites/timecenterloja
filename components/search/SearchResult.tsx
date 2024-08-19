@@ -1,7 +1,7 @@
 import Filters from "$store/components/search/Filters.tsx";
 import SearchControls from "$store/islands/SearchControls.tsx";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
-import { useOffer } from "$store/sdk/useOffer.ts";
+import { useOffer } from "$store/utils/useOffer.ts";
 import ProductGallery, { Columns } from "../product/ProductGallery.tsx";
 import { LoaderReturnType } from "deco/mod.ts";
 import type { ProductListingPage } from "apps/commerce/types.ts";
