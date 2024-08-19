@@ -36,7 +36,7 @@ export default function ProductInfoPriceModel(props: Props) {
 
       {props.installmentBillingDuration && props.installmentBillingIncrement &&
         (
-          <div class="w-[310px] mt-3 py-1 flex items-center justify-center bg-[#EEEEEE]">
+          <div class="w-[310px] mt-3 py-1 px-4 lg:px-0 flex items-center justify-start lg:justify-center bg-[#EEEEEE]">
             <p class="text-[13px]">
               <span class="font-bold">
                 {formatPrice(props.sellerPrice, props.priceCurrency || "BRL")}
