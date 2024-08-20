@@ -454,5 +454,11 @@
   "/.deco/blocks/Preview%20%2Fsections%2FInstitutional%2FInstitutionalPage.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx"
+  },
+  "/.deco/blocks/pages-Fossil-906942.json": {
+    "name": "Fossil",
+    "path": "/fossil/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
