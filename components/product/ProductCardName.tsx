@@ -6,12 +6,12 @@ export interface Props {
 export default function ProductCardName(props: Props) {
   return (
     <div class="min-h-14">
-      <h2 class="w-full line-clamp-2 text-left text-lg leading-5 font-[Montserrat] font-medium text-base-content">
+      <h2 class="w-full line-clamp-2 text-left text-lg leading-5 font-medium text-base-content">
         {(props.complete_name || "").split("-")[0].trim()}
       </h2>
 
       {props.reference_id && (
-        <p class="w-full text-left text-xs font-normal font-[Montserrat] text-[#C4C4C4]">
+        <p class="w-full text-left text-xs font-normal text-[#C4C4C4]">
           {props.reference_id}
         </p>
       )}
