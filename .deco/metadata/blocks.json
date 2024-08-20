@@ -460,5 +460,11 @@
     "path": "/fossil/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Technos-10468.json": {
+    "name": "Technos",
+    "path": "/technos/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
