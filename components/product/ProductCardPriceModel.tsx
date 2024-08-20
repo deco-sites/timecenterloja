@@ -27,6 +27,7 @@ export default function ProductCardPriceModel(props: Props) {
             props.priceCurrency || "BRL",
           )}
         </span>
+
         <span class="text-[10px] lg:text-xs font-normal">{" "}no PIX</span>
       </p>
 
