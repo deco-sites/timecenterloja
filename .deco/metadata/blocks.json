@@ -478,5 +478,11 @@
     "path": "/dumont/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Mormaii-72172.json": {
+    "name": "Mormaii",
+    "path": "/mormaii/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
