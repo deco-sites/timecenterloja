@@ -344,8 +344,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Promo%25C3%25A7%25C3%25B5es-935643.json": {
-    "name": "Promoções",
-    "path": "/promocoes",
+    "name": "OFF",
+    "path": "/off",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
