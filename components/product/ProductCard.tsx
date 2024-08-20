@@ -166,7 +166,7 @@ function ProductCard({
           sellerId={seller as string}
           skuId={product.sku}
           label={l?.basics?.mobileCtaText}
-          classes={`mb-5 uppercase font-bold min-w-[200px]  lg:min-w-0 ${
+          classes={`mb-5 uppercase font-bold min-w-[200px] lg:min-w-0 ${
             addToCartButtonClassNames(
               layout?.basics?.ctaVariation,
             )
@@ -185,7 +185,7 @@ function ProductCard({
         sellerId={seller as string}
         skuId={product.sku}
         label={l?.basics?.ctaText}
-        classes={`hidden lg:flex lg:justify-center ${
+        classes={`flex justify-center ${
           addToCartButtonClassNames(
             layout?.basics?.ctaVariation,
           )
