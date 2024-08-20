@@ -13,7 +13,7 @@ export interface Props {
 
 export default function ProductCardPriceModel(props: Props) {
   return (
-    <div class="w-full min-h-[90px] flex flex-col py-2">
+    <div class="w-full min-h-[70px] lg:min-h-[75px] flex flex-col justify-end pt-2 pb-4">
       {props.hasDiscount && (
         <p class="w-full text-left text-[#4a4a4a] text-[10px] lg:text-xs font-normal line-through">
           {formatPrice(props.listPrice, props.priceCurrency)}
@@ -27,9 +27,7 @@ export default function ProductCardPriceModel(props: Props) {
             props.priceCurrency || "BRL",
           )}
         </span>
-        <span class="text-[10px] lg:text-xs font-normal">
-          {" "}no PIX
-        </span>
+        <span class="text-[10px] lg:text-xs font-normal">{" "}no PIX</span>
       </p>
 
       {props.installmentBillingDuration && props.installmentBillingIncrement &&
@@ -39,7 +37,6 @@ export default function ProductCardPriceModel(props: Props) {
               {formatPrice(props.sellerPrice, props.priceCurrency || "BRL")}
             </span>
             <span class="">{" "}em até{" "}</span>
-            <br />
             <span class="">{props.installmentBillingDuration}x</span>
             <span class="">{" "}de{" "}</span>
             <span class="">

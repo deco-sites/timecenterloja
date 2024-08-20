@@ -92,17 +92,10 @@ function AddToCartButton({
             {...props}
             class={classes + (browser.value.isSafari ? " items-end" : "")}
           >
-            <p class="flex gap-2 items-center justify-center">
+            <p class="flex gap-2 items-center justify-center text-xs lg:text-[10px] font-bold">
               {showIcon && <Icon id="ShoppingCart" width={20} height={20} />}
               <span
-                class={`lg:hidden ${browser.value.isSafari ? "leading-5" : ""}`}
-              >
-                {label ?? "Comprar"}
-              </span>
-              <span
-                class={`hidden lg:inline text-xs uppercase ${
-                  browser.value.isSafari ? "leading-5" : ""
-                }`}
+                class={`${browser.value.isSafari ? "leading-5" : ""}`}
               >
                 {label ?? "Adicionar ao carrinho"}
               </span>
