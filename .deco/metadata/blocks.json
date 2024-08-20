@@ -344,8 +344,8 @@
     "__resolveType": "website/pages/Page.tsx"
   },
   "/.deco/blocks/pages-Promo%25C3%25A7%25C3%25B5es-935643.json": {
-    "name": "OFF",
-    "path": "/off",
+    "name": "Promoções",
+    "path": "/promocoes",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   },
@@ -470,6 +470,12 @@
   "/.deco/blocks/pages-Euro-290948.json": {
     "name": "Euro",
     "path": "/euro/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Dumont-59968.json": {
+    "name": "Dumont",
+    "path": "/dumont/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
   }
