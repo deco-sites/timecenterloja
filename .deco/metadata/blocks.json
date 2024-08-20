@@ -466,5 +466,11 @@
     "path": "/technos/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Euro-290948.json": {
+    "name": "Euro",
+    "path": "/euro/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
