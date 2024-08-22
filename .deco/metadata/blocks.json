@@ -484,5 +484,11 @@
     "path": "/mormaii/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Skagen-236527.json": {
+    "name": "Skagen",
+    "path": "/skagen/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
