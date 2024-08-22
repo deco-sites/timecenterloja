@@ -496,5 +496,11 @@
     "path": "/condor/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Emporio%2520Armani-341341.json": {
+    "name": "Emporio Armani",
+    "path": "/emporioarmani/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
