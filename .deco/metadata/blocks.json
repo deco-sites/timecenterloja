@@ -508,5 +508,11 @@
     "path": "/michaelkors/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Armani%2520Exchange-248952.json": {
+    "name": "Armani Exchange",
+    "path": "/armaniexchange/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
