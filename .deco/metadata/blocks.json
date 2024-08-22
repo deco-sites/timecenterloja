@@ -490,5 +490,11 @@
     "path": "/skagen/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Condor-419872.json": {
+    "name": "Condor",
+    "path": "/condor/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
