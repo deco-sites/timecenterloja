@@ -514,5 +514,11 @@
     "path": "/armaniexchange/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Skechers-388579.json": {
+    "name": "Skechers",
+    "path": "/skechers/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
