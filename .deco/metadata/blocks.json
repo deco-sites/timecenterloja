@@ -502,5 +502,11 @@
     "path": "/emporioarmani/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Michael%2520Kors-250062.json": {
+    "name": "Michael Kors",
+    "path": "/michaelkors/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
