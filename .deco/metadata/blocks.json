@@ -520,5 +520,11 @@
     "path": "/skechers/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Mariner-637130.json": {
+    "name": "Kate Spade",
+    "path": "/katespade/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
