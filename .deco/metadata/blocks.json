@@ -526,5 +526,11 @@
     "path": "/katespade/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Touch-621026.json": {
+    "name": "Touch",
+    "path": "/touch/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }
