@@ -15,6 +15,7 @@ import DiscountBadge, { DiscountBadgeProps } from "./DiscountBadge.tsx";
 import ProductHighlights from "$store/components/product/ProductHighlights.tsx";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import ProductCardPriceModel from "deco-sites/timecenter/components/product/ProductCardPriceModel.tsx";
+import ProductCardName from "deco-sites/timecenter/components/product/ProductCardName.tsx";
 
 export interface Layout {
   basics?: {
@@ -127,7 +128,7 @@ function ProductCard({
     ));
 
   const addToCartButtonClassNames = (variant: string | undefined) =>
-    `lg:text-sm font-medium text-xs whitespace-nowrap btn h-8 mr-auto min-h-6 max-md:min-h-[2.25rem] max-md:h-[2.25rem] btn-${
+    `px-6 lg:text-sm font-medium text-xs whitespace-nowrap mr-auto btn h-8 min-h-6 max-md:min-h-[2.25rem] max-md:h-[2.25rem] uppercase btn-${
       BUTTON_VARIANTS[variant ?? "primary"]
     }`;
 
@@ -165,7 +166,7 @@ function ProductCard({
           sellerId={seller as string}
           skuId={product.sku}
           label={l?.basics?.mobileCtaText}
-          classes={`mb-5 uppercase font-bold min-w-[200px]  lg:min-w-0 ${
+          classes={`mb-5 uppercase font-bold min-w-[200px] lg:min-w-0 ${
             addToCartButtonClassNames(
               layout?.basics?.ctaVariation,
             )
@@ -184,7 +185,7 @@ function ProductCard({
         sellerId={seller as string}
         skuId={product.sku}
         label={l?.basics?.ctaText}
-        classes={`hidden lg:flex lg:justify-center ${
+        classes={`flex justify-center ${
           addToCartButtonClassNames(
             layout?.basics?.ctaVariation,
           )
@@ -325,31 +326,17 @@ function ProductCard({
         )}
 
         {l?.hide.productName && l?.hide.productDescription
-          ? (
-            ""
-          )
+          ? ""
           : (
             <div class="flex flex-col gap-0 mt-[15px]">
-              {l?.hide.productName
-                ? (
-                  ""
-                )
-                : (
-                  <div class="min-h-12">
-                    <h2 class="w-full line-clamp-2 uppercase text-left text-xs font-bold text-base-content">
-                      {(isVariantOf?.name || name || "").split("-")[0].trim()}
-                    </h2>
-
-                    <p class="w-full text-left text-[10px] font-normal text-[#C4C4C4]">
-                      Ref: {referenceID}
-                    </p>
-                  </div>
-                )}
-
+              {l?.hide.productName ? "" : (
+                <ProductCardName
+                  complete_name={isVariantOf?.name || name || ""}
+                  reference_id={referenceID}
+                />
+              )}
               {l?.hide.productDescription
-                ? (
-                  ""
-                )
+                ? ""
                 : (
                   <p class="truncate text-sm lg:text-sm text-neutral">
                     {product.description}

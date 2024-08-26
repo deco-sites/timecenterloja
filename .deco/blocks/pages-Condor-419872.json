@@ -1,5 +1,6 @@
 {
-  "name": "Lançamentos",
+  "name": "Condor",
+  "path": "/condor/relogio",
   "sections": [
     {
       "__resolveType": "Analytics"
@@ -35,10 +36,10 @@
         {
           "image": {
             "alt": " ",
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/058fe8f9-e207-4ee8-b29e-af2783495225",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/00d96a62-cf58-441f-bd5c-4df75f3365c9"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/8efaf7c3-bb0c-43f6-af62-7beb15e42efb",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/35e65b92-781f-461d-96e7-a93058e70523"
           },
-          "matcher": "/lancamentos"
+          "matcher": "/condor/relogio"
         }
       ]
     },
@@ -56,10 +57,10 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "2049"
+                  "value": "2427"
                 }
               ],
-              "count": 12
+              "count": 24
             },
             "variant": "aside",
             "highlights": [
@@ -201,6 +202,5 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
-  "__resolveType": "website/pages/Page.tsx",
-  "path": "/lancamentos"
+  "__resolveType": "website/pages/Page.tsx"
 }

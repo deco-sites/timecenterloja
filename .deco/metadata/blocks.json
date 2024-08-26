@@ -454,5 +454,83 @@
   "/.deco/blocks/Preview%20%2Fsections%2FInstitutional%2FInstitutionalPage.tsx.json": {
     "blockType": "sections",
     "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx"
+  },
+  "/.deco/blocks/pages-Fossil-906942.json": {
+    "name": "Fossil",
+    "path": "/fossil/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Technos-10468.json": {
+    "name": "Technos",
+    "path": "/technos/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Euro-290948.json": {
+    "name": "Euro",
+    "path": "/euro/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Dumont-59968.json": {
+    "name": "Dumont",
+    "path": "/dumont/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Mormaii-72172.json": {
+    "name": "Mormaii",
+    "path": "/mormaii/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Skagen-236527.json": {
+    "name": "Skagen",
+    "path": "/skagen/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Condor-419872.json": {
+    "name": "Condor",
+    "path": "/condor/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Emporio%2520Armani-341341.json": {
+    "name": "Emporio Armani",
+    "path": "/emporioarmani/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Michael%2520Kors-250062.json": {
+    "name": "Michael Kors",
+    "path": "/michaelkors/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Armani%2520Exchange-248952.json": {
+    "name": "Armani Exchange",
+    "path": "/armaniexchange/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Skechers-388579.json": {
+    "name": "Skechers",
+    "path": "/skechers/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Mariner-637130.json": {
+    "name": "Kate Spade",
+    "path": "/katespade/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Touch-621026.json": {
+    "name": "Touch",
+    "path": "/touch/relogio",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

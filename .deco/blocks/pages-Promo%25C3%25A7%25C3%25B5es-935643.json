@@ -1,6 +1,6 @@
 {
-  "name": "Promoções",
-  "path": "/promocoes",
+  "name": "OFF",
+  "path": "/off",
   "sections": [
     {
       "__resolveType": "Analytics"
@@ -17,10 +17,10 @@
         {
           "image": {
             "alt": " ",
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ec4bcf85-c240-4d5f-bd34-ca42af9b7152",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ec4bcf85-c240-4d5f-bd34-ca42af9b7152"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/307a64e2-3937-4a08-933c-969a0a84d79a",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/403164ce-0c9d-423f-ab1d-5e4cf10e7f3a"
           },
-          "matcher": "/promocoes"
+          "matcher": "/off"
         }
       ]
     },

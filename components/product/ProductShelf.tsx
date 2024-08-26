@@ -8,12 +8,14 @@ import {
 import Icon from "$store/components/ui/Icon.tsx";
 import Header from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
-import { SendEventOnView } from "$store/components/Analytics.tsx";
-import { useOffer } from "$store/utils/useOffer.ts";
+import SliderJS from "$store/islands/SliderJS.tsx";
+import { SendEventOnLoad } from "$store/sdk/analytics.tsx";
 import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { useId } from "preact/hooks";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
+import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
+import { useOffer } from "deco-sites/timecenter/utils/useOffer.ts";
 
 export interface Props {
   products: LoaderReturnType<Product[] | null>;
@@ -26,7 +28,6 @@ export interface Props {
   layout?: {
     headerAlignment?: "center" | "left";
     headerfontSize?: "Normal" | "Large";
-    headerTailwind?: string;
     itemsPerPage?: {
       screenWidth?: number;
       itemsQuantity?: number;
@@ -72,8 +73,8 @@ function ProductShelf({
           description=""
           fontSize={layout?.headerfontSize || "Large"}
           alignment={layout?.headerAlignment || "center"}
-          tailwind={layout?.headerTailwind || ""}
         />
+
         {seeMore
           ? (
             <span class="text-accent font-bold text-sm uppercase">
@@ -87,9 +88,9 @@ function ProductShelf({
 
       <div
         id={id}
-        class="grid grid-cols-[48px_1fr_48px] px-0"
+        class="grid grid-cols-[35px_1fr_35px] lg:grid-cols-[48px_1fr_48px] px-0"
       >
-        <Slider class="carousel carousel-start gap-6 col-span-full row-start-2 row-end-5">
+        <Slider class="carousel carousel-start gap-6 col-start-2 col-end-3 row-span-full">
           {products?.map((product, index) => (
             <Slider.Item
               index={index}
@@ -117,24 +118,32 @@ function ProductShelf({
             showPaginationDots ? showPaginationDots : "Always"
           ]}
         />
-        <Slider.JS
-          rootId={id}
-        />
-        <SendEventOnView
-          id={id}
+
+        <SendEventOnLoad
           event={{
             name: "view_item_list",
             params: {
               item_list_name: title,
               items: products.map((product, index) =>
                 mapProductToAnalyticsItem({
-                  index,
                   product,
+                  ...({ index: index }),
                   ...(useOffer(product.offers)),
                 })
               ),
             },
           }}
+        />
+
+        <SliderJS
+          rootId={id}
+          itemsPerPage={layout?.itemsPerPage?.reduce(
+            (initial, { screenWidth, itemsQuantity }) => ({
+              ...initial,
+              [screenWidth?.toString() ?? "0"]: itemsQuantity ?? 1,
+            }),
+            {},
+          )}
         />
       </div>
     </div>

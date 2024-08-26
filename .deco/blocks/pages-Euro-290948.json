@@ -1,5 +1,6 @@
 {
-  "name": "Lançamentos",
+  "name": "Euro",
+  "path": "/euro/relogio",
   "sections": [
     {
       "__resolveType": "Analytics"
@@ -35,10 +36,10 @@
         {
           "image": {
             "alt": " ",
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/058fe8f9-e207-4ee8-b29e-af2783495225",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/00d96a62-cf58-441f-bd5c-4df75f3365c9"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/54ae04ea-6913-40dc-a547-5ec122f8f982",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/afdfcfde-e441-4fa5-ab1d-33e1c8df842c"
           },
-          "matcher": "/lancamentos"
+          "matcher": "/euro/relogio"
         }
       ]
     },
@@ -56,10 +57,10 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "2049"
+                  "value": "2428"
                 }
               ],
-              "count": 12
+              "count": 24
             },
             "variant": "aside",
             "highlights": [
@@ -201,6 +202,5 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
-  "__resolveType": "website/pages/Page.tsx",
-  "path": "/lancamentos"
+  "__resolveType": "website/pages/Page.tsx"
 }

@@ -1,5 +1,6 @@
 {
-  "name": "Lançamentos",
+  "name": "Emporio Armani",
+  "path": "/emporioarmani/relogio",
   "sections": [
     {
       "__resolveType": "Analytics"
@@ -35,10 +36,10 @@
         {
           "image": {
             "alt": " ",
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/058fe8f9-e207-4ee8-b29e-af2783495225",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/00d96a62-cf58-441f-bd5c-4df75f3365c9"
+            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/6fc62503-2abd-4fd6-9be0-7789c4bc0e6a",
+            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ef3e23ca-2da3-4eca-a17b-c89bfbece784"
           },
-          "matcher": "/lancamentos"
+          "matcher": "/emporioarmani/relogio"
         }
       ]
     },
@@ -56,10 +57,10 @@
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "2049"
+                  "value": "2435"
                 }
               ],
-              "count": 12
+              "count": 24
             },
             "variant": "aside",
             "highlights": [
@@ -201,6 +202,5 @@
   "seo": {
     "__resolveType": "website/sections/Seo/SeoV2.tsx"
   },
-  "__resolveType": "website/pages/Page.tsx",
-  "path": "/lancamentos"
+  "__resolveType": "website/pages/Page.tsx"
 }
