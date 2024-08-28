@@ -25,7 +25,7 @@ const isIcon = (item: Item): item is IconItem =>
 
 function SectionItem({ item }: { item: Item }) {
   return (
-    <span>
+    <span class="min-h-6 w-auto">
       {isIcon(item)
         ? (
           <div class="border border-solid py-3 px-2.5">
@@ -41,7 +41,7 @@ function SectionItem({ item }: { item: Item }) {
           <a
             href={item.href}
             target={item?.target ? item?.target : undefined}
-            class="max-md:text-sm text-xs font-normal text-base-300 hover:text-emphasis transition-all duration-500"
+            class="max-md:text-sm text-xs font-normal text-base-300 hover:text-emphasis transition-all duration-500 min-h-6 w-auto"
           >
             {item.label}
           </a>
