@@ -64,38 +64,20 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2424?PS=12&map=productClusterIds&O=OrderByReleaseDateDESC&sort=discount%3Adesc"
+                    "href": "/semanadobrasil"
                   },
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/bf7025ad-09d1-4fba-9067-17f6ebcdeddc",
-                  "alt": "Bazar Internacional",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/46b6b121-4003-4c25-9681-5fe7d56e6809"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/921d2ca9-ef81-4837-b222-5757f7526554/Prancheta-1-(1).png",
+                  "alt": "Semana do Brasil",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6d6146a8-fb71-4ddf-af9b-01ffb22bd7d3/Prancheta-2-(1).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=legacy"
+                    "href": "/relogio?PS=12&O=OrderByBestDiscountDESC"
                   },
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0ba2e716-11a4-48e8-95ef-f2212726f0d8",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/8a194618-7107-45bd-a757-74ec828fb2ff",
-                  "alt": "Legacy"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=bolsa+fossil"
-                  },
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/9e24444e-5a21-4c80-9dfd-47671c13b476",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/70cf9582-0ca2-48c6-910a-c1368c464e9a",
-                  "alt": "Bolsa"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=euro+soul"
-                  },
-                  "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/3d5a47cc-7246-4fdb-a809-b23bf5e01f73",
-                  "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/c3b99581-a024-49e8-a81a-87442856fa31",
-                  "alt": "Euro Soul"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/948bfa36-9c1d-4679-86bc-e2c4324ec309/Prancheta-1.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/aacd78a5-7300-4424-99ad-33127d16c29a/Prancheta-2.png",
+                  "alt": "OFF"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -105,8 +87,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-08-07T15:00:00.000Z",
-              "start": "2024-08-01T15:00:00.000Z"
+              "end": "2024-09-08T15:00:00.000Z",
+              "start": "2024-09-02T15:00:00.000Z"
             }
           }
         ]
