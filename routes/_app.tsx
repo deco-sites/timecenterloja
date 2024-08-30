@@ -62,6 +62,37 @@ export default defineApp(async (_req, ctx) => {
               font-display: swap;
               src: url(/live/invoke/website/loaders/asset.ts?src=https://timecenterloja.deco.site/fonts/GothamBook.ttf) format('truetype');
             }
+              @font-face {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 300;
+              font-display: swap;
+              src: url(${asset("/fonts/Montserrat-Light.ttf")}) format('truetype');
+            }
+
+            @font-face {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 500;
+              font-display: swap;
+              src: url(${asset("/fonts/Montserrat-Medium.ttf")}) format('truetype');
+            }
+
+            @font-face {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 700;
+              font-display: swap;
+              src: url(${asset("/fonts/Montserrat-Bold.ttf")}) format('truetype');
+            }
+
+            @font-face {
+              font-family: 'Montserrat';
+              font-style: normal;
+              font-weight: 400;
+              font-display: swap;
+              src: url(${asset("/fonts/Montserrat-Regular.ttf")}) format('truetype');
+            }
           `,
           }}
         />
