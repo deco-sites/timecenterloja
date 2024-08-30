@@ -35,5 +35,7 @@
     "--animation-input": "0.2s",
     "--tab-border": "1px",
     "--tab-radius": "0.5rem"
-  }
+  },
+  "mode": "dark",
+  "colorScheme": "light"
 }

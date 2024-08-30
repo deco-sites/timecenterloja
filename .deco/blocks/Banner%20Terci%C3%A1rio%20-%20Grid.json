@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/2e49622c-2033-40dc-8179-eb8afe074ae7",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e9b1921b-b1ef-405e-b853-6913fe4b8d63",
-            "alt": "Touch",
-            "href": "/relogio/touch?sort=discount%3Adesc",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/84d7a1a0-ec7c-47c0-8c1b-db3f36a5c614/Terciario-1.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/e5d85e60-2478-4ec5-897a-81516c125a70/Terciario-1.png",
+            "alt": "Skagen",
+            "href": "/skagen/relogio?sort=discount%3Adesc",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/1d4a8946-72c3-4549-9784-9dacc687fd03",
-            "href": "/relogio/michael-kors?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/362b8c21-c43e-404a-8023-e964a92a37e1",
-            "alt": "MK"
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d8019fde-9f31-447d-bff5-6c84510f3338/Terciario-3.png",
+            "href": "/fossil/relogio?sort=discount%3Adesc",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7372a680-488c-4003-8356-144cd35333ba/Terciario-3.png",
+            "alt": "Fossil"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d4bca4cb-a080-4926-a579-d594e5fa8b47",
-            "srcMobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/4158289a-0e43-400e-8bb4-ea7799c16a58",
-            "href": "/relogio/skagen?O=OrderByReleaseDateDESC&sort=discount%3Adesc",
-            "alt": "Skagen"
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/e7162ca0-cfe9-4176-bee1-74aa6af9445e/Terciario-2.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fe2182b1-57ed-4bf8-b134-2c05d7e565fc/Terciario-2.png",
+            "href": "/touch/relogio?sort=discount%3Adesc",
+            "alt": "Touch"
           }
         ]
       },
