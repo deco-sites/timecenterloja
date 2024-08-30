@@ -18,6 +18,7 @@ export default {
       },
       fontFamily: {
         gotham: ["Gotham"],
+        montserrat: ['Montserrat']
       },
     },
   },
