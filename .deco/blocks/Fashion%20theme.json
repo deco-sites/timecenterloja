@@ -36,6 +36,5 @@
     "--tab-border": "1px",
     "--tab-radius": "0.5rem"
   },
-  "mode": "dark",
-  "colorScheme": "light"
+  "mode": "dark"
 }
