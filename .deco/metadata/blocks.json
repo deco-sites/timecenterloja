@@ -532,5 +532,11 @@
     "path": "/touch/relogio",
     "blockType": "pages",
     "__resolveType": "website/pages/Page.tsx"
+  },
+  "/.deco/blocks/pages-Home%2520task%252011037-121393.json": {
+    "name": "Home task 11037",
+    "path": "/task-11037",
+    "blockType": "pages",
+    "__resolveType": "website/pages/Page.tsx"
   }
 }

@@ -14,7 +14,6 @@ import type { Product } from "apps/commerce/types.ts";
 import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalyticsItem.ts";
 import { useId } from "preact/hooks";
 import { HighLight } from "$store/components/product/ProductHighlights.tsx";
-import { DiscountBadgeProps } from "$store/components/product/DiscountBadge.tsx";
 import { useOffer } from "deco-sites/timecenter/utils/useOffer.ts";
 
 export interface Props {

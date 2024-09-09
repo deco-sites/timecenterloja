@@ -1,8 +1,7 @@
 // TODO: Why not using actions?
 
 import { Handlers } from "$fresh/server.ts";
-
-const PORTAL_SUBDOMAIN = "https://www.timecenter.com.br";
+import { PORTAL_SUBDOMAIN } from "../../domain.ts";
 
 export const handler: Handlers = {
   POST: async (req) => {

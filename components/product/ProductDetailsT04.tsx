@@ -80,7 +80,7 @@ function ProductInfo({
   shareableNetworks?: Props["shareableNetworks"];
   productBenefits?: ProductBenefits[];
 }) {
-  const { breadcrumbList, product } = page;
+  const { product } = page;
 
   const {
     description,
@@ -93,14 +93,6 @@ function ProductInfo({
     additionalProperty,
   } = product;
 
-  const id = useId();
-
-  const breadcrumb = {
-    ...breadcrumbList,
-    itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
-    numberOfItems: breadcrumbList.numberOfItems - 1,
-  };
-
   const {
     price,
     listPrice,
@@ -111,13 +103,6 @@ function ProductInfo({
     priceWithPixDiscount,
     availability,
   } = useOffer(offers);
-
-  const eventItem = mapProductToAnalyticsItem({
-    product,
-    breadcrumbList: breadcrumb,
-    price,
-    listPrice,
-  });
 
   const referenceID = additionalProperty?.find(
     ({ valueReference }) => valueReference == "ReferenceID",

@@ -128,6 +128,73 @@
     background-color: rgba(0,0,0,.3);
     animation: modal-pop .2s ease-out
   }
+
+  .popup-custom-check #newsletter{
+    appearance: none;
+    position: relative;
+    outline: none;   
+  }
+  
+  .popup-custom-check #newsletter:focus{
+    outline: none;
+  }
+
+  .popup-custom-check #newsletter:before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #66615C;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    transition: all .175s linear;
+  }
+
+  .popup-custom-check #newsletter:checked:before{
+    background-color: #00ad80;
+    transition: all .175s linear;
+  } 
+
+  .popup-custom-check #newsletter:after{
+    height: 0;
+    transition: all .175s linear;
+  }
+  
+  .popup-custom-check #newsletter:checked:after{
+    content: "";
+    width: 7px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    border: 2px solid #fff;
+    transform: rotate(45deg);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    top: -2px;
+    left: 7px; 
+    transition: all .175s linear;   
+  }
+
+  @media (min-width:768px) and (max-width:880px){
+    .popup-custom-text{
+      max-width: 50%;
+    }    
+  }
+
+  @media (min-width:881px) {
+    .popup-custom-text{
+      max-width: 40%;
+    }    
+  }
+
+  @media (max-width:768px){
+    .popup-custom-text-send-sucess > *,
+    .popup-custom-text-send-sucess > * > * ,
+    .popup-custom-text-send-sucess > * > * > *{
+      font-size: 1.125rem !important;
+    }
+  }   
 }
 
 @layer utilities {
