@@ -278,7 +278,7 @@ function NewsletterModal(
               <Icon id="XMark" width={20} height={20} />
             </button>
             <div class="w-full h-full absolute -z-[1]">
-              {!success.value
+              {success.value
                 ? (
                   <>
                     {textSendSucess && (
