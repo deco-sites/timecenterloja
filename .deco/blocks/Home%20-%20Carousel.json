@@ -46,20 +46,38 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/semanadobrasil"
+                    "href": "/s?q=steel"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/921d2ca9-ef81-4837-b222-5757f7526554/Prancheta-1-(1).png",
-                  "alt": "Semana do Brasil",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6d6146a8-fb71-4ddf-af9b-01ffb22bd7d3/Prancheta-2-(1).png"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/037e0bb0-5c62-4132-a475-2587fb9981d8/Prancheta-1-(1).png",
+                  "alt": "Steel",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/20cacfcf-f4c4-49e8-b88a-9c32e8af1689/Prancheta-2.png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio?PS=12&O=OrderByBestDiscountDESC"
+                    "href": "/s?q=mochila"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/948bfa36-9c1d-4679-86bc-e2c4324ec309/Prancheta-1.png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/aacd78a5-7300-4424-99ad-33127d16c29a/Prancheta-2.png",
-                  "alt": "OFF"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/843cc9a3-6b4d-4946-b203-45c65eadb6e5/tc_Banner_Desk_fossil.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/dd75671a-e152-495e-bb7b-8d05d6222a25/Prancheta-2-(1).png",
+                  "alt": "Mochila"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=civic"
+                  },
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/1a266332-b908-4203-b09d-88ba7f705bde/timecenter-desk-condor.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/0b4e1310-566c-4406-a7f0-9c96495b4fb7/timecenter-mob-condor.png",
+                  "alt": "Civic"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=kid"
+                  },
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d71eb7da-1c37-4c32-9066-feb7844be23f/timecenter-desk-condor-disney.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d2caf9c1-b1c8-43c8-b907-64daa4b7f96a/timecenter-mob-condor-disney.png",
+                  "alt": "Kids"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -69,8 +87,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-09-08T15:00:00.000Z",
-              "start": "2024-09-01T15:00:00.000Z"
+              "end": "2024-09-23T02:55:00.000Z",
+              "start": "2024-09-16T03:00:00.000Z"
             }
           }
         ]
