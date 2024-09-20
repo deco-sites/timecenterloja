@@ -79,7 +79,9 @@
         }
       },
       "colorText": "#ffffff",
-      "textSendSucess": "<p>Cadastro realizado com sucesso!</p>"
+      "textSendSucess": "<p><strong><span style=\"font-size: 36pt\">Ganhe 10% off</span></strong></p><p><span style=\"font-size: 19.5pt\">na primeira compra!</span></p>",
+      "textFieldCupom": "Use o cupom",
+      "textCupom": "10BOASVINDAS"
     },
     {
       "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",

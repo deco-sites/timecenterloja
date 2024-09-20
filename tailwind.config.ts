@@ -19,6 +19,7 @@ export default {
       fontFamily: {
         gotham: ["Gotham"],
         montserrat: ["Montserrat"],
+        raleway : ["Raleway", 'Gotham', 'sans-serif']
       },
     },
   },

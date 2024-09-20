@@ -24,6 +24,7 @@ export type SocialIcons =
   | "InstagramOutline"
   | "FacebookOutline";
 export type AvailableIcons =
+  | "Copy"
   | "Refresh"
   | "Menu"
   | "ChevronLeft"

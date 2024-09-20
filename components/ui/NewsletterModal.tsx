@@ -82,6 +82,14 @@ export interface Props {
    */
   textSendSucess?: string;
   /**
+   * @title Nome do campo cupom
+   */
+  textFieldCupom?: string;
+  /**
+    * @title Texto do cupom
+    */
+  textCupom?: string;  
+  /**
    * @title Cor do texto
    * @format color
    */
@@ -129,6 +137,8 @@ function InputNewsletter(
 function NewsletterModal(
   {
     textSendSucess,
+    textFieldCupom,
+    textCupom,
     isOpen,
     form,
     text,
@@ -219,6 +229,32 @@ function NewsletterModal(
     )
     : null;
 
+  const refCupom = useRef<HTMLInputElement>(null);
+
+  function handleClickCopy() {
+    const elementTextCupom = refCupom.current;
+    if (!elementTextCupom) return null;
+
+    const cupomText = elementTextCupom?.querySelector<HTMLParagraphElement>(
+      ".popup-custom-text",
+    );
+
+    if (!cupomText) return null;
+
+    navigator.clipboard.writeText(cupomText.innerText);
+
+    const elementSpan = document.createElement("span");
+    
+    elementSpan.classList.add("popup-copied");
+    elementSpan.innerText = "Copiado";
+    
+    elementTextCupom.append(elementSpan);
+
+    setTimeout(() => {
+      elementSpan.remove();
+    }, 2500);
+  }   
+
   return (
     <>
       <dialog
@@ -242,19 +278,76 @@ function NewsletterModal(
               <Icon id="XMark" width={20} height={20} />
             </button>
             <div class="w-full h-full absolute -z-[1]">
-              {success.value
+              {!success.value
                 ? (
                   <>
+
                     {textSendSucess && (
                       <div
                         class={clx(
-                          `popup-text-send-sucess flex justify-center items-center top-2/4 relative -translate-y-1/2 z-10 w-full text-center`,
+                          `popup-custom-text is-title-cupom relative top-[35%] !-translate-y-[35%] md:translate-x-[34px] max-md:[&_*]:!text-[37px] font-raleway  
+                          max-md:[&_*]:!leading-[25px] max-md:top-[70px] max-md:text-center max-md:left-2/4 max-md:!-translate-x-1/2 z-10 leading-8
+                          `,
                         )}
-                        style={{ color: colorText || "#ffffff" }}
-                        dangerouslySetInnerHTML={{ __html: textSendSucess }}
+                        style={{
+                          color: colorText ||
+                            "#ffffff",
+                        }}
+                        dangerouslySetInnerHTML={{
+                          __html: textSendSucess,
+                        }}
                       >
                       </div>
                     )}
+
+                    {textFieldCupom && (
+                      <p
+                        class={clx(
+                          `popup-custom-text relative top-[40%] !-translate-y-[40%] md:translate-x-[100px] text-[1.75rem] md:max-w-[35%] 
+                          leading-none z-10 max-md:top-[15%]  max-md:text-center max-md:!text-[25px] max-md:!leading-[19px] max-md:-translate-y-[15%] 
+                          max-md:left-2/4 max-md:!-translate-x-1/2 font-medium font-raleway`,
+                        )}
+                        style={{
+                          color: colorText ||
+                            "#ffffff",
+                        }}
+                        dangerouslySetInnerHTML={{
+                          __html: textFieldCupom,
+                        }}
+                      >
+                      </p>
+                    )}
+
+                    {textCupom && (
+                      <div
+                        onClick={handleClickCopy}
+                        ref={refCupom}
+                        class={clx(
+                          `relative md:top-[42%] md:-translate-y-[42%] z-10 w-[254px] h-[40px] cursor-pointer md:left-10
+                          left-2/4 max-md:-translate-x-1/2 top-[16%] -translate-y-[16%] font-raleway`,
+                        )}
+                      >
+                        <p
+                          class={clx(
+                            `popup-custom-text is-no-select max-md:!text-[21px] max-md:!leading-[19px] text-[23px] tracking-[2px] uppercase max-md:text-center 
+                            md:max-w-full max-md:left-0 leading-none z-10 md:w-[254px] w-[207px] h-[39px] rounded-[20px] bg-[#ffffff] 
+                            flex items-center justify-center absolute top-[0] text-black font-bold font-raleway`,
+                          )}
+                          dangerouslySetInnerHTML={{
+                            __html: textCupom,
+                          }}
+                        >
+                        </p>
+                        <Icon
+                          id="Copy"
+                          width={22}
+                          height={28}
+                          strokeWidth={1}
+                          class="text-primary-content absolute top-[5px] left-[215px] md:left-[260px] cursor-pointer"
+                        />
+                      </div>
+                    )}
+
 
                     {image?.desktop?.src && image.mobile?.src && (
                       <Picture>
@@ -271,7 +364,7 @@ function NewsletterModal(
                           height={image.desktop.height || 550}
                         />
                         <img
-                          class="w-full h-full object-cover absolute inset-0 filter brightness-[0.5]"
+                          class="w-full h-full object-cover absolute inset-0"
                           sizes="(max-width: 640px) 100vw, 30vw"
                           src={image.mobile.src}
                           alt="Imagem de fundo do modal de newsletter"
@@ -313,7 +406,7 @@ function NewsletterModal(
                       <div
                         class={clx(
                           `popup-custom-text relative top-[25%] !-translate-y-[25%] md:translate-x-[64px] max-md:[&_*]:!text-[1.063rem] max-md:[&_*]:!leading-[19px]
-                        max-md:top-[40px] max-md:text-center max-md:left-2/4 max-md:!-translate-x-1/2`,
+                        max-md:top-[40px] max-md:text-center max-md:left-2/4 max-md:!-translate-x-1/2 font-raleway`,
                         )}
                         style={{ color: colorText || "#ffffff" }}
                         dangerouslySetInnerHTML={{ __html: text }}

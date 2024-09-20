@@ -184,9 +184,27 @@
 
   @media (min-width:881px) {
     .popup-custom-text{
-      max-width: 40%;
+      max-width: 50%;
     }    
   }
+
+  .popup-copied {
+    position: absolute;
+    z-index: 10;
+    right: -66px;
+    top: -35px;
+    padding: 5px 10px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.75rem;
+    transition: all 0.175s linear;
+  } 
+  
+
+  .popup-custom-text.is-title-cupom p:nth-child(2) span{
+    font-size: 29px;
+  }  
 
   @media (max-width:768px){
     .popup-custom-text-send-sucess > *,
@@ -194,6 +212,21 @@
     .popup-custom-text-send-sucess > * > * > *{
       font-size: 1.125rem !important;
     }
+
+    .popup-copied {
+      top: initial;
+      bottom: -35px;
+      right: -30px;
+    }  
+    
+    .popup-custom-text.is-title-cupom p:nth-child(1) span{
+      font-size: 39px !important;
+      line-height: 36px !important;
+    }
+    .popup-custom-text.is-title-cupom p:nth-child(2) span{
+      font-size: 25px !important;
+      line-height: 36px !important;
+    }    
   }   
 }
 
