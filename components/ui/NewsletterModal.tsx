@@ -86,9 +86,9 @@ export interface Props {
    */
   textFieldCupom?: string;
   /**
-   * @title Texto do cupom
-   */
-  textCupom?: string;
+    * @title Texto do cupom
+    */
+  textCupom?: string;  
   /**
    * @title Cor do texto
    * @format color
@@ -184,6 +184,11 @@ function NewsletterModal(
       success.value = true;
 
       setCookieOnCloseModal("registered", modalSignExpiredDate);
+
+      setTimeout(() => {
+        success.value = false;
+        modalRef.current?.close();
+      }, 2000);
     }
   };
 
@@ -239,16 +244,16 @@ function NewsletterModal(
     navigator.clipboard.writeText(cupomText.innerText);
 
     const elementSpan = document.createElement("span");
-
+    
     elementSpan.classList.add("popup-copied");
     elementSpan.innerText = "Copiado";
-
+    
     elementTextCupom.append(elementSpan);
 
     setTimeout(() => {
       elementSpan.remove();
     }, 2500);
-  }
+  }   
 
   return (
     <>
@@ -279,7 +284,7 @@ function NewsletterModal(
                     {textSendSucess && (
                       <div
                         class={clx(
-                          `popup-custom-text is-title-cupom relative top-[35%] !-translate-y-[35%] md:translate-x-[34px] max-md:[&_*]:!text-[37px] font-raleway  
+                          `popup-custom-text is-title-cupom relative top-[35%] !-translate-y-[35%] md:translate-x-[34px] max-md:[&_*]:!text-[37px] [&_*]:font-raleway  
                           max-md:[&_*]:!leading-[25px] max-md:top-[70px] max-md:text-center max-md:left-2/4 max-md:!-translate-x-1/2 z-10 leading-8
                           `,
                         )}
@@ -299,7 +304,7 @@ function NewsletterModal(
                         class={clx(
                           `popup-custom-text relative top-[40%] !-translate-y-[40%] md:translate-x-[100px] text-[1.75rem] md:max-w-[35%] 
                           leading-none z-10 max-md:top-[15%]  max-md:text-center max-md:!text-[25px] max-md:!leading-[19px] max-md:-translate-y-[15%] 
-                          max-md:left-2/4 max-md:!-translate-x-1/2 font-medium font-raleway`,
+                          max-md:left-2/4 max-md:!-translate-x-1/2 font-raleway`,
                         )}
                         style={{
                           color: colorText ||
@@ -398,8 +403,8 @@ function NewsletterModal(
                     {text && (
                       <div
                         class={clx(
-                          `popup-custom-text relative top-[25%] !-translate-y-[25%] md:translate-x-[64px] max-md:[&_*]:!text-[1.063rem] max-md:[&_*]:!leading-[19px]
-                        max-md:top-[40px] max-md:text-center max-md:left-2/4 max-md:!-translate-x-1/2 font-raleway`,
+                          `popup-custom-text is-register relative top-[25%] !-translate-y-[25%] md:translate-x-[64px] max-md:[&_*]:!text-[1.063rem] max-md:[&_*]:!leading-[19px]
+                        max-md:top-[40px] max-md:text-center max-md:left-2/4 max-md:!-translate-x-1/2 [&_*]:font-raleway leading-snug`,
                         )}
                         style={{ color: colorText || "#ffffff" }}
                         dangerouslySetInnerHTML={{ __html: text }}
@@ -407,7 +412,7 @@ function NewsletterModal(
                     )}
                     <form
                       class={clx(
-                        `flex flex-col items-start justify-center gap-4 relative top-[37%] -translate-y-[37%] md:left-[62px] 
+                        `flex flex-col items-start justify-center gap-4 relative top-[31%] -translate-y-[31%] md:left-[62px] 
                         max-md:items-center max-md:gap-[0.8rem] max-md:-translate-x-1/2 max-md:top-[23%] max-md:left-1/2`,
                       )}
                       onSubmit={handleSubmit}
