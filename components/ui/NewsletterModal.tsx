@@ -86,9 +86,9 @@ export interface Props {
    */
   textFieldCupom?: string;
   /**
-    * @title Texto do cupom
-    */
-  textCupom?: string;  
+   * @title Texto do cupom
+   */
+  textCupom?: string;
   /**
    * @title Cor do texto
    * @format color
@@ -244,16 +244,16 @@ function NewsletterModal(
     navigator.clipboard.writeText(cupomText.innerText);
 
     const elementSpan = document.createElement("span");
-    
+
     elementSpan.classList.add("popup-copied");
     elementSpan.innerText = "Copiado";
-    
+
     elementTextCupom.append(elementSpan);
 
     setTimeout(() => {
       elementSpan.remove();
     }, 2500);
-  }   
+  }
 
   return (
     <>
