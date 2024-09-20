@@ -184,11 +184,6 @@ function NewsletterModal(
       success.value = true;
 
       setCookieOnCloseModal("registered", modalSignExpiredDate);
-
-      setTimeout(() => {
-        success.value = false;
-        modalRef.current?.close();
-      }, 2000);
     }
   };
 
