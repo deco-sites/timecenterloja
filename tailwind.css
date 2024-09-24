@@ -176,18 +176,6 @@
     transition: all .175s linear;   
   }
 
-  @media (min-width:768px) and (max-width:880px){
-    .popup-custom-text{
-      max-width: 50%;
-    }    
-  }
-
-  @media (min-width:881px) {
-    .popup-custom-text{
-      max-width: 50%;
-    }    
-  }
-
   .popup-copied {
     position: absolute;
     z-index: 10;
@@ -199,6 +187,22 @@
     color: #fff;
     font-size: 0.75rem;
     transition: all 0.175s linear;
+  } 
+  
+  .popup-custom-text.is-title-cupom p:nth-child(2) span {
+    letter-spacing: 1px;
+  }  
+
+  @media (min-width:768px) and (max-width:880px){
+    .popup-custom-text{
+      max-width: 50%;
+    }    
+  }
+
+  @media (min-width:881px) {
+    .popup-custom-text{
+      max-width: 50%;
+    }    
   }  
   
   @media (min-width:769px){
@@ -211,7 +215,7 @@
     }  
   
     .popup-custom-text.is-title-cupom p:nth-child(2) span{
-      font-size: 29px;
+      font-size: 33px !important;
     }  
   }
 
@@ -234,7 +238,7 @@
       line-height: 36px !important;
     }
     .popup-custom-text.is-title-cupom p:nth-child(2) span{
-      font-size: 25px !important;
+      font-size: 26px !important;
       line-height: 36px !important;
     }    
   }   
