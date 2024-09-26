@@ -1,1 +1,102 @@
-{"name":"Home","sections":[{"__resolveType":"Analytics"},{"__resolveType":"Header Global"},{"__resolveType":"Home - Carousel"},{"__resolveType":"Banner Secundário - Categorias"},{"__resolveType":"Home - Prateleira Coleção"},{"__resolveType":"Banner Terciário - Grid"},{"__resolveType":"site/sections/Container.tsx","sections":[{"section":{"__resolveType":"site/sections/Content/InfoCard.tsx","title":"Sobre a Marca","titleColor":"secondary","captionColor":"secondary","html":"<p>A Timecenter faz parte do&nbsp;<strong>Grupo Technos</strong>, o maior grupo relojoeiro da América Latina. Aqui você encontra produtos originais reconhecidos pelo design e qualidade. As melhores marcas nacionais e internacionais com as melhores condições, podendo parcelar em até 10 vezes.</p>","textAlign":"Center","links":[]},"shadow":"none","overFlow":"overflow-none","verticalSpacing":"top","label":"InfoCard","withContainer":true}],"label":"\"Container\""},{"__resolveType":"Footer Global"},{"__resolveType":"site/sections/Newsletter/NewsletterModal.tsx","modalCloseExpiredDate":10,"text":"<p class=\"text-base text-[#585858]\">Inscreva-se em nossa newsletter e&nbsp;</p><p class=\"text-base text-[#191919]\"><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">Ganhe 10% Off em sua primeira </span></strong><br><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">compra!</span></strong></p>","form":{"email":{"placeholder":"Digite seu e-mail"},"name":{"placeholder":"Digite seu nome"},"button":{},"privacyContact":{"posLabel":" ","preLabel":" "}},"modalSignExpiredDate":360},{"__resolveType":"site/sections/LgpdModal/LgpdModal.tsx","modalCloseExpiredDate":30,"text":"<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\">Política de Privacidade.</a></p>","button":{"label":"Entendi","variant":"primary"}}],"__resolveType":"website/pages/Page.tsx","seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx","type":"website","title":"Time Center | Relógios Originais Nacionais e Importados"},"path":"/"}
+{
+  "name": "Home",
+  "sections": [
+    {
+      "__resolveType": "Analytics"
+    },
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "Home - Carousel"
+    },
+    {
+      "__resolveType": "Banner Secundário - Categorias"
+    },
+    {
+      "__resolveType": "Home - Prateleira Coleção"
+    },
+    {
+      "__resolveType": "Banner Terciário - Grid"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Content/InfoCard.tsx",
+            "title": "Sobre a Marca",
+            "titleColor": "secondary",
+            "captionColor": "secondary",
+            "html": "<p>A Timecenter faz parte do&nbsp;<strong>Grupo Technos</strong>, o maior grupo relojoeiro da América Latina. Aqui você encontra produtos originais reconhecidos pelo design e qualidade. As melhores marcas nacionais e internacionais com as melhores condições, podendo parcelar em até 10 vezes.</p>",
+            "textAlign": "Center",
+            "links": []
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "top",
+          "label": "InfoCard",
+          "withContainer": true
+        }
+      ],
+      "label": "\"Container\""
+    },
+    {
+      "__resolveType": "Footer Global"
+    },
+    {
+      "__resolveType": "site/sections/Newsletter/NewsletterModal.tsx",
+      "modalCloseExpiredDate": 10,
+      "text": "<p><span style=\"font-size: 16pt\">Cadastre-se no site e</span><br><strong><span style=\"font-size: 22pt\">receba promoções exclusivas</span></strong></p>",
+      "form": {
+        "email": {
+          "placeholder": "Seu e-mail"
+        },
+        "name": {
+          "placeholder": "Seu nome"
+        },
+        "button": {
+          "label": "Inscreva-se",
+          "variant": "primary"
+        },
+        "privacyContact": {
+          "posLabel": " ",
+          "preLabel": " "
+        }
+      },
+      "modalSignExpiredDate": 360,
+      "image": {
+        "desktop": {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/08d5ea77-aaf3-436c-9670-e044ff0a3e6a/banner.png",
+          "width": 932,
+          "height": 687
+        },
+        "mobile": {
+          "width": 393,
+          "height": 555,
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7c2f2e3a-a6d7-49a4-9584-2d5f1b0b39d7/banner-mobile.png"
+        }
+      },
+      "colorText": "#ffffff",
+      "textSendSucess": "<p><strong><span style=\"font-size: 36pt\">Ganhe 10% off</span></strong></p><p><span style=\"font-size: 19.5pt\">na primeira compra!</span></p>",
+      "textFieldCupom": "Use o cupom",
+      "textCupom": "10BOASVINDAS"
+    },
+    {
+      "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",
+      "modalCloseExpiredDate": 30,
+      "text": "<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\">Política de Privacidade.</a></p>",
+      "button": {
+        "label": "Entendi",
+        "variant": "primary"
+      }
+    }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "title": "Time Center | Relógios Originais Nacionais e Importados"
+  },
+  "path": "/"
+}

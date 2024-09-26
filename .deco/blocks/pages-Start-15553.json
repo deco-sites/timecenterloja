@@ -29,12 +29,15 @@
       "__resolveType": "site/sections/Newsletter/NewsletterModal.tsx",
       "form": {
         "email": {
-          "placeholder": "Digite seu e-mail"
+          "placeholder": "Seu e-mail"
         },
         "name": {
-          "placeholder": "Digite seu nome"
+          "placeholder": "Seu nome"
         },
-        "button": {},
+        "button": {
+          "label": "Inscreva-se",
+          "variant": "primary"
+        },
         "privacyContact": {
           "posLabel": " ",
           "preLabel": " "
@@ -42,7 +45,23 @@
       },
       "modalSignExpiredDate": 360,
       "modalCloseExpiredDate": 10,
-      "text": "<p class=\"text-base text-[#585858]\">Inscreva-se em nossa newsletter e&nbsp;</p><p class=\"text-base text-[#191919]\"><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">Ganhe 10% Off em sua primeira </span></strong><br><strong><span style=\"color: rgb(25, 25, 25);\" data-mce-style=\"color: rgb(25, 25, 25);\">compra!</span></strong></p>"
+      "text": "<p><span style=\"font-size: 16pt\">Cadastre-se no site e</span><br><strong><span style=\"font-size: 22pt\">receba promoções exclusivas</span></strong></p>",
+      "image": {
+        "desktop": {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/08d5ea77-aaf3-436c-9670-e044ff0a3e6a/banner.png",
+          "width": 932,
+          "height": 687
+        },
+        "mobile": {
+          "width": 393,
+          "height": 555,
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7c2f2e3a-a6d7-49a4-9584-2d5f1b0b39d7/banner-mobile.png"
+        }
+      },
+      "colorText": "#ffffff",
+      "textSendSucess": "<p><strong><span style=\"font-size: 36pt\">Ganhe 10% off</span></strong></p><p><span style=\"font-size: 19.5pt\">na primeira compra!</span></p>",
+      "textFieldCupom": "Use o cupom",
+      "textCupom": "10BOASVINDAS"
     },
     {
       "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",
