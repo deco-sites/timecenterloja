@@ -128,6 +128,120 @@
     background-color: rgba(0,0,0,.3);
     animation: modal-pop .2s ease-out
   }
+
+  .popup-custom-check #newsletter{
+    appearance: none;
+    position: relative;
+    outline: none;   
+  }
+  
+  .popup-custom-check #newsletter:focus{
+    outline: none;
+  }
+
+  .popup-custom-check #newsletter:before{
+    content: "";
+    width: 11px;
+    height: 11px;
+    display: block;
+    background: #66615C;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 0;
+    transition: all .175s linear;
+  }
+
+  .popup-custom-check #newsletter:checked:before{
+    background-color: #00ad80;
+    transition: all .175s linear;
+  } 
+
+  .popup-custom-check #newsletter:after{
+    height: 0;
+    transition: all .175s linear;
+  }
+  
+  .popup-custom-check #newsletter:checked:after{
+    content: "";
+    width: 7px;
+    height: 11px;
+    display: block;
+    position: absolute;
+    border: 2px solid #fff;
+    transform: rotate(45deg);
+    border-top-color: transparent;
+    border-left-color: transparent;
+    top: -2px;
+    left: 7px; 
+    transition: all .175s linear;   
+  }
+
+  .popup-copied {
+    position: absolute;
+    z-index: 10;
+    right: -66px;
+    top: -35px;
+    padding: 5px 10px;
+    background: #000;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 0.75rem;
+    transition: all 0.175s linear;
+  } 
+  
+  .popup-custom-text.is-title-cupom p:nth-child(2) span {
+    letter-spacing: 1px;
+  }  
+
+  @media (min-width:768px) and (max-width:880px){
+    .popup-custom-text{
+      max-width: 50%;
+    }    
+  }
+
+  @media (min-width:881px) {
+    .popup-custom-text{
+      max-width: 50%;
+    }    
+  }  
+  
+  @media (min-width:769px){
+    .popup-custom-text.is-register p > span{
+      font-size: 28px !important;
+    }  
+  
+    .popup-custom-text.is-register p strong > span{
+      font-size: 42px !important;
+    }  
+  
+    .popup-custom-text.is-title-cupom p:nth-child(2) span{
+      font-size: 33px !important;
+    }  
+  }
+
+
+  @media (max-width:768px){
+    .popup-custom-text-send-sucess > *,
+    .popup-custom-text-send-sucess > * > * ,
+    .popup-custom-text-send-sucess > * > * > *{
+      font-size: 1.125rem !important;
+    }
+
+    .popup-copied {
+      top: initial;
+      bottom: -35px;
+      right: -30px;
+    }  
+    
+    .popup-custom-text.is-title-cupom p:nth-child(1) span{
+      font-size: 39px !important;
+      line-height: 36px !important;
+    }
+    .popup-custom-text.is-title-cupom p:nth-child(2) span{
+      font-size: 26px !important;
+      line-height: 36px !important;
+    }    
+  }   
 }
 
 @layer utilities {
