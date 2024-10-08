@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/84d7a1a0-ec7c-47c0-8c1b-db3f36a5c614/Terciario-1.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/e5d85e60-2478-4ec5-897a-81516c125a70/Terciario-1.png",
-            "alt": "Skagen",
-            "href": "/skagen/relogio?sort=discount%3Adesc",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eeeece40-d24a-43b3-808e-2a76f0baf6ea/Secundarios-Novo-Site--desk---terci_01.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eeeece40-d24a-43b3-808e-2a76f0baf6ea/Secundarios-Novo-Site--desk---terci_01.png",
+            "alt": "Technos",
+            "href": "/technos/relogio",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d8019fde-9f31-447d-bff5-6c84510f3338/Terciario-3.png",
-            "href": "/fossil/relogio?sort=discount%3Adesc",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7372a680-488c-4003-8356-144cd35333ba/Terciario-3.png",
-            "alt": "Fossil"
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/065f2b48-21bf-4226-aa15-451c8f8a131c/Secundarios-Novo-Site--desk---terci_06.png",
+            "href": "/euro/relogio",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f49e3ac0-bcb6-47f5-af85-2169f019aeb6/Secundarios-Novo-Site--desk---terci_06.png",
+            "alt": "Euro"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/e7162ca0-cfe9-4176-bee1-74aa6af9445e/Terciario-2.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fe2182b1-57ed-4bf8-b134-2c05d7e565fc/Terciario-2.png",
-            "href": "/touch/relogio?sort=discount%3Adesc",
-            "alt": "Touch"
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adc7a22b-958a-493f-809e-e9ce142bc187/Secundarios-Novo-Site--desk---terci_03.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adc7a22b-958a-493f-809e-e9ce142bc187/Secundarios-Novo-Site--desk---terci_03.png",
+            "href": "/relogio?PS=12&O=OrderByBestDiscountDESC",
+            "alt": "Bazar"
           }
         ]
       },

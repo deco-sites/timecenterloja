@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/a62917e8-d6a7-46cc-a707-e7b4764bce6a/Secundario-2.png",
-            "alt": "399",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/66af5fd6-67df-43f3-abd9-52b668b07ead/Secundario-2.png",
-            "href": "/2451?PS=12&map=productClusterIds&sort=discount%3Adesc"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/ec031dd0-f6ff-49ec-9423-51bf3ac23e4d/Secundarios-Novo-Site--desk-Recuperado_01.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/ec031dd0-f6ff-49ec-9423-51bf3ac23e4d/Secundarios-Novo-Site--desk-Recuperado_01.png",
+            "href": "/s?q=technos+connect+max",
+            "alt": "Technos "
           },
           {
             "backgroundColorHover": "primary",
@@ -30,10 +30,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/bbdffde2-c576-4ba6-986d-f6672a72fc46/Secundario-3.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/386833e9-9b54-4271-9099-6994d290fe14/Secundario-3.png",
-            "href": "/2452?PS=12&map=productClusterIds&sort=discount%3Adesc",
-            "alt": "499"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/56f20b39-8c60-4c4b-8eda-72b79ccdbfa4/Secundarios-Novo-Site--desk-Recuperado_03.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6274f5b0-fe06-4e8c-a72b-ab99bc649e9e/Secundarios-Novo-Site--desk-Recuperado_03.png",
+            "href": "/s?q=condor+disney&O=OrderByReleaseDateDESC",
+            "alt": "Condor Disney"
           },
           {
             "backgroundColorHover": "primary",
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/c550bf0c-96ee-4840-a9c6-a8b8ea617b87/Secundario-1.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/bdf7b825-db1f-4102-bc3f-51cfa7827a3f/Secundario-1.png",
-            "href": "/2453?PS=12&map=productClusterIds&sort=discount%3Adesc",
-            "alt": "599"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/61a51696-b0bc-4d3e-baad-c9993d9f61aa/Secundarios-Novo-Site--desk-Recuperado_05.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/61a51696-b0bc-4d3e-baad-c9993d9f61aa/Secundarios-Novo-Site--desk-Recuperado_05.png",
+            "href": "/s?q=mormaii+life",
+            "alt": "Mormaii Life"
           }
         ],
         "itemPerPageDesktop": 3,
