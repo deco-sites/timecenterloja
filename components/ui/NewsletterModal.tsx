@@ -265,7 +265,7 @@ function NewsletterModal(
         >
           <form method="dialog">
             <button
-              class="absolute top-[5px] right-0 translate-x-1/2 bg-[#333333] border-none rounded-full p-[0.2rem] cursor-pointer text-white"
+              class="absolute -top-[11px] right-0 translate-x-1/2 bg-[#333333] border-none rounded-full p-[0.2rem] cursor-pointer text-white"
               onClick={() =>
                 setCookieOnCloseModal("closed", modalCloseExpiredDate)}
               aria-label="Fechar"
