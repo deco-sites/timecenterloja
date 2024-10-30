@@ -10,6 +10,7 @@ const displayMenu = signal(false);
 const displaySearchbar = signal(false);
 const displaySearchPopup = signal(false);
 const displaySearchDrawer = signal(false);
+const vtexIdScriptsLoaded = signal(false);
 
 const state = {
   displayCart,
@@ -17,6 +18,7 @@ const state = {
   displaySearchbar,
   displaySearchDrawer,
   displaySearchPopup,
+  vtexIdScriptsLoaded,
 };
 
 export const useUI = () => state;

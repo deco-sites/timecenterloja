@@ -191,7 +191,19 @@
   
   .popup-custom-text.is-title-cupom p:nth-child(2) span {
     letter-spacing: 1px;
-  }  
+  }
+
+  .modal-login-custom__body:after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg) translateX(-50%);
+    position: absolute;
+    top: 6px;
+    left: 50%;
+    @apply bg-accent;
+  }
 
   @media (min-width:768px) and (max-width:880px){
     .popup-custom-text{

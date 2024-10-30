@@ -3,7 +3,7 @@ import Icon from "$store/components/ui/Icon.tsx";
 import { sendEvent } from "$store/sdk/analytics.tsx";
 import { useUI } from "$store/sdk/useUI.ts";
 import { useCart } from "apps/vtex/hooks/useCart.ts";
-import { useUser } from "apps/vtex/hooks/useUser.ts";
+import ModalLoginCustom from "deco-sites/timecenter/components/ui/ModalLoginCustom.tsx";
 
 function SearchButton() {
   const { displaySearchbar } = useUI();
@@ -28,47 +28,9 @@ function SearchButton() {
 }
 
 function UserButton() {
-  const { user } = useUser();
   return (
     <div class="max-lg:hidden rounded-full border-2 border-solid no-animation relative btn-square btn-ghost flex items-center justify-center group">
-      <Icon
-        class="text-primary"
-        id="User"
-        width={24}
-        height={24}
-      />
-      <div class="absolute hidden hover:flex group-hover:flex bg-accent top-[50px] shadow whitespace-nowrap p-[24px] flex-col z-10 rounded-xl gap-[6px]">
-        {user.value
-          ? (
-            <>
-              <a class="font-bold text-white text-xs" href="/my-account">
-                Meus Dados
-              </a>
-              <a
-                class="font-bold text-white text-xs"
-                href="/my-account/orders"
-              >
-                Meus Pedidos
-              </a>
-              <a
-                class="font-bold text-white text-xs"
-                href="/api/vtexid/pub/logout?scope=eeuro&returnUrl=https%3A%2F%2Fwww.eurorelogios.com.br%2F"
-              >
-                Sair
-              </a>
-            </>
-          )
-          : (
-            <a
-              class="font-bold text-white text-xs"
-              href="/my-account/login"
-            >
-              Entrar
-            </a>
-          )}
-        <div class="left-[70px] absolute -top-3 transform -translate-x-1/2 translate-y-1/2 rotate-45 w-4 h-4 bg-accent border-r border-b border-accent">
-        </div>
-      </div>
+      <ModalLoginCustom />
     </div>
   );
 }
