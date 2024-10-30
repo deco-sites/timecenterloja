@@ -83,7 +83,7 @@ const actionButtons = [
   },
   {
     href:
-      "/api/vtexid/pub/logout?scope=eeuro&returnUrl=https%3A%2F%2Fwww.eurorelogios.com.br%2F",
+      "/api/vtexid/pub/logout?scope=timecenter&returnUrl=https%3A%2F%2Fwww.timecenter.com.br%2F",
     label: "Sair",
   },
 ];
