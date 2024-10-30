@@ -66,7 +66,7 @@ function ModalLoginCustom() {
                 setSessionFirst(true);
               }}
               class={clx(
-                `modal-login-custom__body absolute bg-accent rounded-xl flex text-primary top-[90%] shadow-lg -right-[58px] whitespace-nowrap p-[24px] flex-col z-50 gap-[6px] items-start
+                `modal-login-custom__body absolute bg-accent rounded-xl flex text-primary top-[90%] shadow-lg w-[130px] -right-[20px] whitespace-nowrap p-[24px] flex-col z-50 gap-[6px] items-start
                 ${!sessionFirst ? "flex" : "hidden group-hover:flex"}`,
               )}
             >
