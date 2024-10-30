@@ -124,7 +124,7 @@ function Menu({ items }: Props) {
           {actionButtons.map((action) => (
             <a
               href={action.href}
-              class="btn btn-secondary btn-rounded uppercase w-full h-8 min-h-8 font-bold min-w-[140px]"
+              class="btn btn-secondary btn-rounded uppercase w-full h-8 min-h-8 font-bold min-w-[140px] text-white"
             >
               {action.label}
             </a>
