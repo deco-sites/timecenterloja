@@ -202,6 +202,7 @@
     position: absolute;
     top: 6px;
     left: 50%;
+    z-index: -1;
     @apply bg-accent;
   }
 
