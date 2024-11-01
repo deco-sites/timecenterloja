@@ -615,7 +615,13 @@
             "showLabel": true,
             "children": [],
             "label": "OFF",
-            "href": "/relogio?PS=12&O=OrderByBestDiscountDESC",
+            "href": "/relogio?PS=12&O=OrderByBestDiscountDESC"
+          },
+          {
+            "showLabel": true,
+            "children": [],
+            "label": "Black Friday",
+            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
             "highlighted": true
           }
         ],
