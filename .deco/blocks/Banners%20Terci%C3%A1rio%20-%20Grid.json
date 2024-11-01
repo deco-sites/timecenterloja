@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/51bd688b-6ba1-46de-8a02-f82bce594334/Secundarios-Novo-Site--desk---terci_01.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5800026b-57c5-498f-8359-e250a946aecf/Secundarios-Novo-Site--desk---terci_01.png",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/66dea15a-fb92-4955-9d0e-5f0776a7a8a8/Banner_terc_TC_fossil.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/66dea15a-fb92-4955-9d0e-5f0776a7a8a8/Banner_terc_TC_fossil.png",
             "alt": "Fossil",
-            "href": "/fossil/relogio",
+            "href": "/fossil/relogio?sort=discount%3Adesc",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/e4c5cb3b-10dd-4692-a096-c50e6120c392/Secundarios-Novo-Site--desk---terci_03.png",
-            "alt": "Kids",
-            "href": "/s?q=kids",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/87a6ba99-847c-48d7-aeea-8732a7b15e18/Secundarios-Novo-Site--desk---terci_03.png"
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/10ca58ab-bc4e-4936-ba75-aef8c9ca3252/Banner_terc_TC_MK.png",
+            "alt": "MK",
+            "href": "/michaelkors/relogio?sort=discount%3Adesc",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/10ca58ab-bc4e-4936-ba75-aef8c9ca3252/Banner_terc_TC_MK.png"
           },
           {
             "textColor": "primary",
@@ -59,8 +59,8 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fa9b2629-75cf-4ec6-99d1-0cf2fe4673f7/Secundarios-Novo-Site--desk---terci_06.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/0db5d3fb-9632-4d87-b5aa-95451922f36c/Secundarios-Novo-Site--desk---terci_06.png",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/ffdbe9db-3c97-400f-b148-686e1651ea7d/Banner_terc_TC_technos.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/ffdbe9db-3c97-400f-b148-686e1651ea7d/Banner_terc_TC_technos.png",
             "href": "/s?q=civic",
             "alt": "Civic"
           }
