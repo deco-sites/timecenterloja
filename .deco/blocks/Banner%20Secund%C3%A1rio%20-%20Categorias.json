@@ -15,9 +15,9 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/ec031dd0-f6ff-49ec-9423-51bf3ac23e4d/Secundarios-Novo-Site--desk-Recuperado_01.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/ec031dd0-f6ff-49ec-9423-51bf3ac23e4d/Secundarios-Novo-Site--desk-Recuperado_01.png",
-            "href": "/s?q=technos+connect+max",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/3d956b3c-bb4b-4206-8184-2d5e7744ebfa/banner_secundario_condor.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/3d956b3c-bb4b-4206-8184-2d5e7744ebfa/banner_secundario_condor.png",
+            "href": "/condor/relogio?sort=discount%3Adesc",
             "alt": "Technos "
           },
           {
@@ -30,10 +30,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/56f20b39-8c60-4c4b-8eda-72b79ccdbfa4/Secundarios-Novo-Site--desk-Recuperado_03.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6274f5b0-fe06-4e8c-a72b-ab99bc649e9e/Secundarios-Novo-Site--desk-Recuperado_03.png",
-            "href": "/s?q=condor+disney&O=OrderByReleaseDateDESC",
-            "alt": "Condor Disney"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7c1a360e-35c1-4958-b50a-b478f77b1213/banner_secundario_mormaii.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7c1a360e-35c1-4958-b50a-b478f77b1213/banner_secundario_mormaii.png",
+            "href": "/mormaii/relogio?sort=discount%3Adesc",
+            "alt": "Mormaii"
           },
           {
             "backgroundColorHover": "primary",
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/61a51696-b0bc-4d3e-baad-c9993d9f61aa/Secundarios-Novo-Site--desk-Recuperado_05.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/61a51696-b0bc-4d3e-baad-c9993d9f61aa/Secundarios-Novo-Site--desk-Recuperado_05.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9c11687d-b721-49f9-94f3-1072f1d49f7b/banner_secundario_dumot.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9c11687d-b721-49f9-94f3-1072f1d49f7b/banner_secundario_dumot.png",
             "href": "/s?q=mormaii+life",
-            "alt": "Mormaii Life"
+            "alt": "Dumont"
           }
         ],
         "itemPerPageDesktop": 3,
