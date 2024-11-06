@@ -73,11 +73,11 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/euro/relogio"
+                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
                   "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/cb373fa3-8c53-47ba-b17e-77f6be44326c/Banner_Slide_Desk_BF50.png",
                   "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/47fdd12b-be10-44ba-b420-92bb661c0d62/Banner_slide_Tc_Mob_BF50.png",
-                  "alt": "Civic"
+                  "alt": "50% OFF"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
