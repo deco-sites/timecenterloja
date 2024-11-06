@@ -58,8 +58,9 @@ export const useOffer = (aggregateOffer?: AggregateOffer) => {
     ? priceWithPixPayment?.price || price
     : price * ((100 - manualPixPercentDiscount) / 100);
 
-  const pixPercentDiscountByDiferenceSellerPrice = 100 -
-    (priceWithPixDiscount * 100) / price;
+    const pixPercentDiscountByDiferenceSellerPrice = Math.round(
+      100 - (priceWithPixDiscount * 100) / price,
+    );
 
   return {
     price,
