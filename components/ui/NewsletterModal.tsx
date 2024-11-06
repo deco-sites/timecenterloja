@@ -152,12 +152,12 @@ function NewsletterModal(
     modalCloseExpiredDate,
     colorText,
     image,
-    is_active
+    is_active,
   }: SectionProps<
     ReturnType<typeof loader>
   >,
 ) {
-  if(!is_active) return null;
+  if (!is_active) return null;
 
   const modalRef = useRef<HTMLDialogElement>(null);
   const loading = useSignal(false);
