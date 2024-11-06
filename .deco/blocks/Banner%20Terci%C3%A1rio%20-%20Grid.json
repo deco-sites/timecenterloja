@@ -3,66 +3,78 @@
   "sections": [
     {
       "section": {
-        "__resolveType": "site/sections/Images/BannerGrid.tsx",
-        "itemsPerLine": {
-          "mobile": 1,
-          "desktop": 2
-        },
-        "itemsPerColumn": {
-          "mobile": 1,
-          "desktop": 2
-        },
-        "borderRadius": {
-          "mobile": "xl",
-          "desktop": "md"
-        },
-        "columnGap": {
-          "mobile": 1,
-          "desktop": 4
-        },
-        "banners": [
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
           {
-            "textColor": "primary",
-            "text": {
-              "verticalAlignment": "Bottom",
-              "horizontalAlignment": "Center",
-              "badges": [],
-              "buttonColor": "primary"
+            "value": {
+              "__resolveType": "site/sections/Images/BannerGrid.tsx",
+              "itemsPerLine": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "itemsPerColumn": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "borderRadius": {
+                "mobile": "xl",
+                "desktop": "md"
+              },
+              "columnGap": {
+                "mobile": 1,
+                "desktop": 4
+              },
+              "banners": [
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Center",
+                    "badges": [],
+                    "buttonColor": "primary"
+                  },
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eeeece40-d24a-43b3-808e-2a76f0baf6ea/Secundarios-Novo-Site--desk---terci_01.png",
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eeeece40-d24a-43b3-808e-2a76f0baf6ea/Secundarios-Novo-Site--desk---terci_01.png",
+                  "alt": "Technos",
+                  "href": "/technos/relogio",
+                  "columnStart": 1,
+                  "rowStart": 1,
+                  "rowSpan": 2
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "neutral",
+                    "reverse": true
+                  },
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/065f2b48-21bf-4226-aa15-451c8f8a131c/Secundarios-Novo-Site--desk---terci_06.png",
+                  "href": "/euro/relogio",
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f49e3ac0-bcb6-47f5-af85-2169f019aeb6/Secundarios-Novo-Site--desk---terci_06.png",
+                  "alt": "Euro"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "secondary"
+                  },
+                  "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adc7a22b-958a-493f-809e-e9ce142bc187/Secundarios-Novo-Site--desk---terci_03.png",
+                  "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adc7a22b-958a-493f-809e-e9ce142bc187/Secundarios-Novo-Site--desk---terci_03.png",
+                  "href": "/relogio?PS=12&O=OrderByBestDiscountDESC",
+                  "alt": "Bazar"
+                }
+              ]
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eeeece40-d24a-43b3-808e-2a76f0baf6ea/Secundarios-Novo-Site--desk---terci_01.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eeeece40-d24a-43b3-808e-2a76f0baf6ea/Secundarios-Novo-Site--desk---terci_01.png",
-            "alt": "Technos",
-            "href": "/technos/relogio",
-            "columnStart": 1,
-            "rowStart": 1,
-            "rowSpan": 2
-          },
-          {
-            "textColor": "primary",
-            "text": {
-              "verticalAlignment": "Bottom",
-              "horizontalAlignment": "Right",
-              "badges": [],
-              "buttonColor": "neutral",
-              "reverse": true
-            },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/065f2b48-21bf-4226-aa15-451c8f8a131c/Secundarios-Novo-Site--desk---terci_06.png",
-            "href": "/euro/relogio",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f49e3ac0-bcb6-47f5-af85-2169f019aeb6/Secundarios-Novo-Site--desk---terci_06.png",
-            "alt": "Euro"
-          },
-          {
-            "textColor": "primary",
-            "text": {
-              "verticalAlignment": "Bottom",
-              "horizontalAlignment": "Right",
-              "badges": [],
-              "buttonColor": "secondary"
-            },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adc7a22b-958a-493f-809e-e9ce142bc187/Secundarios-Novo-Site--desk---terci_03.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adc7a22b-958a-493f-809e-e9ce142bc187/Secundarios-Novo-Site--desk---terci_03.png",
-            "href": "/relogio?PS=12&O=OrderByBestDiscountDESC",
-            "alt": "Bazar"
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2024-09-01T15:00:00.000Z",
+              "end": "2024-09-03T15:00:00.000Z"
+            }
           }
         ]
       },
