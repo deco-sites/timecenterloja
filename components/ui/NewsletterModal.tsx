@@ -65,6 +65,12 @@ export interface INewsletterFormProps {
 }
 
 export interface Props {
+  /**
+   * @title Ativar?
+   * @default true
+   */
+  is_active?: boolean;
+
   /**@title Imagem */
   image?: Device;
   /**
@@ -146,10 +152,13 @@ function NewsletterModal(
     modalCloseExpiredDate,
     colorText,
     image,
+    is_active,
   }: SectionProps<
     ReturnType<typeof loader>
   >,
 ) {
+  if (!is_active) return null;
+
   const modalRef = useRef<HTMLDialogElement>(null);
   const loading = useSignal(false);
   const success = useSignal(false);
