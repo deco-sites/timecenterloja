@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/3d956b3c-bb4b-4206-8184-2d5e7744ebfa/banner_secundario_condor.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/3d956b3c-bb4b-4206-8184-2d5e7744ebfa/banner_secundario_condor.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/c10992ff-4ae0-4515-a946-ae628b3bef06/banner_secundario_condor.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/c10992ff-4ae0-4515-a946-ae628b3bef06/banner_secundario_condor.png",
             "href": "/condor/relogio?sort=discount%3Adesc",
-            "alt": "Technos "
+            "alt": "Condor"
           },
           {
             "backgroundColorHover": "primary",
@@ -30,8 +30,8 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7c1a360e-35c1-4958-b50a-b478f77b1213/banner_secundario_mormaii.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7c1a360e-35c1-4958-b50a-b478f77b1213/banner_secundario_mormaii.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/c2bdecaa-7f88-48e8-bcac-1f1139eb216a/banner_secundario_mormaii.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/c2bdecaa-7f88-48e8-bcac-1f1139eb216a/banner_secundario_mormaii.png",
             "href": "/mormaii/relogio?sort=discount%3Adesc",
             "alt": "Mormaii"
           },
@@ -45,8 +45,8 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9c11687d-b721-49f9-94f3-1072f1d49f7b/banner_secundario_dumot.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9c11687d-b721-49f9-94f3-1072f1d49f7b/banner_secundario_dumot.png",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fbe00932-a35e-4036-9493-f9806225ba47/banner_secundario_dumot.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fbe00932-a35e-4036-9493-f9806225ba47/banner_secundario_dumot.png",
             "href": "/dumont/relogio?sort=price%3Aasc",
             "alt": "Dumont"
           }
