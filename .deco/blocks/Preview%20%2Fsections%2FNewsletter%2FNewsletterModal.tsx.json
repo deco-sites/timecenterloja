@@ -1,0 +1,12 @@
+{
+  "__resolveType": "site/sections/Newsletter/NewsletterModal.tsx",
+  "is_active": true,
+  "form": {
+    "email": {},
+    "name": {},
+    "privacyContact": {},
+    "button": {
+      "variant": "primary"
+    }
+  }
+}

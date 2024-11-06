@@ -61,7 +61,8 @@
       "colorText": "#ffffff",
       "textSendSucess": "<p><strong><span style=\"font-size: 36pt\">Ganhe 10% off</span></strong></p><p><span style=\"font-size: 19.5pt\">na primeira compra!</span></p>",
       "textFieldCupom": "Use o cupom",
-      "textCupom": "10BOASVINDAS"
+      "textCupom": "10BOASVINDAS",
+      "is_active": true
     },
     {
       "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",
