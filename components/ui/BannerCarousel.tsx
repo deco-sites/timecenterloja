@@ -1,40 +1,39 @@
-import Button from "$store/components/ui/Button.tsx";
-import Icon from "$store/components/ui/Icon.tsx";
-import Slider from "$store/components/ui/Slider.tsx";
-import type { ImageWidget } from "apps/admin/widgets.ts";
-import { Picture, Source } from "apps/website/components/Picture.tsx";
-import { useId } from "preact/hooks";
-// import { sendEvent } from "$store/sdk/analytics.tsx";
-// import { sendEventOnClick } from "$store/sdk/analytics.tsx";
+import Button from '$store/components/ui/Button.tsx';
+import Icon from '$store/components/ui/Icon.tsx';
+import Slider from '$store/components/ui/Slider.tsx';
+import type { ImageWidget } from 'apps/admin/widgets.ts';
+import { Picture, Source } from 'apps/website/components/Picture.tsx';
+import { useId } from 'preact/hooks';
+import {
+  SendEventOnClick,
+  SendEventOnView,
+} from 'deco-sites/timecenter/components/Analytics.tsx';
+import { useDevice } from 'deco/hooks/useDevice.ts';
 
-export type ButtonVariant =
-  | "primary"
-  | "secondary"
-  | "accent"
-  | "outline";
+export type ButtonVariant = 'primary' | 'secondary' | 'accent' | 'outline';
 
 export const BUTTON_VARIANTS: Record<string, string> = {
-  "primary": "primary hover:text-base-100",
-  "secondary": "secondary hover:text-base-100",
-  "accent": "accent text-base-content hover:text-base-100",
-  "outline": "outline border border-base-content hover:bg-base-content",
+  primary: 'primary hover:text-base-100',
+  secondary: 'secondary hover:text-base-100',
+  accent: 'accent text-base-content hover:text-base-100',
+  outline: 'outline border border-base-content hover:bg-base-content',
 };
 
-export type BannerFontSizes = "Small" | "Medium" | "Large";
+export type BannerFontSizes = 'Small' | 'Medium' | 'Large';
 export type ResponsiveConditionals =
-  | "Always"
-  | "Desktop Only"
-  | "Mobile Only"
-  | "Never";
+  | 'Always'
+  | 'Desktop Only'
+  | 'Mobile Only'
+  | 'Never';
 
 export const CONDITIONAL_RESPONSIVE_PARAMS: Record<
   ResponsiveConditionals,
   string
 > = {
-  "Always": "flex",
-  "Desktop Only": "lg:flex max-lg:hidden",
-  "Mobile Only": "max-lg:flex lg:hidden",
-  "Never": "hidden",
+  'Always': 'flex',
+  'Desktop Only': 'lg:flex max-lg:hidden',
+  'Mobile Only': 'max-lg:flex lg:hidden',
+  'Never': 'hidden',
 };
 
 export interface Banner {
@@ -108,7 +107,7 @@ function BannerTitle(props: BannerTitleProps) {
     <span
       class={`w-full text-left  text-3xl lg:text-[68px] xl:text-[68px] text-base-100 md:whitespace-nowrap lg:leading-[68px] xl:leading-[68px] ${props.class}`}
       style={{
-        color: props.color ? props.color : "#fff",
+        color: props.color ? props.color : '#fff',
       }}
     >
       {props.title}
@@ -121,7 +120,7 @@ function BannerSubTitle(props: BannerTitleProps) {
     <span
       class={`w-full text-left font-medium text-lg lg:text-[36px] xl:text-[36px] text-base-100 md:whitespace-nowrap lg:leading-[36px] xl:leading-[36px] ${props.class}`}
       style={{
-        color: props.color ? props.color : "#fff",
+        color: props.color ? props.color : '#fff',
       }}
     >
       {props.title}
@@ -129,85 +128,85 @@ function BannerSubTitle(props: BannerTitleProps) {
   );
 }
 
-function BannerItem(
-  { image, lcp }: { image: Banner; lcp?: boolean; position: number },
-) {
-  const {
-    alt,
-    mobile,
-    desktop,
-    action,
-  } = image;
+function BannerItem({
+  image,
+  lcp,
+  position,
+  id,
+  is_mobile,
+}: {
+  image: Banner;
+  lcp?: boolean;
+  position: number;
+  id: string;
+  is_mobile: boolean;
+}) {
+  const { alt, mobile, desktop, action } = image;
 
-  // const clickEvent = {
-  //   name: "select_promotion",
-  //   params: {
-  //     item_name: alt,
-  //     item_id: desktop, //image url
-  //     creative_name: window.location.hostname + action?.href, //page url
-  //     creative_slot: position + 1,
-  //   },
-  // };
+  const params = {
+    promotion_name: alt,
+    creative_name: action && action.href ? action.href : '',
+    creative_slot: `Slot ${Number(position) + 1}`,
+    promotion_id: is_mobile ? mobile : desktop,
+  };
 
   return (
-    <a
-      href={action?.href ?? "#"}
-      aria-label={action?.label || action?.title}
-      id="banner-principal"
-      class="relative h-auto overflow-y-hidden w-full"
-      // {...sendEventOnClick(clickEvent)}
-    >
-      <Picture preload={lcp}>
-        <Source
-          media="(max-width: 767px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={mobile}
-          width={320}
-          height={380}
-        />
-        <Source
-          media="(min-width: 768px)"
-          fetchPriority={lcp ? "high" : "auto"}
-          src={desktop}
-          width={1920}
-          height={600}
-        />
-        <img
-          class="object-cover w-full h-full"
-          loading={lcp ? "eager" : "lazy"}
-          src={desktop}
-          alt={alt}
-        />
-      </Picture>
-      {action?.title ||
-        action?.mobileTitle && (
+    <>
+      <a
+        href={action?.href ?? '#'}
+        aria-label={action?.label || action?.title}
+        id={`banner-principal-${id}-${position}`}
+        class="relative h-auto overflow-y-hidden w-full"
+      >
+        <Picture preload={lcp}>
+          <Source
+            media="(max-width: 767px)"
+            fetchPriority={lcp ? 'high' : 'auto'}
+            src={mobile}
+            width={320}
+            height={380}
+          />
+          <Source
+            media="(min-width: 768px)"
+            fetchPriority={lcp ? 'high' : 'auto'}
+            src={desktop}
+            width={1920}
+            height={600}
+          />
+          <img
+            class="object-cover w-full h-full"
+            loading={lcp ? 'eager' : 'lazy'}
+            src={desktop}
+            alt={alt}
+          />
+        </Picture>
+        {action?.title ||
+          (action?.mobileTitle && (
             <div class="w-full lg:px-52 absolute top-0 bottom-0 m-auto mt-11 lg:mt-auto right-0 sm:right-auto left-[50%] max-h-min h-fit flex flex-col gap-4 p-6 -translate-x-1/2">
-              {action?.mobileTitle
-                ? (
-                  <>
-                    <BannerTitle
-                      class="md:hidden"
-                      color={action.titleColor}
-                      title={action.mobileTitle}
-                    />
+              {action?.mobileTitle ? (
+                <>
+                  <BannerTitle
+                    class="md:hidden"
+                    color={action.titleColor}
+                    title={action.mobileTitle}
+                  />
 
-                    <BannerSubTitle
-                      class="md:hidden"
-                      color={action.subTitlecolor}
-                      title={action.mobileSubTitle}
-                    />
-                  </>
-                )
-                : null}
+                  <BannerSubTitle
+                    class="md:hidden"
+                    color={action.subTitlecolor}
+                    title={action.mobileSubTitle}
+                  />
+                </>
+              ) : null}
 
               <BannerTitle
-                class={action?.mobileTitle ? "max-md:hidden" : "flex"}
+                class={action?.mobileTitle ? 'max-md:hidden' : 'flex'}
                 color={action.titleColor}
                 title={action.title}
               />
 
               <BannerSubTitle
-                class={action?.mobileTitle ? "max-md:hidden" : "flex"}
+                class={action?.mobileTitle ? 'max-md:hidden' : 'flex'}
                 color={action.subTitlecolor}
                 title={action.subTitle}
               />
@@ -216,15 +215,26 @@ function BannerItem(
                   class={`max-md:text-sm m-auto ml-0 mt-5 btn border-none text-white capitalize font-medium text-base w-fit px-16 btn-${
                     action.variant
                       ? BUTTON_VARIANTS[action.variant]
-                      : BUTTON_VARIANTS["primary"]
+                      : BUTTON_VARIANTS['primary']
                   }`}
                 >
                   {action.label}
                 </Button>
               )}
             </div>
-          )}
-    </a>
+          ))}
+      </a>
+
+      <SendEventOnClick
+        id={`banner-principal-${id}-${position}`}
+        event={{ name: 'select_promotion', params }}
+      />
+
+      <SendEventOnView
+        id={`banner-principal-${id}-${position}`}
+        event={{ name: 'view_promotion', params }}
+      />
+    </>
   );
 }
 
@@ -309,10 +319,15 @@ function Buttons({ className }: ButtonsProps) {
   );
 }
 
-function BannerCarousel(
-  { images, preload, interval, showPaginationDots }: Props,
-) {
+function BannerCarousel({
+  images,
+  preload,
+  interval,
+  showPaginationDots,
+}: Props) {
   const id = useId();
+  const device = useDevice();
+  const is_mobile = device !== 'desktop';
 
   return (
     <div
@@ -323,24 +338,26 @@ function BannerCarousel(
         {images?.map((image, index) => (
           <Slider.Item index={index} class="carousel-item w-full">
             <BannerItem
+              id={id}
               image={image}
               lcp={index === 0 && preload}
               position={index}
+              is_mobile={is_mobile}
             />
           </Slider.Item>
         ))}
       </Slider>
 
-      <Buttons
-        className={"Always"}
-      />
+      <Buttons className={'Always'} />
 
       <Dots
         images={images}
         interval={interval}
-        className={CONDITIONAL_RESPONSIVE_PARAMS[
-          showPaginationDots ? showPaginationDots : "Always"
-        ]}
+        className={
+          CONDITIONAL_RESPONSIVE_PARAMS[
+            showPaginationDots ? showPaginationDots : 'Always'
+          ]
+        }
       />
       <Slider.JS rootId={id} interval={interval && interval * 1e3} infinite />
     </div>
