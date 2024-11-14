@@ -66,27 +66,27 @@
                     "variant": "primary",
                     "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d3933aa2-c648-45c6-9cc4-7e01ac397e6d/Banner_Slide_Desk_BF15.png",
-                  "alt": "Steel",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/4049ec3e-a163-46ed-bbfa-1c9262fee01b/Banner_slide_Tc_Mob_BF15.png"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/17790b72-3248-4e24-8040-204056ad26b1/Prancheta-1-(10).png",
+                  "alt": "Black friday: até 50% OFF",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/1a22fdc0-1d05-4dac-a1fd-3292fe83ac3c/Prancheta-2-(8).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/technos/relogio"
+                    "href": "/2509?sort=price%3Aasc&filter.productClusterIds=2509&filter.price=580%3A3484.15&page=1"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/234147c1-2860-4f1f-9173-13fb338e3f5a/Banner_Slide_Desk_BFbrinde.png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/a279b7f3-5a59-4676-b53b-b3e68bab8910/Banner_slide_Tc_Mob_BFbrinde.png",
-                  "alt": "Mochila"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/a0e2e0a3-7bee-46df-9f1d-25a5ba6610fa/Prancheta-1-(9).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/3430c9e0-1230-4bc5-9433-22b084bc14d1/Prancheta-2-(7).png",
+                  "alt": "Black Friday: até R$899"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/2518?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/cb373fa3-8c53-47ba-b17e-77f6be44326c/Banner_Slide_Desk_BF50.png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/47fdd12b-be10-44ba-b420-92bb661c0d62/Banner_slide_Tc_Mob_BF50.png",
-                  "alt": "50% OFF"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7631a9f1-95a2-4821-844b-36e1b0cecbe9/Prancheta-1-(11).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5370ff36-05c2-4c74-ace6-6109fff50fbf/Prancheta-2-(9).png",
+                  "alt": "Black Friday: 15% OFF"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -96,8 +96,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-11-09T02:59:00.000Z",
-              "start": "2024-09-16T03:00:00.000Z"
+              "end": "2024-11-23T02:59:00.000Z",
+              "start": "2024-11-16T03:00:00.000Z"
             }
           }
         ]
