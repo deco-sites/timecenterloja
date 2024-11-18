@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/66dea15a-fb92-4955-9d0e-5f0776a7a8a8/Banner_terc_TC_fossil.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/66dea15a-fb92-4955-9d0e-5f0776a7a8a8/Banner_terc_TC_fossil.png",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/0b39baa1-0c6f-462c-a0da-cc1df430f90a/Terciario-1.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/0b39baa1-0c6f-462c-a0da-cc1df430f90a/Terciario-1.png",
             "alt": "Fossil",
-            "href": "/fossil/relogio?sort=discount%3Adesc",
+            "href": "/condor/relogio?sort=discount%3Adesc",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b86f1a7f-8595-480a-af1a-3952d43dce6e/Banner_terc_TC_MK.png",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/8f4186fe-4693-4855-ac08-1eb1711af7b7/Terciario-2.png",
             "alt": "MK",
             "href": "/michaelkors/relogio?sort=discount%3Adesc",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b86f1a7f-8595-480a-af1a-3952d43dce6e/Banner_terc_TC_MK.png"
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/8f4186fe-4693-4855-ac08-1eb1711af7b7/Terciario-2.png"
           },
           {
             "textColor": "primary",
@@ -59,9 +59,9 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b7f074c0-3556-4826-b143-245a1e53e775/Banner_terc_TC_technos-(1).png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b7f074c0-3556-4826-b143-245a1e53e775/Banner_terc_TC_technos-(1).png",
-            "href": "/technos/relogio?sort=discount%3Adesc",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9af6440d-8340-4c08-a065-91a036eb7124/Terciario-3.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9af6440d-8340-4c08-a065-91a036eb7124/Terciario-3.png",
+            "href": "/euro/relogio?sort=discount%3Adesc",
             "alt": "Technos"
           }
         ]
