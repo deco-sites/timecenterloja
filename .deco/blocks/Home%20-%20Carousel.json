@@ -87,6 +87,15 @@
                   "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7631a9f1-95a2-4821-844b-36e1b0cecbe9/Prancheta-1-(11).png",
                   "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5370ff36-05c2-4c74-ace6-6109fff50fbf/Prancheta-2-(9).png",
                   "alt": "Black Friday: 15% OFF"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/relogio?sort=discount%3Adesc"
+                  },
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/817ac4b0-afb9-4866-b514-20187a45ef50/tc_Banner_Desk_brinde_01.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/8f044eb4-99a4-4e71-8dde-ca3be377b405/Prancheta-2-(11).png",
+                  "alt": "Compre Euro e ganhe copo térmico"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
