@@ -153,13 +153,11 @@ function Cart(props: ICartProps) {
             </div>
           </div>
         )}
-        <div class="py-4 lg:hidden w-full">
-          <a class="justify-center w-full block" href="/checkout">
+        <div class="py-4 block lg:hidden w-full">
+          <a class="justify-center w-full flex" href="/checkout">
             <Button
               data-deco="buy-button"
-              class={`h-9 font-medium text-xs border-none w-full btn-${
-                BUTTON_VARIANTS[buttonModeMobile ?? "primary"]
-              }`}
+              class={`h-9 font-medium text-xs border-none w-full bg-black text-white btn-outline  whitespace-nowrap px-6 uppercase hover:bg-primary hover:text-info hover:border-primary border-primary  font-bold text-sm `}
               disabled={loading.value || cart.value.items.length === 0}
               onClick={() => {
                 sendEvent({
