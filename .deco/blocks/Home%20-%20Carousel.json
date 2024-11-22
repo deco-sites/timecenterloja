@@ -14,9 +14,9 @@
                     "variant": "primary",
                     "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/473bb481-d231-4b42-b2d1-c6a47ab67223/Prancheta-1-(7).png",
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b85512b4-a988-459d-8856-ed607d49b4b9/tc_Banner_Desk_50.png",
                   "alt": "Black 50% OFF",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/adef21e9-161d-4273-aa59-3424c3ed6f49/Prancheta-2-(5).png"
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5fdb1ed5-32a1-4af5-bf0d-52080bb3eab1/tc_Banner_mob_50.png"
                 },
                 {
                   "action": {
@@ -30,19 +30,19 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/2518?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/8d695537-5001-430c-b2ae-aed1697e84c4/Prancheta-1-(6).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/023c1ad0-a247-47f5-9363-e9e4be386768/Prancheta-2-(3).png",
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f84bc9d9-74dd-46b9-b42b-b067b2f5cdfd/tc_Banner_Desk_15.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f29889bf-1d22-4e65-9e38-ad89191b5d41/tc_Banner_MOB_15.png",
                   "alt": "Black Friday 15% OFF"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/technos/relogio"
+                    "href": "/euro/relogio?sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/19762761-8796-4aa6-95c3-89aaa19b8772/Prancheta-1-(5).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/feea7204-1c17-45ee-8024-6c805ee61579/Prancheta-2-(2).png",
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6fd8e5f5-1e30-4f11-b935-366d5820e94a/tc_Banner_Desk_brinde.png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/948119e9-09f7-46d5-a834-44ad9aa16d89/Euro_Banner_MOB_brinde.png",
                   "alt": "Ganhe um copo térmico"
                 }
               ],
@@ -53,8 +53,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-11-16T02:59:00.000Z",
-              "start": "2024-10-09T03:00:00.000Z"
+              "end": "2024-11-30T02:59:00.000Z",
+              "start": "2024-11-23T03:00:00.000Z"
             }
           },
           {
