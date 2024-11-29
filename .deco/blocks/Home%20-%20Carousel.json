@@ -12,38 +12,30 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
-                  },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b85512b4-a988-459d-8856-ed607d49b4b9/tc_Banner_Desk_50.png",
-                  "alt": "Black 50% OFF",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5fdb1ed5-32a1-4af5-bf0d-52080bb3eab1/tc_Banner_mob_50.png"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/2509?sort=price%3Aasc&filter.productClusterIds=2509&filter.price=91.29%3A340&page=1"
-                  },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d178002a-66ef-4a02-a75d-2a83344f03d8/Prancheta-1-(8).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6b69f649-d920-4dec-84a1-ddcad081b0e1/Prancheta-2-(6).png",
-                  "alt": "Relógios até R$299"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
                     "href": "/2518?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f84bc9d9-74dd-46b9-b42b-b067b2f5cdfd/tc_Banner_Desk_15.png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f29889bf-1d22-4e65-9e38-ad89191b5d41/tc_Banner_MOB_15.png",
-                  "alt": "Black Friday 15% OFF"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/4db62e0b-6255-4cd6-a700-45bd740d6ffa/tc_Banner_Desk_20.png",
+                  "alt": "Cyber 20% OFF",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/981a831a-9b10-486d-8d0f-3232d277f851/Prancheta-2-(15).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/euro/relogio?sort=discount%3Adesc"
+                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6fd8e5f5-1e30-4f11-b935-366d5820e94a/tc_Banner_Desk_brinde.png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/948119e9-09f7-46d5-a834-44ad9aa16d89/Euro_Banner_MOB_brinde.png",
-                  "alt": "Ganhe um copo térmico"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d257c9d6-5cbf-4991-bc25-39253b3a9d78/Prancheta-1-(22).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9fb63fe1-37ca-488e-acfb-27795ce48c24/tc_Banner_MOB_50-(1).png",
+                  "alt": "Cyber - 50% OFF"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/euro/relogio",
+                    "title": "Cyber euro"
+                  },
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/528380ec-0ae6-4dd6-ba98-64da892ec04c/Prancheta-1-(21).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/a3bbb00c-9890-4704-9ce6-b105cf2342da/Prancheta-2-(14).png",
+                  "alt": "Cyber Euro"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -53,8 +45,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-11-29T02:59:00.000Z",
-              "start": "2024-11-23T03:00:00.000Z"
+              "end": "2024-12-03T02:59:00.000Z",
+              "start": "2024-11-30T03:00:00.000Z"
             }
           },
           {
