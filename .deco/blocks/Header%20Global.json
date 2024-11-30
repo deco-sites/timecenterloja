@@ -13,7 +13,7 @@
           },
           {
             "idIcon": "",
-            "textAlert": "BLACK FRIDAY com até 50% OFF*",
+            "textAlert": "CYBER WEEKEND com até 50% OFF*",
             "textColor": "#ffffff",
             "alt": "10% OFF na sua PRIMEIRA COMPRA"
           },
@@ -36,7 +36,8 @@
       "overFlow": "overflow-none",
       "verticalSpacing": "top",
       "label": "Topbar",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#000000",
+      "spacing": 0
     },
     {
       "section": {
@@ -614,7 +615,7 @@
           {
             "showLabel": true,
             "children": [],
-            "label": "Black Friday",
+            "label": "Cyber Weekend",
             "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
             "highlighted": true
           }
@@ -656,7 +657,8 @@
       "overFlow": "overflow-none",
       "verticalSpacing": "top",
       "label": "Header",
-      "withContainer": true
+      "withContainer": true,
+      "spacing": 0
     }
   ],
   "label": "\"Container\""
