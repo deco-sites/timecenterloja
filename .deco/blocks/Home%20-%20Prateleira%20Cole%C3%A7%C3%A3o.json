@@ -67,13 +67,14 @@
             "showCta": true
           }
         },
-        "title": "Black Friday"
+        "title": "Cyber Weekend"
       },
       "shadow": "none",
       "overFlow": "overflow-none",
       "verticalSpacing": "top",
       "label": "Prateleira",
-      "withContainer": true
+      "withContainer": true,
+      "spacing": 0
     }
   ],
   "label": "\"Container\""
