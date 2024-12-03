@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/24b49f9a-106a-4ad3-aa4a-81be9eb8987b/Secundario-1.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5d8ebfab-908c-42c1-ab6f-794e98ab06cb/Secundario-1.png",
-            "href": "/fossil/relogio?sort=discount%3Adesc",
-            "alt": "Condor"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/397f8918-c254-4a40-8f89-ef82f1bfd0ae/banner_secundario_499.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/397f8918-c254-4a40-8f89-ef82f1bfd0ae/banner_secundario_499.png",
+            "href": "/2542?PS=12&map=productClusterIds&sort=release%3Adesc",
+            "alt": "Presentes até R$499"
           },
           {
             "backgroundColorHover": "primary",
@@ -30,9 +30,9 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fec14fb8-69bf-457e-9d4d-21b322979884/Secundario-2.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/fec14fb8-69bf-457e-9d4d-21b322979884/Secundario-2.png",
-            "href": "/technos/relogio?sort=discount%3Adesc",
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/c0c863d9-5537-4e10-a2a8-37734ed69fcc/banner_secundario_599.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/187216ef-8e33-4791-a90e-c95d338ffe81/banner_secundario_599.png",
+            "href": "/2543?PS=12&map=productClusterIds&sort=release%3Adesc",
             "alt": "Mormaii"
           },
           {
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/4665ad84-3397-431e-b805-d1c703411463/Secundario-3.png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/4665ad84-3397-431e-b805-d1c703411463/Secundario-3.png",
-            "href": "/relogio?sort=discount%3Adesc",
-            "alt": "Dumont"
+            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7cfd1ef7-d4d4-41ce-9e62-5e62da553373/banner_secundario_699.png",
+            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7cfd1ef7-d4d4-41ce-9e62-5e62da553373/banner_secundario_699.png",
+            "href": "/2544?PS=12&map=productClusterIds&sort=release%3Adesc",
+            "alt": "Até R$699"
           }
         ],
         "itemPerPageDesktop": 3,
@@ -58,7 +58,8 @@
       "overFlow": "overflow-none",
       "verticalSpacing": "top",
       "label": "ImageGallery",
-      "withContainer": true
+      "withContainer": true,
+      "spacing": 0
     }
   ],
   "label": "\"Container\""
