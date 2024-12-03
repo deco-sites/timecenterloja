@@ -29,10 +29,10 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/46f5af3b-c8a2-4207-b2b0-da7095fe53a5/Banner_terc_TC_technos.png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/46f5af3b-c8a2-4207-b2b0-da7095fe53a5/Banner_terc_TC_technos.png",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/0b3c804f-1495-453e-9403-2fe6fed7e9ba/Banner_terc_TC_MK.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/0b3c804f-1495-453e-9403-2fe6fed7e9ba/Banner_terc_TC_MK.png",
             "alt": "Bazar Technos",
-            "href": "/2137?PS=12&map=productClusterIds&sort=discount%3Adesc",
+            "href": "/michaelkors/relogio?sort=discount%3Adesc",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/591f3664-624e-4fc2-a72b-5daabccaacfb/Banner_terc_TC_MK.png",
-            "alt": "MK",
-            "href": "/michaelkors/relogio?sort=discount%3Adesc",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/70731296-49dd-4807-a6e4-3a0ecec882ac/Banner_terc_TC_MK.png"
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6a55c42b-49aa-41ca-8fca-50a7681c2141/Banner_terc_TC_technos.png",
+            "alt": "Technos bazar",
+            "href": "/2137?PS=12&map=productClusterIds&sort=discount%3Adesc",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/6a55c42b-49aa-41ca-8fca-50a7681c2141/Banner_terc_TC_technos.png"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/8ab048a2-8944-4dd0-8a49-a44aee370f87/Design-sem-nome-(27).png",
-            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/8ab048a2-8944-4dd0-8a49-a44aee370f87/Design-sem-nome-(27).png",
+            "srcDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/492a2b99-dd77-495f-b73c-fb7531892e91/Banner_terc_TC_fossil.png",
+            "srcMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/492a2b99-dd77-495f-b73c-fb7531892e91/Banner_terc_TC_fossil.png",
             "href": "/2166?PS=12&map=productClusterIds&sort=discount%3Adesc",
-            "alt": "Technos"
+            "alt": "Fóssil"
           }
         ]
       },
