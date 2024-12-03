@@ -56,29 +56,29 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/s?q=Technos+automático"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5449f4de-1d49-4a3f-b49d-25204be36019/Prancheta-1-(19).png",
-                  "alt": "Black Friday: 59% OFF",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/a5e99b45-ec76-45b0-8501-837ae29f7b8f/Prancheta-2-(13).png"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/275c8bec-c6bb-4d13-b510-e67274b5ca99/Prancheta-1-(26).png",
+                  "alt": "Technos automático centenário 1958",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/cc6d45c7-cea2-498f-be4e-feee73e75c73/Prancheta-2-(16).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2518?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/s?q=euro+unique&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/b59f3478-7b78-441e-8f75-5946f81b535a/Prancheta-1-(17).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/2457de4f-7735-4d65-a950-c866d25ab31c/Euro_Banner_MOB_30-(1).png",
-                  "alt": "Black friday: 30% OFF"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/16da0723-1c69-4643-88bb-7f6d76220341/Prancheta-1-(29).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/27d7e414-ca96-4f1f-b6ae-0a72b9a24718/Prancheta-2-(19).png",
+                  "alt": "Euro Unique"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=price%3Aasc"
+                    "href": "/relogio-fossil-feminino-harwell-dourado---es5372-1dn/p?skuId=1000026714"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/5a60d889-de9a-4a7c-894c-3bebb4d54027/Prancheta-1-(18).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/289f3615-0a85-4423-ae69-eef482698b2b/Prancheta-2-(12).png",
-                  "alt": "Black Friday: até R$899"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d79a6d7c-0cba-4cd6-9313-036a361be1bc/Prancheta-1-(28).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/785464f0-b30c-412b-8b9a-b39ddbaf8dca/Prancheta-2-(18).png",
+                  "alt": "Fossil relógio bracelete"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -88,8 +88,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-11-30T02:59:00.000Z",
-              "start": "2024-11-29T03:00:00.000Z"
+              "end": "2024-12-11T02:59:00.000Z",
+              "start": "2024-12-03T03:00:00.000Z"
             }
           }
         ]
