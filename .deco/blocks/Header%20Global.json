@@ -13,7 +13,7 @@
           },
           {
             "idIcon": "",
-            "textAlert": "CYBER WEEKEND com até 50% OFF*",
+            "textAlert": "10% na PRIMEIRA COMPRA com cupom 10BOASVINDAS",
             "textColor": "#ffffff",
             "alt": "10% OFF na sua PRIMEIRA COMPRA"
           },
@@ -615,7 +615,7 @@
           {
             "showLabel": true,
             "children": [],
-            "label": "Cyber Weekend",
+            "label": "OFF",
             "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
             "highlighted": true
           }
