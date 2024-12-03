@@ -13,16 +13,7 @@
     },
     {
       "__resolveType": "site/sections/Category/CategoryBanner.tsx",
-      "banners": [
-        {
-          "image": {
-            "alt": " ",
-            "desktop": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/307a64e2-3937-4a08-933c-969a0a84d79a",
-            "mobile": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/403164ce-0c9d-423f-ab1d-5e4cf10e7f3a"
-          },
-          "matcher": "/off"
-        }
-      ]
+      "banners": []
     },
     {
       "__resolveType": "site/sections/Container.tsx",
@@ -34,7 +25,8 @@
             "page": {
               "__resolveType": "vtex/loaders/legacy/productListingPage.ts",
               "filters": "dynamic",
-              "count": 48
+              "count": 48,
+              "sort": "OrderByScoreDESC"
             },
             "variant": "aside",
             "highlights": [
