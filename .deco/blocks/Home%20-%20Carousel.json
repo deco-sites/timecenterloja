@@ -12,29 +12,30 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2518?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/4db62e0b-6255-4cd6-a700-45bd740d6ffa/tc_Banner_Desk_20.png",
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/7765d1a3-1f5b-4274-a201-c1dc5add6b05/tc_Banner_desk_1958.png",
                   "alt": "Cyber 20% OFF",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/981a831a-9b10-486d-8d0f-3232d277f851/Prancheta-2-(15).png"
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/23dc7910-99c2-402b-9ab1-e5a4a8471a12/Prancheta-2-(20).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/s?q=elos&O=OrderByReleaseDateDESC",
+                    "title": "Elos"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d257c9d6-5cbf-4991-bc25-39253b3a9d78/Prancheta-1-(22).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9fb63fe1-37ca-488e-acfb-27795ce48c24/tc_Banner_MOB_50-(1).png",
-                  "alt": "Cyber - 50% OFF"
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/94e3acc5-a7f5-4cc9-8946-dfcd0438ac1c/Prancheta-1-(42).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/eea1e5d9-b9c3-4803-a8fd-ae2e6f820f0b/Prancheta-2-(22).png",
+                  "alt": "Elos"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/euro/relogio",
+                    "href": "/s?q=kit+condor&O=OrderByReleaseDateDESC",
                     "title": "Cyber euro"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/528380ec-0ae6-4dd6-ba98-64da892ec04c/Prancheta-1-(21).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/a3bbb00c-9890-4704-9ce6-b105cf2342da/Prancheta-2-(14).png",
+                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/f2f0f9a2-c5c7-4e4c-9c6b-43878e6bc2af/Prancheta-1-(41).png",
+                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/aefb5897-4a8f-4577-a225-7cd84e3d9abc/Prancheta-2-(21).png",
                   "alt": "Cyber Euro"
                 }
               ],
@@ -45,8 +46,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-12-03T02:59:00.000Z",
-              "start": "2024-11-30T03:00:00.000Z"
+              "end": "2024-12-26T02:59:00.000Z",
+              "start": "2024-12-18T03:00:00.000Z"
             }
           },
           {
