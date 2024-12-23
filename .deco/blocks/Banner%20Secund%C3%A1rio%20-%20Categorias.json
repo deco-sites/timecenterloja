@@ -15,40 +15,40 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/85ff039c-091f-41a0-8a85-6b67def17ded/Secundario-1-(1).png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/85ff039c-091f-41a0-8a85-6b67def17ded/Secundario-1-(1).png",
+            "image": "https://data.decoassets.com/timecenterloja/5672b632-f76b-4594-864f-4c5fd3e42343/Secundarios-Novo-Site--desk-Recuperado_05.png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/5672b632-f76b-4594-864f-4c5fd3e42343/Secundarios-Novo-Site--desk-Recuperado_05.png",
+            "href": "/s?q=Mormaii+life&O=OrderByReleaseDateDESC",
+            "alt": "Mormaii"
+          },
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://data.decoassets.com/timecenterloja/b1054e94-7fb9-4fad-8a14-d4028308e04d/Secundarios-Novo-Site--desk-Recuperado_01.png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/601aff7f-1b01-46e9-8cf9-d9b821042202/Secundarios-Novo-Site--desk-Recuperado_01.png",
+            "href": "/s?q=Connect+max",
+            "alt": "Connect"
+          },
+          {
+            "backgroundColorHover": "primary",
+            "borderRadius": {
+              "mobile": "xl",
+              "desktop": "xl"
+            },
+            "borderSize": {
+              "mobile": "none",
+              "desktop": "none"
+            },
+            "image": "https://data.decoassets.com/timecenterloja/9497dd7b-50bf-4f27-a48c-d3a854d143d3/Secundarios-Novo-Site--desk-Recuperado_03.png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/9497dd7b-50bf-4f27-a48c-d3a854d143d3/Secundarios-Novo-Site--desk-Recuperado_03.png",
             "href": "/condor/relogio?sort=release%3Adesc",
             "alt": "Condor"
-          },
-          {
-            "backgroundColorHover": "primary",
-            "borderRadius": {
-              "mobile": "xl",
-              "desktop": "xl"
-            },
-            "borderSize": {
-              "mobile": "none",
-              "desktop": "none"
-            },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/bd032570-1263-417c-ad87-6408f32e03eb/Secundario-3-(1).png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/bd032570-1263-417c-ad87-6408f32e03eb/Secundario-3-(1).png",
-            "href": "/2030?PS=12&map=productClusterIds&sort=release%3Adesc",
-            "alt": "Internacionais"
-          },
-          {
-            "backgroundColorHover": "primary",
-            "borderRadius": {
-              "mobile": "xl",
-              "desktop": "xl"
-            },
-            "borderSize": {
-              "mobile": "none",
-              "desktop": "none"
-            },
-            "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9a05fb4b-d833-4d99-b9a1-f223786a5ad2/Secundario-2-(1).png",
-            "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/9a05fb4b-d833-4d99-b9a1-f223786a5ad2/Secundario-2-(1).png",
-            "href": "/mormaii/relogio",
-            "alt": "Mormaii"
           }
         ],
         "itemPerPageDesktop": 3,
