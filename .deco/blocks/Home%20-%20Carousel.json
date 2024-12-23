@@ -66,20 +66,31 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=euro+unique&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=Fossil+raquel&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/16da0723-1c69-4643-88bb-7f6d76220341/Prancheta-1-(29).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/27d7e414-ca96-4f1f-b6ae-0a72b9a24718/Prancheta-2-(19).png",
-                  "alt": "Euro Unique"
+                  "desktop": "https://data.decoassets.com/timecenterloja/79e45b38-3c75-4c00-8dde-e70b52679908/Prancheta-1.png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/a0722730-829a-4a69-959c-eb3352765832/Prancheta-2.png",
+                  "alt": "Fossil Raquel"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio-fossil-feminino-harwell-dourado---es5372-1dn/p?skuId=1000026714"
+                    "href": "/s?q=kids"
                   },
-                  "desktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/d79a6d7c-0cba-4cd6-9313-036a361be1bc/Prancheta-1-(28).png",
-                  "mobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/timecenterloja/785464f0-b30c-412b-8b9a-b39ddbaf8dca/Prancheta-2-(18).png",
-                  "alt": "Fossil relógio bracelete"
+                  "desktop": "https://data.decoassets.com/timecenterloja/3ff03106-ade1-4ec1-8431-168cf4fbbfc2/timecenter-desk-condor-disney.png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/30cb9727-bcb1-4db0-96b3-b4b9e36efd34/timecenter-mob-condor-disney.png",
+                  "alt": "Condor Kids"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff",
+                    "href": "/s?q=fashion+fit+led&O=OrderByReleaseDateDESC"
+                  },
+                  "desktop": "https://data.decoassets.com/timecenterloja/1dd1eff2-f223-42f7-9d45-df873b68d4c3/Prancheta-1.png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/e80f547b-289e-405c-a1e1-8c7a5515ca36/Prancheta-2.png",
+                  "alt": "Fashion Fit Led"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -89,8 +100,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2024-12-18T02:59:00.000Z",
-              "start": "2024-12-03T03:00:00.000Z"
+              "end": "2025-01-02T02:59:00.000Z",
+              "start": "2024-12-26T03:00:00.000Z"
             }
           }
         ]
