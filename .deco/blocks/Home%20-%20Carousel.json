@@ -75,10 +75,10 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=kids"
+                    "href": "/s?q=condor+civic&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/3ff03106-ade1-4ec1-8431-168cf4fbbfc2/timecenter-desk-condor-disney.png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/30cb9727-bcb1-4db0-96b3-b4b9e36efd34/timecenter-mob-condor-disney.png",
+                  "desktop": "https://data.decoassets.com/timecenterloja/78fc4202-6160-4972-9eb9-2819aae3fea0/timecenter-desk-condor.png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/5d03f221-24fb-4b0d-bdbe-b35262dfdd81/timecenter-mob-condor.png",
                   "alt": "Condor Kids"
                 },
                 {
