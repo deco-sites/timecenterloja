@@ -15,9 +15,9 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/5672b632-f76b-4594-864f-4c5fd3e42343/Secundarios-Novo-Site--desk-Recuperado_05.png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/5672b632-f76b-4594-864f-4c5fd3e42343/Secundarios-Novo-Site--desk-Recuperado_05.png",
-            "href": "/s?q=Mormaii+life&O=OrderByReleaseDateDESC",
+            "image": "https://data.decoassets.com/timecenterloja/f08e10f1-f8ee-4513-81a9-a0091610a85c/Secundario-1-(2).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/91f62e5b-e9dd-4c9a-9d1d-06ec1af6bf5a/Secundario-1-(2).png",
+            "href": "/s?q=mormaii+force&O=OrderByReleaseDateDESC",
             "alt": "Mormaii"
           },
           {
@@ -30,10 +30,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/b1054e94-7fb9-4fad-8a14-d4028308e04d/Secundarios-Novo-Site--desk-Recuperado_01.png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/601aff7f-1b01-46e9-8cf9-d9b821042202/Secundarios-Novo-Site--desk-Recuperado_01.png",
-            "href": "/s?q=Connect+max",
-            "alt": "Connect"
+            "image": "https://data.decoassets.com/timecenterloja/256747ec-68ed-43db-bb7e-a839f14015cb/Secundario-2-(2).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/256747ec-68ed-43db-bb7e-a839f14015cb/Secundario-2-(2).png",
+            "href": "/s?q=fashion+fit+reflexos&O=OrderByReleaseDateDESC",
+            "alt": "Euro Fashion Fit Reflexos"
           },
           {
             "backgroundColorHover": "primary",
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/9497dd7b-50bf-4f27-a48c-d3a854d143d3/Secundarios-Novo-Site--desk-Recuperado_03.png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/9497dd7b-50bf-4f27-a48c-d3a854d143d3/Secundarios-Novo-Site--desk-Recuperado_03.png",
-            "href": "/condor/relogio?sort=release%3Adesc",
-            "alt": "Condor"
+            "image": "https://data.decoassets.com/timecenterloja/fdaeba28-6375-4871-b3b8-14801df14bec/Secundario-3-(2).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/fdaeba28-6375-4871-b3b8-14801df14bec/Secundario-3-(2).png",
+            "href": "/s?q=kit+condor&O=OrderByReleaseDateDESC",
+            "alt": "Condor Kits"
           }
         ],
         "itemPerPageDesktop": 3,
