@@ -54,9 +54,7 @@
               "preload": true
             },
             "rule": {
-              "__resolveType": "website/matchers/date.ts",
-              "end": "2025-02-01T02:59:00.000Z",
-              "start": "2025-01-16T03:00:00.000Z"
+              "__resolveType": "website/matchers/always.ts"
             }
           },
           {
