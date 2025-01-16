@@ -66,9 +66,18 @@
                     "variant": "primary",
                     "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/4665d43c-d024-4c96-a6ca-acb4137b3afb/Prancheta-1-(57).png",
+                  "desktop": "https://data.decoassets.com/timecenterloja/7cd2f3ad-5973-4c8e-95be-1c94443dbdd2/23_01.gif",
                   "alt": "Cyber 20% OFF",
                   "mobile": "https://data.decoassets.com/timecenterloja/68e9bf4a-8ef3-4c25-b7f1-2ec84c7f84ef/Prancheta-2-(24).png"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
+                  },
+                  "desktop": "https://data.decoassets.com/timecenterloja/4665d43c-d024-4c96-a6ca-acb4137b3afb/Prancheta-1-(57).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/68e9bf4a-8ef3-4c25-b7f1-2ec84c7f84ef/Prancheta-2-(24).png",
+                  "alt": "Cyber 20% OFF"
                 },
                 {
                   "action": {

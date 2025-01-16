@@ -33,8 +33,8 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/6fba4df6-5011-4b81-aa62-8b1c025d4c86/Terciario-1-(2).png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/6fba4df6-5011-4b81-aa62-8b1c025d4c86/Terciario-1-(2).png",
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/7cd2f3ad-5973-4c8e-95be-1c94443dbdd2/23_01.gif",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/7cd2f3ad-5973-4c8e-95be-1c94443dbdd2/23_01.gif",
                   "alt": "MK",
                   "href": "/michaelkors/relogio?sort=discount%3Adesc",
                   "columnStart": 1,
@@ -50,10 +50,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/56faa912-96f9-4a3f-ba3b-9fbfdc8652c6/Terciario-2-2.png",
-                  "href": "/2137?PS=12&map=productClusterIds&sort=discount%3Adesc",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/56faa912-96f9-4a3f-ba3b-9fbfdc8652c6/Terciario-2-2.png",
-                  "alt": "Technos"
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/66971cd4-31ca-46cf-ae05-ccab9eb4aa81/Terciario-2-1.png",
+                  "href": "/relogio/mormaii?sort=release%3Adesc",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/66971cd4-31ca-46cf-ae05-ccab9eb4aa81/Terciario-2-1.png",
+                  "alt": "Mormaii"
                 },
                 {
                   "textColor": "primary",
@@ -63,10 +63,10 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/77eccec9-c48f-4dd5-8eb4-8f5c7f57c0cc/Terciario-2-(2).png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/77eccec9-c48f-4dd5-8eb4-8f5c7f57c0cc/Terciario-2-(2).png",
-                  "href": "/euro/relogio?sort=release%3Adesc",
-                  "alt": "Euro"
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/edd825d5-864d-4bee-88bc-64245bc2d833/Terciario-2-(3).png",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/edd825d5-864d-4bee-88bc-64245bc2d833/Terciario-2-(3).png",
+                  "href": "/technos/relogio?sort=release%3Adesc",
+                  "alt": "Technos"
                 }
               ]
             },
