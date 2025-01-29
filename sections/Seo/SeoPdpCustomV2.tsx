@@ -12,11 +12,14 @@ export interface Props extends SeoPdpV2Props {}
 export function loader(props: Props, req: Request, ctx: AppContext) {
   const pdp_seo_deco = seoPdpV2Loader(props, req, ctx);
   const pdp_seo_with_pix_discount = pdp_seo_deco.jsonLDs.map((json_ld) => {
-    const new_json_ld = {
-      ...json_ld,
-      product: fix_data_struct_by_pix_payment(json_ld?.product),
-    };
-    return new_json_ld;
+    if (json_ld && json_ld.product) {
+      const new_json_ld = {
+        ...json_ld,
+        product: fix_data_struct_by_pix_payment(json_ld.product),
+      };
+      json_ld = new_json_ld;
+    }
+    return json_ld;
   });
 
   return {
