@@ -15,7 +15,7 @@ export default defineApp(async (_req, ctx) => {
       <Head>
         {/* Enable View Transitions API */}
         <meta name="view-transition" content="same-origin"/>
-        <link rel="canonical" href={ctx.url.href || ""}/>
+        {/* <link rel="canonical" href={ctx.url.href || ""}/> */}
         {ctx?.url?.href && <meta property="og:url" content={ctx.url.href}/>}
 
         <link rel="preconnect" href="https://fonts.googleapis.com"/>
