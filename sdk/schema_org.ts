@@ -1,11 +1,7 @@
 import { Product } from 'apps/commerce/types.ts';
 import { useOffer } from 'deco-sites/timecenter/utils/useOffer.ts';
 
-export function fix_data_struct_by_pix_payment(
-  product: Product | null | undefined,
-) {
-  if (!product) return product;
-
+export function fix_data_struct_by_pix_payment(product: Product) {
   const { listPrice, priceWithPixDiscount } = useOffer(product.offers);
 
   if (product.offers?.highPrice) {
