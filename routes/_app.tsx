@@ -2,9 +2,12 @@ import { asset, Head } from "$fresh/runtime.ts";
 import { defineApp } from "$fresh/server.ts";
 import Theme from "../sections/Theme/Theme.tsx";
 import { Context } from "@deco/deco";
-const sw = () => addEventListener("load", () => navigator &&
-    navigator.serviceWorker &&
-    navigator.serviceWorker.register("/sw.js"));
+const sw = () => {
+  if (navigator && navigator.serviceWorker) {
+    navigator.serviceWorker.register("/sw.js");
+    navigator.serviceWorker.register("/insider-sw-sdk.js");
+  }
+}
 export default defineApp(async (_req, ctx) => {
     const revision = await Context.active().release?.revision();
     return (<>
