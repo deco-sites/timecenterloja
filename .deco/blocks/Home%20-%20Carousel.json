@@ -12,20 +12,20 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=euro+chains&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=kit+condor&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/28273468-f84e-4289-9fc1-aae8beb822e6/tc_Banner_Desk_chains.png",
-                  "alt": "Euro Chains",
-                  "mobile": "https://data.decoassets.com/timecenterloja/7c6f6462-c3e1-43ef-a525-c3d45b4bb210/tc_Banner_MOB_chains.png"
+                  "desktop": "https://data.decoassets.com/timecenterloja/bf334209-9098-4b8a-b9a6-90227f94328a/Prancheta-1-(81).png",
+                  "alt": "Condor kits",
+                  "mobile": "https://data.decoassets.com/timecenterloja/e8b28065-7c12-4ad8-99e7-b25966db439a/Prancheta-2-(30).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=fossil+townsman"
+                    "href": "/michaelkors/relogio?sort=release%3Adesc"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/aafa76f4-9956-469e-9fa4-f8d2d93cdbf1/tc_Banner_Desk_fossil.png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/23e6369d-2b56-48ac-a67f-55cf5047d010/tc_Banner_MOB_fossil.png",
-                  "alt": "Fossil Townsman"
+                  "desktop": "https://data.decoassets.com/timecenterloja/8de49089-789d-4460-88f9-2b0e30e0c244/Prancheta-1-(80).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/3de71b4e-3822-456f-871f-3082a2fcb735/Prancheta-2-(29).png",
+                  "alt": "Michael Kors"
                 },
                 {
                   "action": {
@@ -39,13 +39,13 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+crystal&O=OrderByReleaseDateDESC",
+                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/6d39cdeb-28d2-4086-ac75-df66359655ad/tc_Banner_desk_crystal.png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/53db4a8e-f3e6-46a0-9885-3d3c5e19266c/tc_Banner_MOB_crystal.png",
-                  "alt": "Crystal"
+                  "desktop": "https://data.decoassets.com/timecenterloja/25efa269-b8cf-4bb3-8edb-c5be4db7aeda/Prancheta-1-(78).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/ae9b0a2b-7fe3-4b65-8fc2-36859c31d371/Prancheta-2-(27).png",
+                  "alt": "Automático"
                 }
               ],
               "showPaginationArrows": "Desktop Only",

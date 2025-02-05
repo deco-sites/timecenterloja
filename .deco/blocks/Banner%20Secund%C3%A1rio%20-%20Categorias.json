@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/08d7e466-aa4c-4dea-8dc7-472b036a34b0/Secundario-2-(3).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/08d7e466-aa4c-4dea-8dc7-472b036a34b0/Secundario-2-(3).png",
-            "href": "/relogio?sort=price%3Aasc&filter.category-1=relogio&filter.price=119.9%3A480&page=1",
-            "alt": "Euro Fashion Fit Reflexos"
+            "image": "https://data.decoassets.com/timecenterloja/32f4746e-7351-4a86-902a-230151380f32/Secundario-2-(4).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/32f4746e-7351-4a86-902a-230151380f32/Secundario-2-(4).png",
+            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+            "alt": "Bazar até 50% off"
           },
           {
             "backgroundColorHover": "primary",
@@ -30,10 +30,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/0158a7dd-5190-4e69-bbb3-9f1a31f6e29e/Secundario-3-(3).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/0158a7dd-5190-4e69-bbb3-9f1a31f6e29e/Secundario-3-(3).png",
-            "href": "/relogio?sort=price%3Aasc&filter.category-1=relogio&filter.price=119.9%3A480&filter.price=480%3A800&page=1",
-            "alt": "Até R$499"
+            "image": "https://data.decoassets.com/timecenterloja/898b7f36-6de1-4026-9c96-b592b1bdf4ae/Secundario-3-(4).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/898b7f36-6de1-4026-9c96-b592b1bdf4ae/Secundario-3-(4).png",
+            "href": "/relogio-euro-feminino-unique-dourado---eu2035yxh-4d/p?skuId=1000026748",
+            "alt": "Euro chocker"
           },
           {
             "backgroundColorHover": "primary",
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/16f0bece-8c31-4092-a275-bbd7112e01fc/Secundario-1-(3).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/16f0bece-8c31-4092-a275-bbd7112e01fc/Secundario-1-(3).png",
-            "href": "/relogio?sort=price%3Aasc&filter.category-1=relogio&filter.price=119.9%3A480&filter.price=480%3A800&page=1",
-            "alt": "Até R$599"
+            "image": "https://data.decoassets.com/timecenterloja/069a17d3-2000-431e-a6f4-0275b9e9fdf6/Secundario-1-(4).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/069a17d3-2000-431e-a6f4-0275b9e9fdf6/Secundario-1-(4).png",
+            "href": "/2568?PS=12&map=productClusterIds&sort=release%3Adesc",
+            "alt": "Pedrarias"
           }
         ],
         "itemPerPageDesktop": 3,
