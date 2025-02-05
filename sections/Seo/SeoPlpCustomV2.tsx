@@ -5,25 +5,39 @@ import {
   loader as seoPlpV2Loader,
 } from 'apps/commerce/sections/Seo/SeoPLPV2.tsx';
 
-export interface Props extends SeoPlpV2Props {}
+/** @title {{{title}}}  */
+interface SeoByUrlItem {
+  /** @title Título */
+  title?: string;
+  /** @title Descrição */
+  description?: string;
+  /** @title URL */
+  url?: string;
+}
+
+export interface Props extends SeoPlpV2Props {
+  /** @title SEO por página */
+  seo_by_url_list?: SeoByUrlItem[];
+}
 
 /** @title PLP Custom V2 */
 export function loader(props: Props, req: Request, ctx: AppContext) {
   const plp_seo_deco = seoPlpV2Loader(props, req, ctx);
 
-  if (
-    plp_seo_deco.jsonLDs &&
-    plp_seo_deco.jsonLDs.length > 0 &&
-    plp_seo_deco.jsonLDs[0] &&
-    plp_seo_deco.jsonLDs[0].breadcrumb
-  ) {
-    return {
-      ...plp_seo_deco,
-      jsonLDs: [plp_seo_deco.jsonLDs[0].breadcrumb],
-    };
-  }
+  const seo_by_url = props.seo_by_url_list?.find(({ url }) =>
+    new URLPattern({ pathname: url }).test(req.url),
+  );
 
-  return { plp_seo_deco };
+  const new_title = seo_by_url?.title || props.title;
+  const new_description = seo_by_url?.description || props.title;
+  const new_json_lds = [plp_seo_deco?.jsonLDs[0]?.breadcrumb] || [];
+
+  return {
+    ...plp_seo_deco,
+    title: new_title,
+    description: new_description,
+    jsonLDs: new_json_lds,
+  };
 }
 
 export function LoadingFallback(props: Partial<Props>) {
