@@ -1,14 +1,22 @@
 import { Head } from "$fresh/runtime.ts";
 import { type Section } from "@deco/deco/blocks";
 export interface Props {
-    title: string;
-    asideMenu: Section;
-    content: Section;
+  title: string;
+  asideMenu: Section;
+  content: Section;
 }
-function InstitutionalPage({ asideMenu: { Component: AsideComponent, props: asideProps }, content: { Component: ContentComponent, props: contentProps }, title, }: Props) {
-    return (<>
+function InstitutionalPage(
+  {
+    asideMenu: { Component: AsideComponent, props: asideProps },
+    content: { Component: ContentComponent, props: contentProps },
+    title,
+  }: Props,
+) {
+  return (
+    <>
       <Head>
-        <style dangerouslySetInnerHTML={{
+        <style
+          dangerouslySetInnerHTML={{
             __html: `
             .linha-divs {
               background-color: #c41c17;
@@ -153,21 +161,23 @@ function InstitutionalPage({ asideMenu: { Component: AsideComponent, props: asid
             }
 
           `,
-        }}/>
+          }}
+        />
       </Head>
       <div>
         {/* Banner Institucional | Suporte */}
       </div>
       <div class="flex flex-col md:flex-row justify-between mt-[15px]">
-        <AsideComponent {...asideProps}/>
+        <AsideComponent {...asideProps} />
         <article class="md:pl-[30px] w-full">
           <h3 class="hidden text-secondary text-[28px] font-medium leading-[36.4px] mb-5 border-b border-neutral-100 pb-[10px] md:block">
             {title}
           </h3>
           {/* @ts-ignore opting for a ignore here so we can use a union type for the content section prop, and display it nicely in the admin panel */}
-          <ContentComponent {...contentProps}/>
+          <ContentComponent {...contentProps} />
         </article>
       </div>
-    </>);
+    </>
+  );
 }
 export default InstitutionalPage;

@@ -1,6 +1,9 @@
 import type { Layout as CardLayout } from "$store/components/product/ProductCard.tsx";
 import ProductCard from "$store/components/product/ProductCard.tsx";
-import { CONDITIONAL_RESPONSIVE_PARAMS, ResponsiveConditionals, } from "$store/components/ui/BannerCarousel.tsx";
+import {
+  CONDITIONAL_RESPONSIVE_PARAMS,
+  ResponsiveConditionals,
+} from "$store/components/ui/BannerCarousel.tsx";
 import Icon from "$store/components/ui/Icon.tsx";
 import Header from "$store/components/ui/SectionHeader.tsx";
 import Slider from "$store/components/ui/Slider.tsx";
@@ -13,132 +16,218 @@ import { HighLight } from "$store/components/product/ProductHighlights.tsx";
 import { useOffer } from "deco-sites/timecenter/utils/useOffer.ts";
 import { type LoaderReturnType } from "@deco/deco";
 export interface Props {
-    products: LoaderReturnType<Product[] | null>;
-    title?: string;
-    highlights?: HighLight[];
-    seeMore?: {
-        url: string;
-        label: string;
-    };
-    layout?: {
-        headerAlignment?: "center" | "left";
-        headerfontSize?: "Normal" | "Large";
-        itemsPerPage?: {
-            screenWidth?: number;
-            itemsQuantity?: number;
-        }[];
-    };
-    /**
-     * @title Show pagination arrows?
-     */
-    showPaginationArrows?: ResponsiveConditionals;
-    /**
-     * @title Show pagination dots?
-     * @default Always
-     */
-    showPaginationDots?: ResponsiveConditionals;
-    cardLayout?: CardLayout;
+  products: LoaderReturnType<Product[] | null>;
+  title?: string;
+  highlights?: HighLight[];
+  seeMore?: {
+    url: string;
+    label: string;
+  };
+  layout?: {
+    headerAlignment?: "center" | "left";
+    headerfontSize?: "Normal" | "Large";
+    itemsPerPage?: {
+      screenWidth?: number;
+      itemsQuantity?: number;
+    }[];
+  };
+  /**
+   * @title Show pagination arrows?
+   */
+  showPaginationArrows?: ResponsiveConditionals;
+  /**
+   * @title Show pagination dots?
+   * @default Always
+   */
+  showPaginationDots?: ResponsiveConditionals;
+  cardLayout?: CardLayout;
 }
 interface ButtonsProps {
-    className: string;
+  className: string;
 }
-function ProductShelf({ products, title, layout, cardLayout, seeMore, showPaginationArrows, showPaginationDots, highlights, }: Props) {
-    const id = useId();
-    if (!products || products.length === 0) {
-        return null;
-    }
-    return (<div class="relative w-full py-8 mb-6 flex flex-col gap-12 lg:gap-7 lg:py-10">
+function ProductShelf(
+  {
+    products,
+    title,
+    layout,
+    cardLayout,
+    seeMore,
+    showPaginationArrows,
+    showPaginationDots,
+    highlights,
+  }: Props,
+) {
+  const id = useId();
+  if (!products || products.length === 0) {
+    return null;
+  }
+  return (
+    <div class="relative w-full py-8 mb-6 flex flex-col gap-12 lg:gap-7 lg:py-10">
       <div class="flex items-center justify-between relative pb-3 border-b border-neutral-100">
-        <Header title={title || ""} description="" fontSize={layout?.headerfontSize || "Large"} alignment={layout?.headerAlignment || "center"}/>
+        <Header
+          title={title || ""}
+          description=""
+          fontSize={layout?.headerfontSize || "Large"}
+          alignment={layout?.headerAlignment || "center"}
+        />
 
         {seeMore
-            ? (<span class="text-accent font-bold text-sm uppercase">
+          ? (
+            <span class="text-accent font-bold text-sm uppercase">
               <a href={seeMore.url}>
                 {seeMore.label}
               </a>
-            </span>)
-            : null}
+            </span>
+          )
+          : null}
       </div>
 
-      <div id={id} class="grid grid-cols-[35px_1fr_35px] lg:grid-cols-[48px_1fr_48px] px-0">
+      <div
+        id={id}
+        class="grid grid-cols-[35px_1fr_35px] lg:grid-cols-[48px_1fr_48px] px-0"
+      >
         <Slider class="carousel carousel-start gap-6 col-start-2 col-end-3 row-span-full">
-          {products?.map((product, index) => (<Slider.Item index={index} class="carousel-item w-[270px]">
-              <ProductCard product={product} itemListName={title} layout={cardLayout} highlights={highlights}/>
-            </Slider.Item>))}
+          {products?.map((product, index) => (
+            <Slider.Item index={index} class="carousel-item w-[270px]">
+              <ProductCard
+                product={product}
+                itemListName={title}
+                layout={cardLayout}
+                highlights={highlights}
+              />
+            </Slider.Item>
+          ))}
         </Slider>
 
-        <Buttons className={CONDITIONAL_RESPONSIVE_PARAMS[showPaginationArrows ? showPaginationArrows : "Always"]}/>
+        <Buttons
+          className={CONDITIONAL_RESPONSIVE_PARAMS[
+            showPaginationArrows ? showPaginationArrows : "Always"
+          ]}
+        />
 
-        <Dots products={products} className={CONDITIONAL_RESPONSIVE_PARAMS[showPaginationDots ? showPaginationDots : "Always"]}/>
+        <Dots
+          products={products}
+          className={CONDITIONAL_RESPONSIVE_PARAMS[
+            showPaginationDots ? showPaginationDots : "Always"
+          ]}
+        />
 
-        <SendEventOnLoad event={{
+        <SendEventOnLoad
+          event={{
             name: "view_item_list",
             params: {
-                item_list_name: title,
-                items: products.map((product, index) => mapProductToAnalyticsItem({
-                    product,
-                    ...({ index: index }),
-                    ...(useOffer(product.offers)),
-                })),
+              item_list_name: title,
+              items: products.map((product, index) =>
+                mapProductToAnalyticsItem({
+                  product,
+                  ...({ index: index }),
+                  ...(useOffer(product.offers)),
+                })
+              ),
             },
-        }}/>
+          }}
+        />
 
-        <SliderJS rootId={id} itemsPerPage={layout?.itemsPerPage?.reduce((initial, { screenWidth, itemsQuantity }) => ({
-            ...initial,
-            [screenWidth?.toString() ?? "0"]: itemsQuantity ?? 1,
-        }), {})}/>
+        <SliderJS
+          rootId={id}
+          itemsPerPage={layout?.itemsPerPage?.reduce(
+            (initial, { screenWidth, itemsQuantity }) => ({
+              ...initial,
+              [screenWidth?.toString() ?? "0"]: itemsQuantity ?? 1,
+            }),
+            {},
+          )}
+        />
       </div>
-    </div>);
+    </div>
+  );
 }
 function Buttons({ className }: ButtonsProps) {
-    return (<>
-      <div class={`absolute top-2/4 lg:-left-11 left-2 z-10 col-start-1 row-start-3  ${className}`}>
-        <Slider.PrevButton style={{
+  return (
+    <>
+      <div
+        class={`absolute top-2/4 lg:-left-11 left-2 z-10 col-start-1 row-start-3  ${className}`}
+      >
+        <Slider.PrevButton
+          style={{
             minHeight: "28px",
-        }} class="w-8 h-8 btn btn-circle opacity-100 bg-opacity-100  bg-neutral-100 border-none hover:bg-neutral-100">
-          <Icon size={20} id="ChevronLeft" strokeWidth={3} class="text-base-content"/>
+          }}
+          class="w-8 h-8 btn btn-circle opacity-100 bg-opacity-100  bg-neutral-100 border-none hover:bg-neutral-100"
+        >
+          <Icon
+            size={20}
+            id="ChevronLeft"
+            strokeWidth={3}
+            class="text-base-content"
+          />
         </Slider.PrevButton>
       </div>
-      <div class={`absolute top-2/4 lg:-right-11 right-2  z-10 col-start-3 row-start-3 ${className}`}>
-        <Slider.NextButton style={{
+      <div
+        class={`absolute top-2/4 lg:-right-11 right-2  z-10 col-start-3 row-start-3 ${className}`}
+      >
+        <Slider.NextButton
+          style={{
             minHeight: "28px",
-        }} class="w-8 h-8 min-h-fit btn btn-circle opacity-100 bg-opacity-100  bg-neutral-100 border-none hover:bg-neutral-100">
-          <Icon size={20} id="ChevronRight" strokeWidth={3} class="text-base-content"/>
+          }}
+          class="w-8 h-8 min-h-fit btn btn-circle opacity-100 bg-opacity-100  bg-neutral-100 border-none hover:bg-neutral-100"
+        >
+          <Icon
+            size={20}
+            id="ChevronRight"
+            strokeWidth={3}
+            class="text-base-content"
+          />
         </Slider.NextButton>
       </div>
-    </>);
+    </>
+  );
 }
 interface DotsProps {
-    products: LoaderReturnType<Product[] | null>;
-    /**
-     * @description Check this option when this banner is the biggest image on the screen for image optimizations
-     */
-    interval?: number;
-    /**
-     * @title Show pagination arrows?
-     */
-    className: string;
+  products: LoaderReturnType<Product[] | null>;
+  /**
+   * @description Check this option when this banner is the biggest image on the screen for image optimizations
+   */
+  interval?: number;
+  /**
+   * @title Show pagination arrows?
+   */
+  className: string;
 }
 function Dots({ products, className, interval = 0 }: DotsProps) {
-    return (<>
-      <style dangerouslySetInnerHTML={{
-            __html: `
+  return (
+    <>
+      <style
+        dangerouslySetInnerHTML={{
+          __html: `
           @property --dot-progress {
             syntax: '<percentage>';
             inherits: false;
             initial-value: 0%;
           }
           `,
-        }}/>
-      <ul class={`carousel absolute w-full left-0 -bottom-4 justify-center col-span-full gap-2 z-10 row-start-4  ${className}`}>
-        {products?.map((_, index) => (<li class="carousel-item">
+        }}
+      />
+      <ul
+        class={`carousel absolute w-full left-0 -bottom-4 justify-center col-span-full gap-2 z-10 row-start-4  ${className}`}
+      >
+        {products?.map((_, index) => (
+          <li class="carousel-item">
             <Slider.Dot index={index}>
-              <div class={`py-5 ${((index === 0) || (index % 4 === 0)) ? "" : "lg:hidden"}`}>
-                <div class="w-3 h-3 group-disabled:opacity-100 opacity-10 rounded-full bg-primary" style={{ animationDuration: `${interval}s` }}/>
+              <div
+                class={`py-5 ${
+                  ((index === 0) || (index % 4 === 0)) ? "" : "lg:hidden"
+                }`}
+              >
+                <div
+                  class="w-3 h-3 group-disabled:opacity-100 opacity-10 rounded-full bg-primary"
+                  style={{ animationDuration: `${interval}s` }}
+                />
               </div>
             </Slider.Dot>
-          </li>))}
+          </li>
+        ))}
       </ul>
-    </>);
+    </>
+  );
 }
 export default ProductShelf;

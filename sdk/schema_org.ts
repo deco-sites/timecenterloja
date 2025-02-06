@@ -1,5 +1,5 @@
-import { Product } from 'apps/commerce/types.ts';
-import { useOffer } from 'deco-sites/timecenter/utils/useOffer.ts';
+import { Product } from "apps/commerce/types.ts";
+import { useOffer } from "deco-sites/timecenter/utils/useOffer.ts";
 
 export function fix_data_struct_by_pix_payment(product: Product) {
   const { listPrice, priceWithPixDiscount } = useOffer(product.offers);
@@ -15,14 +15,14 @@ export function fix_data_struct_by_pix_payment(product: Product) {
   if (product.offers?.offers) {
     if (
       product.offers.offers[0].priceSpecification[0].priceType ===
-      'https://schema.org/ListPrice'
+        "https://schema.org/ListPrice"
     ) {
       product.offers.offers[0].priceSpecification[0].price = listPrice;
     }
 
     if (
       product.offers.offers[0].priceSpecification[1].priceType ===
-      'https://schema.org/SalePrice'
+        "https://schema.org/SalePrice"
     ) {
       product.offers.offers[0].priceSpecification[1].price =
         priceWithPixDiscount;

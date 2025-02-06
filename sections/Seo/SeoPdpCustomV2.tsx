@@ -1,10 +1,10 @@
-import { AppContext } from 'apps/commerce/mod.ts';
-import Seo, { SEOSection } from 'apps/website/components/Seo.tsx';
+import { AppContext } from "apps/commerce/mod.ts";
+import Seo, { SEOSection } from "apps/website/components/Seo.tsx";
 import {
-  Props as SeoPdpV2Props,
   loader as seoPdpV2Loader,
-} from 'apps/commerce/sections/Seo/SeoPDPV2.tsx';
-import { fix_data_struct_by_pix_payment } from 'deco-sites/timecenter/sdk/schema_org.ts';
+  Props as SeoPdpV2Props,
+} from "apps/commerce/sections/Seo/SeoPDPV2.tsx";
+import { fix_data_struct_by_pix_payment } from "deco-sites/timecenter/sdk/schema_org.ts";
 
 export interface Props extends SeoPdpV2Props {}
 
@@ -36,4 +36,4 @@ export default function Section(props: Props): SEOSection {
   return <Seo {...props} />;
 }
 
-export { default as Preview } from 'apps/website/components/_seo/Preview.tsx';
+export { default as Preview } from "apps/website/components/_seo/Preview.tsx";
