@@ -23,7 +23,6 @@ export interface Props extends SeoPlpV2Props {
 /** @title PLP Custom V2 */
 export function loader(props: Props, req: Request, ctx: AppContext) {
   const plp_seo_deco = seoPlpV2Loader(props, req, ctx);
-
   const seo_by_url = props.seo_by_url_list?.find(({ url }) =>
     new URLPattern({ pathname: url }).test(req.url)
   );
