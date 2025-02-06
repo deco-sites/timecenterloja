@@ -22,9 +22,13 @@ export function loader(props: Props, req: Request, ctx: AppContext) {
     return json_ld;
   });
 
+  const url = new URL(req.url);
+  const new_canonical = `${url.origin}${url.pathname}`;
+
   return {
     ...pdp_seo_deco,
     jsonLDs: pdp_seo_with_pix_discount,
+    canonical: new_canonical,
   };
 }
 
