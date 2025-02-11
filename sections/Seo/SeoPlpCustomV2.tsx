@@ -29,7 +29,8 @@ export function loader(props: Props, req: Request, ctx: AppContext) {
 
   const new_title = seo_by_url?.title || props.title;
   const new_description = seo_by_url?.description || props.title;
-  const new_json_lds = [plp_seo_deco?.jsonLDs[0]?.breadcrumb] || [];
+  const new_json_lds = plp_seo_deco?.jsonLDs[0]?.breadcrumb ?
+    [plp_seo_deco?.jsonLDs[0]?.breadcrumb] : [];
   const url = new URL(req.url);
   const new_canonical = props.canonical || `${url.origin}${url.pathname}`;
 
