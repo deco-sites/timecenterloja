@@ -15,10 +15,12 @@ interface SeoByUrlItem {
   url?: string;
 }
 
-export interface Props extends SeoPlpV2Props {
+export interface AllProps extends SeoPlpV2Props {
   /** @title SEO por página */
   seo_by_url_list?: SeoByUrlItem[];
 }
+
+type Props = Omit<AllProps, "canonical">;
 
 /** @title PLP Custom V2 */
 export function loader(props: Props, req: Request, ctx: AppContext) {
