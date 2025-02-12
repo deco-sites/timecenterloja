@@ -185,23 +185,18 @@
     },
     {
       "__resolveType": "Footer Global"
-    },
-    {
-      "__resolveType": "site/sections/Seo/SeoPLPV6.tsx",
-      "page": {
-        "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-        "sort": "price:desc",
-        "fuzzy": "automatic",
-        "selectedFacets": [],
-        "count": 12
-      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "__resolveType": "site/sections/Seo/SeoPlpCustomV2.tsx",
     "jsonLD": {
-      "__resolveType": "PLP Loader"
-    }
+      "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
+      "sort": "price:desc",
+      "fuzzy": "automatic",
+      "selectedFacets": [],
+      "count": 48
+    },
+    "seo_by_url_list": []
   }
 }
