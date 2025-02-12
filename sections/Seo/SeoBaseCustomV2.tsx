@@ -1,18 +1,29 @@
-import { AppContext } from 'apps/commerce/mod.ts';
+import { AppContext } from 'apps/website/mod.ts';
 import Seo, {
   SEOSection,
   Props as SeoDecoProps,
 } from 'apps/website/components/Seo.tsx';
+import { loader as seoV2Loader } from 'apps/website/sections/Seo/SeoV2.tsx';
 
-export interface Props extends SeoDecoProps {}
+type Props = Pick<
+  SeoDecoProps,
+  | 'title'
+  | 'description'
+  | 'type'
+  | 'favicon'
+  | 'image'
+  | 'themeColor'
+  | 'noIndexing'
+>;
 
 /** @title Base Custom V2 */
-export function loader(props: Props, req: Request, _ctx: AppContext) {
+export function loader(props: Props, req: Request, ctx: AppContext) {
+  const seo_base_deco = seoV2Loader(props, req, ctx);
   const url = new URL(req.url);
-  const new_canonical = props.canonical || `${url.origin}${url.pathname}`;
+  const new_canonical = `${url.origin}${url.pathname}`;
 
   return {
-    ...props,
+    ...seo_base_deco,
     canonical: new_canonical,
   };
 }
