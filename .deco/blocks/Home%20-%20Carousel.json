@@ -54,7 +54,9 @@
               "preload": true
             },
             "rule": {
-              "__resolveType": "website/matchers/always.ts"
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-02-12T03:00:00.000Z",
+              "end": "2025-02-15T02:59:00.000Z"
             }
           },
           {
@@ -64,30 +66,30 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=watch+ring&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/7cd2f3ad-5973-4c8e-95be-1c94443dbdd2/23_01.gif",
-                  "alt": "Cyber 20% OFF",
-                  "mobile": "https://data.decoassets.com/timecenterloja/68e9bf4a-8ef3-4c25-b7f1-2ec84c7f84ef/Prancheta-2-(24).png"
+                  "desktop": "https://data.decoassets.com/timecenterloja/c9dc1338-a8e2-447c-8650-e3f28a0fa7ec/Prancheta-1-(91).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/e94c3e4d-cdc3-4d55-84f2-c01504e79a0c/Prancheta-2-(32).png",
+                  "alt": "Fossil "
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
-                  },
-                  "desktop": "https://data.decoassets.com/timecenterloja/4665d43c-d024-4c96-a6ca-acb4137b3afb/Prancheta-1-(57).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/68e9bf4a-8ef3-4c25-b7f1-2ec84c7f84ef/Prancheta-2-(24).png",
-                  "alt": "Cyber 20% OFF"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=technos+carbon&O=OrderByReleaseDateDESC",
+                    "href": "/mormaii/relogio?sort=release%3Adesc",
                     "title": "Elos"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/b08dc05d-f25b-4d97-a1c1-951bf78d6a3d/Prancheta-1-(58).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/4f377ae1-abf4-47c0-a086-18597103c6e3/tc_Banner_MOB_1carbon.png",
-                  "alt": "Carbon"
+                  "desktop": "https://data.decoassets.com/timecenterloja/8dc5308a-35a5-4f17-9bb4-1c38f13bff89/Prancheta-1-(92).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/036f80aa-a191-445f-a78d-f4c171dc5d18/Prancheta-2-(33).png",
+                  "alt": "Mormaii"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                  },
+                  "desktop": "https://data.decoassets.com/timecenterloja/6438372d-2e5e-445f-a459-b0eaf2fed810/Prancheta-1-(90).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/f97466d2-300c-4e95-9ad9-72d788b20fb1/Prancheta-2-(31).png",
+                  "alt": "Bazar"
                 },
                 {
                   "action": {
@@ -99,16 +101,6 @@
                   "desktop": "https://data.decoassets.com/timecenterloja/cb679380-3210-4f9e-8108-0a6645f1b050/Prancheta-1-(60).png",
                   "mobile": "https://data.decoassets.com/timecenterloja/dfd76612-23ce-4cda-bffc-2c55bad02691/Prancheta-2-(26).png",
                   "alt": "Euro chocker"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
-                    "title": "Internacionais "
-                  },
-                  "desktop": "https://data.decoassets.com/timecenterloja/6cc0814a-1e90-4af2-8466-9619927ba4b8/Prancheta-1-(59).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/43905a36-3349-411a-9afd-734df9458800/Prancheta-2-(25).png",
-                  "alt": "Cyber Euro"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -118,8 +110,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-01-16T02:59:00.000Z",
-              "start": "2025-01-02T03:00:00.000Z"
+              "end": "2025-02-22T02:59:00.000Z",
+              "start": "2025-02-15T03:00:00.000Z"
             }
           }
         ]
