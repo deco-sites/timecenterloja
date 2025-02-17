@@ -15,10 +15,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/32f4746e-7351-4a86-902a-230151380f32/Secundario-2-(4).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/32f4746e-7351-4a86-902a-230151380f32/Secundario-2-(4).png",
-            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
-            "alt": "Bazar até 50% off"
+            "image": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
+            "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC",
+            "alt": "Seleção de brilho"
           },
           {
             "backgroundColorHover": "primary",
@@ -30,9 +30,9 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/898b7f36-6de1-4026-9c96-b592b1bdf4ae/Secundario-3-(4).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/898b7f36-6de1-4026-9c96-b592b1bdf4ae/Secundario-3-(4).png",
-            "href": "/relogio-euro-feminino-unique-dourado---eu2035yxh-4d/p?skuId=1000026748",
+            "image": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
+            "href": "/s?q=euro+soul",
             "alt": "Euro chocker"
           },
           {
@@ -45,10 +45,10 @@
               "mobile": "none",
               "desktop": "none"
             },
-            "image": "https://data.decoassets.com/timecenterloja/069a17d3-2000-431e-a6f4-0275b9e9fdf6/Secundario-1-(4).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/069a17d3-2000-431e-a6f4-0275b9e9fdf6/Secundario-1-(4).png",
-            "href": "/2568?PS=12&map=productClusterIds&sort=release%3Adesc",
-            "alt": "Pedrarias"
+            "image": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
+            "imageMobile": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
+            "href": "/2030?PS=12&map=productClusterIds&sort=release%3Adesc",
+            "alt": "Internacionais"
           }
         ],
         "itemPerPageDesktop": 3,
