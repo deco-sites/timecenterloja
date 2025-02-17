@@ -75,5 +75,14 @@
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
-  "path": "/"
+  "path": "/",
+  "seo": {
+    "titleTemplate": "%s | Time Center",
+    "descriptionTemplate": "%s | Time Center",
+    "type": "website",
+    "jsonLDs": [],
+    "__resolveType": "site/sections/Seo/SeoBaseCustomV2.tsx",
+    "title": "Time Center | Relógios Originais Nacionais e Importados",
+    "description": "A Timecenter oferece a maior variedade em relógios nacionais e importados. Produtos originais Technos, Diesel, Euro, Michael Kors e muito mais em até 10x. Compra segura."
+  }
 }
