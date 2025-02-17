@@ -1,10 +1,11 @@
 import { AppContext } from 'apps/commerce/mod.ts';
-import Seo, { SEOSection } from 'apps/website/components/Seo.tsx';
 import {
   loader as seoPdpV2Loader,
   Props as SeoPdpV2Props,
 } from 'apps/commerce/sections/Seo/SeoPDPV2.tsx';
 import { fix_data_struct_by_pix_payment } from 'deco-sites/timecenter/sdk/schema_org.ts';
+import { SEOSection } from 'apps/website/components/Seo.tsx';
+import Seo from 'deco-sites/timecenter/components/seo/SeoBaseCustomV2.tsx';
 
 export interface Props extends SeoPdpV2Props {}
 
@@ -24,9 +25,13 @@ export function loader(props: Props, req: Request, ctx: AppContext) {
 
   delete pdp_seo_deco.canonical;
 
+  const url_formatted = new URL(req.url);
+  const has_url_query_string = url_formatted.search !== '';
+
   return {
     ...pdp_seo_deco,
     jsonLDs: pdp_seo_with_pix_discount,
+    has_url_query_string,
   };
 }
 
