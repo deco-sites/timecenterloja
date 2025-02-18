@@ -4,7 +4,7 @@ import {
   Props as SeoPlpV2Props,
 } from 'apps/commerce/sections/Seo/SeoPLPV2.tsx';
 import { SEOSection } from 'apps/website/components/Seo.tsx';
-import Seo from 'deco-sites/timecenter/components/seo/SeoBaseCustomV2.tsx';
+import Seo from 'deco-sites/timecenter/sections/Seo/SeoBaseCustomV2.tsx';
 
 /** @title {{{title}}}  */
 interface SeoByUrlItem {
