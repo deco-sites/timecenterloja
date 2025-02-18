@@ -5,7 +5,7 @@ import {
 } from 'apps/commerce/sections/Seo/SeoPDPV2.tsx';
 import { fix_data_struct_by_pix_payment } from 'deco-sites/timecenter/sdk/schema_org.ts';
 import { SEOSection } from 'apps/website/components/Seo.tsx';
-import Seo from 'deco-sites/timecenter/components/seo/SeoBaseCustomV2.tsx';
+import Seo from 'deco-sites/timecenter/sections/Seo/SeoBaseCustomV2.tsx';
 
 export interface Props extends SeoPdpV2Props {}
 
