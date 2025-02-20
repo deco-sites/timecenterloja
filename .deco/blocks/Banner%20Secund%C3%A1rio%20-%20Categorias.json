@@ -3,56 +3,66 @@
   "sections": [
     {
       "section": {
-        "__resolveType": "site/sections/Images/ImageGallery.tsx",
-        "images": [
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
           {
-            "backgroundColorHover": "primary",
-            "borderRadius": {
-              "mobile": "xl",
-              "desktop": "xl"
+            "value": {
+              "__resolveType": "site/sections/Images/ImageGallery.tsx",
+              "images": [
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
+                  "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC",
+                  "alt": "Seleção de brilho"
+                },
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
+                  "href": "/s?q=euro+soul",
+                  "alt": "Euro chocker"
+                },
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
+                  "href": "/2030?PS=12&map=productClusterIds&sort=release%3Adesc",
+                  "alt": "Internacionais"
+                }
+              ],
+              "itemPerPageDesktop": 3,
+              "itemPerPageMobile": 1
             },
-            "borderSize": {
-              "mobile": "none",
-              "desktop": "none"
-            },
-            "image": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
-            "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC",
-            "alt": "Seleção de brilho"
-          },
-          {
-            "backgroundColorHover": "primary",
-            "borderRadius": {
-              "mobile": "xl",
-              "desktop": "xl"
-            },
-            "borderSize": {
-              "mobile": "none",
-              "desktop": "none"
-            },
-            "image": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
-            "href": "/s?q=euro+soul",
-            "alt": "Euro chocker"
-          },
-          {
-            "backgroundColorHover": "primary",
-            "borderRadius": {
-              "mobile": "xl",
-              "desktop": "xl"
-            },
-            "borderSize": {
-              "mobile": "none",
-              "desktop": "none"
-            },
-            "image": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
-            "imageMobile": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
-            "href": "/2030?PS=12&map=productClusterIds&sort=release%3Adesc",
-            "alt": "Internacionais"
+            "rule": {
+              "__resolveType": "website/matchers/always.ts"
+            }
           }
-        ],
-        "itemPerPageDesktop": 3,
-        "itemPerPageMobile": 1
+        ]
       },
       "shadow": "none",
       "overFlow": "overflow-none",

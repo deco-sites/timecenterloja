@@ -582,12 +582,6 @@
                     "href": "/skagen/relogio"
                   },
                   {
-                    "href": "/skechers/relogio",
-                    "label": "Skechers",
-                    "children": [],
-                    "showLabel": true
-                  },
-                  {
                     "href": "/technos/relogio",
                     "label": "Technos",
                     "children": [],
