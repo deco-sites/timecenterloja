@@ -33,10 +33,10 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/d6e233cc-92b7-47ae-967c-aac3e62f94e3/Terciario-1-(4).png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/d6e233cc-92b7-47ae-967c-aac3e62f94e3/Terciario-1-(4).png",
-                  "alt": "Relogios acessorios",
-                  "href": "/s?q=euro+unique&O=OrderByReleaseDateDESC",
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/4232359e-ebd4-440e-9419-1e9f820dcc28/Terciario-1-(5).png",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/4232359e-ebd4-440e-9419-1e9f820dcc28/Terciario-1-(5).png",
+                  "alt": "FOSSIL",
+                  "href": "/fossil/relogio",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2
@@ -50,10 +50,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/c325844d-641a-454b-bd1c-02952dc7bb28/Terciario-2-(4).png",
-                  "href": "/fossil/relogio?sort=release%3Adesc",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/c325844d-641a-454b-bd1c-02952dc7bb28/Terciario-2-(4).png",
-                  "alt": "Fossil"
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/0a06b4d4-1d5e-46a7-a0e0-a3bf2046266d/Terciario-2-2-(1).png",
+                  "href": "/technos/relogio",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/0a06b4d4-1d5e-46a7-a0e0-a3bf2046266d/Terciario-2-2-(1).png",
+                  "alt": "Technos"
                 },
                 {
                   "textColor": "primary",
@@ -63,10 +63,10 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/96a7082b-bf6b-46ff-b204-03ba3c8fda3f/Terciario-2-1-(1).png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/96a7082b-bf6b-46ff-b204-03ba3c8fda3f/Terciario-2-1-(1).png",
-                  "href": "/s?q=kids",
-                  "alt": "Condor kids"
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/da2f9a6a-010a-45b1-b958-b70ecb520dca/Terciario-2-(5).png",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/da2f9a6a-010a-45b1-b958-b70ecb520dca/Terciario-2-(5).png",
+                  "href": "/dumont/relogio",
+                  "alt": "Dumont"
                 }
               ]
             },
