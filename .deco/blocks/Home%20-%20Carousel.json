@@ -85,15 +85,6 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
-                  },
-                  "desktop": "https://data.decoassets.com/timecenterloja/6438372d-2e5e-445f-a459-b0eaf2fed810/Prancheta-1-(90).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/f97466d2-300c-4e95-9ad9-72d788b20fb1/Prancheta-2-(31).png",
-                  "alt": "Bazar"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
                     "href": "/s?q=EU2035YXH%2F4D",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
@@ -101,6 +92,15 @@
                   "desktop": "https://data.decoassets.com/timecenterloja/cb679380-3210-4f9e-8108-0a6645f1b050/Prancheta-1-(60).png",
                   "mobile": "https://data.decoassets.com/timecenterloja/dfd76612-23ce-4cda-bffc-2c55bad02691/Prancheta-2-(26).png",
                   "alt": "Euro chocker"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                  },
+                  "desktop": "https://data.decoassets.com/timecenterloja/6438372d-2e5e-445f-a459-b0eaf2fed810/Prancheta-1-(90).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/f97466d2-300c-4e95-9ad9-72d788b20fb1/Prancheta-2-(31).png",
+                  "alt": "Bazar"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -110,7 +110,7 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-02-22T02:59:00.000Z",
+              "end": "2025-03-01T02:59:00.000Z",
               "start": "2025-02-15T03:00:00.000Z"
             }
           }
