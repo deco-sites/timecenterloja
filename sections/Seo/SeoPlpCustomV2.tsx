@@ -1,10 +1,11 @@
 import { AppContext } from 'apps/commerce/mod.ts';
+import type { SectionProps } from 'deco/types.ts';
 import {
   loader as seoPlpV2Loader,
   Props as SeoPlpV2Props,
 } from 'apps/commerce/sections/Seo/SeoPLPV2.tsx';
 import { SEOSection } from 'apps/website/components/Seo.tsx';
-import Seo from 'deco-sites/timecenter/sections/Seo/SeoBaseCustomV2.tsx';
+import SeoBaseCustomV2 from 'deco-sites/timecenter/sections/Seo/SeoBaseCustomV2.tsx';
 
 /** @title {{{title}}}  */
 interface SeoByUrlItem {
@@ -19,6 +20,8 @@ interface SeoByUrlItem {
 export interface AllProps extends SeoPlpV2Props {
   /** @title SEO por página */
   seo_by_url_list?: SeoByUrlItem[];
+  /** @ignore true */
+  has_url_query_string: boolean;
 }
 
 type Props = Omit<AllProps, 'canonical'>;
@@ -42,19 +45,27 @@ export function loader(props: Props, req: Request, ctx: AppContext) {
 
   return {
     ...plp_seo_deco,
-    title: new_title,
-    description: new_description,
+    title: new_title || '',
+    description: new_description || '',
     jsonLDs: new_json_lds,
     has_url_query_string,
+    titleTemplate: (ctx.seo && ctx.seo.titleTemplate) || '%s',
+    descriptionTemplate: (ctx.seo && ctx.seo.descriptionTemplate) || '%s',
   };
 }
 
-export function LoadingFallback(props: Partial<Props>) {
-  return <Seo {...props} />;
+export function LoadingFallback(props: Partial<SectionProps<typeof loader>>) {
+  return (
+    <SeoBaseCustomV2
+      {...{ ...props, has_url_query_string: !!props.has_url_query_string }}
+    />
+  );
 }
 
-export default function Section(props: Props): SEOSection {
-  return <Seo {...props} />;
+export default function Section(
+  props: SectionProps<typeof loader>,
+): SEOSection {
+  return <SeoBaseCustomV2 {...props} />;
 }
 
 export { default as Preview } from 'apps/website/components/_seo/Preview.tsx';
