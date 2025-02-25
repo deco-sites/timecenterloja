@@ -1,1 +1,18 @@
-{"name":"Login","path":"/my-account/login","sections":[{"__resolveType":"Header Global"},{"__resolveType":"Footer Global"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Login",
+  "path": "/my-account/login",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "type": "website",
+    "jsonLDs": [],
+    "__resolveType": "site/sections/Seo/SeoBaseCustomV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
