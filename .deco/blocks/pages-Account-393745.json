@@ -14,7 +14,9 @@
     }
   ],
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    "type": "website",
+    "jsonLDs": [],
+    "__resolveType": "site/sections/Seo/SeoBaseCustomV2.tsx"
   },
   "__resolveType": "website/pages/Page.tsx"
 }

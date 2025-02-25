@@ -1,1 +1,41 @@
-{"name":"Garantia","path":"/institucional/garantia","sections":[{"__resolveType":"Header Global"},{"__resolveType":"site/sections/Container.tsx","sections":[{"section":{"__resolveType":"site/sections/Institutional/InstitutionalPage.tsx","asideMenu":{"__resolveType":"AsideMenu"},"content":{"__resolveType":"site/sections/Institutional/TextContent.tsx","content":"<div class=\"accordion-content\" style=\"overflow: hidden; display: block;\" data-mce-style=\"overflow: hidden; display: block;\"><p class=\"mb-3\">A garantia oferecida refere-se a eventuais defeitos na fabricação dos componentes do relógio. O período total coberto pela garantia será de 12 (doze) meses, sendo 03 (três) meses concedidos conforme a Lei 8.078 (Código de Defesa do Consumidor) mais 09 (nove) meses como bonificação do fabricante, perfazendo um total de 12 (doze) meses de garantia total para o produto, a contar da data de extração da Nota fiscal, fornecida pelo revendedor, que deverá ficar anexada a este Certificado de garantia.</p><p class=\"mb-3\">Em caso de defeitos cobertos por esta garantia no prazo estipulado, o seu relógio será reparado ou substituído gratuitamente.</p><p class=\"mb-3\"><strong>A GARANTIA NÃO COBRE:</strong></p><ul><li>Vidro, pulseira, parte externa, coroa e pino;</li><li>Danos resultantes de utilização inadequada, acidentes ou desgaste natural;</li><li>Eventuais danos indiretamente provocados pelo uso que causem imprecisão ou o não funcionamento do relógio;</li><li>Danos causados pela água quando a Tabela de Resistência indicar que o mesmo não é resistente à água. Verifique na tabela referente a “resistência à água” em qual categoria seu relógio se encaixa.</li><li>Danos ocasionados pelo vapor de água de chuveiro que com exposição constante nesta situação, danificam a parte interna do produto.</li></ul><p class=\"mb-3\">Caso seja necessária a troca do produto, a eurorelogios.com.br não garante que seja entregue o mesmo modelo, mas o usuário poderá escolher modelo de sua preferência que tenha custo compatível e que tenha disponibilidade em nosso estoque.</p><p class=\"mb-3\">Para relógios fora do prazo de garantia ou de serviços que não são cobertos pela garantia do Grupo Technos, as autorizadas efetuarão o reparo mediante orçamento previamente aprovado pelo usuário. A garantia expira automaticamente caso o relógio seja aberto ou reparado por pessoa ou assistência não autorizada pelo Grupo Technos.</p><p class=\"mb-3\">As despesas decorrentes com a remessa de encomenda postal, seguro ou transporte são de responsabilidade única e exclusiva do proprietário do relógio até a autorizada. <br>Esta garantia não se sobrepõe aos direitos do consumidor no país em que este produto foi adquirido. Em casos especiais, não especificados nesta garantia, será acatada a legislação vigente.</p><p class=\"mb-3\">Lembre-se de que nenhum produto, mesmo os que possuem resistência à água podem ser expostos ao vapor do chuveiro, seja durante o banho ou no local do banho, pois o mesmo danifica a parte interna do produto, gerando danos irreversíveis ao mecanismo do seu relógio.</p><p class=\"mb-3\">Mantenha o seu relógio longe da exposição ao sol constante em altas temperaturas e também contato com produtos químicos, tais como acetona, perfume, álcool, etc. Não utilize relógios com resistência à água inferior a 5ATM para mergulhos em piscina ou mar. Informamos também que quedas ou colisões ocorridas com o seu relógio Euro poderão causar danos. Salientamos que em todos esses casos serão caracterizados como utilização indevida do produto e não serão cobertos pela garantia.</p><p class=\"mb-3\"><img src=\"//eurorelogios.web747.kinghost.net/images/tabela-garantia.png\" alt=\"\" data-mce-src=\"//eurorelogios.web747.kinghost.net/images/tabela-garantia.png\"></p></div>"},"title":"Garantia"},"shadow":"none","overFlow":"overflow-none","verticalSpacing":"both","label":"Institutional Page","withContainer":true}]},{"__resolveType":"Footer Global"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "Garantia",
+  "path": "/institucional/garantia",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<div class=\"accordion-content\" style=\"overflow: hidden; display: block;\" data-mce-style=\"overflow: hidden; display: block;\"><p class=\"mb-3\">A garantia oferecida refere-se a eventuais defeitos na fabricação dos componentes do relógio. O período total coberto pela garantia será de 12 (doze) meses, sendo 03 (três) meses concedidos conforme a Lei 8.078 (Código de Defesa do Consumidor) mais 09 (nove) meses como bonificação do fabricante, perfazendo um total de 12 (doze) meses de garantia total para o produto, a contar da data de extração da Nota fiscal, fornecida pelo revendedor, que deverá ficar anexada a este Certificado de garantia.</p><p class=\"mb-3\">Em caso de defeitos cobertos por esta garantia no prazo estipulado, o seu relógio será reparado ou substituído gratuitamente.</p><p class=\"mb-3\"><strong>A GARANTIA NÃO COBRE:</strong></p><ul><li>Vidro, pulseira, parte externa, coroa e pino;</li><li>Danos resultantes de utilização inadequada, acidentes ou desgaste natural;</li><li>Eventuais danos indiretamente provocados pelo uso que causem imprecisão ou o não funcionamento do relógio;</li><li>Danos causados pela água quando a Tabela de Resistência indicar que o mesmo não é resistente à água. Verifique na tabela referente a “resistência à água” em qual categoria seu relógio se encaixa.</li><li>Danos ocasionados pelo vapor de água de chuveiro que com exposição constante nesta situação, danificam a parte interna do produto.</li></ul><p class=\"mb-3\">Caso seja necessária a troca do produto, a eurorelogios.com.br não garante que seja entregue o mesmo modelo, mas o usuário poderá escolher modelo de sua preferência que tenha custo compatível e que tenha disponibilidade em nosso estoque.</p><p class=\"mb-3\">Para relógios fora do prazo de garantia ou de serviços que não são cobertos pela garantia do Grupo Technos, as autorizadas efetuarão o reparo mediante orçamento previamente aprovado pelo usuário. A garantia expira automaticamente caso o relógio seja aberto ou reparado por pessoa ou assistência não autorizada pelo Grupo Technos.</p><p class=\"mb-3\">As despesas decorrentes com a remessa de encomenda postal, seguro ou transporte são de responsabilidade única e exclusiva do proprietário do relógio até a autorizada. <br>Esta garantia não se sobrepõe aos direitos do consumidor no país em que este produto foi adquirido. Em casos especiais, não especificados nesta garantia, será acatada a legislação vigente.</p><p class=\"mb-3\">Lembre-se de que nenhum produto, mesmo os que possuem resistência à água podem ser expostos ao vapor do chuveiro, seja durante o banho ou no local do banho, pois o mesmo danifica a parte interna do produto, gerando danos irreversíveis ao mecanismo do seu relógio.</p><p class=\"mb-3\">Mantenha o seu relógio longe da exposição ao sol constante em altas temperaturas e também contato com produtos químicos, tais como acetona, perfume, álcool, etc. Não utilize relógios com resistência à água inferior a 5ATM para mergulhos em piscina ou mar. Informamos também que quedas ou colisões ocorridas com o seu relógio Euro poderão causar danos. Salientamos que em todos esses casos serão caracterizados como utilização indevida do produto e não serão cobertos pela garantia.</p><p class=\"mb-3\"><img src=\"//eurorelogios.web747.kinghost.net/images/tabela-garantia.png\" alt=\"\" data-mce-src=\"//eurorelogios.web747.kinghost.net/images/tabela-garantia.png\"></p></div>"
+            },
+            "title": "Garantia"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "type": "website",
+    "jsonLDs": [],
+    "__resolveType": "site/sections/Seo/SeoBaseCustomV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}

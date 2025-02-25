@@ -20,7 +20,9 @@
   ],
   "__resolveType": "website/pages/Page.tsx",
   "seo": {
-    "__resolveType": "website/sections/Seo/SeoV2.tsx",
+    "type": "website",
+    "jsonLDs": [],
+    "__resolveType": "site/sections/Seo/SeoBaseCustomV2.tsx",
     "seo_by_url_list": [],
     "jsonLD": {
       "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",

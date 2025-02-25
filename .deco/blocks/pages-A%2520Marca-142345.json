@@ -1,1 +1,41 @@
-{"name":"A Marca","path":"/a-marca","sections":[{"__resolveType":"Header Global"},{"__resolveType":"site/sections/Container.tsx","sections":[{"section":{"__resolveType":"site/sections/Institutional/InstitutionalPage.tsx","asideMenu":{"__resolveType":"AsideMenu"},"content":{"__resolveType":"site/sections/Institutional/TextContent.tsx","content":"<div class=\"flex flex-col lg:flex-row  mb-32\"><div class=\"w-auto\" style=\"margin-right: 5%;\" data-mce-style=\"margin-right: 5%;\"><img id=\"ihttps://timecenter.vteximg.com.br/arquivos/ids/184262/Euro_marca.jpg?v=636560343814100000\" src=\"https://timecenter.vteximg.com.br/arquivos/ids/184262/Euro_marca.jpg?v=636560343814100000\" alt=\"Banner a marca\" width=\"375\" height=\"296\" data-mce-src=\"https://timecenter.vteximg.com.br/arquivos/ids/184262/Euro_marca.jpg?v=636560343814100000\"></div><div class=\"w-auto\"><h1 class=\"uppercase mb-5 mt-5 text-4xl text-[#333333]\">A MARCA</h1><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Euro é uma marca de acessórios que possibilita, através da moda, que as mulheres tenham total autonomia sobre seus looks e sintam-se confiantes e poderosas em todas as ocasiões.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Queremos te encorajar a se sentir bem na própria pele todos os dias!</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Nossas peças trazem as tendências em pequenos detalhes, que são a chave para imprimir a personalidade de cada um. Sem se prender a estereótipos ou padrões, pensando sempre na beleza de ser espontâneo.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Misture.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Descombine.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Reinvente.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Ouse ser você mesma!</p></div></div><p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/Zzl82n8cRgA?si=7gNDT-Ua2qrgLD9K\" width=\"100%\" height=\"500\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-src=\"https://www.youtube.com/embed/Zzl82n8cRgA?si=7gNDT-Ua2qrgLD9K\"></iframe></p>"},"title":"Formas de Entrega"},"shadow":"none","overFlow":"overflow-none","verticalSpacing":"both","label":"Institutional Page","withContainer":true}]},{"__resolveType":"Footer Global"}],"seo":{"__resolveType":"website/sections/Seo/SeoV2.tsx"},"__resolveType":"website/pages/Page.tsx"}
+{
+  "name": "A Marca",
+  "path": "/a-marca",
+  "sections": [
+    {
+      "__resolveType": "Header Global"
+    },
+    {
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "site/sections/Institutional/InstitutionalPage.tsx",
+            "asideMenu": {
+              "__resolveType": "AsideMenu"
+            },
+            "content": {
+              "__resolveType": "site/sections/Institutional/TextContent.tsx",
+              "content": "<div class=\"flex flex-col lg:flex-row  mb-32\"><div class=\"w-auto\" style=\"margin-right: 5%;\" data-mce-style=\"margin-right: 5%;\"><img id=\"ihttps://timecenter.vteximg.com.br/arquivos/ids/184262/Euro_marca.jpg?v=636560343814100000\" src=\"https://timecenter.vteximg.com.br/arquivos/ids/184262/Euro_marca.jpg?v=636560343814100000\" alt=\"Banner a marca\" width=\"375\" height=\"296\" data-mce-src=\"https://timecenter.vteximg.com.br/arquivos/ids/184262/Euro_marca.jpg?v=636560343814100000\"></div><div class=\"w-auto\"><h1 class=\"uppercase mb-5 mt-5 text-4xl text-[#333333]\">A MARCA</h1><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Euro é uma marca de acessórios que possibilita, através da moda, que as mulheres tenham total autonomia sobre seus looks e sintam-se confiantes e poderosas em todas as ocasiões.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Queremos te encorajar a se sentir bem na própria pele todos os dias!</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Nossas peças trazem as tendências em pequenos detalhes, que são a chave para imprimir a personalidade de cada um. Sem se prender a estereótipos ou padrões, pensando sempre na beleza de ser espontâneo.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Misture.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Descombine.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Reinvente.</p><p class=\"mb-5 font-light text-lg\" style=\"color: #97979797;\" data-mce-style=\"color: #97979797;\">Ouse ser você mesma!</p></div></div><p><iframe title=\"YouTube video player\" src=\"https://www.youtube.com/embed/Zzl82n8cRgA?si=7gNDT-Ua2qrgLD9K\" width=\"100%\" height=\"500\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen=\"allowfullscreen\" data-mce-src=\"https://www.youtube.com/embed/Zzl82n8cRgA?si=7gNDT-Ua2qrgLD9K\"></iframe></p>"
+            },
+            "title": "Formas de Entrega"
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "both",
+          "label": "Institutional Page",
+          "withContainer": true
+        }
+      ]
+    },
+    {
+      "__resolveType": "Footer Global"
+    }
+  ],
+  "seo": {
+    "type": "website",
+    "jsonLDs": [],
+    "__resolveType": "site/sections/Seo/SeoBaseCustomV2.tsx"
+  },
+  "__resolveType": "website/pages/Page.tsx"
+}
