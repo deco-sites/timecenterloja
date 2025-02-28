@@ -19,6 +19,65 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
+                  "image": "https://data.decoassets.com/timecenterloja/879df680-fe11-4be6-889a-88c9e6849aaa/bannersecundario-timecenter01-01.jpg",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/879df680-fe11-4be6-889a-88c9e6849aaa/bannersecundario-timecenter01-01.jpg",
+                  "href": "/s?q=smartwatch",
+                  "alt": "SMARTWATCHES"
+                },
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://data.decoassets.com/timecenterloja/92ee5ccd-6852-483b-8015-25ea607b7160/bannersecundario-timecenter01-02.jpg",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/92ee5ccd-6852-483b-8015-25ea607b7160/bannersecundario-timecenter01-02.jpg",
+                  "href": "/michaelkors/relogio",
+                  "alt": "MICHAEL KORS"
+                },
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://data.decoassets.com/timecenterloja/80ef5270-b316-4c2f-8c1d-06dc40f1c527/bannersecundario-timecenter01-03.jpg",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/80ef5270-b316-4c2f-8c1d-06dc40f1c527/bannersecundario-timecenter01-03.jpg",
+                  "href": "/s?q=anel",
+                  "alt": "RELÓGIOS ACESSÓRIOS"
+                }
+              ],
+              "itemPerPageDesktop": 3,
+              "itemPerPageMobile": 1
+            },
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-03-01T03:00:00.000Z",
+              "end": "2025-03-15T14:59:00.000Z"
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/ImageGallery.tsx",
+              "images": [
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
                   "image": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
                   "imageMobile": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
                   "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC",
@@ -59,7 +118,9 @@
               "itemPerPageMobile": 1
             },
             "rule": {
-              "__resolveType": "website/matchers/always.ts"
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-02-28T20:20:00.000Z",
+              "end": "2025-03-01T02:59:00.000Z"
             }
           }
         ]
