@@ -71,7 +71,80 @@
               ]
             },
             "rule": {
-              "__resolveType": "website/matchers/always.ts"
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-02-28T15:00:00.000Z",
+              "end": "2025-03-01T02:59:00.000Z"
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/BannerGrid.tsx",
+              "itemsPerLine": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "itemsPerColumn": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "borderRadius": {
+                "mobile": "xl",
+                "desktop": "md"
+              },
+              "columnGap": {
+                "mobile": 1,
+                "desktop": 4
+              },
+              "banners": [
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Center",
+                    "badges": [],
+                    "buttonColor": "primary"
+                  },
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/8e695883-086f-4b8b-bcd8-74fb9780e8c2/bannerterciario-quadrado-timecenter01-01.jpg",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/8e695883-086f-4b8b-bcd8-74fb9780e8c2/bannerterciario-quadrado-timecenter01-01.jpg",
+                  "alt": "TECHNOS",
+                  "href": "/technos/relogio",
+                  "columnStart": 1,
+                  "rowStart": 1,
+                  "rowSpan": 2
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "neutral",
+                    "reverse": true
+                  },
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/8ce4b913-52fe-4f0f-83af-ff7b06c29728/bannerterciario-retangulo-timecenter01-01.jpg",
+                  "href": "/s?q=CONDOR+DISNEY",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/8ce4b913-52fe-4f0f-83af-ff7b06c29728/bannerterciario-retangulo-timecenter01-01.jpg",
+                  "alt": "CONDOR DISNEY"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "secondary"
+                  },
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/226c2a2e-4eaa-4fa6-a7d4-3181f19764db/bannerterciario-retangulo-timecenter01-02.jpg",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/226c2a2e-4eaa-4fa6-a7d4-3181f19764db/bannerterciario-retangulo-timecenter01-02.jpg",
+                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                  "alt": "Bazar"
+                }
+              ]
+            },
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-03-01T03:00:00.000Z",
+              "end": "2025-03-16T02:59:00.000Z"
             }
           }
         ]
