@@ -12,29 +12,29 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=kit+condor&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=kit+feminino"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/bf334209-9098-4b8a-b9a6-90227f94328a/Prancheta-1-(81).png",
-                  "alt": "Condor kits",
-                  "mobile": "https://data.decoassets.com/timecenterloja/e8b28065-7c12-4ad8-99e7-b25966db439a/Prancheta-2-(30).png"
+                  "desktop": "https://data.decoassets.com/timecenterloja/3df059a1-ba32-4234-8753-b1616caf9852/bannerslidedesktop-timecenter01-01-(1).jpg",
+                  "alt": "Mês da mulher",
+                  "mobile": "https://data.decoassets.com/timecenterloja/c3aea7ba-e618-43a3-9a69-e969f5a2b6dd/bannerslidemobile-timecenter01-01-(1).jpg"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/michaelkors/relogio?sort=release%3Adesc"
+                    "href": "/s?q=fossil+feminino"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/8de49089-789d-4460-88f9-2b0e30e0c244/Prancheta-1-(80).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/3de71b4e-3822-456f-871f-3082a2fcb735/Prancheta-2-(29).png",
-                  "alt": "Michael Kors"
+                  "desktop": "https://data.decoassets.com/timecenterloja/c529e096-ae25-41dd-a912-06026ef5f2eb/bannerslidedesktop-timecenter01-02-(1).jpg",
+                  "mobile": "https://data.decoassets.com/timecenterloja/1868bbcb-5df1-4e97-86b7-350155b05db2/bannerslidemobile-timecenter01-02.jpg",
+                  "alt": "Bolsa Fossil"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/s?q=technos+feminino&O=OrderByPriceASC"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/8a1f709b-108c-4b7d-af1c-ceaf25c59793/tc_Banner_desk_bazar.png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/43444d2d-d592-4c8b-b212-21d043ba36a7/tc_Banner_MOB_bazar.png",
-                  "alt": "Bazar"
+                  "desktop": "https://data.decoassets.com/timecenterloja/8d7de502-9b1a-4e54-8c92-bfa847f3fb05/bannerslidedesktop-timecenter01-03.jpg",
+                  "mobile": "https://data.decoassets.com/timecenterloja/f899bc43-6aba-4f9b-b5c9-65932ea9e2d1/bannerslidemobile-timecenter01-03.jpg",
+                  "alt": "Bolsa Technos"
                 },
                 {
                   "action": {
@@ -55,8 +55,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-02-12T03:00:00.000Z",
-              "end": "2025-02-15T02:59:00.000Z"
+              "start": "2025-03-01T03:00:00.000Z",
+              "end": "2025-03-16T02:59:00.000Z"
             }
           },
           {
