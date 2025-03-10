@@ -21,6 +21,17 @@
                 {
                   "action": {
                     "variant": "primary",
+                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff"
+                  },
+                  "desktop": "https://data.decoassets.com/timecenterloja/ef8a5c49-f79b-49d2-87bc-7caff90df534/bannerslidedesktop-timecenter10-01.jpg",
+                  "mobile": "https://data.decoassets.com/timecenterloja/7ec426b4-cfdc-48d0-97b0-30810a0d9025/bannerslidemobile-timecenter10-01.jpg",
+                  "alt": "Semana do consumidor"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
                     "href": "/s?q=fossil+feminino"
                   },
                   "desktop": "https://data.decoassets.com/timecenterloja/c529e096-ae25-41dd-a912-06026ef5f2eb/bannerslidedesktop-timecenter01-02-(1).jpg",
