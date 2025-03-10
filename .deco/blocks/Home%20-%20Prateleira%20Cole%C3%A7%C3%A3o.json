@@ -9,12 +9,12 @@
           "props": {
             "sort": "OrderByScoreDESC",
             "count": 20,
-            "collection": "2049"
+            "collection": "2509"
           }
         },
         "highlights": [],
         "seeMore": {
-          "url": "/lancamentos",
+          "url": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
           "label": "+ ver mais"
         },
         "layout": {
@@ -67,7 +67,7 @@
             "showCta": true
           }
         },
-        "title": "LANÇAMENTOS"
+        "title": "SEMANA DO CONSUMIDOR"
       },
       "shadow": "none",
       "overFlow": "overflow-none",
