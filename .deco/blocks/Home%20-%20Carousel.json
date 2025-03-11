@@ -16,9 +16,9 @@
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/ef8a5c49-f79b-49d2-87bc-7caff90df534/bannerslidedesktop-timecenter10-01.jpg",
+                  "desktop": "https://data.decoassets.com/timecenterloja/5305b13f-6dd6-4ae3-b4cb-1ef1ab08ffcb/Design-sem-nome.png",
                   "alt": "Semana do consumidor",
-                  "mobile": "https://data.decoassets.com/timecenterloja/7ec426b4-cfdc-48d0-97b0-30810a0d9025/bannerslidemobile-timecenter10-01.jpg"
+                  "mobile": "https://data.decoassets.com/timecenterloja/8dab0d7b-1d93-47d8-90f8-87f20cfe969c/Design-sem-nome-(1).png"
                 },
                 {
                   "action": {
@@ -67,7 +67,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-03-01T03:00:00.000Z",
-              "end": "2025-03-16T02:59:00.000Z"
+              "end": "2025-03-18T02:59:00.000Z"
             }
           },
           {
