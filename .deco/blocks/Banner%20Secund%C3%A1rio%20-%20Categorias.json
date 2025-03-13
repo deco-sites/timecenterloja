@@ -61,7 +61,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-03-01T03:00:00.000Z",
-              "end": "2025-03-15T14:59:00.000Z"
+              "end": "2025-03-16T14:59:00.000Z"
             }
           },
           {
@@ -78,10 +78,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
-                  "imageMobile": "https://data.decoassets.com/timecenterloja/4db73c57-a5e0-4445-b16f-56590a6ea2dd/Secundario-3-(5).png",
-                  "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC",
-                  "alt": "Seleção de brilho"
+                  "image": "https://data.decoassets.com/timecenterloja/e89d6791-f6df-41a2-84d9-e7208be44e8d/Secundario-2.png",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/e89d6791-f6df-41a2-84d9-e7208be44e8d/Secundario-2.png",
+                  "href": "/s?q=smartwatch",
+                  "alt": "SMARTWATCHES"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -93,10 +93,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
-                  "imageMobile": "https://data.decoassets.com/timecenterloja/19db0749-86e5-4c44-8e11-7abcfa97fd88/Secundario-1-(5).png",
-                  "href": "/s?q=euro+soul",
-                  "alt": "Euro chocker"
+                  "image": "https://data.decoassets.com/timecenterloja/89d514db-52f9-4f0d-b4ad-10af73939cda/Secundario-1.png",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/89d514db-52f9-4f0d-b4ad-10af73939cda/Secundario-1.png",
+                  "href": "/euro/relogio",
+                  "alt": "EURO"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -108,10 +108,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
-                  "imageMobile": "https://data.decoassets.com/timecenterloja/4fa9df87-661d-4a8c-a64e-1371d1e7a3f9/Secundario-2-(5).png",
-                  "href": "/2030?PS=12&map=productClusterIds&sort=release%3Adesc",
-                  "alt": "Internacionais"
+                  "image": "https://data.decoassets.com/timecenterloja/4f1bb62a-6df3-4840-bf38-78afbd306e4d/Secundario-3.png",
+                  "imageMobile": "https://data.decoassets.com/timecenterloja/4f1bb62a-6df3-4840-bf38-78afbd306e4d/Secundario-3.png",
+                  "href": "/s?q=technos+automático",
+                  "alt": "Technos Automático"
                 }
               ],
               "itemPerPageDesktop": 3,
@@ -119,8 +119,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-02-28T20:20:00.000Z",
-              "end": "2025-03-01T02:59:00.000Z"
+              "start": "2025-03-17T03:00:00.000Z",
+              "end": "2025-04-01T02:59:00.000Z"
             }
           }
         ]
