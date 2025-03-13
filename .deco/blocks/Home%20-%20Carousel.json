@@ -67,7 +67,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-03-01T03:00:00.000Z",
-              "end": "2025-03-18T02:59:00.000Z"
+              "end": "2025-03-17T02:59:00.000Z"
             }
           },
           {
@@ -77,41 +77,32 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=watch+ring&O=OrderByReleaseDateDESC"
+                    "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/c9dc1338-a8e2-447c-8650-e3f28a0fa7ec/Prancheta-1-(91).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/e94c3e4d-cdc3-4d55-84f2-c01504e79a0c/Prancheta-2-(32).png",
-                  "alt": "Fossil "
+                  "desktop": "https://data.decoassets.com/timecenterloja/9dca3250-8350-47a0-a0cb-3681334e057a/tc_Banner_desk_mes-mulher.jpg",
+                  "mobile": "https://data.decoassets.com/timecenterloja/32463cf4-0e4c-4fcc-acf9-285a0d0b14da/mes-mulher.jpg",
+                  "alt": "Mês da Mulher"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/mormaii/relogio?sort=release%3Adesc",
+                    "href": "/s?q=mormaii+vintage",
                     "title": "Elos"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/8dc5308a-35a5-4f17-9bb4-1c38f13bff89/Prancheta-1-(92).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/036f80aa-a191-445f-a78d-f4c171dc5d18/Prancheta-2-(33).png",
+                  "desktop": "https://data.decoassets.com/timecenterloja/be1f3a57-4329-4e09-a4b1-3d55c697fc2c/Prancheta-1.png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/e5046c34-0288-4753-ba4d-832564eb61af/Prancheta-2.png",
                   "alt": "Mormaii"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=EU2035YXH%2F4D",
+                    "href": "/s?q=townsman",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/cb679380-3210-4f9e-8108-0a6645f1b050/Prancheta-1-(60).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/dfd76612-23ce-4cda-bffc-2c55bad02691/Prancheta-2-(26).png",
-                  "alt": "Euro chocker"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
-                  },
-                  "desktop": "https://data.decoassets.com/timecenterloja/6438372d-2e5e-445f-a459-b0eaf2fed810/Prancheta-1-(90).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/f97466d2-300c-4e95-9ad9-72d788b20fb1/Prancheta-2-(31).png",
-                  "alt": "Bazar"
+                  "desktop": "https://data.decoassets.com/timecenterloja/eafe0ea5-4435-4f93-8ebc-8a37e254dc08/Prancheta-1-(1).png",
+                  "mobile": "https://data.decoassets.com/timecenterloja/82970dbd-6624-4393-8546-4052df1e5e14/Prancheta-2-(1).png",
+                  "alt": "Fossil townsman"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -121,8 +112,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-03-01T02:59:00.000Z",
-              "start": "2025-02-15T03:00:00.000Z"
+              "end": "2025-04-01T02:59:00.000Z",
+              "start": "2025-03-17T03:00:00.000Z"
             }
           }
         ]
