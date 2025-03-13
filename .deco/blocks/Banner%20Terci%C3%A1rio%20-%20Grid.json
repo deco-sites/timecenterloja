@@ -33,77 +33,6 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/4232359e-ebd4-440e-9419-1e9f820dcc28/Terciario-1-(5).png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/4232359e-ebd4-440e-9419-1e9f820dcc28/Terciario-1-(5).png",
-                  "alt": "FOSSIL",
-                  "href": "/fossil/relogio",
-                  "columnStart": 1,
-                  "rowStart": 1,
-                  "rowSpan": 2
-                },
-                {
-                  "textColor": "primary",
-                  "text": {
-                    "verticalAlignment": "Bottom",
-                    "horizontalAlignment": "Right",
-                    "badges": [],
-                    "buttonColor": "neutral",
-                    "reverse": true
-                  },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/0a06b4d4-1d5e-46a7-a0e0-a3bf2046266d/Terciario-2-2-(1).png",
-                  "href": "/technos/relogio",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/0a06b4d4-1d5e-46a7-a0e0-a3bf2046266d/Terciario-2-2-(1).png",
-                  "alt": "Technos"
-                },
-                {
-                  "textColor": "primary",
-                  "text": {
-                    "verticalAlignment": "Bottom",
-                    "horizontalAlignment": "Right",
-                    "badges": [],
-                    "buttonColor": "secondary"
-                  },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/da2f9a6a-010a-45b1-b958-b70ecb520dca/Terciario-2-(5).png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/da2f9a6a-010a-45b1-b958-b70ecb520dca/Terciario-2-(5).png",
-                  "href": "/dumont/relogio",
-                  "alt": "Dumont"
-                }
-              ]
-            },
-            "rule": {
-              "__resolveType": "website/matchers/date.ts",
-              "start": "2025-02-28T15:00:00.000Z",
-              "end": "2025-03-01T02:59:00.000Z"
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/Images/BannerGrid.tsx",
-              "itemsPerLine": {
-                "mobile": 1,
-                "desktop": 2
-              },
-              "itemsPerColumn": {
-                "mobile": 1,
-                "desktop": 2
-              },
-              "borderRadius": {
-                "mobile": "xl",
-                "desktop": "md"
-              },
-              "columnGap": {
-                "mobile": 1,
-                "desktop": 4
-              },
-              "banners": [
-                {
-                  "textColor": "primary",
-                  "text": {
-                    "verticalAlignment": "Bottom",
-                    "horizontalAlignment": "Center",
-                    "badges": [],
-                    "buttonColor": "primary"
-                  },
                   "srcDesktop": "https://data.decoassets.com/timecenterloja/8e695883-086f-4b8b-bcd8-74fb9780e8c2/bannerterciario-quadrado-timecenter01-01.jpg",
                   "srcMobile": "https://data.decoassets.com/timecenterloja/8e695883-086f-4b8b-bcd8-74fb9780e8c2/bannerterciario-quadrado-timecenter01-01.jpg",
                   "alt": "TECHNOS",
@@ -144,7 +73,78 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-03-01T03:00:00.000Z",
-              "end": "2025-03-16T02:59:00.000Z"
+              "end": "2025-03-17T02:59:00.000Z"
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/BannerGrid.tsx",
+              "itemsPerLine": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "itemsPerColumn": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "borderRadius": {
+                "mobile": "xl",
+                "desktop": "md"
+              },
+              "columnGap": {
+                "mobile": 1,
+                "desktop": 4
+              },
+              "banners": [
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Center",
+                    "badges": [],
+                    "buttonColor": "primary"
+                  },
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/71145679-aada-48c1-8502-367edaa1aa0b/Terciario-1.png",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/71145679-aada-48c1-8502-367edaa1aa0b/Terciario-1.png",
+                  "alt": "MICHAEL KORS",
+                  "href": "/michaelkors/relogio",
+                  "columnStart": 1,
+                  "rowStart": 1,
+                  "rowSpan": 2
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "neutral",
+                    "reverse": true
+                  },
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/3b9ab034-e203-4385-a4e3-b1bf73a31c66/Terciario-2-1.png",
+                  "href": "/s?q=par+perfeito",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/3b9ab034-e203-4385-a4e3-b1bf73a31c66/Terciario-2-1.png",
+                  "alt": "CONDOR"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "secondary"
+                  },
+                  "srcDesktop": "https://data.decoassets.com/timecenterloja/de69ffd8-3786-4c52-920f-34004591ba4b/Terciario-2.png",
+                  "srcMobile": "https://data.decoassets.com/timecenterloja/de69ffd8-3786-4c52-920f-34004591ba4b/Terciario-2.png",
+                  "href": "/internacionais?page=1&sort=discount%3Adesc",
+                  "alt": "Internacionais com até 30%"
+                }
+              ]
+            },
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-03-17T03:00:00.000Z",
+              "end": "2025-04-01T02:59:00.000Z"
             }
           }
         ]
