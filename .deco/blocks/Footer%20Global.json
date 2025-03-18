@@ -107,7 +107,7 @@
           }
         ],
         "logo": {
-          "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/e5047179-73dc-4bfe-976b-d846c2659d6e"
+          "image": "https://data.decoassets.com/timecenterloja/16e56856-125c-432a-b0ac-c3514bc02c1f/1742325024384-e5047179-73dc-4bfe-976b-d846c2659d6e"
         },
         "socialNetWorks": [
           {
@@ -125,45 +125,45 @@
         "payments": [
           {
             "alt": "Mastercard",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ba466288-05d9-4f39-9eb6-049bf4c5eb05"
+            "image": "https://data.decoassets.com/timecenterloja/02437975-43a7-4361-afe7-75eb234aaa55/1742325045522-ba466288-05d9-4f39-9eb6-049bf4c5eb05"
           },
           {
             "alt": "Visa",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0c60fc79-a4fa-48b9-b477-3662ece8571a"
+            "image": "https://data.decoassets.com/timecenterloja/c0107687-29d0-47cb-ade2-e23d23200003/1742325046779-0c60fc79-a4fa-48b9-b477-3662ece8571a"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/ac829344-6534-44aa-840b-4676b339143d",
+            "image": "https://data.decoassets.com/timecenterloja/3400be50-bfaf-487d-ab2f-815fd2d91a97/1742325047792-ac829344-6534-44aa-840b-4676b339143d",
             "alt": "Elo"
           },
           {
             "alt": "American Express",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/5ae86266-de55-462f-b972-43ee4dc732d0"
+            "image": "https://data.decoassets.com/timecenterloja/f8ff0f41-dd3b-4a9d-8ad0-95bbbe3e67f6/1742325048784-5ae86266-de55-462f-b972-43ee4dc732d0"
           },
           {
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/45eb1cfa-50f6-4b0a-9db0-27d548e153af",
+            "image": "https://data.decoassets.com/timecenterloja/b9356735-0062-42c1-8560-d1fd502a3e2c/1742325049822-45eb1cfa-50f6-4b0a-9db0-27d548e153af",
             "alt": "Pix"
           },
           {
             "alt": "Boleto",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/815153b4-14d3-4917-8836-82b305fe93c7"
+            "image": "https://data.decoassets.com/timecenterloja/f31320df-7c39-4486-adaf-a1dff85499d5/1742325050841-815153b4-14d3-4917-8836-82b305fe93c7"
           }
         ],
         "securities": [
           {
             "alt": "Let's Encrypt",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/11a68b3a-ea26-4fe2-9566-f3f1951c12fe"
+            "image": "https://data.decoassets.com/timecenterloja/b3641311-8a33-4fce-a36d-6b22af37043e/1742325051921-11a68b3a-ea26-4fe2-9566-f3f1951c12fe"
           }
         ],
         "poweredby": [
           {
             "alt": "agencia n1",
             "label": "Created By",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/0e25fd23-a9ff-4301-9a19-5ca1a273eae1"
+            "image": "https://data.decoassets.com/timecenterloja/3de29573-2d49-467e-b445-f212f3c26abe/1742325052960-0e25fd23-a9ff-4301-9a19-5ca1a273eae1"
           },
           {
             "alt": "vtex",
             "label": "Powered by",
-            "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/685dcc4c-2b15-42ae-9d26-dc6915e1049c"
+            "image": "https://data.decoassets.com/timecenterloja/6f35528c-3939-4e47-b310-cae9fc8a0b5f/1742325054016-685dcc4c-2b15-42ae-9d26-dc6915e1049c"
           }
         ],
         "email": "atendimento@timecenter.com.br"

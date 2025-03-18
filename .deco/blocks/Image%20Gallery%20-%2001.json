@@ -1,1 +1,27 @@
-{"title":"New collections","banners":[{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835"},{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/3210eea1-5437-4f19-8327-8b8fa4edfc45"},{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"},{"alt":"Fashion","href":"/","srcMobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/a8d36df6-4b96-4421-bb6c-de0fe1478e06"}],"description":"Discover the collections of the season","__resolveType":"site/sections/Images/ImageGallery.tsx"}
+{
+  "title": "New collections",
+  "banners": [
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://data.decoassets.com/timecenterloja/072e5966-22f0-40c4-800e-9778b35b3aee/1742325109552-29dbf8d4-90c3-43f7-9b6b-4c6bda5e7835"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://data.decoassets.com/timecenterloja/f7f0ef36-2d53-45ec-ab09-b76d21916679/1742325111987-3210eea1-5437-4f19-8327-8b8fa4edfc45"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://data.decoassets.com/timecenterloja/53503fa3-1a88-4263-b74f-9d9d3f70c09c/1742325114642-1e6250d4-f9d2-4185-b8a6-b0e8a8fed4a7"
+    },
+    {
+      "alt": "Fashion",
+      "href": "/",
+      "srcMobile": "https://data.decoassets.com/timecenterloja/237d685f-d825-4a3e-ba64-0757aae2b67e/1742325117323-a8d36df6-4b96-4421-bb6c-de0fe1478e06"
+    }
+  ],
+  "description": "Discover the collections of the season",
+  "__resolveType": "site/sections/Images/ImageGallery.tsx"
+}
