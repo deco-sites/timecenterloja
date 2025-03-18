@@ -1,1 +1,23 @@
-{"banners":[{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96"},"title":"Woman","matcher":"/feminino/*","subtitle":"As"},{"image":{"mobile":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/91102b71-4832-486a-b683-5f7b06f649af","desktop":"https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/239/ec597b6a-dcf1-48ca-a99d-95b3c6304f96"},"title":"Woman","matcher":"/*","subtitle":"As"}],"__resolveType":"site/sections/Category/CategoryBanner.tsx"}
+{
+  "banners": [
+    {
+      "image": {
+        "mobile": "https://data.decoassets.com/timecenterloja/6f636741-dc29-4b5e-a4e0-36bdda4d6a42/1742325174402-91102b71-4832-486a-b683-5f7b06f649af",
+        "desktop": "https://data.decoassets.com/timecenterloja/5a630d0c-4319-49cc-af4f-ac020a749a10/1742325175493-ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+      },
+      "title": "Woman",
+      "matcher": "/feminino/*",
+      "subtitle": "As"
+    },
+    {
+      "image": {
+        "mobile": "https://data.decoassets.com/timecenterloja/6f636741-dc29-4b5e-a4e0-36bdda4d6a42/1742325174402-91102b71-4832-486a-b683-5f7b06f649af",
+        "desktop": "https://data.decoassets.com/timecenterloja/5a630d0c-4319-49cc-af4f-ac020a749a10/1742325175493-ec597b6a-dcf1-48ca-a99d-95b3c6304f96"
+      },
+      "title": "Woman",
+      "matcher": "/*",
+      "subtitle": "As"
+    }
+  ],
+  "__resolveType": "site/sections/Category/CategoryBanner.tsx"
+}

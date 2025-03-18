@@ -49,20 +49,20 @@
                     {
                       "name": "livelo",
                       "label": "<p>Acumule pontos usando o cupom: <strong>LIVELO</strong></p>",
-                      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2453/b82b81da-f405-46ce-a4ef-2d7a8c9824be"
+                      "icon": "https://data.decoassets.com/timecenterloja/71d0f80b-c242-4bf3-a330-c5af5b96b893/1742325100949-b82b81da-f405-46ce-a4ef-2d7a8c9824be"
                     },
                     {
                       "name": "10% de desconto",
                       "label": "<p><strong>10% de desconto</strong>&nbsp;na sua primeira compra<br></p>",
-                      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2453/6633affd-8e35-48c6-949e-904071327224"
+                      "icon": "https://data.decoassets.com/timecenterloja/5fd75a43-694a-4a67-a866-2fa4cb06018f/1742325102238-6633affd-8e35-48c6-949e-904071327224"
                     },
                     {
-                      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2453/131b78ed-9a54-411c-a8dd-c1f4bd783a20",
+                      "icon": "https://data.decoassets.com/timecenterloja/75404b65-9f48-4867-adde-90e7e946bded/1742325103521-131b78ed-9a54-411c-a8dd-c1f4bd783a20",
                       "name": "Frete grátis acima de R$ 450",
                       "label": "<p><strong>Frete grátis </strong>acima de R$ 450</p>"
                     },
                     {
-                      "icon": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/2453/12a3223e-853f-48c2-829c-4239c26a2447",
+                      "icon": "https://data.decoassets.com/timecenterloja/c3c0ff60-405c-47e4-9715-689d3511961e/1742325104745-12a3223e-853f-48c2-829c-4239c26a2447",
                       "name": "5% de desconto pagando com PIX",
                       "label": "<p><strong>5% de desconto</strong> pagando com <strong>PIX</strong><br></p>"
                     }
@@ -137,7 +137,7 @@
                     "title": "404",
                     "description": "<p>A página que você esta procurando não<br>existe ou não esta mais disponível em<br>nosso site.</p>",
                     "subTitle": "Página não encontrada",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/63e942e9-7d2d-4cfa-a65d-2e51cbeedc63"
+                    "image": "https://data.decoassets.com/timecenterloja/dda874c6-3bb9-43e0-8f3f-3b8f1fcfe727/1742325106416-63e942e9-7d2d-4cfa-a65d-2e51cbeedc63"
                   }
                 },
                 "shadow": "none",
@@ -250,7 +250,7 @@
                     "title": "404",
                     "subTitle": "Página não encontrada",
                     "description": "<p>A página que você esta procurando não<br>existe ou não esta mais disponível em<br>nosso site.</p>",
-                    "image": "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/8938/d8a7a9f4-528c-4465-95bf-e336c34be575"
+                    "image": "https://data.decoassets.com/timecenterloja/a157f32d-9083-403d-bd39-d68ce8d035dd/1742325108012-d8a7a9f4-528c-4465-95bf-e336c34be575"
                   }
                 },
                 "shadow": "none",
