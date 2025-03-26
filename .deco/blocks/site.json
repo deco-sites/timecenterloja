@@ -20,7 +20,9 @@
       "trackingIds": [
         "GTM-TJWC5RH"
       ],
-      "googleAnalyticsIds": []
+      "googleAnalyticsIds": [
+        "G-ZHQ3DR9PPY"
+      ]
     },
     {
       "__resolveType": "algolia/sections/Analytics/Algolia.tsx"
