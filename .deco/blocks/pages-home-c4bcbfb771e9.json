@@ -2,9 +2,6 @@
   "name": "Home",
   "sections": [
     {
-      "__resolveType": "Analytics"
-    },
-    {
       "__resolveType": "Header Global"
     },
     {
