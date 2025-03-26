@@ -18,10 +18,10 @@
       "__resolveType": "website/sections/Analytics/Analytics.tsx",
       "dangerouslyRunOnMainThread": true,
       "trackingIds": [
-        "G-ZHQ3DR9PPY"
+        "GTM-TJWC5RH"
       ],
       "googleAnalyticsIds": [
-        "GTM-TJWC5RH"
+        "G-ZHQ3DR9PPY"
       ]
     },
     {
@@ -77,7 +77,12 @@
     "replaces": [],
     "includeScriptsToHead": {
       "includes": []
+    },
+    "includeScriptsToBody": {
+      "includes": []
     }
   },
-  "flavor": "{\"framework\":\"fresh\"}"
+  "flavor": {
+    "framework": "fresh"
+  }
 }
