@@ -33,10 +33,10 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/8e695883-086f-4b8b-bcd8-74fb9780e8c2/bannerterciario-quadrado-timecenter01-01.jpg",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/8e695883-086f-4b8b-bcd8-74fb9780e8c2/bannerterciario-quadrado-timecenter01-01.jpg",
-                  "alt": "TECHNOS",
-                  "href": "/technos/relogio",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/e388355c-4ec8-447e-860c-40da508eb65e/Terciario-1-(1).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/e388355c-4ec8-447e-860c-40da508eb65e/Terciario-1-(1).png",
+                  "alt": "BAZAR",
+                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2
@@ -50,10 +50,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/8ce4b913-52fe-4f0f-83af-ff7b06c29728/bannerterciario-retangulo-timecenter01-01.jpg",
-                  "href": "/s?q=CONDOR+DISNEY",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/8ce4b913-52fe-4f0f-83af-ff7b06c29728/bannerterciario-retangulo-timecenter01-01.jpg",
-                  "alt": "CONDOR DISNEY"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/f7eb8e7c-b0bf-4a53-a17a-f47cb45c7c9d/Terciario-2-(1).png",
+                  "href": "/mormaii/relogio",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/f7eb8e7c-b0bf-4a53-a17a-f47cb45c7c9d/Terciario-2-(1).png",
+                  "alt": "MORMAII"
                 },
                 {
                   "textColor": "primary",
@@ -63,17 +63,17 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/226c2a2e-4eaa-4fa6-a7d4-3181f19764db/bannerterciario-retangulo-timecenter01-02.jpg",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/226c2a2e-4eaa-4fa6-a7d4-3181f19764db/bannerterciario-retangulo-timecenter01-02.jpg",
-                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
-                  "alt": "Bazar"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/94428b15-0994-4ded-a323-8d7b5b4f1297/Terciario-2-2.png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/94428b15-0994-4ded-a323-8d7b5b4f1297/Terciario-2-2.png",
+                  "href": "/euro/relogio",
+                  "alt": "EURO"
                 }
               ]
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-03-01T03:00:00.000Z",
-              "end": "2025-03-17T02:59:00.000Z"
+              "start": "2025-04-01T03:00:00.000Z",
+              "end": "2025-04-16T02:59:00.000Z"
             }
           },
           {
