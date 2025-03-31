@@ -12,51 +12,40 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                    "href": "/condor/relogio?sort=release%3Adesc",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/5305b13f-6dd6-4ae3-b4cb-1ef1ab08ffcb/Design-sem-nome.png",
-                  "alt": "Semana do consumidor",
-                  "mobile": "https://data.decoassets.com/timecenterloja/8dab0d7b-1d93-47d8-90f8-87f20cfe969c/Design-sem-nome-(1).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/820e2ace-a21e-49a6-b304-52027f8f52a4/tc_Banner_desk_condor.jpg",
+                  "alt": "CONDOR BRACELETE",
+                  "mobile": "https://assets.decocache.com/timecenterloja/d8211066-6e7d-4685-8146-4f93c3ae99c3/Prancheta-2.jpg"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=kit+feminino"
+                    "href": "/internacionais?sort=discount%3Adesc"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/3df059a1-ba32-4234-8753-b1616caf9852/bannerslidedesktop-timecenter01-01-(1).jpg",
-                  "mobile": "https://data.decoassets.com/timecenterloja/c3aea7ba-e618-43a3-9a69-e969f5a2b6dd/bannerslidemobile-timecenter01-01-(1).jpg",
-                  "alt": "Mês da mulher"
+                  "desktop": "https://assets.decocache.com/timecenterloja/8d0d433e-3665-422f-b009-fc95377c80ab/Prancheta-1-(2).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/b860c671-e3ee-4811-943d-08a6207eb5e6/Prancheta-2-(2).png",
+                  "alt": "INTERNACIONAIS 30% OFF"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=fossil+feminino"
+                    "href": "/s?q=carraway"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/c529e096-ae25-41dd-a912-06026ef5f2eb/bannerslidedesktop-timecenter01-02-(1).jpg",
-                  "mobile": "https://data.decoassets.com/timecenterloja/1868bbcb-5df1-4e97-86b7-350155b05db2/bannerslidemobile-timecenter01-02.jpg",
-                  "alt": "Bolsa Fossil"
+                  "desktop": "https://assets.decocache.com/timecenterloja/e3dd1fff-6282-4d82-ace0-d8c99edd750e/Prancheta-1-(3).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/5be86986-caa8-4fbf-9198-7fb244b1d085/Prancheta-2-(3).png",
+                  "alt": "FOSSIL CARRAWAY"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+feminino&O=OrderByPriceASC"
+                    "href": "/s?q=centenário"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/8d7de502-9b1a-4e54-8c92-bfa847f3fb05/bannerslidedesktop-timecenter01-03.jpg",
-                  "mobile": "https://data.decoassets.com/timecenterloja/f899bc43-6aba-4f9b-b5c9-65932ea9e2d1/bannerslidemobile-timecenter01-03.jpg",
-                  "alt": "Bolsa Technos"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
-                  },
-                  "desktop": "https://data.decoassets.com/timecenterloja/25efa269-b8cf-4bb3-8edb-c5be4db7aeda/Prancheta-1-(78).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/ae9b0a2b-7fe3-4b65-8fc2-36859c31d371/Prancheta-2-(27).png",
-                  "alt": "Automático"
+                  "desktop": "https://assets.decocache.com/timecenterloja/57ff6b65-56a4-41ca-adad-6026c9784455/Prancheta-1-(4).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/21861ff5-9cec-4545-93b6-95ad0618ba74/Prancheta-2-(4).png",
+                  "alt": "TECHNOS CENTENÁRIO"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -66,8 +55,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-03-01T03:00:00.000Z",
-              "end": "2025-03-17T02:59:00.000Z"
+              "start": "2025-04-01T03:00:00.000Z",
+              "end": "2025-04-16T02:59:00.000Z"
             }
           },
           {
