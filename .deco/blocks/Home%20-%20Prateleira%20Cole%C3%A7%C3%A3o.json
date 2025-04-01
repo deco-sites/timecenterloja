@@ -7,7 +7,7 @@
         "products": {
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
-            "sort": "OrderByScoreDESC",
+            "sort": "OrderByReleaseDateDESC",
             "count": 20,
             "collection": "2049"
           }
