@@ -12,22 +12,11 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/condor/relogio?sort=release%3Adesc",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/820e2ace-a21e-49a6-b304-52027f8f52a4/tc_Banner_desk_condor.jpg",
-                  "alt": "CONDOR BRACELETE",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d8211066-6e7d-4685-8146-4f93c3ae99c3/Prancheta-2.jpg"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
                     "href": "/internacionais?sort=discount%3Adesc"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/8d0d433e-3665-422f-b009-fc95377c80ab/Prancheta-1-(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/b860c671-e3ee-4811-943d-08a6207eb5e6/Prancheta-2-(2).png",
-                  "alt": "INTERNACIONAIS 30% OFF"
+                  "alt": "INTERNACIONAIS 30% OFF",
+                  "mobile": "https://assets.decocache.com/timecenterloja/b860c671-e3ee-4811-943d-08a6207eb5e6/Prancheta-2-(2).png"
                 },
                 {
                   "action": {
