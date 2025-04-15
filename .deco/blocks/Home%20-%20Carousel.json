@@ -64,32 +64,43 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC"
+                    "href": "/lancamentos?sort=release%3Adesc"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/9dca3250-8350-47a0-a0cb-3681334e057a/tc_Banner_desk_mes-mulher.jpg",
-                  "mobile": "https://data.decoassets.com/timecenterloja/32463cf4-0e4c-4fcc-acf9-285a0d0b14da/mes-mulher.jpg",
-                  "alt": "Mês da Mulher"
+                  "desktop": "https://assets.decocache.com/timecenterloja/99d0c524-8155-4af2-bc2f-d911ef52c644/Prancheta-1-(5).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/f00ec445-9b91-44e2-a454-321c10e3915e/Prancheta-2-(1).jpg",
+                  "alt": "Dia das Mães"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=mormaii+vintage",
+                    "href": "/s?q=bolsa+fossil",
                     "title": "Elos"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/be1f3a57-4329-4e09-a4b1-3d55c697fc2c/Prancheta-1.png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/e5046c34-0288-4753-ba4d-832564eb61af/Prancheta-2.png",
-                  "alt": "Mormaii"
+                  "desktop": "https://assets.decocache.com/timecenterloja/b9939fa7-3606-4ea6-8ced-06faa8d92239/Prancheta-1-(8).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/673b8fa8-d274-407b-8682-6f2a5a32fa74/Prancheta-2-(7).png",
+                  "alt": "Fossil"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=townsman",
+                    "href": "/s?q=mormaii+vintage&O=OrderByTopSaleDESC",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://data.decoassets.com/timecenterloja/eafe0ea5-4435-4f93-8ebc-8a37e254dc08/Prancheta-1-(1).png",
-                  "mobile": "https://data.decoassets.com/timecenterloja/82970dbd-6624-4393-8546-4052df1e5e14/Prancheta-2-(1).png",
-                  "alt": "Fossil townsman"
+                  "desktop": "https://assets.decocache.com/timecenterloja/227c6062-0db4-4bb4-851b-aaacd8d878ca/Prancheta-1-(6).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/be24d963-3e70-4ee6-b501-e3856713ea2a/Prancheta-2-(5).png",
+                  "alt": "Mormaii Vintage"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/technos/relogio?sort=release%3Adesc&filter.productClusterIds=2429&filter.genero=feminino&page=1",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/d9d55c6d-f0b3-4f17-9c8f-6f7dba9bdb23/Prancheta-1-(7).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/4340ec33-e5ca-45e8-bd51-7eae80f7bd63/Prancheta-2-(6).png",
+                  "alt": "Technos"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -99,8 +110,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-04-01T02:59:00.000Z",
-              "start": "2025-03-17T03:00:00.000Z"
+              "end": "2025-05-01T02:59:00.000Z",
+              "start": "2025-04-16T03:00:00.000Z"
             }
           }
         ]
