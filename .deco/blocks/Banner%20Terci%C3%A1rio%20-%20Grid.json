@@ -104,10 +104,10 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/71145679-aada-48c1-8502-367edaa1aa0b/Terciario-1.png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/71145679-aada-48c1-8502-367edaa1aa0b/Terciario-1.png",
-                  "alt": "MICHAEL KORS",
-                  "href": "/michaelkors/relogio",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/6cee0f99-c90d-4bca-8a7a-9fe3e9c096f2/Terciario-1-(2).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/6cee0f99-c90d-4bca-8a7a-9fe3e9c096f2/Terciario-1-(2).png",
+                  "alt": "FEMININOS DELICADOS ",
+                  "href": "/s?q=mini+joia",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2
@@ -121,10 +121,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/3b9ab034-e203-4385-a4e3-b1bf73a31c66/Terciario-2-1.png",
-                  "href": "/s?q=par+perfeito",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/3b9ab034-e203-4385-a4e3-b1bf73a31c66/Terciario-2-1.png",
-                  "alt": "CONDOR"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/4aa8b382-3d98-4eee-bc80-5d81e6065402/Terciario-2-(2).png",
+                  "href": "/s?q=glam",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/4aa8b382-3d98-4eee-bc80-5d81e6065402/Terciario-2-(2).png",
+                  "alt": "Euro Fashion Fit Glam"
                 },
                 {
                   "textColor": "primary",
@@ -134,17 +134,17 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://data.decoassets.com/timecenterloja/de69ffd8-3786-4c52-920f-34004591ba4b/Terciario-2.png",
-                  "srcMobile": "https://data.decoassets.com/timecenterloja/de69ffd8-3786-4c52-920f-34004591ba4b/Terciario-2.png",
-                  "href": "/internacionais?page=1&sort=discount%3Adesc",
-                  "alt": "Internacionais com até 30%"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/090b722e-3394-4211-8470-90a6a45377c7/Terciario-2-1-(1).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/090b722e-3394-4211-8470-90a6a45377c7/Terciario-2-1-(1).png",
+                  "href": "/dumont/relogio",
+                  "alt": "Dumont"
                 }
               ]
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-03-17T03:00:00.000Z",
-              "end": "2025-04-01T02:59:00.000Z"
+              "start": "2025-04-16T03:00:00.000Z",
+              "end": "2025-05-01T02:59:00.000Z"
             }
           }
         ]
