@@ -17,9 +17,6 @@
       "__resolveType": "Banners Terciário - Grid"
     },
     {
-      "__resolveType": "Instagram - Imagens"
-    },
-    {
       "__resolveType": "Sobre a loja - InfoCard"
     },
     {
@@ -67,11 +64,11 @@
     {
       "__resolveType": "site/sections/LgpdModal/LgpdModal.tsx",
       "modalCloseExpiredDate": 30,
+      "text": "<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\">Política de Privacidade.</a></p>",
       "button": {
         "label": "Entendi",
         "variant": "primary"
-      },
-      "text": "<p>Coletamos dados para melhorar a segurança, desempenho do site e personalizar anúncios e conteúdos. Você pode configurar suas preferências em nosso site e conferir nossa <a class=\"underline\" href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\" target=\"_blank\" rel=\"noopener\" data-mce-href=\"https://www.eurorelogios.com.br/institucional/privacidade-e-seguranca\">Política de Privacidade.</a></p>"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
