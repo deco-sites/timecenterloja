@@ -19,10 +19,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/74d53910-8761-46b0-b89b-2b852dd3e710/Secundario-3-(1).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/74d53910-8761-46b0-b89b-2b852dd3e710/Secundario-3-(1).png",
-                  "href": "/s?q=par+perfeito",
-                  "alt": "CONDOR KIT"
+                  "image": "https://assets.decocache.com/timecenterloja/785d8868-d73f-47b4-9cae-8643b6d0bd03/Secundario-3-(2).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/785d8868-d73f-47b4-9cae-8643b6d0bd03/Secundario-3-(2).png",
+                  "href": "/euro/relogio",
+                  "alt": "EURO"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -34,10 +34,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/5b96927d-5082-4d91-b35c-76af10c5c461/Secundario-1-(1).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/5b96927d-5082-4d91-b35c-76af10c5c461/Secundario-1-(1).png",
-                  "href": "/michaelkors/relogio",
-                  "alt": "MICHAEL KORS"
+                  "image": "https://assets.decocache.com/timecenterloja/286543e6-e757-4847-ae4b-f2344ba51891/Secundario-2-(2).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/286543e6-e757-4847-ae4b-f2344ba51891/Secundario-2-(2).png",
+                  "href": "/relogio?sort=release%3Adesc&filter.productClusterIds=2431&filter.genero=feminino&page=1",
+                  "alt": "MORMAII"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -49,10 +49,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/7be50846-71a5-4a24-b0f6-21f67837d506/Secundario-2-(1).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/7be50846-71a5-4a24-b0f6-21f67837d506/Secundario-2-(1).png",
-                  "href": "/s?q=smartwatch",
-                  "alt": "SMARTWATCHES"
+                  "image": "https://assets.decocache.com/timecenterloja/0d20a229-3f19-4066-a0a5-3226ca4a07f1/Secundario-1-(2).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/0d20a229-3f19-4066-a0a5-3226ca4a07f1/Secundario-1-(2).png",
+                  "href": "/s?q=Technos+automático&O=OrderByReleaseDateDESC",
+                  "alt": "TECHNOS AUTOMÁTICO"
                 }
               ],
               "itemPerPageDesktop": 3,
@@ -60,8 +60,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-04-01T03:00:00.000Z",
-              "end": "2025-04-15T14:59:00.000Z"
+              "start": "2025-05-01T03:00:00.000Z",
+              "end": "2025-05-15T14:59:00.000Z"
             }
           },
           {
