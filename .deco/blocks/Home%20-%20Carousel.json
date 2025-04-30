@@ -12,38 +12,38 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/condor/relogio?sort=release%3Adesc"
+                    "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC&sort=release%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/820e2ace-a21e-49a6-b304-52027f8f52a4/tc_Banner_desk_condor.jpg",
-                  "alt": "CONDOR BRACELETE",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d8211066-6e7d-4685-8146-4f93c3ae99c3/Prancheta-2.jpg"
+                  "desktop": "https://assets.decocache.com/timecenterloja/46cd5835-6791-4a13-95c0-b291984f2421/Prancheta-1-(9)---Copia.png",
+                  "alt": "PRESENTES FEMININOS",
+                  "mobile": "https://assets.decocache.com/timecenterloja/d71a302b-630d-458f-a94e-0049ddbdebd8/Prancheta-2-(2)---Copia.jpg"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/internacionais?sort=discount%3Adesc"
+                    "href": "/fossil/relogio?sort=release%3Adesc&filter.productClusterIds=2430&filter.genero=feminino&page=1"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/8d0d433e-3665-422f-b009-fc95377c80ab/Prancheta-1-(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/b860c671-e3ee-4811-943d-08a6207eb5e6/Prancheta-2-(2).png",
-                  "alt": "INTERNACIONAIS 30% OFF"
+                  "desktop": "https://assets.decocache.com/timecenterloja/64116184-d900-4640-90ca-2251182cc23d/Prancheta-1-(10)---Copia.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/d20ae8aa-6c78-45e9-a932-01a998990727/Prancheta-2-(3)---Copia.jpg",
+                  "alt": "FOSSIL"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=carraway"
+                    "href": "/s?q=ST.+MORITZ&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/e3dd1fff-6282-4d82-ace0-d8c99edd750e/Prancheta-1-(3).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/5be86986-caa8-4fbf-9198-7fb244b1d085/Prancheta-2-(3).png",
-                  "alt": "FOSSIL CARRAWAY"
+                  "desktop": "https://assets.decocache.com/timecenterloja/610d6db9-aead-4ec3-a456-dad7484b5eea/Prancheta-1-(11).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/205f2d0f-aeb2-4111-a0c9-3a06375e538c/Prancheta-2-(4)---Copia.jpg",
+                  "alt": "ST. MORITZ"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=centenário"
+                    "href": "/s?q=CONDOR+KIT&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/57ff6b65-56a4-41ca-adad-6026c9784455/Prancheta-1-(4).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/21861ff5-9cec-4545-93b6-95ad0618ba74/Prancheta-2-(4).png",
-                  "alt": "TECHNOS CENTENÁRIO"
+                  "desktop": "https://assets.decocache.com/timecenterloja/def72705-3020-4e36-8afb-b2455725b9b0/tc_Banner_desk_condor-(2).jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/21571746-1919-45a6-a149-54be9e9210d9/Prancheta-2-(5).jpg",
+                  "alt": "CONDOR"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -53,8 +53,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-04-01T03:00:00.000Z",
-              "end": "2025-04-16T02:59:00.000Z"
+              "start": "2025-05-01T03:00:00.000Z",
+              "end": "2025-05-16T02:59:00.000Z"
             }
           },
           {
