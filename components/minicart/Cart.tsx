@@ -37,6 +37,8 @@ export interface ICartProps {
   goToCartLabel?: string;
 }
 
+
+
 interface TotalizerProps {
   label?: string;
   value?: number;
