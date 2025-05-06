@@ -72,9 +72,9 @@ function Cart(props: ICartProps) {
     desktop: {
       buttonMode,
     },
-    mobile: {
-      buttonMode: buttonModeMobile,
-    },
+    // mobile: {
+    //   // buttonMode: buttonModeMobile,
+    // },
     showClearButton = false,
     goToCartLabel = "Finalizar compra",
   } = props;
