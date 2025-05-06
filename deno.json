@@ -2,8 +2,8 @@
   "imports": {
     "deco-sites/timecenter/": "./",
     "$store/": "./",
-    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.107.1/",
-    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.64.2/",
+    "deco/": "https://cdn.jsdelivr.net/gh/deco-cx/deco@1.115.7/",
+    "apps/": "https://cdn.jsdelivr.net/gh/deco-cx/apps@0.81.0/",
     "$fresh/": "https://deno.land/x/fresh@1.7.3/",
     "preact": "npm:preact@10.23.1",
     "preact-render-to-string": "npm:preact-render-to-string@6.4.2",
@@ -13,9 +13,9 @@
     "partytown/": "https://cdn.jsdelivr.net/gh/deco-cx/partytown@0.4.8/",
     "daisyui": "npm:daisyui@4.6.0",
     "https://esm.sh/*preact-render-to-string@6.3.1": "npm:preact-render-to-string@6.4.2",
-    "@deco/deco": "jsr:@deco/deco@1.107.0",
+    "@deco/deco": "jsr:@deco/deco@1.115.7",
     "@deco/durable": "jsr:@deco/durable@0.5.3",
-    "@deco/dev": "jsr:@deco/dev@1.107.0"
+    "@deco/dev": "jsr:@deco/dev@1.115.7"
   },
   "tasks": {
     "local": "DECO_ENV_NAME=localhost deno task start",
