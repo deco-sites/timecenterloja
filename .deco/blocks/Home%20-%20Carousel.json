@@ -12,38 +12,29 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC&sort=release%3Adesc"
+                    "href": "/fossil/relogio"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/46cd5835-6791-4a13-95c0-b291984f2421/Prancheta-1-(9)---Copia.png",
-                  "alt": "PRESENTES FEMININOS",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d71a302b-630d-458f-a94e-0049ddbdebd8/Prancheta-2-(2)---Copia.jpg"
+                  "desktop": "https://assets.decocache.com/timecenterloja/ad1a4572-40d5-44ef-9511-3ab91ada50e0/banner-desktop-timecenter12-01.png",
+                  "alt": "FOSSIL",
+                  "mobile": "https://assets.decocache.com/timecenterloja/ba812f5d-a902-4dd8-904c-5b799d436658/banner-mobile-timecenter12-01.png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/fossil/relogio?sort=release%3Adesc&filter.productClusterIds=2430&filter.genero=feminino&page=1"
+                    "href": "/s?q=technos+joia&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/64116184-d900-4640-90ca-2251182cc23d/Prancheta-1-(10)---Copia.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d20ae8aa-6c78-45e9-a932-01a998990727/Prancheta-2-(3)---Copia.jpg",
-                  "alt": "FOSSIL"
+                  "desktop": "https://assets.decocache.com/timecenterloja/e7d79ff8-75ed-4fe6-b927-5721ffb400ec/banner-desktop-timecenter12-02.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/2c6e85cd-5e41-452b-9839-613a9c9627cd/banner-mobile-timecenter12-02.png",
+                  "alt": "MINI JOIA"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=ST.+MORITZ&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=mormaii+vintage"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/610d6db9-aead-4ec3-a456-dad7484b5eea/Prancheta-1-(11).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/205f2d0f-aeb2-4111-a0c9-3a06375e538c/Prancheta-2-(4)---Copia.jpg",
-                  "alt": "ST. MORITZ"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=CONDOR+KIT&O=OrderByReleaseDateDESC"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/def72705-3020-4e36-8afb-b2455725b9b0/tc_Banner_desk_condor-(2).jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/21571746-1919-45a6-a149-54be9e9210d9/Prancheta-2-(5).jpg",
-                  "alt": "CONDOR"
+                  "desktop": "https://assets.decocache.com/timecenterloja/227c6062-0db4-4bb4-851b-aaacd8d878ca/Prancheta-1-(6).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/be24d963-3e70-4ee6-b501-e3856713ea2a/Prancheta-2-(5).png",
+                  "alt": "MORMAII"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
