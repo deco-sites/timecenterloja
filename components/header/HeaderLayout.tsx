@@ -8,6 +8,7 @@ import { megaMenuDefaultItems } from "./constants.ts";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { type FnContext, type SectionProps } from "@deco/deco";
+import { UserObject } from "deco-sites/timecenter/islands/Partner/Insider/UserObject.tsx";
 export interface Props {
   /**
    * @title Logo
@@ -76,6 +77,7 @@ function HeaderLayout(
         </div>
       </div>
 
+      <UserObject />
       <Modals minicart={minicart} menu={{ items: navItems }} device={device} />
     </header>
   );
