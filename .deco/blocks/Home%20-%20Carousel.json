@@ -12,11 +12,20 @@
                 {
                   "action": {
                     "variant": "primary",
+                    "href": "/condor/relogio?page=1"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/8a8270ca-975a-44d4-8b39-1cf14073011f/banner-site_namorados_campanha.png",
+                  "alt": "CONDOR",
+                  "mobile": "https://assets.decocache.com/timecenterloja/3b02ee7a-a45f-46e3-b0ca-65452959946c/banner-site_mobile_namorados_campanha.png"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
                     "href": "/fossil/relogio"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/ad1a4572-40d5-44ef-9511-3ab91ada50e0/banner-desktop-timecenter12-01.png",
-                  "alt": "FOSSIL",
-                  "mobile": "https://assets.decocache.com/timecenterloja/ba812f5d-a902-4dd8-904c-5b799d436658/banner-mobile-timecenter12-01.png"
+                  "mobile": "https://assets.decocache.com/timecenterloja/ba812f5d-a902-4dd8-904c-5b799d436658/banner-mobile-timecenter12-01.png",
+                  "alt": "FOSSIL"
                 },
                 {
                   "action": {
