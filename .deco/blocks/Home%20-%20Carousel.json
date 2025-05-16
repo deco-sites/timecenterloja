@@ -12,11 +12,20 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/condor/relogio?page=1"
+                    "href": "/relogio/masculino?PS=12&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/8a8270ca-975a-44d4-8b39-1cf14073011f/banner-site_namorados_campanha.png",
-                  "alt": "CONDOR",
-                  "mobile": "https://assets.decocache.com/timecenterloja/3b02ee7a-a45f-46e3-b0ca-65452959946c/banner-site_mobile_namorados_campanha.png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/864507ab-974c-46af-936f-57f55e6d6711/tc_Banner_desk_masculinos.jpg",
+                  "alt": "MASCULINOS",
+                  "mobile": "https://assets.decocache.com/timecenterloja/425b8673-b658-4cdf-bb82-b4a41f1ecb65/Prancheta-2-(7).jpg"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/a0203029-8679-4bfd-a433-958c8d2b8e93/Image-(7).jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/0eb64e07-7564-4fcb-b85e-3aa96087cfd1/Image-(8).jpg",
+                  "alt": "FEMININOS"
                 },
                 {
                   "action": {
@@ -35,15 +44,6 @@
                   "desktop": "https://assets.decocache.com/timecenterloja/e7d79ff8-75ed-4fe6-b927-5721ffb400ec/banner-desktop-timecenter12-02.png",
                   "mobile": "https://assets.decocache.com/timecenterloja/2c6e85cd-5e41-452b-9839-613a9c9627cd/banner-mobile-timecenter12-02.png",
                   "alt": "MINI JOIA"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=mormaii+vintage"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/227c6062-0db4-4bb4-851b-aaacd8d878ca/Prancheta-1-(6).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/be24d963-3e70-4ee6-b501-e3856713ea2a/Prancheta-2-(5).png",
-                  "alt": "MORMAII"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
