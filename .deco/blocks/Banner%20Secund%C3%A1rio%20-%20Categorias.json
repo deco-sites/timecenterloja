@@ -61,7 +61,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-05-01T03:00:00.000Z",
-              "end": "2025-05-30T14:59:00.000Z"
+              "end": "2025-05-31T14:59:00.000Z"
             }
           },
           {
@@ -78,40 +78,40 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/29ddd1cc-c313-4d36-b39a-ead163952cb0/Secundario-3-(1).jpg",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/29ddd1cc-c313-4d36-b39a-ead163952cb0/Secundario-3-(1).jpg",
-                  "href": "/s?q=KIT+CONDOR&O=OrderByReleaseDateDESC",
-                  "alt": "CONDOR"
-                },
-                {
-                  "backgroundColorHover": "primary",
-                  "borderRadius": {
-                    "mobile": "xl",
-                    "desktop": "xl"
-                  },
-                  "borderSize": {
-                    "mobile": "none",
-                    "desktop": "none"
-                  },
-                  "image": "https://assets.decocache.com/timecenterloja/3e515020-8a43-4f95-a88d-a9eb4708b105/Secundario-2.jpg",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/3e515020-8a43-4f95-a88d-a9eb4708b105/Secundario-2.jpg",
-                  "href": "/s?q=EURO+SOUL",
-                  "alt": "EURO"
-                },
-                {
-                  "backgroundColorHover": "primary",
-                  "borderRadius": {
-                    "mobile": "xl",
-                    "desktop": "xl"
-                  },
-                  "borderSize": {
-                    "mobile": "none",
-                    "desktop": "none"
-                  },
-                  "image": "https://assets.decocache.com/timecenterloja/6ad85844-7f76-4d36-aa67-c81b42f5acb6/Secundario-1.jpg",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/6ad85844-7f76-4d36-aa67-c81b42f5acb6/Secundario-1.jpg",
-                  "href": "/fossil/relogio?sort=release%3Adesc&filter.productClusterIds=2430&filter.genero=feminino&page=1",
+                  "image": "https://assets.decocache.com/timecenterloja/147eed59-8446-4e08-8e69-a2b2322bf75f/Secundario-1-(4).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/147eed59-8446-4e08-8e69-a2b2322bf75f/Secundario-1-(4).png",
+                  "href": "/fossil/relogio",
                   "alt": "FOSSIL"
+                },
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://assets.decocache.com/timecenterloja/e629915d-bbb0-4ef1-8257-12ba8842d0a1/Secundario-2-(4).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/e629915d-bbb0-4ef1-8257-12ba8842d0a1/Secundario-2-(4).png",
+                  "href": "/technos/relogio",
+                  "alt": "TECHNOS"
+                },
+                {
+                  "backgroundColorHover": "primary",
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "xl"
+                  },
+                  "borderSize": {
+                    "mobile": "none",
+                    "desktop": "none"
+                  },
+                  "image": "https://assets.decocache.com/timecenterloja/13214cad-400a-43d5-a2aa-eb38efc83c31/Secundario-3-(5).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/13214cad-400a-43d5-a2aa-eb38efc83c31/Secundario-3-(5).png",
+                  "href": "/michaelkors/relogio?sort=release%3Adesc",
+                  "alt": "MICHAEL KORS"
                 }
               ],
               "itemPerPageDesktop": 3,
@@ -119,8 +119,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-04-16T03:00:00.000Z",
-              "end": "2025-05-01T02:59:00.000Z"
+              "start": "2025-06-01T03:00:00.000Z",
+              "end": "2025-06-16T02:59:00.000Z"
             }
           }
         ]
