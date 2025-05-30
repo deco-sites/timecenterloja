@@ -54,7 +54,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-05-01T03:00:00.000Z",
-              "end": "2025-05-31T02:59:00.000Z"
+              "end": "2025-06-01T02:59:00.000Z"
             }
           },
           {
@@ -64,43 +64,32 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/lancamentos?sort=release%3Adesc"
+                    "href": "/technos/relogio?sort=release%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/99d0c524-8155-4af2-bc2f-d911ef52c644/Prancheta-1-(5).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/f00ec445-9b91-44e2-a454-321c10e3915e/Prancheta-2-(1).jpg",
-                  "alt": "Dia das Mães"
+                  "desktop": "https://assets.decocache.com/timecenterloja/88546c23-5417-4144-9574-822ecec3f27e/tc_Banner_desk_brinde.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/39ae93b2-856f-4b04-99c3-f0f6d43b22ff/Prancheta-2-(8).jpg",
+                  "alt": "TECHNOS"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=bolsa+fossil",
+                    "href": "/s?q=riviera",
                     "title": "Elos"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/b9939fa7-3606-4ea6-8ced-06faa8d92239/Prancheta-1-(8).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/673b8fa8-d274-407b-8682-6f2a5a32fa74/Prancheta-2-(7).png",
-                  "alt": "Fossil"
+                  "desktop": "https://assets.decocache.com/timecenterloja/af01e58d-b8c8-4628-a05c-88e36d9fb613/tc_Banner_desk_match.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/4a897ed5-04c7-4587-8d83-ef34f925481c/Prancheta-2-(9).jpg",
+                  "alt": "Dia dos Namorados"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=mormaii+vintage&O=OrderByTopSaleDESC",
+                    "href": "/s?q=Kit",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/227c6062-0db4-4bb4-851b-aaacd8d878ca/Prancheta-1-(6).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/be24d963-3e70-4ee6-b501-e3856713ea2a/Prancheta-2-(5).png",
-                  "alt": "Mormaii Vintage"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/technos/relogio?sort=release%3Adesc&filter.productClusterIds=2429&filter.genero=feminino&page=1",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/d9d55c6d-f0b3-4f17-9c8f-6f7dba9bdb23/Prancheta-1-(7).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/4340ec33-e5ca-45e8-bd51-7eae80f7bd63/Prancheta-2-(6).png",
-                  "alt": "Technos"
+                  "desktop": "https://assets.decocache.com/timecenterloja/a7b7f198-7d15-4575-b22b-d3edfe4d182b/tc_Banner_desk_kits.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/c5e68003-8312-4b23-82f4-2d67a26625dc/Prancheta-2-(10).jpg",
+                  "alt": "KITS"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -110,8 +99,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-05-01T02:59:00.000Z",
-              "start": "2025-04-16T03:00:00.000Z"
+              "end": "2025-06-16T02:59:00.000Z",
+              "start": "2025-06-01T03:00:00.000Z"
             }
           }
         ]
