@@ -17,7 +17,166 @@
       "__resolveType": "Home - Prateleira Coleção"
     },
     {
-      "__resolveType": "Banner Terciário - Grid"
+      "__resolveType": "site/sections/Container.tsx",
+      "sections": [
+        {
+          "section": {
+            "__resolveType": "website/flags/multivariate/section.ts",
+            "variants": [
+              {
+                "value": {
+                  "__resolveType": "site/sections/Images/BannerGrid.tsx",
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 2
+                  },
+                  "itemsPerColumn": {
+                    "mobile": 1,
+                    "desktop": 2
+                  },
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "md"
+                  },
+                  "columnGap": {
+                    "mobile": 1,
+                    "desktop": 4
+                  },
+                  "banners": [
+                    {
+                      "textColor": "primary",
+                      "text": {
+                        "verticalAlignment": "Bottom",
+                        "horizontalAlignment": "Center",
+                        "badges": [],
+                        "buttonColor": "primary"
+                      },
+                      "srcDesktop": "https://assets.decocache.com/timecenterloja/e388355c-4ec8-447e-860c-40da508eb65e/Terciario-1-(1).png",
+                      "srcMobile": "https://assets.decocache.com/timecenterloja/e388355c-4ec8-447e-860c-40da508eb65e/Terciario-1-(1).png",
+                      "alt": "BAZAR",
+                      "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                      "columnStart": 1,
+                      "rowStart": 1,
+                      "rowSpan": 2
+                    },
+                    {
+                      "textColor": "primary",
+                      "text": {
+                        "verticalAlignment": "Bottom",
+                        "horizontalAlignment": "Right",
+                        "badges": [],
+                        "buttonColor": "neutral",
+                        "reverse": true
+                      },
+                      "srcDesktop": "https://assets.decocache.com/timecenterloja/f7eb8e7c-b0bf-4a53-a17a-f47cb45c7c9d/Terciario-2-(1).png",
+                      "href": "/mormaii/relogio",
+                      "srcMobile": "https://assets.decocache.com/timecenterloja/f7eb8e7c-b0bf-4a53-a17a-f47cb45c7c9d/Terciario-2-(1).png",
+                      "alt": "MORMAII"
+                    },
+                    {
+                      "textColor": "primary",
+                      "text": {
+                        "verticalAlignment": "Bottom",
+                        "horizontalAlignment": "Right",
+                        "badges": [],
+                        "buttonColor": "secondary"
+                      },
+                      "srcDesktop": "https://assets.decocache.com/timecenterloja/94428b15-0994-4ded-a323-8d7b5b4f1297/Terciario-2-2.png",
+                      "srcMobile": "https://assets.decocache.com/timecenterloja/94428b15-0994-4ded-a323-8d7b5b4f1297/Terciario-2-2.png",
+                      "href": "/euro/relogio",
+                      "alt": "EURO"
+                    }
+                  ]
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/date.ts",
+                  "start": "2025-04-01T03:00:00.000Z",
+                  "end": "2025-07-01T02:59:00.000Z"
+                }
+              },
+              {
+                "value": {
+                  "__resolveType": "site/sections/Images/BannerGrid.tsx",
+                  "itemsPerLine": {
+                    "mobile": 1,
+                    "desktop": 2
+                  },
+                  "itemsPerColumn": {
+                    "mobile": 1,
+                    "desktop": 2
+                  },
+                  "borderRadius": {
+                    "mobile": "xl",
+                    "desktop": "md"
+                  },
+                  "columnGap": {
+                    "mobile": 1,
+                    "desktop": 4
+                  },
+                  "banners": [
+                    {
+                      "textColor": "primary",
+                      "text": {
+                        "verticalAlignment": "Bottom",
+                        "horizontalAlignment": "Center",
+                        "badges": [],
+                        "buttonColor": "primary"
+                      },
+                      "srcDesktop": "https://assets.decocache.com/timecenterloja/6cee0f99-c90d-4bca-8a7a-9fe3e9c096f2/Terciario-1-(2).png",
+                      "srcMobile": "https://assets.decocache.com/timecenterloja/6cee0f99-c90d-4bca-8a7a-9fe3e9c096f2/Terciario-1-(2).png",
+                      "alt": "FEMININOS DELICADOS ",
+                      "href": "/s?q=mini+joia",
+                      "columnStart": 1,
+                      "rowStart": 1,
+                      "rowSpan": 2
+                    },
+                    {
+                      "textColor": "primary",
+                      "text": {
+                        "verticalAlignment": "Bottom",
+                        "horizontalAlignment": "Right",
+                        "badges": [],
+                        "buttonColor": "neutral",
+                        "reverse": true
+                      },
+                      "srcDesktop": "https://assets.decocache.com/timecenterloja/4aa8b382-3d98-4eee-bc80-5d81e6065402/Terciario-2-(2).png",
+                      "href": "/s?q=glam",
+                      "srcMobile": "https://assets.decocache.com/timecenterloja/4aa8b382-3d98-4eee-bc80-5d81e6065402/Terciario-2-(2).png",
+                      "alt": "Euro Fashion Fit Glam"
+                    },
+                    {
+                      "textColor": "primary",
+                      "text": {
+                        "verticalAlignment": "Bottom",
+                        "horizontalAlignment": "Right",
+                        "badges": [],
+                        "buttonColor": "secondary"
+                      },
+                      "srcDesktop": "https://assets.decocache.com/timecenterloja/090b722e-3394-4211-8470-90a6a45377c7/Terciario-2-1-(1).png",
+                      "srcMobile": "https://assets.decocache.com/timecenterloja/090b722e-3394-4211-8470-90a6a45377c7/Terciario-2-1-(1).png",
+                      "href": "/dumont/relogio",
+                      "alt": "Dumont"
+                    }
+                  ]
+                },
+                "rule": {
+                  "__resolveType": "website/matchers/date.ts",
+                  "start": "2025-04-16T03:00:00.000Z",
+                  "end": "2025-05-01T02:59:00.000Z"
+                }
+              }
+            ]
+          },
+          "shadow": "none",
+          "overFlow": "overflow-none",
+          "verticalSpacing": "none",
+          "label": "BannerGrid",
+          "withContainer": true,
+          "backgroundColor": "#F7F7F7",
+          "spacing": 0
+        }
+      ],
+      "label": "\"Container\""
     },
     {
       "__resolveType": "site/sections/Container.tsx",
