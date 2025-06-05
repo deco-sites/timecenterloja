@@ -33,8 +33,8 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/e388355c-4ec8-447e-860c-40da508eb65e/Terciario-1-(1).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/e388355c-4ec8-447e-860c-40da508eb65e/Terciario-1-(1).png",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/37d6642b-a862-4926-90ad-ba015f3b7132/Terciario-1-(5).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/37d6642b-a862-4926-90ad-ba015f3b7132/Terciario-1-(5).png",
                   "alt": "BAZAR",
                   "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
                   "columnStart": 1,
@@ -50,9 +50,9 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/f7eb8e7c-b0bf-4a53-a17a-f47cb45c7c9d/Terciario-2-(1).png",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/7e26c34f-e7ed-4fdd-ada8-fdc9766914a3/Terciario-2-1-(4).png",
                   "href": "/mormaii/relogio",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/f7eb8e7c-b0bf-4a53-a17a-f47cb45c7c9d/Terciario-2-(1).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/7e26c34f-e7ed-4fdd-ada8-fdc9766914a3/Terciario-2-1-(4).png",
                   "alt": "MORMAII"
                 },
                 {
@@ -63,10 +63,10 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/94428b15-0994-4ded-a323-8d7b5b4f1297/Terciario-2-2.png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/94428b15-0994-4ded-a323-8d7b5b4f1297/Terciario-2-2.png",
-                  "href": "/euro/relogio",
-                  "alt": "EURO"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/a2d69ccf-ad80-4645-9a9f-f8f88c3aeef4/Terciario-2-(5).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/a2d69ccf-ad80-4645-9a9f-f8f88c3aeef4/Terciario-2-(5).png",
+                  "href": "/condor/relogio",
+                  "alt": "CONDOR"
                 }
               ]
             },
