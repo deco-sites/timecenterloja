@@ -64,15 +64,6 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/technos/relogio?sort=release%3Adesc"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/88546c23-5417-4144-9574-822ecec3f27e/tc_Banner_desk_brinde.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/39ae93b2-856f-4b04-99c3-f0f6d43b22ff/Prancheta-2-(8).jpg",
-                  "alt": "TECHNOS"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
                     "href": "/s?q=riviera",
                     "title": "Elos"
                   },
