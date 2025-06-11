@@ -110,59 +110,89 @@ function InputCheckboxNewsletter(
   );
 }
 
+const add_email_optin_inside_user_object = (
+  { name, email, email_optin }: {
+    name: string;
+    email: string;
+    email_optin: boolean;
+  },
+) => {
+  let user_formatted = { email_optin };
+  
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  globalThis.window.insider_object = JSON.parse(sessionStorage.getItem('user_object')) || globalThis.window.insider_object || { user: user_formatted };
+
+  if (name) {
+    user_formatted = Object.assign(user_formatted, {name, username: name});
+  }
+
+  if (email) {
+    user_formatted = Object.assign(user_formatted, {email});
+  }
+
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  globalThis.window.insider_object.user = { ...globalThis.window.insider_object.user, ...user_formatted};
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  sessionStorage.setItem('user_object', JSON.stringify(globalThis.window.insider_object));
+}
+
 function Form(props: Props) {
   const { text, form } = props;
   const loading = useSignal(false);
   const success = useSignal(false);
 
-  const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
+  const handleSubmit: JSX.SubmitEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
 
-    try {
-      const formData = {
-        email: "",
-        name: "",
-        privacyContact: false,
-      };
+    const formData = {
+      email: (e.currentTarget.elements.namedItem("email") as HTMLInputElement)?.value || "",
+      name: (e.currentTarget.elements.namedItem("name") as HTMLInputElement)?.value || "",
+      privacyContact: !!(e.currentTarget.elements.namedItem("privacy-contact") as HTMLInputElement)?.checked,
+    };
 
-      loading.value = true;
+    loading.value = true;
 
-      if (form?.email?.show) {
-        formData.email =
-          (e.currentTarget.elements.namedItem("email") as RadioNodeList)?.value;
-      }
-
-      if (form?.name?.show) {
-        formData.name =
-          (e.currentTarget.elements.namedItem("name") as RadioNodeList)
-            ?.value;
-      }
-
-      if (form?.privacyContact?.show) {
-        formData.privacyContact = (e.currentTarget.querySelector(
-          'input[name="privacyContact"]',
-        ) as HTMLInputElement)?.checked;
-      }
-
-      // await subscribe({ email, name });
-      // await Runtime.vtex.actions.newsletter.subscribe({ name, email });
-
-      await fetch("/api/optin", {
-        method: "POST",
-        body: JSON.stringify(formData),
-        headers: {
-          "content-type": "application/json",
-          "accept": "application/json",
-        },
-      });
-    } finally {
-      loading.value = false;
+    await fetch("/api/optin", {
+      method: "POST",
+      body: JSON.stringify({
+        dateOfBirth: "",
+        Newsletter: formData.privacyContact,
+        email: formData.email,
+        name: formData.name,
+        telephone: ""
+      }),
+      headers: {
+        "content-type": "application/json",
+        "accept": "application/json",
+      },
+    }).then((response) => {
       success.value = true;
 
-      setTimeout(() => {
-        success.value = false;
-      }, 5000);
-    }
+      if (
+        window.location.href.includes('localhost') || 
+        window.location.href.includes('decocdn') || 
+        window.location.href.includes('deno.dev')
+      ) {
+        console.log(["Dados enviados para a Option com sucesso:", response]);
+      }
+    }).catch((error: { message: any; }) => {
+      console.error("Erro ao enviar dados para a Option:", error.message || error);
+    })
+
+    add_email_optin_inside_user_object({
+      email_optin: formData.privacyContact,
+      email: formData.email,
+      name: formData.name
+    });
+
+    loading.value = false;
+
+    setTimeout(() => {
+      success.value = false;
+    }, 5000);
   };
 
   const emailInput = !form?.email?.show
@@ -219,11 +249,8 @@ function Form(props: Props) {
               {nameInput}
               {emailInput}
               <button
-                style={{
-                  minWidth: "150px",
-                }}
                 type="submit"
-                class={`mr-0 lg:mr-auto uppercase md:ml-5 font-medium btn min-h-0 h-9 disabled:loading rounded-full join-item btn-${
+                class={`mr-0 lg:mr-auto uppercase md:ml-5 font-medium btn min-h-0 min-w-[150px] disabled:min-w-0 h-9 disabled:loading disabled:mx-[65px] rounded-full join-item btn-${
                   BUTTON_VARIANTS[form?.button?.variant as string] ||
                   BUTTON_VARIANTS["primary"]
                 }`}
