@@ -8333,8 +8333,17 @@ details.collapse summary::-webkit-details-marker {
   outline-offset: 2px;
 }
 
+.disabled\:mx-\[65px\]:disabled {
+  margin-left: 65px;
+  margin-right: 65px;
+}
+
 .disabled\:hidden:disabled {
   display: none;
+}
+
+.disabled\:min-w-0:disabled {
+  min-width: 0px;
 }
 
 .disabled\:bg-transparent:disabled {
