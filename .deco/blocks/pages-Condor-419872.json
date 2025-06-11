@@ -36,10 +36,11 @@
         {
           "image": {
             "alt": " ",
-            "desktop": "https://assets.decocache.com/timecenterloja/0eb6be73-ee24-4089-8b24-371f82d9e471/banner-timecenter_maes.png",
-            "mobile": "https://assets.decocache.com/timecenterloja/558758e1-f941-44ab-8a56-c70fea7e7e9a/Design-sem-nome-(14).png"
+            "desktop": "https://assets.decocache.com/timecenterloja/1c3dd93e-ddcc-4ad9-9794-6d773fc42e61/banner-timecenter_3072x288_2.png",
+            "mobile": "https://assets.decocache.com/timecenterloja/ebef0e0a-6ac7-440d-a9e2-4debd816adc6/Design-sem-nome-(16).png"
           },
-          "matcher": "/condor/relogio"
+          "matcher": "/condor/relogio",
+          "href": "/condor/relogio"
         }
       ]
     },
