@@ -1,15 +1,13 @@
 // TODO: Why not using actions?
 
 import { Handlers } from "$fresh/server.ts";
-import { PORTAL_SUBDOMAIN } from "../../domain.ts";
+import { PORTAL_APIDOMAIN } from "../../domain.ts";
 
 export const handler: Handlers = {
   POST: async (req) => {
-    const SUBDOMAIN = PORTAL_SUBDOMAIN;
-
     const data = await req.json();
 
-    const response = await fetch(SUBDOMAIN + "/api/dataentities/NT/documents", {
+    const response = await fetch(PORTAL_APIDOMAIN[0] + "/api/dataentities/NT/documents", {
       method: "POST",
       body: JSON.stringify(data),
       headers: {
