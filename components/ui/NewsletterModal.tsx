@@ -1,3 +1,4 @@
+// deno-lint-ignore-file ban-ts-comment
 import {
   BUTTON_VARIANTS,
   ButtonVariant,
@@ -128,6 +129,50 @@ function InputNewsletter(
     />
   );
 }
+
+const add_email_optin_inside_user_object = (
+  { phone_number, birthday, name, email, email_optin }: {
+    phone_number: string;
+    birthday: string;
+    name: string;
+    email: string;
+    email_optin: boolean;
+  },
+) => {
+  let user_formatted = { email_optin };
+  
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  globalThis.window.insider_object = JSON.parse(sessionStorage.getItem('user_object')) || globalThis.window.insider_object || { user: user_formatted };
+
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  if (birthday) {
+    user_formatted = Object.assign(user_formatted, {birthday});
+  }
+
+  if (name) {
+    user_formatted = Object.assign(user_formatted, {name, username: name});
+  }
+
+  if (email) {
+    user_formatted = Object.assign(user_formatted, {email});
+  }
+
+  if (phone_number) {
+    user_formatted = Object.assign(user_formatted, {
+      phone_number: phone_number.replace(/\D/g, '')
+    });
+  }
+
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  globalThis.window.insider_object.user = { ...globalThis.window.insider_object.user, ...user_formatted};
+  // deno-lint-ignore ban-ts-comment
+  // @ts-ignore
+  sessionStorage.setItem('user_object', JSON.stringify(globalThis.window.insider_object));
+}
+
 function NewsletterModal({
   textSendSucess,
   textFieldCupom,
@@ -152,11 +197,12 @@ function NewsletterModal({
       modalRef.current?.showModal();
     }
   }, [isOpen]);
-  const handleSubmit: JSX.GenericEventHandler<HTMLFormElement> = async (e) => {
+  const handleSubmit: JSX.SubmitEventHandler<HTMLFormElement> = async (e) => {
     e.preventDefault();
     try {
       const formData = new FormData(e.currentTarget);
-      const formProps = Object.fromEntries(formData);
+      // @ts-ignore
+      const formProps = Object.fromEntries(formData.entries());
       const Newsletter = Boolean(formProps.newsletter);
       const { name, email, telephone, dateOfBirth } = formProps;
       const data = { name, email, telephone, dateOfBirth, Newsletter };
@@ -167,6 +213,14 @@ function NewsletterModal({
           "content-type": "application/json",
           "accept": "application/json",
         },
+      });
+
+      add_email_optin_inside_user_object({
+        birthday: formProps.dateOfBirth,
+        email: formProps.email,
+        email_optin: Newsletter,
+        name: formProps.name,
+        phone_number: formProps.telephone,
       });
     } finally {
       loading.value = false;
