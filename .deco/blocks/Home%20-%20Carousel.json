@@ -12,38 +12,38 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio/masculino?PS=12&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=automático+diver"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/864507ab-974c-46af-936f-57f55e6d6711/tc_Banner_desk_masculinos.jpg",
-                  "alt": "MASCULINOS",
-                  "mobile": "https://assets.decocache.com/timecenterloja/425b8673-b658-4cdf-bb82-b4a41f1ecb65/Prancheta-2-(7).jpg"
+                  "desktop": "https://assets.decocache.com/timecenterloja/29bcf290-cbe7-4cc6-ad1f-5cee1479578c/tc_Banner_desk_diver.jpg",
+                  "alt": "DIVER",
+                  "mobile": "https://assets.decocache.com/timecenterloja/f153c5fd-cc17-4fbe-b257-ecca866138ac/Prancheta-2-(11).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC"
+                    "href": "/euro/relogio?sort=release%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/44445ae9-dd4d-4d20-8160-21ff014af2d1/PHOTO-2025-05-09-15-50-00.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/0eb64e07-7564-4fcb-b85e-3aa96087cfd1/Image-(8).jpg",
-                  "alt": "FEMININOS"
+                  "desktop": "https://assets.decocache.com/timecenterloja/52d0f444-9dad-47c6-be79-4bda2cb56f68/tc_Banner_desk_deuro.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/3ef6a5fe-7a4a-46a5-8eb3-23183f15118b/Prancheta-2-(13).jpg",
+                  "alt": "EURO"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/fossil/relogio"
+                    "href": "/s?q=fossil+machine&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/ad1a4572-40d5-44ef-9511-3ab91ada50e0/banner-desktop-timecenter12-01.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/ba812f5d-a902-4dd8-904c-5b799d436658/banner-mobile-timecenter12-01.png",
+                  "desktop": "https://assets.decocache.com/timecenterloja/b3901015-d16b-47bd-bc24-7d4de9459952/Prancheta-1-(12).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/75a976cb-3807-473a-9c1b-dc0abaf3d520/Prancheta-2-(14).jpg",
                   "alt": "FOSSIL"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+joia&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=mormaii+vintage&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/e7d79ff8-75ed-4fe6-b927-5721ffb400ec/banner-desktop-timecenter12-02.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/2c6e85cd-5e41-452b-9839-613a9c9627cd/banner-mobile-timecenter12-02.png",
-                  "alt": "MINI JOIA"
+                  "desktop": "https://assets.decocache.com/timecenterloja/2fd08c5e-4f38-443c-9eea-6c94e5659931/Prancheta-1-(13).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/24290ed3-0387-451b-aef2-b8f49da2307f/Prancheta-2-(12).png",
+                  "alt": "MORMAII"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -53,8 +53,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-05-01T03:00:00.000Z",
-              "end": "2025-06-01T02:59:00.000Z"
+              "start": "2025-06-12T03:00:00.000Z",
+              "end": "2025-07-01T02:59:00.000Z"
             }
           },
           {
@@ -90,7 +90,7 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-06-16T02:59:00.000Z",
+              "end": "2025-06-13T02:59:00.000Z",
               "start": "2025-06-01T03:00:00.000Z"
             }
           }
