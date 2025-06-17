@@ -33,10 +33,10 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/37d6642b-a862-4926-90ad-ba015f3b7132/Terciario-1-(5).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/37d6642b-a862-4926-90ad-ba015f3b7132/Terciario-1-(5).png",
-                  "alt": "BAZAR",
-                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/6279a6da-fff6-4e26-9716-201a33a7340f/Terciario-1-(7).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/6279a6da-fff6-4e26-9716-201a33a7340f/Terciario-1-(7).png",
+                  "alt": "TECHNOS",
+                  "href": "/technos/relogio",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2
@@ -50,10 +50,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/7e26c34f-e7ed-4fdd-ada8-fdc9766914a3/Terciario-2-1-(4).png",
-                  "href": "/mormaii/relogio",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/7e26c34f-e7ed-4fdd-ada8-fdc9766914a3/Terciario-2-1-(4).png",
-                  "alt": "MORMAII"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/a20e058e-be2f-4de0-9e3d-07e53a02e581/Terciario-2-(7).png",
+                  "href": "/euro/relogio",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/a20e058e-be2f-4de0-9e3d-07e53a02e581/Terciario-2-(7).png",
+                  "alt": "EURO"
                 },
                 {
                   "textColor": "primary",
@@ -63,15 +63,17 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/a2d69ccf-ad80-4645-9a9f-f8f88c3aeef4/Terciario-2-(5).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/a2d69ccf-ad80-4645-9a9f-f8f88c3aeef4/Terciario-2-(5).png",
-                  "href": "/condor/relogio",
-                  "alt": "CONDOR"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/9d33d2d5-ae81-4be5-9bae-e5e0e5d74de3/Terciario-2-1-(6).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/9d33d2d5-ae81-4be5-9bae-e5e0e5d74de3/Terciario-2-1-(6).png",
+                  "href": "/dumont/relogio",
+                  "alt": "DUMONT"
                 }
               ]
             },
             "rule": {
-              "__resolveType": "website/matchers/always.ts"
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-06-17T15:00:00.000Z",
+              "end": "2025-07-31T15:00:00.000Z"
             }
           }
         ]
