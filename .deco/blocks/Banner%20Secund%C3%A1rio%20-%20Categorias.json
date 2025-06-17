@@ -78,10 +78,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/147eed59-8446-4e08-8e69-a2b2322bf75f/Secundario-1-(4).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/147eed59-8446-4e08-8e69-a2b2322bf75f/Secundario-1-(4).png",
-                  "href": "/fossil/relogio",
-                  "alt": "FOSSIL"
+                  "image": "https://assets.decocache.com/timecenterloja/c24d395f-2f9d-475f-aedb-aece779adeab/Secundario-1-(7).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/c24d395f-2f9d-475f-aedb-aece779adeab/Secundario-1-(7).png",
+                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                  "alt": "BAZAR "
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -93,10 +93,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/e629915d-bbb0-4ef1-8257-12ba8842d0a1/Secundario-2-(4).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/e629915d-bbb0-4ef1-8257-12ba8842d0a1/Secundario-2-(4).png",
-                  "href": "/technos/relogio",
-                  "alt": "TECHNOS"
+                  "image": "https://assets.decocache.com/timecenterloja/b6be2bf3-74a8-4e68-8a46-47623aef110d/Secundario-2-(6).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/b6be2bf3-74a8-4e68-8a46-47623aef110d/Secundario-2-(6).png",
+                  "href": "/s?q=kids&O=OrderByReleaseDateDESC",
+                  "alt": "Condor Kids"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -108,8 +108,8 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/13214cad-400a-43d5-a2aa-eb38efc83c31/Secundario-3-(5).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/13214cad-400a-43d5-a2aa-eb38efc83c31/Secundario-3-(5).png",
+                  "image": "https://assets.decocache.com/timecenterloja/8adef21b-f90f-4f04-9088-3e5c1faa752d/Secundario-3-(8).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/8adef21b-f90f-4f04-9088-3e5c1faa752d/Secundario-3-(8).png",
                   "href": "/michaelkors/relogio?sort=release%3Adesc",
                   "alt": "MICHAEL KORS"
                 }
@@ -119,8 +119,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-06-01T03:00:00.000Z",
-              "end": "2025-06-16T02:59:00.000Z"
+              "start": "2025-06-17T03:00:00.000Z",
+              "end": "2025-07-01T02:59:00.000Z"
             }
           }
         ]
