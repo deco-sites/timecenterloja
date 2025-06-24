@@ -29,13 +29,13 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/9659d186-d406-4aca-a5fb-c9cbeb533a85/Terciario-1-(3).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/9659d186-d406-4aca-a5fb-c9cbeb533a85/Terciario-1-(3).png",
-            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/6279a6da-fff6-4e26-9716-201a33a7340f/Terciario-1-(7).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/6279a6da-fff6-4e26-9716-201a33a7340f/Terciario-1-(7).png",
+            "href": "/technos/relogio",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2,
-            "alt": "BAZAR"
+            "alt": "TECHNOS"
           },
           {
             "textColor": "primary",
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/562aea03-c8b2-469d-a4e2-01aec1e1ac7f/Terciario-2-(3).png",
-            "href": "/internacionais",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/562aea03-c8b2-469d-a4e2-01aec1e1ac7f/Terciario-2-(3).png",
-            "alt": "Internacionais"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/a20e058e-be2f-4de0-9e3d-07e53a02e581/Terciario-2-(7).png",
+            "href": "/euro/relogio",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/a20e058e-be2f-4de0-9e3d-07e53a02e581/Terciario-2-(7).png",
+            "alt": "EURO"
           },
           {
             "textColor": "primary",
@@ -59,8 +59,8 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/6af09fc6-fb60-480d-9267-4fea57e0bc96/Terciario-2-1-(2).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/6af09fc6-fb60-480d-9267-4fea57e0bc96/Terciario-2-1-(2).png",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/9d33d2d5-ae81-4be5-9bae-e5e0e5d74de3/Terciario-2-1-(6).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/9d33d2d5-ae81-4be5-9bae-e5e0e5d74de3/Terciario-2-1-(6).png",
             "href": "/2609?PS=12&map=productClusterIds&sort=price%3Adesc",
             "alt": "Relógios até R$699"
           }
