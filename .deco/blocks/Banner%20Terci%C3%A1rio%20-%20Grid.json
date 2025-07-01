@@ -33,10 +33,10 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/6279a6da-fff6-4e26-9716-201a33a7340f/Terciario-1-(7).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/6279a6da-fff6-4e26-9716-201a33a7340f/Terciario-1-(7).png",
-                  "alt": "TECHNOS",
-                  "href": "/technos/relogio",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/701fd407-b415-4e6d-bc7e-ddfed2a278bd/Terciario-1-(8).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/701fd407-b415-4e6d-bc7e-ddfed2a278bd/Terciario-1-(8).png",
+                  "alt": "BAZAR",
+                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2
@@ -50,10 +50,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/a20e058e-be2f-4de0-9e3d-07e53a02e581/Terciario-2-(7).png",
-                  "href": "/euro/relogio",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/a20e058e-be2f-4de0-9e3d-07e53a02e581/Terciario-2-(7).png",
-                  "alt": "EURO"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/b63721db-4228-463f-bf1b-aa356c43a8a1/Terciario-2-(8).png",
+                  "href": "/s?q=fossil+carteira&O=OrderByReleaseDateDESC",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/b63721db-4228-463f-bf1b-aa356c43a8a1/Terciario-2-(8).png",
+                  "alt": "COURO MASCULINOS"
                 },
                 {
                   "textColor": "primary",
@@ -63,10 +63,10 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/9d33d2d5-ae81-4be5-9bae-e5e0e5d74de3/Terciario-2-1-(6).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/9d33d2d5-ae81-4be5-9bae-e5e0e5d74de3/Terciario-2-1-(6).png",
-                  "href": "/dumont/relogio",
-                  "alt": "DUMONT"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/d19e75a5-940a-4adf-9d43-bb8b629f5ba4/Terciario-2-1-(7).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/d19e75a5-940a-4adf-9d43-bb8b629f5ba4/Terciario-2-1-(7).png",
+                  "href": "/s?q=soul&O=OrderByReleaseDateDESC",
+                  "alt": "EURO SOUL"
                 }
               ]
             },
