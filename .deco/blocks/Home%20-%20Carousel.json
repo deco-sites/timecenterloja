@@ -12,38 +12,29 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=automático+diver"
+                    "href": "/s?q=technos+max+call&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/29bcf290-cbe7-4cc6-ad1f-5cee1479578c/tc_Banner_desk_diver.jpg",
-                  "alt": "DIVER",
-                  "mobile": "https://assets.decocache.com/timecenterloja/f153c5fd-cc17-4fbe-b257-ecca866138ac/Prancheta-2-(11).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/6fefa416-dc18-4e0b-a7a9-114223f1f275/tc_Banner_desk_call.jpg",
+                  "alt": "TECHNOS",
+                  "mobile": "https://assets.decocache.com/timecenterloja/1eb29089-e828-4c41-ba3b-1d04db095afd/Prancheta-2-(13).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/euro/relogio?sort=release%3Adesc"
+                    "href": "/s?q=condor+masculino&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/52d0f444-9dad-47c6-be79-4bda2cb56f68/tc_Banner_desk_deuro.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/3ef6a5fe-7a4a-46a5-8eb3-23183f15118b/Prancheta-2-(13).jpg",
-                  "alt": "EURO"
+                  "desktop": "https://assets.decocache.com/timecenterloja/4bb32146-eb55-4979-97ca-b6490eac5ba3/tc_Banner_desk_condor-(3).jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/4f68a9e9-0964-42c6-9a32-31600231b19e/Prancheta-2-(15).png",
+                  "alt": "CONDOR"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=fossil+machine&O=OrderByReleaseDateDESC"
+                    "href": "/s?q=carraway"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/b3901015-d16b-47bd-bc24-7d4de9459952/Prancheta-1-(12).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/75a976cb-3807-473a-9c1b-dc0abaf3d520/Prancheta-2-(14).jpg",
+                  "desktop": "https://assets.decocache.com/timecenterloja/7b7cd8b3-07cf-418f-8e36-5057211091bc/Prancheta-1-(14).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/b7ba548d-6f15-4be5-b1d1-89e9b8f6a149/Prancheta-2-(14).png",
                   "alt": "FOSSIL"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=mormaii+vintage&O=OrderByReleaseDateDESC"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/2fd08c5e-4f38-443c-9eea-6c94e5659931/Prancheta-1-(13).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/24290ed3-0387-451b-aef2-b8f49da2307f/Prancheta-2-(12).png",
-                  "alt": "MORMAII"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -53,8 +44,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-06-12T03:00:00.000Z",
-              "end": "2025-07-01T02:59:00.000Z"
+              "start": "2025-07-01T03:00:00.000Z",
+              "end": "2025-07-18T02:59:00.000Z"
             }
           },
           {
