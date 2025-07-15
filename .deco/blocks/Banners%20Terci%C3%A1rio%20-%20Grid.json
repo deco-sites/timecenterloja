@@ -29,13 +29,13 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/701fd407-b415-4e6d-bc7e-ddfed2a278bd/Terciario-1-(8).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/701fd407-b415-4e6d-bc7e-ddfed2a278bd/Terciario-1-(8).png",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/0c4d4ddb-c70f-4b34-a37b-b9b333eee3a9/Terciario-1-(9).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/0c4d4ddb-c70f-4b34-a37b-b9b333eee3a9/Terciario-1-(9).png",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2,
-            "alt": "´BAZAR",
-            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+            "alt": "KIT MASCULINO",
+            "href": "/s?q=kit+masculino&O=OrderByReleaseDateDESC"
           },
           {
             "textColor": "primary",
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/b63721db-4228-463f-bf1b-aa356c43a8a1/Terciario-2-(8).png",
-            "href": "/s?q=fossil+carteira&O=OrderByReleaseDateDESC",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/b63721db-4228-463f-bf1b-aa356c43a8a1/Terciario-2-(8).png",
-            "alt": "COURO MASCULINOS"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/77b4085b-e4f8-41bb-a28b-5ca3b79e0b2d/Terciario-2-(9).png",
+            "href": "/mormaii/relogio",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/77b4085b-e4f8-41bb-a28b-5ca3b79e0b2d/Terciario-2-(9).png",
+            "alt": "MORMAII"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/d19e75a5-940a-4adf-9d43-bb8b629f5ba4/Terciario-2-1-(7).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/d19e75a5-940a-4adf-9d43-bb8b629f5ba4/Terciario-2-1-(7).png",
-            "href": "/s?q=soul&O=OrderByReleaseDateDESC",
-            "alt": "Euro Soul"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/fc583179-7ced-4da1-b432-63b8a0c95be5/Terciario-2-1-(8).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/fc583179-7ced-4da1-b432-63b8a0c95be5/Terciario-2-1-(8).png",
+            "href": "/condor/relogio",
+            "alt": "CONDOR"
           }
         ]
       },
