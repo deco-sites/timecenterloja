@@ -45,7 +45,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-07-01T03:00:00.000Z",
-              "end": "2025-07-18T02:59:00.000Z"
+              "end": "2025-07-15T02:59:00.000Z"
             }
           },
           {
@@ -55,23 +55,34 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=riviera",
+                    "href": "/relogio/masculino?PS=12&O=OrderByReleaseDateDESC",
                     "title": "Elos"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/af01e58d-b8c8-4628-a05c-88e36d9fb613/tc_Banner_desk_match.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/4a897ed5-04c7-4587-8d83-ef34f925481c/Prancheta-2-(9).jpg",
-                  "alt": "Dia dos Namorados"
+                  "desktop": "https://assets.decocache.com/timecenterloja/2d783026-90b8-4a23-8127-272fcdcf511b/tc_Banner_desk_pais.gif",
+                  "mobile": "https://assets.decocache.com/timecenterloja/8c03b05f-b8e3-4af8-a98c-917ec6784a56/tc_Banner_MOB_pais.gif",
+                  "alt": "Dia dos Pais"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=Kit",
+                    "href": "/fossil/relogio?sort=release%3Adesc&filter.productClusterIds=2430&filter.genero=masculino&page=1",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/a7b7f198-7d15-4575-b22b-d3edfe4d182b/tc_Banner_desk_kits.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/c5e68003-8312-4b23-82f4-2d67a26625dc/Prancheta-2-(10).jpg",
-                  "alt": "KITS"
+                  "desktop": "https://assets.decocache.com/timecenterloja/3b821440-e21b-49ff-be52-07e8941d4ccc/tc_Banner_desk_pais.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/144a8881-36c2-4471-8c6d-31ac9292be6f/Prancheta-2-(16).png",
+                  "alt": "FOSSIL"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=DIGITECH&O=OrderByReleaseDateDESC",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/ba39b821-c44e-42fe-942c-dbf75412a4c0/tc_Banner_desk_digitech.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/f16bfd9b-8d83-43a3-bf22-513ec6705de6/Prancheta-2-(17).png",
+                  "alt": "DIGITECH"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -81,8 +92,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-06-13T02:59:00.000Z",
-              "start": "2025-06-01T03:00:00.000Z"
+              "end": "2025-08-01T02:59:00.000Z",
+              "start": "2025-07-15T03:00:00.000Z"
             }
           }
         ]
