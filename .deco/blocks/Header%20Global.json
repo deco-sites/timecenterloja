@@ -522,12 +522,6 @@
                   {
                     "showLabel": true,
                     "children": [],
-                    "label": "Emporio Armani",
-                    "href": "/emporioarmani/relogio"
-                  },
-                  {
-                    "showLabel": true,
-                    "children": [],
                     "label": "Euro",
                     "href": "/euro/relogio"
                   }
@@ -545,28 +539,22 @@
                     "showLabel": true
                   },
                   {
-                    "href": "/relogio/kate-spade?O=OrderByReleaseDateDESC",
-                    "label": "Kate Spade",
-                    "children": [],
-                    "showLabel": true
-                  },
-                  {
-                    "href": "/relogio/mariner?O=OrderByReleaseDateDESC",
-                    "label": "Mariner",
-                    "children": [],
-                    "showLabel": true
-                  },
-                  {
                     "href": "/michaelkors/relogio",
                     "label": "Michael Kors",
                     "children": [],
                     "showLabel": true
                   },
                   {
+                    "href": "/mormaii/relogio",
+                    "label": "Mormaii",
+                    "children": [],
+                    "showLabel": true
+                  },
+                  {
                     "showLabel": true,
                     "children": [],
-                    "label": "Mormaii",
-                    "href": "/mormaii/relogio"
+                    "label": "Skagen",
+                    "href": "/skagen/relogio"
                   }
                 ],
                 "showLabel": false
@@ -578,14 +566,8 @@
                   {
                     "children": [],
                     "showLabel": true,
-                    "label": "Skagen",
-                    "href": "/skagen/relogio"
-                  },
-                  {
-                    "href": "/technos/relogio",
                     "label": "Technos",
-                    "children": [],
-                    "showLabel": true
+                    "href": "/technos/relogio"
                   },
                   {
                     "href": "/touch/relogio",
