@@ -12,29 +12,29 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+max+call&O=OrderByReleaseDateDESC"
+                    "href": "/condor/relogio"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/6fefa416-dc18-4e0b-a7a9-114223f1f275/tc_Banner_desk_call.jpg",
-                  "alt": "TECHNOS",
-                  "mobile": "https://assets.decocache.com/timecenterloja/1eb29089-e828-4c41-ba3b-1d04db095afd/Prancheta-2-(13).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/8910298f-459a-4425-b0b0-292115cb30f4/banner-desktop-timecenter01-03.gif",
+                  "alt": "CONDOR SMART",
+                  "mobile": "https://assets.decocache.com/timecenterloja/8b911e3e-a010-40a8-9b06-7b4c095fb875/banner-mobile-timecenter01-03.gif"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=condor+masculino&O=OrderByReleaseDateDESC"
+                    "href": "/technos/relogio?sort=release%3Adesc&filter.productClusterIds=2429&filter.genero=masculino&page=1"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/4bb32146-eb55-4979-97ca-b6490eac5ba3/tc_Banner_desk_condor-(3).jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/4f68a9e9-0964-42c6-9a32-31600231b19e/Prancheta-2-(15).png",
-                  "alt": "CONDOR"
+                  "desktop": "https://assets.decocache.com/timecenterloja/2cf873a4-e959-4724-bb19-56eba9c182e6/banner-desktop-timecenter01-02.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/bcb7e02f-c0e6-435a-be62-fb9d4bc2e1a2/banner-mobile-timecenter01-02.png",
+                  "alt": "TECHNOS"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=carraway"
+                    "href": "/fossil/relogio?sort=release%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/7b7cd8b3-07cf-418f-8e36-5057211091bc/Prancheta-1-(14).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/b7ba548d-6f15-4be5-b1d1-89e9b8f6a149/Prancheta-2-(14).png",
-                  "alt": "FOSSIL"
+                  "desktop": "https://assets.decocache.com/timecenterloja/d496b6b5-db97-4329-a71b-bfa37ee0c2d4/banner-desktop-timecenter01-01.jpg",
+                  "mobile": "https://assets.decocache.com/timecenterloja/d985c720-981f-4825-9782-414789903617/banner-mobile-timecenter01-01.png",
+                  "alt": "Masculinos sofisticados"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -44,8 +44,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-07-01T03:00:00.000Z",
-              "end": "2025-07-15T02:59:00.000Z"
+              "start": "2025-08-01T03:00:00.000Z",
+              "end": "2025-07-13T02:59:00.000Z"
             }
           },
           {
