@@ -29,13 +29,13 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/0c4d4ddb-c70f-4b34-a37b-b9b333eee3a9/Terciario-1-(9).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/0c4d4ddb-c70f-4b34-a37b-b9b333eee3a9/Terciario-1-(9).png",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/f2eba7e3-327e-4ee8-94de-02c3cff949b7/banner-terciario1-timecenter01.png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/f2eba7e3-327e-4ee8-94de-02c3cff949b7/banner-terciario1-timecenter01.png",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2,
-            "alt": "KIT MASCULINO",
-            "href": "/s?q=kit+masculino&O=OrderByReleaseDateDESC"
+            "alt": "BAZAR DE INVERNO",
+            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
           },
           {
             "textColor": "primary",
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/77b4085b-e4f8-41bb-a28b-5ca3b79e0b2d/Terciario-2-(9).png",
-            "href": "/mormaii/relogio",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/77b4085b-e4f8-41bb-a28b-5ca3b79e0b2d/Terciario-2-(9).png",
-            "alt": "MORMAII"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/c7cccabb-961d-4726-97d7-aca6f1a2edd6/banner-terciario2-timecenter01-01.png",
+            "href": "/internacionais?sort=release%3Adesc&filter.productClusterIds=2030&filter.genero=masculino&page=1",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/c7cccabb-961d-4726-97d7-aca6f1a2edd6/banner-terciario2-timecenter01-01.png",
+            "alt": "INTERNACIONAIS MASCULINOS"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/fc583179-7ced-4da1-b432-63b8a0c95be5/Terciario-2-1-(8).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/fc583179-7ced-4da1-b432-63b8a0c95be5/Terciario-2-1-(8).png",
-            "href": "/condor/relogio",
-            "alt": "CONDOR"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/942e6c58-83bc-4d07-9b86-2b0e14396f89/banner-terciario2-timecenter01-02.png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/942e6c58-83bc-4d07-9b86-2b0e14396f89/banner-terciario2-timecenter01-02.png",
+            "href": "/s?q=mormaii+force&O=OrderByReleaseDateDESC",
+            "alt": "MORMAII FORCE"
           }
         ]
       },
