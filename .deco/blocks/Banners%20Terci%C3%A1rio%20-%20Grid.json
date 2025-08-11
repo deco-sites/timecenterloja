@@ -29,8 +29,8 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/f2eba7e3-327e-4ee8-94de-02c3cff949b7/banner-terciario1-timecenter01.png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/f2eba7e3-327e-4ee8-94de-02c3cff949b7/banner-terciario1-timecenter01.png",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/ac541dc2-476d-46df-a17f-d766369b9a2c/banner-terciario-timecenter1-11.png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/ac541dc2-476d-46df-a17f-d766369b9a2c/banner-terciario-timecenter1-11.png",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2,
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/c7cccabb-961d-4726-97d7-aca6f1a2edd6/banner-terciario2-timecenter01-01.png",
-            "href": "/internacionais?sort=release%3Adesc&filter.productClusterIds=2030&filter.genero=masculino&page=1",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/c7cccabb-961d-4726-97d7-aca6f1a2edd6/banner-terciario2-timecenter01-01.png",
-            "alt": "INTERNACIONAIS MASCULINOS"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/1f40f0f9-a31e-4abe-9d03-cd2f172086fe/banner-terciario-timecenter2-11-01.png",
+            "href": "/s?q=euro+unique&O=OrderByReleaseDateDESC",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/1f40f0f9-a31e-4abe-9d03-cd2f172086fe/banner-terciario-timecenter2-11-01.png",
+            "alt": "EURO ACESSÓRIOS"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/942e6c58-83bc-4d07-9b86-2b0e14396f89/banner-terciario2-timecenter01-02.png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/942e6c58-83bc-4d07-9b86-2b0e14396f89/banner-terciario2-timecenter01-02.png",
-            "href": "/s?q=mormaii+force&O=OrderByReleaseDateDESC",
-            "alt": "MORMAII FORCE"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/8b7394c1-1fd9-44eb-ae56-d86d6b015e33/banner-terciario-timecenter2-11-02.png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/8b7394c1-1fd9-44eb-ae56-d86d6b015e33/banner-terciario-timecenter2-11-02.png",
+            "href": "/s?q=2035NDE&O=OrderByReleaseDateDESC",
+            "alt": "TECHNOS MINI"
           }
         ]
       },
