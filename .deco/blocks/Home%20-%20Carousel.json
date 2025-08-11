@@ -67,18 +67,7 @@
                     "variant": "primary",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff",
-                    "href": "/s?q=mormaii+vintage&O=OrderByPriceDESC"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/e18d1780-e6c8-4b2e-8a72-85536ba404a7/banner-desktop-timecenter11-02.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/5f5dbe8c-8135-4a7c-9ca2-fd6483555f33/banner-mobile-timecenter11-02.png",
-                  "alt": "Mormaii - Vintage"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=fossil&O=OrderByBestDiscountDESC",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
+                    "href": "/s?q=fossil&O=OrderByBestDiscountDESC"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/3a5f3216-21ef-47ee-9d98-71e7005cd019/banner-desktop-timecenter11-03.jpg",
                   "mobile": "https://assets.decocache.com/timecenterloja/f08b29a4-d090-4a9a-9c63-8b485d30c82a/banner-mobile-timecenter11-03.png",
