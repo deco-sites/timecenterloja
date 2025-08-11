@@ -72,6 +72,17 @@
                   "desktop": "https://assets.decocache.com/timecenterloja/3a5f3216-21ef-47ee-9d98-71e7005cd019/banner-desktop-timecenter11-03.jpg",
                   "mobile": "https://assets.decocache.com/timecenterloja/f08b29a4-d090-4a9a-9c63-8b485d30c82a/banner-mobile-timecenter11-03.png",
                   "alt": "Fossil - 40OFF"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff",
+                    "href": "/s?q=mormaii+vintage&O=OrderByReleaseDateDESC"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/95e4784d-41d1-453c-9d1b-02b07a8495e6/Puro-estilo-perfeito-para-fazer-parte-de-qualquer-momento-do-seu-dia!.zip---3.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/a888236b-af7c-469c-aabf-bd00a404cb0c/Puro-estilo-perfeito-para-fazer-parte-de-qualquer-momento-do-seu-dia!.png",
+                  "alt": "MORMAII VINTAGE"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
