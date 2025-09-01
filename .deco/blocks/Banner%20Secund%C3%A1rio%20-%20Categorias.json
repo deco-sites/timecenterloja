@@ -61,7 +61,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-08-11T03:00:00.000Z",
-              "end": "2025-08-31T14:59:00.000Z"
+              "end": "2025-09-04T14:59:00.000Z"
             }
           },
           {
