@@ -19,10 +19,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/00c241fd-af5e-449e-b455-5db1ce2df73c/banner-secundario-timecenter11-02.png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/00c241fd-af5e-449e-b455-5db1ce2df73c/banner-secundario-timecenter11-02.png",
-                  "href": "/s?q=technos+smartwatch&O=OrderByReleaseDateDESC",
-                  "alt": "TECHNOS"
+                  "image": "https://assets.decocache.com/timecenterloja/87cabcdb-9022-4b49-aaa6-bbda84cd8eed/Banner-secundario---Time-Center---(1).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/87cabcdb-9022-4b49-aaa6-bbda84cd8eed/Banner-secundario---Time-Center---(1).png",
+                  "href": "/s?q=mormaii+force&O=OrderByReleaseDateDESC",
+                  "alt": "MORMAII FORCE"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -34,10 +34,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/5b4744fd-3052-43c2-a845-722bed03e098/banner-secundario-timecenter11-01.png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/5b4744fd-3052-43c2-a845-722bed03e098/banner-secundario-timecenter11-01.png",
-                  "href": "/condor/relogio?sort=release%3Adesc",
-                  "alt": "CONDOR"
+                  "image": "https://assets.decocache.com/timecenterloja/148f807b-fcc6-4733-b783-d663140db6c6/Banner-secundario---Time-Center---(2).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/148f807b-fcc6-4733-b783-d663140db6c6/Banner-secundario---Time-Center---(2).png",
+                  "href": "/s?q=Glitz&O=OrderByReleaseDateDESC",
+                  "alt": "EURO GLITZ"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -49,10 +49,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/58be0973-59a5-4411-a386-849c7cc1eb1a/banner-secundario-timecenter11-03.png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/58be0973-59a5-4411-a386-849c7cc1eb1a/banner-secundario-timecenter11-03.png",
-                  "href": "/s?q=mochila+fossil&O=OrderByReleaseDateDESC",
-                  "alt": "FOSSIL"
+                  "image": "https://assets.decocache.com/timecenterloja/20d55932-8d12-40e1-b212-5dc8cf99065d/Banner-secundario---Time-Center--.png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/20d55932-8d12-40e1-b212-5dc8cf99065d/Banner-secundario---Time-Center--.png",
+                  "href": "/s?q=crosby",
+                  "alt": "FOSSIL CROSBY"
                 }
               ],
               "itemPerPageDesktop": 3,
