@@ -187,7 +187,7 @@
             "title": "Sobre a Marca",
             "titleColor": "secondary",
             "captionColor": "secondary",
-            "html": "<p>A Timecenter faz parte do&nbsp;<strong>Grupo Technos</strong>, o maior grupo relojoeiro da América Latina. Aqui você encontra produtos originais reconhecidos pelo design e qualidade. As melhores marcas nacionais e internacionais com as melhores condições, podendo parcelar em até 10 vezes.</p>",
+            "html": "<p>A Timecenter faz parte do&nbsp;<strong>Grupo Technos</strong>, o maior grupo relojoeiro da América Latina. Aqui você encontra produtos originais reconhecidos pelo design e qualidade. As melhores marcas nacionais e internacionais com as melhores condições, podendo parcelar em até 10 vezes</p>",
             "textAlign": "Center",
             "links": []
           },

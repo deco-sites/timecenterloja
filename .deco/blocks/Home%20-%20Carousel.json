@@ -12,11 +12,59 @@
                 {
                   "action": {
                     "variant": "primary",
+                    "href": "/s?q=smartwatch&O=OrderByReleaseDateDESC",
+                    "title": "Elos"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/78527cd6-77c6-46fb-bda2-a73f89d43ff7/Banner-Slide-Time-Center---desktop-(4).png",
+                  "alt": "SMARTWATCHES",
+                  "mobile": "https://assets.decocache.com/timecenterloja/4432c6e8-63ab-453a-bc61-d6dbe9a03d3f/Banner-Slide-mobile-(5).png"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=Technos+slim&O=OrderByReleaseDateDESC",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/ca5c5c46-6e24-4aa5-b603-514f2320aff6/Banner-Slide-Time-Center---desktop-(5).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/814bf06e-7ffb-4f07-b020-a28d71b68171/Banner-Slide-mobile-(6).png",
+                  "alt": "SLIM"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=Kit&O=OrderByReleaseDateDESC",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/8288e70b-d669-4b07-8861-b87148dbc74f/Banner-Slide-Time-Center---desktop-(6).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/2ddc867e-713c-44ae-b084-121061104d9f/Banner-Slide-mobile-(7).png",
+                  "alt": "KITS FEMININOS E MASCULINOS"
+                }
+              ],
+              "showPaginationArrows": "Desktop Only",
+              "showPaginationDots": "Always",
+              "interval": 5,
+              "preload": true
+            },
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-08-11T03:00:00.000Z",
+              "end": "2025-09-18T02:59:00.000Z"
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/Carousel.tsx",
+              "images": [
+                {
+                  "action": {
+                    "variant": "primary",
                     "href": "/condor/relogio"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/8910298f-459a-4425-b0b0-292115cb30f4/banner-desktop-timecenter01-03.gif",
-                  "alt": "CONDOR SMART",
-                  "mobile": "https://assets.decocache.com/timecenterloja/8b911e3e-a010-40a8-9b06-7b4c095fb875/banner-mobile-timecenter01-03.gif"
+                  "mobile": "https://assets.decocache.com/timecenterloja/8b911e3e-a010-40a8-9b06-7b4c095fb875/banner-mobile-timecenter01-03.gif",
+                  "alt": "CONDOR SMART"
                 },
                 {
                   "action": {
@@ -44,56 +92,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-08-01T03:00:00.000Z",
-              "end": "2025-08-11T02:59:00.000Z"
-            }
-          },
-          {
-            "value": {
-              "__resolveType": "site/sections/Images/Carousel.tsx",
-              "images": [
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/s?q=Soul&O=OrderByReleaseDateDESC",
-                    "title": "Elos"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/153f712d-c139-449a-afec-ef7a3b92f736/banner-desktop-timecenter11-01.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/5c3cf0d4-f5ff-41de-948c-1671f0d76501/banner-mobile-timecenter11-01.png",
-                  "alt": "Euro - Soul"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff",
-                    "href": "/s?q=fossil&O=OrderByBestDiscountDESC"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/3a5f3216-21ef-47ee-9d98-71e7005cd019/banner-desktop-timecenter11-03.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/f08b29a4-d090-4a9a-9c63-8b485d30c82a/banner-mobile-timecenter11-03.png",
-                  "alt": "Fossil - 40OFF"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff",
-                    "href": "/s?q=mormaii+vintage&O=OrderByReleaseDateDESC"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/95e4784d-41d1-453c-9d1b-02b07a8495e6/Puro-estilo-perfeito-para-fazer-parte-de-qualquer-momento-do-seu-dia!.zip---3.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/a888236b-af7c-469c-aabf-bd00a404cb0c/Puro-estilo-perfeito-para-fazer-parte-de-qualquer-momento-do-seu-dia!.png",
-                  "alt": "MORMAII VINTAGE"
-                }
-              ],
-              "showPaginationArrows": "Desktop Only",
-              "showPaginationDots": "Always",
-              "interval": 5,
-              "preload": true
-            },
-            "rule": {
-              "__resolveType": "website/matchers/date.ts",
-              "end": "2025-09-05T02:59:00.000Z",
-              "start": "2025-08-11T03:00:00.000Z"
+              "end": "2025-08-11T02:59:00.000Z",
+              "start": "2025-08-01T03:00:00.000Z"
             }
           }
         ]
