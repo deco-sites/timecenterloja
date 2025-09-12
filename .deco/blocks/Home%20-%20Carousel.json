@@ -50,7 +50,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-09-01T03:00:00.000Z",
-              "end": "2025-09-18T02:59:00.000Z"
+              "end": "2025-09-15T02:59:00.000Z"
             }
           },
           {
@@ -60,29 +60,11 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/condor/relogio"
+                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/8910298f-459a-4425-b0b0-292115cb30f4/banner-desktop-timecenter01-03.gif",
-                  "mobile": "https://assets.decocache.com/timecenterloja/8b911e3e-a010-40a8-9b06-7b4c095fb875/banner-mobile-timecenter01-03.gif",
-                  "alt": "CONDOR SMART"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/technos/relogio?sort=release%3Adesc&filter.productClusterIds=2429&filter.genero=masculino&page=1"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/2cf873a4-e959-4724-bb19-56eba9c182e6/banner-desktop-timecenter01-02.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/bcb7e02f-c0e6-435a-be62-fb9d4bc2e1a2/banner-mobile-timecenter01-02.png",
-                  "alt": "TECHNOS"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/fossil/relogio?sort=release%3Adesc"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/d496b6b5-db97-4329-a71b-bfa37ee0c2d4/banner-desktop-timecenter01-01.jpg",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d985c720-981f-4825-9782-414789903617/banner-mobile-timecenter01-01.png",
-                  "alt": "Masculinos sofisticados"
+                  "desktop": "https://assets.decocache.com/timecenterloja/d0e1eaf3-2485-47a8-8f40-b8e81e348429/SEMANA-DO-CONSUMIDOR---time-center--(2).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/f9a5517b-5ceb-4b2a-8014-d38068df4ca0/SEMANA-DO-CONSUMIDOR---time-center--(3).png",
+                  "alt": "Semana_consumidor"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -92,8 +74,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-08-27T02:59:00.000Z",
-              "start": "2025-08-01T03:00:00.000Z"
+              "end": "2025-09-22T02:59:00.000Z",
+              "start": "2025-09-15T03:00:00.000Z"
             }
           }
         ]
