@@ -1,6 +1,6 @@
 {
   "name": "Semana do Cliente",
-  "path": "/semanadocliente",
+  "path": "/semana-do-cliente",
   "sections": [
     {
       "__resolveType": "Analytics"
@@ -52,12 +52,12 @@
             "__resolveType": "site/sections/Product/SearchResult.tsx",
             "page": {
               "__resolveType": "vtex/loaders/intelligentSearch/productListingPage.ts",
-              "sort": "release:desc",
+              "sort": "discount:desc",
               "fuzzy": "automatic",
               "selectedFacets": [
                 {
                   "key": "productClusterIds",
-                  "value": "2458"
+                  "value": "2637"
                 }
               ],
               "count": 24
