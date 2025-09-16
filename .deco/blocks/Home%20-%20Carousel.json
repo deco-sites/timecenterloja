@@ -65,6 +65,33 @@
                   "desktop": "https://assets.decocache.com/timecenterloja/d0e1eaf3-2485-47a8-8f40-b8e81e348429/SEMANA-DO-CONSUMIDOR---time-center--(2).png",
                   "mobile": "https://assets.decocache.com/timecenterloja/f9a5517b-5ceb-4b2a-8014-d38068df4ca0/SEMANA-DO-CONSUMIDOR---time-center--(3).png",
                   "alt": "Semana_consumidor"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=euro+big+case&O=OrderByReleaseDateDESC"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/de6ddda5-1251-4e74-8fe5-43d9244568ad/Banner-slide---Time-Center-desktop.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/4ca68de5-fae4-4a16-b56d-a8bec97cf84e/Banner-slide-mobile.png",
+                  "alt": "EURO BIG CASE"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/f7c2e98d-5bfb-42a0-827b-3676c413aaa2/Banner-slide---Time-Center-desktop-(1).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/441c8046-69f9-48b4-bbd8-4dfeef53d577/Banner-slide-mobile-(1).png",
+                  "alt": "Technos Automático"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/fossil/relogio?sort=discount%3Adesc"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/02da840d-a73a-447f-aae9-6e6dd8de54f7/Banner-slide---Time-Center-desktop-(2).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/d7bb590b-3db0-4909-b436-f1de57725ab4/Banner-slide-mobile-(2).png",
+                  "alt": "FOSSIL SALE"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
