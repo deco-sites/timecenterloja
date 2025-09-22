@@ -49,23 +49,14 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-09-01T03:00:00.000Z",
-              "end": "2025-09-15T02:59:00.000Z"
+              "start": "2025-09-15T03:00:00.000Z",
+              "end": "2025-09-21T02:59:00.000Z"
             }
           },
           {
             "value": {
               "__resolveType": "site/sections/Images/Carousel.tsx",
               "images": [
-                {
-                  "action": {
-                    "variant": "primary",
-                    "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/1c4e5719-4612-481e-82da-a76858941750/SEMANA-DO-CLIENTE---time-center--(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/e51a1202-56fc-4bc3-95e3-3f1f9136ec6d/SEMANA-DO-CLIENTE---time-center--(3).png",
-                  "alt": "Semana_consumidor"
-                },
                 {
                   "action": {
                     "variant": "primary",
@@ -101,8 +92,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-09-22T02:59:00.000Z",
-              "start": "2025-09-15T03:00:00.000Z"
+              "end": "2025-10-01T02:59:00.000Z",
+              "start": "2025-09-22T03:00:00.000Z"
             }
           }
         ]
