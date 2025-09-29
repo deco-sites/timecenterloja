@@ -7,9 +7,9 @@
         "products": {
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
-            "sort": "OrderByBestDiscountDESC",
+            "sort": "OrderByReleaseDateDESC",
             "count": 20,
-            "collection": "2637"
+            "collection": "2049"
           }
         },
         "highlights": [],
@@ -67,7 +67,7 @@
             "showCta": true
           }
         },
-        "title": "SEMANA DO CLIENTE"
+        "title": "NOVIDADES"
       },
       "shadow": "none",
       "overFlow": "overflow-none",
