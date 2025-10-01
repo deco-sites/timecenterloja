@@ -29,13 +29,13 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/ac541dc2-476d-46df-a17f-d766369b9a2c/banner-terciario-timecenter1-11.png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/ac541dc2-476d-46df-a17f-d766369b9a2c/banner-terciario-timecenter1-11.png",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/81589a20-b9a3-4c75-ad5a-6c133a11f720/BANNER-TERCIARIO.png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/81589a20-b9a3-4c75-ad5a-6c133a11f720/BANNER-TERCIARIO.png",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2,
-            "alt": "BAZAR DE INVERNO",
-            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc"
+            "alt": "Relógios sofisticados",
+            "href": "/fossil/relogio"
           },
           {
             "textColor": "primary",
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/1f40f0f9-a31e-4abe-9d03-cd2f172086fe/banner-terciario-timecenter2-11-01.png",
-            "href": "/s?q=euro+unique&O=OrderByReleaseDateDESC",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/1f40f0f9-a31e-4abe-9d03-cd2f172086fe/banner-terciario-timecenter2-11-01.png",
-            "alt": "EURO ACESSÓRIOS"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/d3da3105-daff-485e-b1f2-65f701130f3c/BANNER-TERCIARIO-(2).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/d3da3105-daff-485e-b1f2-65f701130f3c/BANNER-TERCIARIO-(2).png",
+            "alt": "Relógio Fashionita",
+            "href": "/euro/relogio"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/8b7394c1-1fd9-44eb-ae56-d86d6b015e33/banner-terciario-timecenter2-11-02.png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/8b7394c1-1fd9-44eb-ae56-d86d6b015e33/banner-terciario-timecenter2-11-02.png",
-            "href": "/s?q=2035NDE&O=OrderByReleaseDateDESC",
-            "alt": "TECHNOS MINI"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/57416a4c-2c8b-4302-a6cd-f8f3236e4519/BANNER-TERCIARIO-(1).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/57416a4c-2c8b-4302-a6cd-f8f3236e4519/BANNER-TERCIARIO-(1).png",
+            "alt": "Relógios Minimalistas",
+            "href": "/technos/relogio"
           }
         ]
       },
