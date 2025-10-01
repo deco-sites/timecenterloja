@@ -12,34 +12,34 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=smartwatch&O=OrderByReleaseDateDESC",
+                    "href": "/s?q=kids",
                     "title": "Elos"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/78527cd6-77c6-46fb-bda2-a73f89d43ff7/Banner-Slide-Time-Center---desktop-(4).png",
-                  "alt": "SMARTWATCHES",
-                  "mobile": "https://assets.decocache.com/timecenterloja/4432c6e8-63ab-453a-bc61-d6dbe9a03d3f/Banner-Slide-mobile-(5).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/c81e63d9-6269-4099-9b0e-e89acb2ea49a/Banner-Slide-(1).png",
+                  "alt": "Condor_Kids",
+                  "mobile": "https://assets.decocache.com/timecenterloja/af3f0901-c4ad-4199-8455-87f64cb8e673/Banner-Slide-(5).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=Technos+slim&O=OrderByReleaseDateDESC",
+                    "href": "/relogio?sort=release%3Adesc",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/ca5c5c46-6e24-4aa5-b603-514f2320aff6/Banner-Slide-Time-Center---desktop-(5).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/814bf06e-7ffb-4f07-b020-a28d71b68171/Banner-Slide-mobile-(6).png",
-                  "alt": "SLIM"
+                  "desktop": "https://assets.decocache.com/timecenterloja/964c0c61-c064-47d5-bf65-a087868cad85/Banner-Slide-(2).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/ec110cdb-cb0e-42a1-b6a5-f3b062e09c9a/Banner-Slide-(6).png",
+                  "alt": "Fossil_nick"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=Kit&O=OrderByReleaseDateDESC",
+                    "href": "/mormaii/relogio?sort=release%3Adesc",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/8288e70b-d669-4b07-8861-b87148dbc74f/Banner-Slide-Time-Center---desktop-(6).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/2ddc867e-713c-44ae-b084-121061104d9f/Banner-Slide-mobile-(7).png",
-                  "alt": "KITS FEMININOS E MASCULINOS"
+                  "desktop": "https://assets.decocache.com/timecenterloja/75aaa8a9-b9ea-4b74-a477-80d39c212dd5/Banner-Slide-(3).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/03a78d5f-30a6-40a5-a9ab-6271606b472a/Banner-Slide-(7).png",
+                  "alt": "Mormaii"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -49,8 +49,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-09-15T03:00:00.000Z",
-              "end": "2025-09-21T02:59:00.000Z"
+              "start": "2025-10-01T03:00:00.000Z",
+              "end": "2025-10-13T02:59:00.000Z"
             }
           },
           {
