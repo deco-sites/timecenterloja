@@ -78,10 +78,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/63eb3cfc-d6b6-4944-abfd-ddef082323c7/Secundario-2-(8).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/63eb3cfc-d6b6-4944-abfd-ddef082323c7/Secundario-2-(8).png",
-                  "href": "/relogio/masculino?sort=release%3Adesc&filter.category-1=relogio&filter.category-2=masculino&filter.tamanho=grande&page=1",
-                  "alt": "MASCULINOS ROBUSTOS"
+                  "image": "https://assets.decocache.com/timecenterloja/76c431c1-dbc1-4cf4-a65a-3c47b609cb90/Banner-Secundario.png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/76c431c1-dbc1-4cf4-a65a-3c47b609cb90/Banner-Secundario.png",
+                  "href": "/s?q=smartwatch",
+                  "alt": "SMARTWATCH"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -93,10 +93,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/361c61db-6f0e-4735-aae0-7c6b767b6ebb/Secundario-3-(11).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/361c61db-6f0e-4735-aae0-7c6b767b6ebb/Secundario-3-(11).png",
-                  "href": "/s?q=carraway",
-                  "alt": "MASCLUNIS MINIMALISTAS"
+                  "image": "https://assets.decocache.com/timecenterloja/398bd829-b620-48e7-9a64-1940579a1baa/Banner-Secundario-(1).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/398bd829-b620-48e7-9a64-1940579a1baa/Banner-Secundario-(1).png",
+                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+                  "alt": "OFF"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -108,10 +108,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/8e1126cf-c024-4904-b6ea-083b276a1cd9/Secundario-1-(9).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/8e1126cf-c024-4904-b6ea-083b276a1cd9/Secundario-1-(9).png",
-                  "href": "/mormaii/relogio?sort=release%3Adesc&filter.productClusterIds=2431&filter.genero=masculino&page=1",
-                  "alt": "MASCULINOS ESPORTIVOS"
+                  "image": "https://assets.decocache.com/timecenterloja/cb93b9ee-febe-4da6-a7ca-b3c1943508ef/Banner-Secundario-(2).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/cb93b9ee-febe-4da6-a7ca-b3c1943508ef/Banner-Secundario-(2).png",
+                  "href": "/s?q=Kit",
+                  "alt": "KITS"
                 }
               ],
               "itemPerPageDesktop": 3,
@@ -119,8 +119,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-07-01T03:00:00.000Z",
-              "end": "2025-08-01T02:59:00.000Z"
+              "start": "2025-09-30T03:00:00.000Z",
+              "end": "2025-10-13T02:59:00.000Z"
             }
           }
         ]
