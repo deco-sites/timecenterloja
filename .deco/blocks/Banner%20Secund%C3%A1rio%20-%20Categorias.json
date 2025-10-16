@@ -60,7 +60,7 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-08-11T03:00:00.000Z",
+              "start": "2025-10-16T03:00:00.000Z",
               "end": "2025-09-15T14:59:00.000Z"
             }
           },
@@ -78,10 +78,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/76c431c1-dbc1-4cf4-a65a-3c47b609cb90/Banner-Secundario.png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/76c431c1-dbc1-4cf4-a65a-3c47b609cb90/Banner-Secundario.png",
-                  "href": "/s?q=smartwatch",
-                  "alt": "SMARTWATCH"
+                  "image": "https://assets.decocache.com/timecenterloja/3c08a7cf-ea6d-448d-bd36-5fb6b3431829/Banners-secundarios---Condor-Disney---Bolsas-e-acessorios---Automaticos.png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/3c08a7cf-ea6d-448d-bd36-5fb6b3431829/Banners-secundarios---Condor-Disney---Bolsas-e-acessorios---Automaticos.png",
+                  "href": "/s?q=kids",
+                  "alt": "KIDS"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -93,10 +93,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/398bd829-b620-48e7-9a64-1940579a1baa/Banner-Secundario-(1).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/398bd829-b620-48e7-9a64-1940579a1baa/Banner-Secundario-(1).png",
-                  "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
-                  "alt": "OFF"
+                  "image": "https://assets.decocache.com/timecenterloja/e6f93505-d3af-43d4-ad00-97021214f060/Banners-secundarios---Condor-Disney---Bolsas-e-acessorios---Automaticos-(1).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/0ec0fc53-83ca-455a-af7a-a5880a5d9051/Banners-secundarios---Condor-Disney---Bolsas-e-acessorios---Automaticos-(1).png",
+                  "alt": "ACESSÓRIOS",
+                  "href": "/s?q=BOLSA&O=OrderByReleaseDateDESC"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -108,10 +108,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/cb93b9ee-febe-4da6-a7ca-b3c1943508ef/Banner-Secundario-(2).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/cb93b9ee-febe-4da6-a7ca-b3c1943508ef/Banner-Secundario-(2).png",
-                  "href": "/s?q=Kit",
-                  "alt": "KITS"
+                  "image": "https://assets.decocache.com/timecenterloja/b8077b8f-412d-4c59-b98e-9b2d8b726f01/Banners-secundarios---Condor-Disney---Bolsas-e-acessorios---Automaticos-(2).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/b8077b8f-412d-4c59-b98e-9b2d8b726f01/Banners-secundarios---Condor-Disney---Bolsas-e-acessorios---Automaticos-(2).png",
+                  "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC",
+                  "alt": "TECHNOS_AUT"
                 }
               ],
               "itemPerPageDesktop": 3,
@@ -120,7 +120,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-10-01T03:00:00.000Z",
-              "end": "2025-10-17T02:59:00.000Z"
+              "end": "2025-11-01T02:59:00.000Z"
             }
           }
         ]
