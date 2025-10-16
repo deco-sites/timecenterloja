@@ -29,13 +29,13 @@
               "badges": [],
               "buttonColor": "primary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/81589a20-b9a3-4c75-ad5a-6c133a11f720/BANNER-TERCIARIO.png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/81589a20-b9a3-4c75-ad5a-6c133a11f720/BANNER-TERCIARIO.png",
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
             "columnStart": 1,
             "rowStart": 1,
             "rowSpan": 2,
-            "alt": "Relógios sofisticados",
-            "href": "/fossil/relogio"
+            "href": "/s?q=MINI+PETIT",
+            "alt": "MINI_PETIT"
           },
           {
             "textColor": "primary",
@@ -46,10 +46,10 @@
               "buttonColor": "neutral",
               "reverse": true
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/d3da3105-daff-485e-b1f2-65f701130f3c/BANNER-TERCIARIO-(2).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/d3da3105-daff-485e-b1f2-65f701130f3c/BANNER-TERCIARIO-(2).png",
-            "alt": "Relógio Fashionita",
-            "href": "/euro/relogio"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
+            "alt": "MORMAII",
+            "href": "/mormaii/relogio"
           },
           {
             "textColor": "primary",
@@ -59,10 +59,10 @@
               "badges": [],
               "buttonColor": "secondary"
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/57416a4c-2c8b-4302-a6cd-f8f3236e4519/BANNER-TERCIARIO-(1).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/57416a4c-2c8b-4302-a6cd-f8f3236e4519/BANNER-TERCIARIO-(1).png",
-            "alt": "Relógios Minimalistas",
-            "href": "/technos/relogio"
+            "srcDesktop": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
+            "srcMobile": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
+            "alt": "FOSSIL",
+            "href": "/s?q=NICK+JONAS"
           }
         ]
       },
