@@ -50,7 +50,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-10-01T03:00:00.000Z",
-              "end": "2025-10-17T02:59:00.000Z"
+              "end": "2025-10-16T02:59:00.000Z"
             }
           },
           {
@@ -60,29 +60,29 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=euro+big+case&O=OrderByReleaseDateDESC"
+                    "href": "/michaelkors/relogio?sort=orders%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/de6ddda5-1251-4e74-8fe5-43d9244568ad/Banner-slide---Time-Center-desktop.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/4ca68de5-fae4-4a16-b56d-a8bec97cf84e/Banner-slide-mobile.png",
-                  "alt": "EURO BIG CASE"
+                  "desktop": "https://assets.decocache.com/timecenterloja/c7b8c4c8-aaa6-4ac0-9dfc-5eec6520224c/Banners-slide---MK---Fossil-Femininos---Unique-Euro.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/0d563eeb-705d-493d-a2c4-e8029d984c63/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(3).png",
+                  "alt": "MK"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=technos+automático&O=OrderByReleaseDateDESC"
+                    "href": "/fossil/relogio"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/f7c2e98d-5bfb-42a0-827b-3676c413aaa2/Banner-slide---Time-Center-desktop-(1).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/441c8046-69f9-48b4-bbd8-4dfeef53d577/Banner-slide-mobile-(1).png",
-                  "alt": "Technos Automático"
+                  "desktop": "https://assets.decocache.com/timecenterloja/c93f278d-2512-4034-b10c-e54a51c76ccd/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(6).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/1bc0551d-9557-4781-ac38-3ff913cdda84/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(4).png",
+                  "alt": "FOSSIL"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/fossil/relogio?sort=discount%3Adesc"
+                    "href": "/s?q=Serpentes"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/02da840d-a73a-447f-aae9-6e6dd8de54f7/Banner-slide---Time-Center-desktop-(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d7bb590b-3db0-4909-b436-f1de57725ab4/Banner-slide-mobile-(2).png",
-                  "alt": "FOSSIL SALE"
+                  "desktop": "https://assets.decocache.com/timecenterloja/bb493a1b-5f27-46bf-a633-7a2923ca13b3/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(2).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/50865c22-c225-4100-91be-4fe8eedee58e/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(5).png",
+                  "alt": "SERPENTES"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -92,8 +92,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-10-01T02:59:00.000Z",
-              "start": "2025-09-22T03:00:00.000Z"
+              "end": "2025-11-01T02:59:00.000Z",
+              "start": "2025-10-16T03:00:00.000Z"
             }
           }
         ]
