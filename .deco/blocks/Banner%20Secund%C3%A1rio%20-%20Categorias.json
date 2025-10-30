@@ -19,10 +19,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/87cabcdb-9022-4b49-aaa6-bbda84cd8eed/Banner-secundario---Time-Center---(1).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/87cabcdb-9022-4b49-aaa6-bbda84cd8eed/Banner-secundario---Time-Center---(1).png",
-                  "href": "/s?q=mormaii+force&O=OrderByReleaseDateDESC",
-                  "alt": "MORMAII FORCE"
+                  "image": "https://assets.decocache.com/timecenterloja/37cf03db-ece9-4b90-981a-689d2696a911/Banners-Secundarios-(3).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/37cf03db-ece9-4b90-981a-689d2696a911/Banners-Secundarios-(3).png",
+                  "alt": "Mormaii",
+                  "href": "/mormaii/relogio?sort=discount%3Adesc"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -34,10 +34,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/148f807b-fcc6-4733-b783-d663140db6c6/Banner-secundario---Time-Center---(2).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/148f807b-fcc6-4733-b783-d663140db6c6/Banner-secundario---Time-Center---(2).png",
-                  "href": "/s?q=Glitz&O=OrderByReleaseDateDESC",
-                  "alt": "EURO GLITZ"
+                  "image": "https://assets.decocache.com/timecenterloja/fd7a5549-550f-401a-8a26-7bba62c12d28/Banners-Secundarios-(4).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/fd7a5549-550f-401a-8a26-7bba62c12d28/Banners-Secundarios-(4).png",
+                  "href": "/technos/relogio?sort=discount%3Adesc",
+                  "alt": "Technos"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -49,10 +49,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/20d55932-8d12-40e1-b212-5dc8cf99065d/Banner-secundario---Time-Center--.png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/20d55932-8d12-40e1-b212-5dc8cf99065d/Banner-secundario---Time-Center--.png",
-                  "href": "/s?q=crosby",
-                  "alt": "FOSSIL CROSBY"
+                  "image": "https://assets.decocache.com/timecenterloja/0aed687d-5d72-4f77-a95d-2fea2b1895e1/Banners-Secundarios-(5).png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/0aed687d-5d72-4f77-a95d-2fea2b1895e1/Banners-Secundarios-(5).png",
+                  "alt": "Condor",
+                  "href": "/condor/relogio?sort=discount%3Adesc"
                 }
               ],
               "itemPerPageDesktop": 3,
@@ -60,8 +60,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-10-16T03:00:00.000Z",
-              "end": "2025-09-15T14:59:00.000Z"
+              "start": "2025-11-01T03:00:00.000Z",
+              "end": "2025-11-15T14:59:00.000Z"
             }
           },
           {
