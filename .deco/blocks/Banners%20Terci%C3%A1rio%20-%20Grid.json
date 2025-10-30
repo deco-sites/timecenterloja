@@ -3,66 +3,144 @@
   "sections": [
     {
       "section": {
-        "__resolveType": "site/sections/Images/BannerGrid.tsx",
-        "itemsPerLine": {
-          "mobile": 1,
-          "desktop": 2
-        },
-        "itemsPerColumn": {
-          "mobile": 1,
-          "desktop": 2
-        },
-        "borderRadius": {
-          "mobile": "xl",
-          "desktop": "md"
-        },
-        "columnGap": {
-          "mobile": 1,
-          "desktop": 4
-        },
-        "banners": [
+        "__resolveType": "website/flags/multivariate/section.ts",
+        "variants": [
           {
-            "textColor": "primary",
-            "text": {
-              "verticalAlignment": "Bottom",
-              "horizontalAlignment": "Center",
-              "badges": [],
-              "buttonColor": "primary"
+            "value": {
+              "__resolveType": "site/sections/Images/BannerGrid.tsx",
+              "itemsPerLine": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "itemsPerColumn": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "borderRadius": {
+                "mobile": "xl",
+                "desktop": "md"
+              },
+              "columnGap": {
+                "mobile": 1,
+                "desktop": 4
+              },
+              "banners": [
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Center",
+                    "badges": [],
+                    "buttonColor": "primary"
+                  },
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/4894b699-ddfa-4d2c-948a-4f57827062f9/Banners-Terciarios-(3).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/4894b699-ddfa-4d2c-948a-4f57827062f9/Banners-Terciarios-(3).png",
+                  "columnStart": 1,
+                  "rowStart": 1,
+                  "rowSpan": 2,
+                  "alt": "Smart_20"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "neutral",
+                    "reverse": true
+                  },
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/3affb431-543c-4d66-ab71-2b56c70a6c1c/Banners-Terciarios-(5)-(1).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/3affb431-543c-4d66-ab71-2b56c70a6c1c/Banners-Terciarios-(5)-(1).png"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "secondary"
+                  },
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/9598fdc3-52db-4508-afa4-08761ee2c366/Banners-Terciarios-(4).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/9598fdc3-52db-4508-afa4-08761ee2c366/Banners-Terciarios-(4).png"
+                }
+              ]
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
-            "columnStart": 1,
-            "rowStart": 1,
-            "rowSpan": 2,
-            "href": "/s?q=MINI+PETIT",
-            "alt": "MINI_PETIT"
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-11-01T03:00:00.000Z",
+              "end": "2025-11-16T02:59:00.000Z"
+            }
           },
           {
-            "textColor": "primary",
-            "text": {
-              "verticalAlignment": "Bottom",
-              "horizontalAlignment": "Right",
-              "badges": [],
-              "buttonColor": "neutral",
-              "reverse": true
+            "value": {
+              "__resolveType": "site/sections/Images/BannerGrid.tsx",
+              "itemsPerLine": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "itemsPerColumn": {
+                "mobile": 1,
+                "desktop": 2
+              },
+              "borderRadius": {
+                "mobile": "xl",
+                "desktop": "md"
+              },
+              "columnGap": {
+                "mobile": 1,
+                "desktop": 4
+              },
+              "banners": [
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Center",
+                    "badges": [],
+                    "buttonColor": "primary"
+                  },
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
+                  "columnStart": 1,
+                  "rowStart": 1,
+                  "rowSpan": 2,
+                  "href": "/s?q=MINI+PETIT",
+                  "alt": "MINI_PETIT"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "neutral",
+                    "reverse": true
+                  },
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
+                  "alt": "MORMAII",
+                  "href": "/mormaii/relogio"
+                },
+                {
+                  "textColor": "primary",
+                  "text": {
+                    "verticalAlignment": "Bottom",
+                    "horizontalAlignment": "Right",
+                    "badges": [],
+                    "buttonColor": "secondary"
+                  },
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
+                  "alt": "FOSSIL",
+                  "href": "/s?q=NICK+JONAS"
+                }
+              ]
             },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
-            "alt": "MORMAII",
-            "href": "/mormaii/relogio"
-          },
-          {
-            "textColor": "primary",
-            "text": {
-              "verticalAlignment": "Bottom",
-              "horizontalAlignment": "Right",
-              "badges": [],
-              "buttonColor": "secondary"
-            },
-            "srcDesktop": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
-            "srcMobile": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
-            "alt": "FOSSIL",
-            "href": "/s?q=NICK+JONAS"
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "start": "2025-10-01T03:00:00.000Z",
+              "end": "2025-11-01T02:59:00.000Z"
+            }
           }
         ]
       },
