@@ -11,35 +11,41 @@
               "images": [
                 {
                   "action": {
-                    "variant": "primary",
-                    "href": "/s?q=kids",
-                    "title": "Elos"
+                    "variant": "primary"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/c81e63d9-6269-4099-9b0e-e89acb2ea49a/Banner-Slide-(1).png",
-                  "alt": "Condor_Kids",
-                  "mobile": "https://assets.decocache.com/timecenterloja/af3f0901-c4ad-4199-8455-87f64cb8e673/Banner-Slide-(5).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/7ab6fa20-d6fc-4244-b080-1aace70c8ff3/Banners-Slides---time-center-(4).png",
+                  "alt": "BF_50+15",
+                  "mobile": "https://assets.decocache.com/timecenterloja/0f42b424-def7-4785-9cc5-8a5582fe834d/Banner-slide---time-center-(4).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "https://www.timecenter.com.br/s?q=nick+jonas",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/964c0c61-c064-47d5-bf65-a087868cad85/Banner-Slide-(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/ec110cdb-cb0e-42a1-b6a5-f3b062e09c9a/Banner-Slide-(6).png",
-                  "alt": "Fossil_nick"
+                  "desktop": "https://assets.decocache.com/timecenterloja/595f2b05-677f-486b-aa46-2aa5c1867576/Banners-Slides---time-center-(5).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/104788f2-b50e-423b-ae34-18d26f55e949/Banner-slide---time-center-(5).png",
+                  "alt": "BF_SMART20"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/mormaii/relogio?sort=release%3Adesc",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/75aaa8a9-b9ea-4b74-a477-80d39c212dd5/Banner-Slide-(3).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/03a78d5f-30a6-40a5-a9ab-6271606b472a/Banner-Slide-(7).png",
-                  "alt": "Mormaii"
+                  "desktop": "https://assets.decocache.com/timecenterloja/9cced8ed-4197-477b-b802-284bb7c5e508/Banners-Slides---time-center-(6).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/dccad549-dd21-4be3-9e1b-6233ffa9e28e/Banner-slide---time-center-(6).png",
+                  "alt": "BF_Internacionais"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/5eb82480-36f6-42e4-8a80-f13ecb5b0f6d/Banners-Slides---time-center-(7).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/147cf9c4-9f20-482e-84cb-1007cbd99966/Banner-slide---time-center-(7).png",
+                  "alt": "BF_Brindecopo"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -49,8 +55,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-10-01T03:00:00.000Z",
-              "end": "2025-10-16T02:59:00.000Z"
+              "start": "2025-11-01T03:00:00.000Z",
+              "end": "2025-11-16T02:59:00.000Z"
             }
           },
           {
