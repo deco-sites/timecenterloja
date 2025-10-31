@@ -38,7 +38,8 @@
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2,
-                  "alt": "Smart_20"
+                  "alt": "Smart_20",
+                  "href": "/s?q=smartwatch&O=OrderByBestDiscountDESC"
                 },
                 {
                   "textColor": "primary",
@@ -50,7 +51,8 @@
                     "reverse": true
                   },
                   "srcDesktop": "https://assets.decocache.com/timecenterloja/3affb431-543c-4d66-ab71-2b56c70a6c1c/Banners-Terciarios-(5)-(1).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/3affb431-543c-4d66-ab71-2b56c70a6c1c/Banners-Terciarios-(5)-(1).png"
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/3affb431-543c-4d66-ab71-2b56c70a6c1c/Banners-Terciarios-(5)-(1).png",
+                  "href": "/2679?PS=12&map=productClusterIds&sort=price%3Aasc"
                 },
                 {
                   "textColor": "primary",
@@ -61,7 +63,8 @@
                     "buttonColor": "secondary"
                   },
                   "srcDesktop": "https://assets.decocache.com/timecenterloja/9598fdc3-52db-4508-afa4-08761ee2c366/Banners-Terciarios-(4).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/9598fdc3-52db-4508-afa4-08761ee2c366/Banners-Terciarios-(4).png"
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/9598fdc3-52db-4508-afa4-08761ee2c366/Banners-Terciarios-(4).png",
+                  "href": "/2642?PS=12&map=productClusterIds&sort=price%3Aasc"
                 }
               ]
             },
