@@ -11,7 +11,8 @@
               "images": [
                 {
                   "action": {
-                    "variant": "primary"
+                    "variant": "primary",
+                    "href": "/relogio?sort=discount%3Adesc"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/7ab6fa20-d6fc-4244-b080-1aace70c8ff3/Banners-Slides---time-center-(4).png",
                   "alt": "BF_50+15",
@@ -21,7 +22,8 @@
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
+                    "subTitlecolor": "#fff",
+                    "href": "/s?q=smartwatch&O=OrderByBestDiscountDESC"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/595f2b05-677f-486b-aa46-2aa5c1867576/Banners-Slides---time-center-(5).png",
                   "mobile": "https://assets.decocache.com/timecenterloja/104788f2-b50e-423b-ae34-18d26f55e949/Banner-slide---time-center-(5).png",
@@ -31,7 +33,8 @@
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
+                    "subTitlecolor": "#fff",
+                    "href": "/2030?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/9cced8ed-4197-477b-b802-284bb7c5e508/Banners-Slides---time-center-(6).png",
                   "mobile": "https://assets.decocache.com/timecenterloja/dccad549-dd21-4be3-9e1b-6233ffa9e28e/Banner-slide---time-center-(6).png",
@@ -41,7 +44,8 @@
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
-                    "subTitlecolor": "#fff"
+                    "subTitlecolor": "#fff",
+                    "href": "/technos/relogio?sort=orders%3Adesc"
                   },
                   "desktop": "https://assets.decocache.com/timecenterloja/5eb82480-36f6-42e4-8a80-f13ecb5b0f6d/Banners-Slides---time-center-(7).png",
                   "mobile": "https://assets.decocache.com/timecenterloja/147cf9c4-9f20-482e-84cb-1007cbd99966/Banner-slide---time-center-(7).png",
