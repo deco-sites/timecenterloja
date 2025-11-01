@@ -13,7 +13,7 @@
           },
           {
             "idIcon": "",
-            "textAlert": "10% na PRIMEIRA COMPRA com cupom 10BOASVINDAS",
+            "textAlert": "BLACK FRIDAY com até 40% OFF",
             "textColor": "#ffffff",
             "alt": "10% OFF na sua PRIMEIRA COMPRA"
           },
@@ -282,7 +282,7 @@
                 "href": "/relogio/masculino?O=OrderByReleaseDateDESC"
               }
             ],
-            "label": "relógios masculinos",
+            "label": "masculinos",
             "href": "/relogio/masculino?PS=12&O=OrderByReleaseDateDESC"
           },
           {
@@ -479,7 +479,7 @@
                 "href": "/relogio/feminino?O=OrderByReleaseDateDESC"
               }
             ],
-            "label": "relógios femininos",
+            "label": "femininos",
             "href": "/relogio/feminino?PS=12&O=OrderByReleaseDateDESC"
           },
           {
@@ -585,8 +585,8 @@
           {
             "showLabel": true,
             "children": [],
-            "label": "OFF",
-            "href": "/2509?PS=12&map=productClusterIds&sort=discount%3Adesc",
+            "label": "BLACK FRIDAY",
+            "href": "/black-friday",
             "highlighted": true
           }
         ],
