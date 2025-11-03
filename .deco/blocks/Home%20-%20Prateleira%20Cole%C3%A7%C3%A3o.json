@@ -7,9 +7,9 @@
         "products": {
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
-            "sort": "OrderByReleaseDateDESC",
+            "sort": "OrderByBestDiscountDESC",
             "count": 20,
-            "collection": "2049"
+            "collection": "2686"
           }
         },
         "highlights": [],
@@ -67,7 +67,7 @@
             "showCta": true
           }
         },
-        "title": "NOVIDADES"
+        "title": "BLACK FRIDAY"
       },
       "shadow": "none",
       "overFlow": "overflow-none",
