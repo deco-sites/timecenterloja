@@ -60,7 +60,7 @@ function ProductInfo({ page, shipmentPolitics, shareableNetworks }: {
   shipmentPolitics?: Props["shipmentPolitics"];
   shareableNetworks?: Props["shareableNetworks"];
 }) {
-  const { product } = page;
+  const { product, breadcrumbList } = page;
   const {
     description,
     productID,
@@ -70,6 +70,7 @@ function ProductInfo({ page, shipmentPolitics, shareableNetworks }: {
     isVariantOf,
     url,
     additionalProperty,
+    brand,
   } = product;
   const {
     price,
@@ -86,6 +87,20 @@ function ProductInfo({ page, shipmentPolitics, shareableNetworks }: {
       valueReference == "ReferenceID"
     )?.value ?? gtin;
   const especifications = page?.product?.isVariantOf?.additionalProperty;
+  
+  // Prepare breadcrumb data
+  const breadcrumb = {
+    ...breadcrumbList,
+    itemListElement: breadcrumbList?.itemListElement?.slice(0, -1) ?? [],
+    numberOfItems: (breadcrumbList?.numberOfItems ?? 1) - 1,
+  };
+  
+  const departmentName = breadcrumb?.itemListElement?.[0]?.name ?? "";
+  const categories = breadcrumb?.itemListElement
+    ?.slice(1)
+    ?.map((item) => item.name)
+    ?.filter(Boolean)
+    ?.join(", ") ?? "";
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {
@@ -242,6 +257,10 @@ function ProductInfo({ page, shipmentPolitics, shareableNetworks }: {
                   listPrice={listPrice}
                   productName={name ?? ""}
                   productGroupID={product.isVariantOf?.productGroupID ?? ""}
+                  productUrl={url}
+                  brand={brand?.name}
+                  departmentName={departmentName}
+                  categories={categories}
                 />
               )}
             </>

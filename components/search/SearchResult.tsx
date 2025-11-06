@@ -14,6 +14,8 @@ import { SendEventOnView } from "$store/components/Analytics.tsx";
 import { useId } from "$store/sdk/useId.ts";
 import { type LoaderReturnType } from "@deco/deco";
 import { type Section } from "@deco/deco/blocks";
+import { DataItem } from "$store/sections/Integrations/SendDitoEventOnLoad.tsx";
+import SendDitoEventOnLoad from "$store/islands/SendDitoEventOnLoad.tsx";
 export interface DiscountBadgeProps {
   label: string;
   variant: DiscountBadgeColors;
@@ -73,6 +75,37 @@ function Result(
       {pageInfo.records} Produtos encontrados
     </h6>
   );
+
+  const ditoData: {
+    action: string;
+    data:  Array<DataItem>
+  } = {
+    action: "",
+    data: [],
+  }
+
+  const pageTypes = page?.pageInfo?.pageTypes ?? [];
+  const itemListElements = breadcrumb.itemListElement ?? [];
+
+  if(pageTypes.length > 1) {
+    ditoData.action = "acessou-categoria";
+    ditoData.data = [
+      {
+        key: "nome_departamento",
+        value: itemListElements?.[itemListElements.length - 1]?.name ?? "",
+      }
+    ]
+  }
+  else {
+    ditoData.action = "acessou-departamento";
+    ditoData.data = [
+      {
+        key: "nome_departamento",
+        value: itemListElements?.[0]?.name ?? "",
+      }
+    ]
+  }
+  
   return (
     <>
       <div>
@@ -118,6 +151,10 @@ function Result(
           </div>
         </div>
       </div>
+      <SendDitoEventOnLoad
+        action={ditoData.action}
+        data={ditoData.data}
+      />
       <SendEventOnView
         id={id}
         event={{

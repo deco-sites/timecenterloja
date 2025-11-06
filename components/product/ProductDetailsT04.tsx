@@ -18,6 +18,7 @@ import { mapProductToAnalyticsItem } from "apps/commerce/utils/productToAnalytic
 import ProductInfoPriceModel from "deco-sites/timecenter/components/product/ProductInfoPriceModel.tsx";
 import { type LoaderReturnType } from "@deco/deco";
 import { type Section } from "@deco/deco/blocks";
+import SendDitoEventOnLoad from "$store/islands/SendDitoEventOnLoad.tsx";
 // import AddToCartButtonVTEX from "$store/islands/AddToCartButton/vtex.tsx";
 export type Variant = "front-back" | "slider" | "auto";
 export type ShareableNetwork = "Facebook" | "Twitter" | "Email" | "WhatsApp";
@@ -71,7 +72,7 @@ function ProductInfo(
     productBenefits?: ProductBenefits[];
   },
 ) {
-  const { product } = page;
+  const { product, breadcrumbList } = page;
   const {
     description,
     productID,
@@ -81,6 +82,7 @@ function ProductInfo(
     isVariantOf,
     url,
     additionalProperty,
+    brand,
   } = product;
   const {
     price,
@@ -92,11 +94,27 @@ function ProductInfo(
     priceWithPixDiscount,
     availability,
   } = useOffer(offers);
+
+  
   const referenceID =
     additionalProperty?.find(({ valueReference }) =>
       valueReference == "ReferenceID"
     )?.value ?? gtin;
   const especifications = page?.product?.isVariantOf?.additionalProperty;
+  
+  // Prepare breadcrumb data
+  const breadcrumb = {
+    ...breadcrumbList,
+    itemListElement: breadcrumbList?.itemListElement?.slice(0, -1) ?? [],
+    numberOfItems: (breadcrumbList?.numberOfItems ?? 1) - 1,
+  };
+  
+  const departmentName = breadcrumb?.itemListElement?.[0]?.name ?? "";
+  const categories = breadcrumb?.itemListElement
+    ?.slice(1)
+    ?.map((item) => item.name)
+    ?.filter(Boolean)
+    ?.join(", ") ?? "";
   // deno-lint-ignore no-explicit-any
   const renderItem = (item: any) => {
     switch (item.name) {
@@ -253,6 +271,10 @@ function ProductInfo(
                   listPrice={listPrice}
                   productName={name ?? ""}
                   productGroupID={product.isVariantOf?.productGroupID ?? ""}
+                  productUrl={url}
+                  brand={brand?.name}
+                  departmentName={departmentName}
+                  categories={categories}
                 />
               )}
             </>
@@ -487,13 +509,23 @@ function ProductDetails({
   if (!page) {
     return <ProductNotFound {...notFoundProps} />;
   }
+  const { breadcrumbList, product } = page;
+  const { productID} = product;
+
+  const breadcrumb = {
+    ...breadcrumbList,
+    itemListElement: breadcrumbList?.itemListElement.slice(0, -1),
+    numberOfItems: breadcrumbList.numberOfItems - 1,
+  };
+
+
   const id = useId();
   const variant = maybeVar === "auto"
     ? page?.product.image?.length && page?.product.image?.length < 2
       ? "front-back"
       : "slider"
     : maybeVar;
-  const { price, listPrice } = useOffer(page.product.offers);
+  const { price, listPrice, seller = "1" } = useOffer(page.product.offers);
   const eventItem = mapProductToAnalyticsItem({
     product: page.product,
     breadcrumbList: page.breadcrumbList,
@@ -523,6 +555,51 @@ function ProductDetails({
               items: [eventItem],
             },
           }}
+        />
+        <SendDitoEventOnLoad
+          action="acessou-produto"
+          data={[
+            {
+              key: "id_produto",
+              value: productID,
+            },
+            {
+              key: "nome_departamento",
+              value: breadcrumb?.itemListElement?.[0]?.name ?? "",
+            },
+            {
+              key: "nome_categoria",
+              value: breadcrumb?.itemListElement?.[1]?.name ?? breadcrumb?.itemListElement?.[0]?.name ?? "",
+            },
+            {
+              key: "nome_produto",
+              value: product?.name ?? "",
+            },
+            {
+              key: "preco_produto",
+              value: price?.toString() ?? "",
+            },
+            {
+              key: "sku_produto",
+              value: product?.sku ?? "",
+            },
+            {
+              key: "reference_id",
+              value: product?.gtin ?? "",
+            },
+            {
+              key: "marca",
+              value: product?.brand?.name ?? "",
+            },
+            {
+              key: "seller_id",
+              value: seller ?? "",
+            },
+            {
+              key: "url_produto",
+              value: product?.url ?? "",
+            }
+          ]}
         />
         {/* End of Analytics Event */}
       </>

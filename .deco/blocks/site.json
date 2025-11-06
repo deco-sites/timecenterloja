@@ -32,6 +32,10 @@
     },
     {
       "__resolveType": "htmx/sections/htmx.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Integrations/Dito.tsx",
+      "apiKey": "MjAyMS0wNC0xMyAxNzowMzowNSAtMDMwMFRpbWUgQ2VudGVyNzU0"
     }
   ],
   "routes": [

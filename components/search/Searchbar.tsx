@@ -19,6 +19,7 @@ import { sendEvent } from "$store/sdk/analytics.tsx";
 import { useUI } from "$store/sdk/useUI.ts";
 import { useAutocomplete } from "apps/vtex/hooks/useAutocomplete.ts";
 import { useEffect, useRef } from "preact/compat";
+import { sendDitoEvent } from "$store/sdk/dito.tsx";
 
 function CloseButton() {
   const { displaySearchbar } = useUI();
@@ -113,6 +114,11 @@ function Searchbar({
               sendEvent({
                 name: "search",
                 params: { search_term: value },
+              });
+
+              sendDitoEvent({
+                action: "buscou-produto",
+                termo: value,
               });
             }
 

@@ -5,6 +5,10 @@
       "__resolveType": "Analytics"
     },
     {
+      "__resolveType": "site/sections/Integrations/DitoTrack.tsx",
+      "action": "acessou-home"
+    },
+    {
       "__resolveType": "Header Global"
     },
     {

@@ -3,7 +3,8 @@ import Icon from "$store/components/ui/Icon.tsx";
 import { sendEvent } from "$store/sdk/analytics.tsx";
 import { useUI } from "$store/sdk/useUI.ts";
 import { useCart } from "apps/vtex/hooks/useCart.ts";
-import ModalLoginCustom from "deco-sites/timecenter/components/ui/ModalLoginCustom.tsx";
+import ModalLoginCustom from "$store/components/ui/ModalLoginCustom.tsx";
+import { sendDitoEvent } from "$store/sdk/dito.tsx";
 
 function SearchButton() {
   const { displaySearchbar } = useUI();
@@ -60,6 +61,16 @@ function CartButton() {
   const discounts = cart.value?.totalizers.find((item) =>
     item.id === "Discounts"
   );
+  const shipping = cart.value?.totalizers.find((item) =>
+    item.id === "Shipping"
+  );
+  const orderFormId = cart.value?.orderFormId;
+
+  const calculatedTotal = total?.value
+    ? (total.value - (discounts?.value ?? 0)) / 100
+    : 0;
+  const subtotalValue = total?.value ? total.value / 100 : 0;
+  const shippingValue = shipping?.value ? shipping.value / 100 : 0;
 
   const onClick = () => {
     displayCart.value = true;
@@ -67,12 +78,22 @@ function CartButton() {
       name: "view_cart",
       params: {
         currency: cart.value ? currencyCode! : "",
-        value: total?.value
-          ? (total?.value - (discounts?.value ?? 0)) / 100
-          : 0,
+        value: calculatedTotal,
 
         items: cart.value ? mapItemsToAnalyticsItems(cart.value) : [],
       },
+    });
+
+    sendDitoEvent({
+      action: "acessou-carrinho",
+      revenue: calculatedTotal,
+      data: { 
+        quantidade_produtos: totalItems,
+        total: calculatedTotal,
+        subtotal: subtotalValue,
+        total_frete: shippingValue,
+        cart_id: orderFormId ?? "",
+      }
     });
   };
 

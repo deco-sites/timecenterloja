@@ -3,6 +3,7 @@ import { useCallback } from "preact/hooks";
 import { useUI } from "$store/sdk/useUI.ts";
 import { sendEvent } from "$store/sdk/analytics.tsx";
 import { useCart } from "apps/vtex/hooks/useCart.ts";
+import { sendDitoEvent } from "deco-sites/timecenter/sdk/dito.tsx";
 
 export interface Options {
   skuId: string;
@@ -15,6 +16,22 @@ export interface Options {
    */
   name: string;
   productGroupId: string;
+  /**
+   * Product URL
+   */
+  url?: string;
+  /**
+   * Product brand name
+   */
+  brand?: string;
+  /**
+   * Department name from breadcrumb
+   */
+  departmentName?: string;
+  /**
+   * Product categories (comma-separated or array)
+   */
+  categories?: string;
 }
 
 function getCookie(name: string) {
@@ -42,7 +59,7 @@ function getMarketingData() {
 }
 
 export const useAddToCart = (
-  { skuId, sellerId, price, discount, name, productGroupId, quantity }: Options,
+  { skuId, sellerId, price, discount, name, productGroupId, quantity, url, brand, departmentName, categories }: Options,
 ) => {
   const isAddingToCart = useSignal(false);
   const { displayCart } = useUI();
@@ -70,6 +87,24 @@ export const useAddToCart = (
           body: marketingData,
         });
       }
+
+      const data = {
+        id_produto: productGroupId,
+        nome_departamento: departmentName ?? "",
+        categorias_produto: categories ?? "",
+        nome_produto: name,
+        preco_produto: price,
+        seller_id: sellerId, 
+        url_produto: url ?? "",
+        marca: brand ?? "",
+      };
+
+
+      sendDitoEvent({
+        action: "adicionou-produto-ao-carrinho",
+        revenue: price,
+        data,
+      });
 
       sendEvent({
         name: "add_to_cart",

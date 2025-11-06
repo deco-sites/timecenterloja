@@ -19,6 +19,22 @@ interface Props extends UseAddToCartProps {
   showIcon?: boolean;
   availability?: boolean;
   url?: string;
+  /**
+   * Product URL for analytics
+   */
+  productUrl?: string;
+  /**
+   * Product brand name
+   */
+  brand?: string;
+  /**
+   * Department name from breadcrumb
+   */
+  departmentName?: string;
+  /**
+   * Product categories
+   */
+  categories?: string;
 }
 
 const fallback = (
@@ -40,6 +56,10 @@ function AddToCartButton({
   showIcon,
   availability,
   url,
+  productUrl,
+  brand,
+  departmentName,
+  categories,
 }: Props) {
   const props = useAddToCart({
     skuId,
@@ -49,6 +69,10 @@ function AddToCartButton({
     productGroupId,
     name,
     quantity,
+    url: productUrl,
+    brand,
+    departmentName,
+    categories,
   });
 
   const open = useSignal(false);

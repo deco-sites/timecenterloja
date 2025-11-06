@@ -13,6 +13,22 @@ type Props = {
   productGroupID: string;
   labelBuyButtonDesktop?: string;
   labelBuyButtonMobile?: string;
+  /**
+   * Product URL for analytics
+   */
+  productUrl?: string;
+  /**
+   * Product brand name
+   */
+  brand?: string;
+  /**
+   * Department name from breadcrumb
+   */
+  departmentName?: string;
+  /**
+   * Product categories
+   */
+  categories?: string;
 };
 
 export default function AddToCartActions(
@@ -24,6 +40,10 @@ export default function AddToCartActions(
     productName,
     productGroupID,
     availability,
+    productUrl,
+    brand,
+    departmentName,
+    categories,
   }: Props,
 ) {
   const [quantity, setQuantity] = useState(1);
@@ -63,6 +83,10 @@ export default function AddToCartActions(
         showIcon
         availability={availability || false}
         classes="btn btn-md btn-primary uppercase transition-all  hover:text-neutral-100 font-bold text-info"
+        productUrl={productUrl}
+        brand={brand}
+        departmentName={departmentName}
+        categories={categories}
       />
     </div>
   );
