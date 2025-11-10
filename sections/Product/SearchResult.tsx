@@ -90,6 +90,7 @@ function Result(
       nome_departamento: itemListElements?.[0]?.name ?? "",
     }
   }
+
   const productsFound = (
     <h6 class="text-secondary uppercase font-medium text-base">
       {pageInfo.records} Produtos encontrados
@@ -97,7 +98,7 @@ function Result(
   );
   return (
     <>
-      <div>
+      <div id={id}>
         <div class="flex flex-row gap-8">
           {variant === "aside" && newFilters.length > 0 && (
             <aside class="hidden lg:block w-min mt-1 min-w-[270px]">
