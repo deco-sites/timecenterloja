@@ -61,6 +61,18 @@ function CartButton() {
     item.id === "Discounts"
   );
 
+  const shipping = cart.value?.totalizers.find((item) =>
+    item.id === "Shipping"
+  );
+
+  const shippingValue = shipping?.value ? shipping.value : 0;
+  const orderFormId = cart.value?.orderFormId;
+  const calculatedTotal = total?.value
+  ? (total?.value - (discounts?.value ?? 0)) / 100
+  : 0;
+
+  const subtotalValue = total ? total : 0;
+
   const onClick = () => {
     displayCart.value = true;
     sendEvent({
@@ -72,6 +84,11 @@ function CartButton() {
           : 0,
 
         items: cart.value ? mapItemsToAnalyticsItems(cart.value) : [],
+        quantidade_produtos: totalItems,
+        total: calculatedTotal,
+        subtotal: subtotalValue,
+        total_frete: shippingValue,
+        cart_id: orderFormId ?? "",
       },
     });
   };
