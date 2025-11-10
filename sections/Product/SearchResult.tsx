@@ -13,6 +13,9 @@ import NotFound from "$store/components/search/NotFound.tsx";
 import Pagination from "deco-sites/timecenter/components/search/Pagination.tsx";
 import { type LoaderReturnType } from "@deco/deco";
 import { type Section } from "@deco/deco/blocks";
+import { SendEventOnView } from "$store/components/Analytics.tsx";
+import { useId } from "$store/sdk/useId.ts";
+
 export interface DiscountBadgeProps {
   label: string;
   variant: DiscountBadgeColors;
@@ -59,12 +62,35 @@ function Result(
   },
 ) {
   const { products, filters, breadcrumb, pageInfo, sortOptions } = page;
+  const id = useId();
   const { nextPage, previousPage } = pageInfo;
   const hideFilter = hideFilters?.split(",");
   const newFilters = filters
     .filter(({ key }) => !hideFilter?.includes(key))
     .filter(({ values }) => isArray(values) && values.length)
     .filter(({ label }) => !["Departments", "Brands"]?.includes(label));
+
+
+  const pageTypes = page?.pageInfo?.pageTypes ?? [];
+  const itemListElements = breadcrumb.itemListElement ?? [];
+  
+  // deno-lint-ignore no-explicit-any
+  const dataLayer:any = {}
+
+  if(pageTypes.length > 1) {
+    dataLayer.event = "acessou-categoria";
+    dataLayer.params = {
+      nome_departamento: itemListElements?.[0]?.name ?? "",
+      nome_categoria: itemListElements?.[itemListElements.length - 1]?.name ?? "",
+    }
+  }
+  else {
+    dataLayer.event = "acessou-departamento";
+    dataLayer.params = {
+      nome_departamento: itemListElements?.[0]?.name ?? "",
+    }
+  }
+
   const productsFound = (
     <h6 class="text-secondary uppercase font-medium text-base">
       {pageInfo.records} Produtos encontrados
@@ -72,7 +98,7 @@ function Result(
   );
   return (
     <>
-      <div>
+      <div id={id}>
         <div class="flex flex-row gap-8">
           {variant === "aside" && newFilters.length > 0 && (
             <aside class="hidden lg:block w-min mt-1 min-w-[270px]">
@@ -118,6 +144,13 @@ function Result(
           </div>
         </div>
       </div>
+      <SendEventOnView
+        id={id}
+        event={{
+          name: dataLayer.event,
+          params: dataLayer.params,
+        }}
+      />
     </>
   );
 }
