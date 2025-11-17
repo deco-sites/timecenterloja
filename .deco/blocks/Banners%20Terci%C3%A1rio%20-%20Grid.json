@@ -102,13 +102,13 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/0b5bb459-8340-45d3-8a30-40abb87bb61c/Banners-terciarios---Technos-Mini---Mormaii---Fossil.png",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/c242d66a-6edd-4a4e-affb-1fe5e7ade2cf/Banner-Terciario---time-center.png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/c242d66a-6edd-4a4e-affb-1fe5e7ade2cf/Banner-Terciario---time-center.png",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2,
-                  "href": "/s?q=MINI+PETIT",
-                  "alt": "MINI_PETIT"
+                  "href": "/s?q=bolsa&O=OrderByPriceASC",
+                  "alt": "bolsas"
                 },
                 {
                   "textColor": "primary",
@@ -119,10 +119,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/76d91695-e152-4209-a691-e666af55d110/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(1).png",
-                  "alt": "MORMAII",
-                  "href": "/mormaii/relogio"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/d3194061-86a7-4af1-b1b3-87a96e5facb7/Banner-Terciario---time-center-(1).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/200d1e97-09d1-4160-89fe-fb591fbc4d1b/Banner-Terciario---time-center-(1).png",
+                  "alt": "MK",
+                  "href": "/michaelkors/relogio?sort=discount%3Adesc"
                 },
                 {
                   "textColor": "primary",
@@ -132,17 +132,17 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/d4f7a779-f87b-4b50-b2b0-b819ace1cd6a/Banners-terciarios---Technos-Mini---Mormaii---Fossil-(2).png",
-                  "alt": "FOSSIL",
-                  "href": "/s?q=NICK+JONAS"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/acc2c046-9c6d-4145-bf15-739c3208e9d8/Banner-Terciario---time-center-(2).png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/acc2c046-9c6d-4145-bf15-739c3208e9d8/Banner-Terciario---time-center-(2).png",
+                  "alt": "Condor",
+                  "href": "/condor/relogio?sort=discount%3Adesc"
                 }
               ]
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-10-01T03:00:00.000Z",
-              "end": "2025-11-01T02:59:00.000Z"
+              "start": "2025-11-16T03:00:00.000Z",
+              "end": "2025-12-01T02:59:00.000Z"
             }
           }
         ]
