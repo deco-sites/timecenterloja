@@ -60,7 +60,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-11-01T03:00:00.000Z",
-              "end": "2025-11-18T02:59:00.000Z"
+              "end": "2025-11-17T02:59:00.000Z"
             }
           },
           {
@@ -70,29 +70,38 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/michaelkors/relogio?sort=orders%3Adesc"
+                    "href": "/black-friday?sort=discount%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/c7b8c4c8-aaa6-4ac0-9dfc-5eec6520224c/Banners-slide---MK---Fossil-Femininos---Unique-Euro.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/0d563eeb-705d-493d-a2c4-e8029d984c63/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(3).png",
-                  "alt": "MK"
+                  "desktop": "https://assets.decocache.com/timecenterloja/1252ad92-c159-4fcf-bc38-e527f8aba7b9/Banners-slide----time-center.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/d74c6a42-ef69-4437-9b4c-88e923fe41c9/Banners-slide----time-center-(4).png",
+                  "alt": "BF_ATE50"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=FOSSIL+FEMININO&O=OrderByReleaseDateDESC"
+                    "href": "/relogio?sort=price%3Aasc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/c93f278d-2512-4034-b10c-e54a51c76ccd/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(6).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/1bc0551d-9557-4781-ac38-3ff913cdda84/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(4).png",
-                  "alt": "FOSSIL"
+                  "desktop": "https://assets.decocache.com/timecenterloja/2ccb09e8-377d-4800-aa8a-1c3305e00608/Banners-slide----time-center-(1).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/781280b1-3565-46d5-92b1-ff8e98730080/Banners-slide----time-center-(5).png",
+                  "alt": "BF_relogio299"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/s?q=Serpentes"
+                    "href": "s?q=relogio+anel&O=OrderByPriceASC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/bb493a1b-5f27-46bf-a633-7a2923ca13b3/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/50865c22-c225-4100-91be-4fe8eedee58e/Banners-slide---MK---Fossil-Femininos---Unique-Euro-(5).png",
-                  "alt": "SERPENTES"
+                  "desktop": "https://assets.decocache.com/timecenterloja/efe3e034-e72e-42a2-9e07-250af40ba475/Banners-slide----time-center-(2).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/dbc5ea15-083e-43a8-8ab8-fba9bfd56508/Banners-slide----time-center-(6).png",
+                  "alt": "BF_acessorios"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/euro/relogio?sort=release%3Adesc"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/b28a100e-77ff-41e6-91c0-0f73fa5fa6ab/Banners-slide----time-center-(3).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/2cdbc2a4-a9fb-4a98-ba29-100da154181c/Banners-slide----time-center-(7).png",
+                  "alt": "BF_Brindeeuro"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -102,8 +111,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-11-01T02:59:00.000Z",
-              "start": "2025-10-16T03:00:00.000Z"
+              "end": "2025-11-28T02:59:00.000Z",
+              "start": "2025-11-17T03:00:00.000Z"
             }
           }
         ]
