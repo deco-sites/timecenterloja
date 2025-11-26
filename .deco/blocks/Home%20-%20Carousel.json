@@ -12,43 +12,43 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio?sort=discount%3Adesc"
+                    "href": "/fossil/relogio?sort=discount%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/7ab6fa20-d6fc-4244-b080-1aace70c8ff3/Banners-Slides---time-center-(4).png",
-                  "alt": "BF_50+15",
-                  "mobile": "https://assets.decocache.com/timecenterloja/0f42b424-def7-4785-9cc5-8a5582fe834d/Banner-slide---time-center-(4).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/b7725fb2-5d7b-4b68-9c30-2cebe74dfd80/Banner-Slide---TC-(8).png",
+                  "alt": "BF_30OFF",
+                  "mobile": "https://assets.decocache.com/timecenterloja/96e9993a-5ef0-45c3-8d5f-2518def4625a/Banner-Slide---TC-(12).png"
                 },
                 {
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff",
-                    "href": "/s?q=smartwatch&O=OrderByBestDiscountDESC"
+                    "href": "/technos/relogio?sort=discount%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/595f2b05-677f-486b-aa46-2aa5c1867576/Banners-Slides---time-center-(5).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/104788f2-b50e-423b-ae34-18d26f55e949/Banner-slide---time-center-(5).png",
-                  "alt": "BF_SMART20"
+                  "desktop": "https://assets.decocache.com/timecenterloja/7483ad17-7227-46eb-9e50-2ce3ed7bd1ec/Banner-Slide---TC-(9).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/de810d6f-bf91-4296-851d-84210cb613f2/Banner-Slide---TC-(13).png",
+                  "alt": "BF_50OFF"
                 },
                 {
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff",
-                    "href": "/2030?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                    "href": "/condor/relogio?sort=price%3Aasc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/9cced8ed-4197-477b-b802-284bb7c5e508/Banners-Slides---time-center-(6).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/dccad549-dd21-4be3-9e1b-6233ffa9e28e/Banner-slide---time-center-(6).png",
-                  "alt": "BF_Internacionais"
+                  "desktop": "https://assets.decocache.com/timecenterloja/1a44cee5-db0d-44bb-88ab-6fdaa21efad4/Banner-Slide---TC-(10).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/dee436e4-6d58-4efc-b65e-de29703fa284/Banner-Slide---TC-(14).png",
+                  "alt": "BF_40OFF"
                 },
                 {
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff",
-                    "href": "/technos/relogio?sort=orders%3Adesc"
+                    "href": "/2669?PS=12&map=productClusterIds&sort=discount%3Adesc"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/5eb82480-36f6-42e4-8a80-f13ecb5b0f6d/Banners-Slides---time-center-(7).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/147cf9c4-9f20-482e-84cb-1007cbd99966/Banner-slide---time-center-(7).png",
+                  "desktop": "https://assets.decocache.com/timecenterloja/4f97ea26-aa09-4955-80e4-028b10ef3f19/Banner-Slide---TC-(11).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/e63bd573-4fc7-46ce-8070-c21d7d2766c9/Banner-Slide---TC-(15).png",
                   "alt": "BF_Brindecopo"
                 }
               ],
@@ -59,8 +59,44 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-11-01T03:00:00.000Z",
-              "end": "2025-11-17T02:59:00.000Z"
+              "start": "2025-11-28T03:00:00.000Z",
+              "end": "2025-11-29T02:59:00.000Z"
+            }
+          },
+          {
+            "value": {
+              "__resolveType": "site/sections/Images/Carousel.tsx",
+              "images": [
+                {
+                  "action": {
+                    "variant": "primary",
+                    "href": "/2654?PS=12&map=productClusterIds&sort=discount%3Adesc"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/ab76e30d-2938-4260-a12a-1de7c2695cd4/Banners-slide---Ultima-chance-ate-50-OFF-em-bazar---Selecao-com-20-OFF--(5).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/dc633a5c-b6a3-488d-91d8-4c3952e595f8/Banners-slide---Ultima-chance-ate-50-OFF-em-bazar---Selecao-com-20-OFF--(7).png",
+                  "alt": "CYBER_20OFF"
+                },
+                {
+                  "action": {
+                    "variant": "primary",
+                    "titleColor": "#fff",
+                    "subTitlecolor": "#fff",
+                    "href": "/technos/relogio?sort=discount%3Adesc"
+                  },
+                  "desktop": "https://assets.decocache.com/timecenterloja/b10f409e-9192-4f07-919c-259d429962e5/Banners-slide---Ultima-chance-ate-50-OFF-em-bazar---Selecao-com-20-OFF--(4).png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/5a62c2bc-162a-4681-97e4-2616f8e3f65d/Banners-slide---Ultima-chance-ate-50-OFF-em-bazar---Selecao-com-20-OFF--(6).png",
+                  "alt": "CYBER_50OFF"
+                }
+              ],
+              "showPaginationArrows": "Desktop Only",
+              "showPaginationDots": "Always",
+              "interval": 5,
+              "preload": true
+            },
+            "rule": {
+              "__resolveType": "website/matchers/date.ts",
+              "end": "2025-12-02T02:59:00.000Z",
+              "start": "2025-11-29T03:00:00.000Z"
             }
           },
           {
