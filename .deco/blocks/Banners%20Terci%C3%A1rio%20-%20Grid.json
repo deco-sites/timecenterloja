@@ -142,7 +142,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-11-16T03:00:00.000Z",
-              "end": "2025-12-01T02:59:00.000Z"
+              "end": "2025-12-02T02:59:00.000Z"
             }
           }
         ]
