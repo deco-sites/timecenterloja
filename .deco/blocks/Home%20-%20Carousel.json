@@ -106,38 +106,38 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/black-friday?sort=discount%3Adesc"
+                    "href": "/s?q=Bracelete+condor&O=OrderByReleaseDateDESC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/1252ad92-c159-4fcf-bc38-e527f8aba7b9/Banners-slide----time-center.png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/d74c6a42-ef69-4437-9b4c-88e923fe41c9/Banners-slide----time-center-(4).png",
-                  "alt": "BF_ATE50"
+                  "desktop": "https://assets.decocache.com/timecenterloja/e64aa0a4-bce7-46d0-92cb-ba081681a59c/banner-desktop-timecenter02-01.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/84a0eada-c36b-440e-838f-4642f0c9a7d3/banner-mobile-timecenter02-01.png",
+                  "alt": "CONDOR"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/relogio?sort=price%3Aasc"
+                    "href": "/s?q=Kit&O=OrderByPriceASC"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/2ccb09e8-377d-4800-aa8a-1c3305e00608/Banners-slide----time-center-(1).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/781280b1-3565-46d5-92b1-ff8e98730080/Banners-slide----time-center-(5).png",
-                  "alt": "BF_relogio299"
+                  "desktop": "https://assets.decocache.com/timecenterloja/b705f686-ece3-43a0-b1fb-cc15913414e9/banner-desktop-timecenter02-02.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/8183858c-b2f8-47eb-b31a-cec18b44db80/banner-mobile-timecenter02-02.png",
+                  "alt": "KITS"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "s?q=relogio+anel&O=OrderByPriceASC"
+                    "href": "/fossil/relogio"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/efe3e034-e72e-42a2-9e07-250af40ba475/Banners-slide----time-center-(2).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/dbc5ea15-083e-43a8-8ab8-fba9bfd56508/Banners-slide----time-center-(6).png",
+                  "desktop": "https://assets.decocache.com/timecenterloja/617db325-8868-4d01-ba93-911da6a95ad6/banner-desktop-timecenter02-03.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/a6eaf955-c807-4126-a4c7-5c5f69e3efb8/banner-mobile-timecenter02-03.png",
                   "alt": "BF_acessorios"
                 },
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/euro/relogio?sort=release%3Adesc"
+                    "href": "/relogio/feminino?sort=orders%3Adesc&filter.category-1=relogio&filter.category-2=feminino&filter.banho=dourado&page=1"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/b28a100e-77ff-41e6-91c0-0f73fa5fa6ab/Banners-slide----time-center-(3).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/2cdbc2a4-a9fb-4a98-ba29-100da154181c/Banners-slide----time-center-(7).png",
-                  "alt": "BF_Brindeeuro"
+                  "desktop": "https://assets.decocache.com/timecenterloja/bcfc8451-d667-4372-a025-893b70c2b95a/banner-desktop-timecenter02-04.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/dad8e784-66fa-468a-9a90-7dc606011c51/banner-mobile-timecenter02-04.png",
+                  "alt": "PRESENTE"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
@@ -147,8 +147,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2025-11-28T02:59:00.000Z",
-              "start": "2025-11-17T03:00:00.000Z"
+              "end": "2026-01-01T02:59:00.000Z",
+              "start": "2025-12-02T03:00:00.000Z"
             }
           }
         ]
