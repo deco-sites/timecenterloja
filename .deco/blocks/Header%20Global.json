@@ -13,7 +13,7 @@
           },
           {
             "idIcon": "",
-            "textAlert": "CYBER WEEKEND com até 40% OFF",
+            "textAlert": "PRIMEIRA COMPRA com 10% OFF",
             "textColor": "#ffffff",
             "alt": "10% OFF na sua PRIMEIRA COMPRA"
           },
@@ -585,8 +585,8 @@
           {
             "showLabel": true,
             "children": [],
-            "label": "CYBER WEEKEND",
-            "href": "/black-friday",
+            "label": "OFF",
+            "href": "/off",
             "highlighted": true
           }
         ],

@@ -7,9 +7,9 @@
         "products": {
           "__resolveType": "vtex/loaders/legacy/productList.ts",
           "props": {
-            "sort": "OrderByBestDiscountDESC",
+            "sort": "OrderByReleaseDateDESC",
             "count": 20,
-            "collection": "2686"
+            "collection": "2577"
           }
         },
         "highlights": [],
@@ -67,7 +67,7 @@
             "showCta": true
           }
         },
-        "title": "CYBER WEEKEND"
+        "title": "LANÇAMENTOS"
       },
       "shadow": "none",
       "overFlow": "overflow-none",
