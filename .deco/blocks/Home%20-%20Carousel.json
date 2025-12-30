@@ -12,33 +12,33 @@
                 {
                   "action": {
                     "variant": "primary",
-                    "href": "/fossil/relogio?sort=discount%3Adesc"
+                    "href": "/s?q=condor+smart"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/b7725fb2-5d7b-4b68-9c30-2cebe74dfd80/Banner-Slide---TC-(8).png",
-                  "alt": "BF_30OFF",
-                  "mobile": "https://assets.decocache.com/timecenterloja/96e9993a-5ef0-45c3-8d5f-2518def4625a/Banner-Slide---TC-(12).png"
+                  "desktop": "https://assets.decocache.com/timecenterloja/ccd6dd28-55ec-4d77-9ff8-1fb4f2b6fabb/banner-desktop-timecenter01-01.png",
+                  "alt": "condor",
+                  "mobile": "https://assets.decocache.com/timecenterloja/99d7b587-2321-494b-99fa-71fd34adcf9f/banner-mobile-timecenter01-01.png"
                 },
                 {
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff",
-                    "href": "/technos/relogio?sort=discount%3Adesc"
+                    "href": "/s?q=harlow"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/7483ad17-7227-46eb-9e50-2ce3ed7bd1ec/Banner-Slide---TC-(9).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/de810d6f-bf91-4296-851d-84210cb613f2/Banner-Slide---TC-(13).png",
-                  "alt": "BF_50OFF"
+                  "desktop": "https://assets.decocache.com/timecenterloja/7dec9d80-36cd-4dfa-86fd-8c6e1a1d4326/banner-desktop-timecenter01-02.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/fac1806f-6961-4362-840c-ee5c7666247b/banner-mobile-timecenter01-02.png",
+                  "alt": "Harlow"
                 },
                 {
                   "action": {
                     "variant": "primary",
                     "titleColor": "#fff",
                     "subTitlecolor": "#fff",
-                    "href": "/condor/relogio?sort=price%3Aasc"
+                    "href": "/off"
                   },
-                  "desktop": "https://assets.decocache.com/timecenterloja/1a44cee5-db0d-44bb-88ab-6fdaa21efad4/Banner-Slide---TC-(10).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/dee436e4-6d58-4efc-b65e-de29703fa284/Banner-Slide---TC-(14).png",
-                  "alt": "BF_40OFF"
+                  "desktop": "https://assets.decocache.com/timecenterloja/f576bb10-ee3c-49b7-a2fa-6f65f73cd845/banner-desktop-timecenter01-03.png",
+                  "mobile": "https://assets.decocache.com/timecenterloja/389bd8d4-8701-4263-81a9-81b41bb9e6bd/banner-mobile-timecenter01-03.png",
+                  "alt": "Bazar"
                 },
                 {
                   "action": {
@@ -59,8 +59,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-11-28T03:00:00.000Z",
-              "end": "2025-11-29T02:59:00.000Z"
+              "start": "2026-01-02T03:00:00.000Z",
+              "end": "2026-01-19T02:59:00.000Z"
             }
           },
           {
@@ -147,7 +147,7 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "end": "2026-01-01T02:59:00.000Z",
+              "end": "2026-01-02T02:59:00.000Z",
               "start": "2025-12-02T03:00:00.000Z"
             }
           }
