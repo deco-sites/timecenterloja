@@ -73,7 +73,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-12-02T03:00:00.000Z",
-              "end": "2026-01-01T02:59:00.000Z"
+              "end": "2026-01-02T02:59:00.000Z"
             }
           },
           {
@@ -104,13 +104,13 @@
                     "badges": [],
                     "buttonColor": "primary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/c242d66a-6edd-4a4e-affb-1fe5e7ade2cf/Banner-Terciario---time-center.png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/c242d66a-6edd-4a4e-affb-1fe5e7ade2cf/Banner-Terciario---time-center.png",
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/bdfba265-d4f0-42a7-bcd6-cefb6a7e6492/banner-terciariotimecenter01-01.png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/bdfba265-d4f0-42a7-bcd6-cefb6a7e6492/banner-terciariotimecenter01-01.png",
                   "columnStart": 1,
                   "rowStart": 1,
                   "rowSpan": 2,
-                  "href": "s?q=bolsa+mochila+fossil&O=OrderByPriceASC",
-                  "alt": "bolsas"
+                  "alt": "bolsas",
+                  "href": "/s?q=bolsa&O=OrderByBestDiscountDESC"
                 },
                 {
                   "textColor": "primary",
@@ -121,10 +121,10 @@
                     "buttonColor": "neutral",
                     "reverse": true
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/d3194061-86a7-4af1-b1b3-87a96e5facb7/Banner-Terciario---time-center-(1).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/200d1e97-09d1-4160-89fe-fb591fbc4d1b/Banner-Terciario---time-center-(1).png",
-                  "alt": "MK",
-                  "href": "/michaelkors/relogio?sort=discount%3Adesc"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/47b97492-d443-44b9-a0a2-af18d8b66470/banner-terciariotimecenter01-02.png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/47b97492-d443-44b9-a0a2-af18d8b66470/banner-terciariotimecenter01-02.png",
+                  "alt": "relogio anel",
+                  "href": "/s?q=relogio+anel&O=OrderByReleaseDateDESC"
                 },
                 {
                   "textColor": "primary",
@@ -134,17 +134,17 @@
                     "badges": [],
                     "buttonColor": "secondary"
                   },
-                  "srcDesktop": "https://assets.decocache.com/timecenterloja/acc2c046-9c6d-4145-bf15-739c3208e9d8/Banner-Terciario---time-center-(2).png",
-                  "srcMobile": "https://assets.decocache.com/timecenterloja/acc2c046-9c6d-4145-bf15-739c3208e9d8/Banner-Terciario---time-center-(2).png",
-                  "alt": "Condor",
-                  "href": "/condor/relogio?sort=discount%3Adesc"
+                  "srcDesktop": "https://assets.decocache.com/timecenterloja/dd307161-995c-4c9e-85e5-1754c3325c13/banner-terciariotimecenter01-03.png",
+                  "srcMobile": "https://assets.decocache.com/timecenterloja/dd307161-995c-4c9e-85e5-1754c3325c13/banner-terciariotimecenter01-03.png",
+                  "alt": "soul",
+                  "href": "/s?q=soul&O=OrderByReleaseDateDESC"
                 }
               ]
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-11-16T03:00:00.000Z",
-              "end": "2025-12-02T02:59:00.000Z"
+              "start": "2026-01-02T03:00:00.000Z",
+              "end": "2026-01-19T02:59:00.000Z"
             }
           }
         ]

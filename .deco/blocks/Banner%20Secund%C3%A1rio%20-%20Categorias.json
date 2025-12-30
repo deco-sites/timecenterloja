@@ -61,7 +61,7 @@
             "rule": {
               "__resolveType": "website/matchers/date.ts",
               "start": "2025-12-02T03:00:00.000Z",
-              "end": "2025-12-31T14:59:00.000Z"
+              "end": "2026-01-01T14:59:00.000Z"
             }
           },
           {
@@ -78,10 +78,10 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/5b50b778-8e04-4fa6-87e2-906ca6d61d05/Banner-Secundario---Time-center.png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/4e175efc-0968-4a2b-801c-86c1a40d8230/Banner-Secundario---Time-center.png",
-                  "href": "/fossil/relogio?sort=discount%3Adesc",
-                  "alt": "Fossil"
+                  "image": "https://assets.decocache.com/timecenterloja/8daf7f23-397f-48d6-b277-868fb032c17a/banner-secundario01-01.png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/8daf7f23-397f-48d6-b277-868fb032c17a/banner-secundario01-01.png",
+                  "href": "/mormaii/relogio?sort=release%3Adesc",
+                  "alt": "Mormaii"
                 },
                 {
                   "backgroundColorHover": "primary",
@@ -93,8 +93,8 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/1d666183-9875-4e7d-b19a-b1a1276cb539/Banner-Secundario---Time-center-(1).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/1682c152-0466-4f3b-b392-c3f763860f75/Banner-Secundario---Time-center-(1).png",
+                  "image": "https://assets.decocache.com/timecenterloja/0d17fddb-71ad-4a5b-87d4-dd6fad0fe4e8/banner-secundario01-02.png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/0d17fddb-71ad-4a5b-87d4-dd6fad0fe4e8/banner-secundario01-02.png",
                   "alt": "Technos",
                   "href": "/technos/relogio?sort=discount%3Adesc"
                 },
@@ -108,8 +108,8 @@
                     "mobile": "none",
                     "desktop": "none"
                   },
-                  "image": "https://assets.decocache.com/timecenterloja/247614d7-5373-439e-8d96-354346197090/Banner-Secundario---Time-center-(2).png",
-                  "imageMobile": "https://assets.decocache.com/timecenterloja/247614d7-5373-439e-8d96-354346197090/Banner-Secundario---Time-center-(2).png",
+                  "image": "https://assets.decocache.com/timecenterloja/8c4c5a4a-34f9-4a5c-b6a8-89f01a4ba565/banner-secundario01-03.png",
+                  "imageMobile": "https://assets.decocache.com/timecenterloja/8c4c5a4a-34f9-4a5c-b6a8-89f01a4ba565/banner-secundario01-03.png",
                   "alt": "Euro",
                   "href": "/euro/relogio?sort=discount%3Adesc"
                 }
@@ -119,8 +119,8 @@
             },
             "rule": {
               "__resolveType": "website/matchers/date.ts",
-              "start": "2025-11-17T03:00:00.000Z",
-              "end": "2025-12-02T02:59:00.000Z"
+              "start": "2026-01-02T03:00:00.000Z",
+              "end": "2026-01-19T02:59:00.000Z"
             }
           }
         ]
