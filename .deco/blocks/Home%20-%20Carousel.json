@@ -39,17 +39,6 @@
                   "desktop": "https://assets.decocache.com/timecenterloja/f576bb10-ee3c-49b7-a2fa-6f65f73cd845/banner-desktop-timecenter01-03.png",
                   "mobile": "https://assets.decocache.com/timecenterloja/389bd8d4-8701-4263-81a9-81b41bb9e6bd/banner-mobile-timecenter01-03.png",
                   "alt": "Bazar"
-                },
-                {
-                  "action": {
-                    "variant": "primary",
-                    "titleColor": "#fff",
-                    "subTitlecolor": "#fff",
-                    "href": "/2669?PS=12&map=productClusterIds&sort=discount%3Adesc"
-                  },
-                  "desktop": "https://assets.decocache.com/timecenterloja/4f97ea26-aa09-4955-80e4-028b10ef3f19/Banner-Slide---TC-(11).png",
-                  "mobile": "https://assets.decocache.com/timecenterloja/e63bd573-4fc7-46ce-8070-c21d7d2766c9/Banner-Slide---TC-(15).png",
-                  "alt": "BF_Brindecopo"
                 }
               ],
               "showPaginationArrows": "Desktop Only",
